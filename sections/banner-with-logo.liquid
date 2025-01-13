@@ -1,0 +1,88 @@
+{% if section.settings.text != blank or section.settings.logo != blank %}
+  <div class="banner-with-logo">
+    <div class="banner-wrapper page-width">
+      {% if section.settings.logo != blank %}
+        <div class="banner-logo">
+          {% render 'image-element', img: section.settings.logo, classes: 'banner-logo-img' %}
+        </div>
+      {% endif %}
+      {% if section.settings.text != blank %}
+        <div class="banner-text">{{ section.settings.text | upcase }}</div>
+      {% endif %}
+    </div>
+  </div>
+{% endif %}
+
+<style>
+  .banner-with-logo {
+      background-color: {{ section.settings.background_color }};
+    }
+    .banner-wrapper {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 20px 10px;
+        gap: 32px
+    }
+    .banner-text {
+        color: {{ section.settings.text_color }};
+        font-size: 14px;
+        line-height: 16.8px;
+        font-weight: 400
+    }
+    .banner-logo {
+      min-width: 30px;
+      max-width: 30px;
+    }
+
+
+    @media screen and (min-width: 768px){
+      .banner-logo {
+        min-width: 50px;
+        max-width: 50px;
+      }
+
+    .banner-text {
+        font-size: 24px;
+        line-height: 28.8px;
+    }
+    .banner-wrapper {
+        padding: 20px 10px;
+        gap: 58px
+    }
+  }
+</style>
+
+{% schema %}
+{
+  "name": "Banner with logo",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "logo",
+      "label": "Logo"
+    },
+    {
+      "type": "text",
+      "id": "text",
+      "label": "Text"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background color"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text color"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Banner with logo",
+      "category": "Banner"
+    }
+  ]
+}
+{% endschema %}

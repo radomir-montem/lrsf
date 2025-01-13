@@ -1,0 +1,109 @@
+
+{% style %}
+    .section--{{ section.id }} {
+        padding-top: {{ section.settings.padding_top }}px;
+        padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+
+    @media (max-width: 768px) {
+        .section--{{ section.id }} {
+            padding-top: {{ section.settings.padding_top_mobile }}px;
+            padding-bottom: {{ section.settings.padding_bottom_mobile }}px;
+        }
+    }
+{% endstyle %}
+{% if section.settings.button_text != blank and section.settings.button_link != blank %}
+<div class="section--{{ section.id }}">
+    <div class="page-width">
+        <p class="text-center">
+            <a class="{{ section.settings.button_style }}" href="{{ section.settings.button_link }}">{{ section.settings.button_text }}</a>
+        </p>
+    </div>
+</div>
+{% endif %}
+{% schema %}
+{
+    "name": "Button",
+    "settings": [
+        {
+            "type": "header",
+            "content": "Button"
+        },
+        {
+            "type": "text",
+            "id": "button_text",
+            "label": "Button Text"
+        },
+        {
+            "type": "url",
+            "id": "button_link",
+            "label": "Button Link"
+        },
+        {
+            "type": "select",
+            "options": [
+                {
+                    "value": "btn",
+                    "label": "Default Button"
+                },
+                {
+                    "value": "btn btn--outline btn--inverse",
+                    "label": "Inver Button"
+                }
+            ],
+            "id": "button_style",
+            "label": "Button Style",
+            "default": "btn"
+        },
+        {
+            "type": "header",
+            "content": "Padding"
+        },
+        {
+            "type": "range",
+            "id": "padding_top",
+            "label": "Desk Padding Top",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "default": 50,
+            "unit": "px"
+        },
+        {
+            "type": "range",
+            "id": "padding_bottom",
+            "label": "Desk Padding Bottom",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "default": 50,
+            "unit": "px"
+        },
+        {
+            "type": "range",
+            "id": "padding_top_mobile",
+            "label": "Mobile Padding Top",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "default": 50,
+            "unit": "px"
+        },
+        {
+            "type": "range",
+            "id": "padding_bottom_mobile",
+            "label": "Mobile Padding Bottom",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "default": 50,
+            "unit": "px"
+        }
+    ],
+    "presets": [
+        {
+            "name": "Button"
+        }
+    ]
+}
+{% endschema %}

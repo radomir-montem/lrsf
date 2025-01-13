@@ -1,0 +1,19 @@
+#klaviyo-bis-modal .btn-success {
+    min-height: 50px;
+    font-size: 16px;
+    padding: 16px 20px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.0em;
+    line-height: 1;
+    border: 1px solid #172830;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+@media (max-width: 589px) {
+    #klaviyo-bis-modal .btn-success {
+        font-size: 14px;
+        padding: 18px 20px;
+    }
+}

@@ -1,0 +1,131 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-404",
+      "settings": {}
+    },
+    "slideshow_7izK7r": {
+      "type": "slideshow",
+      "blocks": {
+        "image_gMA8Gc": {
+          "type": "image",
+          "settings": {
+            "title": "Well that's shit...",
+            "title_size": 80,
+            "subheading": "But explore some goodness below",
+            "link": "",
+            "link_text": "",
+            "text_align": "vertical-bottom horizontal-left",
+            "image": "shopify://shop_images/lsrf-404-well-thats-shit.jpg",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_gMA8Gc"
+      ],
+      "settings": {
+        "section_height": "650px",
+        "mobile_height": "auto",
+        "parallax": true,
+        "style": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 5,
+        "lazyload_images": true
+      }
+    },
+    "featured_collections_aLkJ8Q": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_BzLV8c": {
+          "type": "collection",
+          "settings": {
+            "collection": "ss24-spring-summer-cycling-clothing-lsrf",
+            "focal_point": "center center",
+            "size": "wide"
+          }
+        },
+        "collection_3WhniX": {
+          "type": "collection",
+          "settings": {
+            "collection": "cycling-bibs-mens",
+            "focal_point": "center center",
+            "size": "square-small"
+          }
+        },
+        "collection_RnNaF3": {
+          "type": "collection",
+          "settings": {
+            "collection": "mens-cycling-essentials",
+            "focal_point": "center center",
+            "size": "square-small"
+          }
+        },
+        "collection_4FNLk4": {
+          "type": "collection",
+          "settings": {
+            "collection": "cycling-jerseys-mens",
+            "focal_point": "center center",
+            "size": "square-small"
+          }
+        },
+        "collection_zMzhDV": {
+          "type": "collection",
+          "settings": {
+            "collection": "mens-casual-cycling-clothing",
+            "focal_point": "center center",
+            "size": "square-small"
+          }
+        },
+        "collection_LDxkmY": {
+          "type": "collection",
+          "settings": {
+            "collection": "cycling-jerseys-womens",
+            "focal_point": "center center",
+            "size": "wide"
+          }
+        }
+      },
+      "block_order": [
+        "collection_BzLV8c",
+        "collection_3WhniX",
+        "collection_RnNaF3",
+        "collection_4FNLk4",
+        "collection_zMzhDV",
+        "collection_LDxkmY"
+      ],
+      "settings": {
+        "title": "EXPLORE OUR COLLECTIONS",
+        "divider": false,
+        "enable_gutter": false
+      }
+    },
+    "featured-collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "FAN FAVOURITES",
+        "home_featured_products": "cycling-jerseys-mens",
+        "per_row": 3,
+        "rows": 1,
+        "view_all": true,
+        "divider": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "slideshow_7izK7r",
+    "featured_collections_aLkJ8Q",
+    "featured-collection"
+  ]
+}

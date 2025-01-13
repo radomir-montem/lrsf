@@ -1,0 +1,299 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "hero-video": {
+      "type": "hero-video",
+      "settings": {
+        "title": "WINTER 24/25",
+        "title_size": 80,
+        "text_color": "#ffffff",
+        "subheading": "",
+        "btn_hover_color": "Santa Cruz",
+        "link_text": "SHOP WINTER 24/25",
+        "link": "shopify://collections/autumn-winter-cycling-clothes-2024",
+        "link_text_2": "",
+        "link_2": "shopify://collections/shop-all-cycling-sale",
+        "text_align": "vertical-center horizontal-left",
+        "video_url": "",
+        "image": "shopify://shop_images/AW24-Hero-banner.jpg",
+        "overlay_opacity": 0,
+        "section_height": "750px",
+        "mobile_height": "500px",
+        "full_width": true
+      }
+    },
+    "scrolling_text_HLGe4q": {
+      "type": "scrolling-text",
+      "settings": {
+        "text": "EXPLORE WINTER 24/25",
+        "link": "shopify://collections/autumn-winter-cycling-clothes-2024",
+        "text_size": 20,
+        "text_spacing": true,
+        "direction": "left",
+        "speed": 60
+      }
+    },
+    "categories_gUKYQy": {
+      "type": "categories",
+      "blocks": {
+        "category_j9A9Xe": {
+          "type": "Category",
+          "settings": {
+            "title": "MAN",
+            "subtitle": "SHOP NOW >",
+            "image": "shopify://shop_images/LSRF-Man-home-page.jpg",
+            "link": "shopify://collections/mens-collection-cycling"
+          }
+        },
+        "category_Ec4qLd": {
+          "type": "Category",
+          "settings": {
+            "title": "WOMAN",
+            "subtitle": "SHOP NOW >",
+            "image": "shopify://shop_images/LSRF-collection-image-womens-2024-homepage.jpg",
+            "link": "shopify://collections/womens-collection-cycling"
+          }
+        }
+      },
+      "block_order": [
+        "category_j9A9Xe",
+        "category_Ec4qLd"
+      ],
+      "settings": {
+        "no_wrap": false
+      }
+    },
+    "featured_collection_switcher_Gxx3bU": {
+      "type": "featured-collection-switcher",
+      "settings": {
+        "title": "WINTER 24/25",
+        "hide_title": true,
+        "collection1": "autumn-winter-cycling-clothes-2024",
+        "collection2": "",
+        "per_row": 3,
+        "view_all": true,
+        "divider": false
+      }
+    },
+    "images_and_text_KDm4wP": {
+      "type": "images-and-text",
+      "settings": {
+        "bg_color": "#1b2831",
+        "full_width": true,
+        "add_second_image": false,
+        "small_height": true,
+        "text_first_desktop": false,
+        "text_first_mobile": false,
+        "space_between": false,
+        "text_color": "white",
+        "subtext": "",
+        "title": "",
+        "description": "<h3>SLOW DOWN, LOOK AROUND, LIVE IN THE MOMENT.<br/>ENJOY THE SMALL THINGS, DONE WELL.<br/>LESS STUFF, FEWER DISTRACTIONS, LESS STRESS.<br/>SAVE YOUR ENERGY FOR THE BIKE, SO YOU CAN LEAVE IT ALL ON THE ROAD.<br/>IT’S THAT SIMPLE.</h3>",
+        "image_1": "shopify://shop_images/LSRF-men-pedalling-2024-homepage.jpg",
+        "button_text": "",
+        "button_url": "",
+        "button_inverse": false
+      }
+    },
+    "images_and_text_rtUTbF": {
+      "type": "images-and-text",
+      "disabled": true,
+      "settings": {
+        "bg_color": "#00b2b1",
+        "full_width": true,
+        "add_second_image": false,
+        "small_height": true,
+        "text_first_desktop": true,
+        "text_first_mobile": false,
+        "space_between": false,
+        "text_color": "#1B2831",
+        "subtext": "NOW",
+        "title": "VILLA TOUR",
+        "description": "<p>La Grande Boucle is almost here and LSRF is hyped up for another year of VILLA TOUR. Three weeks of daily podcasts with the latest news, predictions, analysis and inside info on the Tour de France and its participants.</p>",
+        "image_1": "shopify://shop_images/villatourblogfoto.jpg",
+        "button_text": "READ MORE",
+        "button_url": "https://lsrf.cc/blogs/stories/villa-tour",
+        "button_inverse": false
+      }
+    },
+    "hero_video_KKN4Mk": {
+      "type": "hero-video",
+      "settings": {
+        "title": "SHEPHERD",
+        "title_size": 80,
+        "text_color": "#eeeeee",
+        "subheading": "",
+        "btn_hover_color": "white",
+        "link_text": "WATCH THE MOVIE",
+        "link": "https://youtu.be/dMWCJLXjKy0",
+        "link_text_2": "",
+        "link_2": "",
+        "text_align": "vertical-center horizontal-center",
+        "video_url": "https://youtu.be/LX9JH0NyIes",
+        "overlay_opacity": 0,
+        "section_height": "550px",
+        "mobile_height": "auto",
+        "full_width": true
+      }
+    },
+    "collection_callout_QJqhEF": {
+      "type": "collection-callout",
+      "settings": {
+        "collection": "autumn-winter-cycling-clothes-2024",
+        "subtitle": "Explore now",
+        "title": "Winter 24/25",
+        "text": "Designed for those who demand more from their winter rides.",
+        "cta_text1": "SHOP WINTER 24/25",
+        "cta_link1": "shopify://collections/autumn-winter-cycling-clothes-2024",
+        "cta_text2": "",
+        "cta_link2": "",
+        "layout": "right",
+        "divider": false
+      }
+    },
+    "categories_mMtAxM": {
+      "type": "categories",
+      "blocks": {
+        "category_N6ztFy": {
+          "type": "Category",
+          "settings": {
+            "title": "JERSEYS",
+            "subtitle": "SHOP NOW >",
+            "image": "shopify://shop_images/LSRF-jersey-collection-2024-homepage.jpg",
+            "link": "shopify://collections/cycling-jerseys"
+          }
+        },
+        "category_yjbcAP": {
+          "type": "Category",
+          "settings": {
+            "title": "BIBS",
+            "subtitle": "SHOP NOW >",
+            "image": "shopify://shop_images/LSRF-bib-homepage.jpg",
+            "link": "shopify://collections/cycling-bibs"
+          }
+        },
+        "category_RhR7wF": {
+          "type": "Category",
+          "settings": {
+            "title": "ESSENTIALS",
+            "subtitle": "SHOP NOW >",
+            "image": "shopify://shop_images/LSRF-essentials-collection-2024-homepage.png",
+            "link": "shopify://collections/mens-cycling-essentials"
+          }
+        },
+        "category_rTXtGc": {
+          "type": "Category",
+          "settings": {
+            "title": "GILETS & JACKETS",
+            "subtitle": "SHOP NOW >",
+            "image": "shopify://shop_images/LSRF-gilets-and-jackets-collection-2024-homepage.png",
+            "link": "shopify://collections/mens-cycling-gilets-and-jackets"
+          }
+        }
+      },
+      "block_order": [
+        "category_N6ztFy",
+        "category_yjbcAP",
+        "category_RhR7wF",
+        "category_rTXtGc"
+      ],
+      "settings": {
+        "no_wrap": false
+      }
+    },
+    "images_and_text_thN8tx": {
+      "type": "images-and-text",
+      "settings": {
+        "bg_color": "#f8b258",
+        "full_width": true,
+        "add_second_image": false,
+        "small_height": false,
+        "text_first_desktop": false,
+        "text_first_mobile": false,
+        "space_between": false,
+        "text_color": "#1B2831",
+        "subtext": "Who we are",
+        "title": "LSRF",
+        "description": "<p>Born and raised in the home of cycling, the Netherlands - a continuous source of inspiration with its long beaches and vast dunes, woods and heath lands, cities and small towns. </p><p>LSRF focusses on performance, no matter the conditions. We demand the best of ourselves - our clothing should also match that attitude. Tested in real life, under extreme conditions, on adventures all over the world, we want our jerseys and bibs to keep up with our pace. </p><p>With ex-pro roadie turned into ultra-gravel-adventurer Laurens ten Dam as one of our founding fathers and main ambassador, we take pride in our knowledge of this game called cycling and what it demands of their players.</p>",
+        "image_1": "shopify://shop_images/LSRF-lauren-sheader-peddaling-in-race-who-we-are-2024-homepage.jpg",
+        "button_text": "READ MORE",
+        "button_url": "shopify://pages/lsrf-who-we-are",
+        "button_inverse": false
+      }
+    },
+    "text_with_icons_4xByjb": {
+      "type": "text-with-icons",
+      "blocks": {
+        "text_block_fXQiGR": {
+          "type": "text_block",
+          "settings": {
+            "icon": "free_shipping",
+            "title": "FREE SHIPPING",
+            "text": "<p>for EU orders over €100</p>"
+          }
+        },
+        "text_block_PzTVeH": {
+          "type": "text_block",
+          "settings": {
+            "icon": "returns",
+            "title": "30-DAY RETURNS",
+            "text": "<p>for all orders</p>"
+          }
+        },
+        "text_block_8iiUXM": {
+          "type": "text_block",
+          "settings": {
+            "icon": "tested",
+            "title": "TESTED",
+            "text": "<p>in worse conditions than you’ll ever experience</p>"
+          }
+        },
+        "text_block_U6R9tW": {
+          "type": "text_block",
+          "settings": {
+            "icon": "eu_made",
+            "title": "MADE IN EU",
+            "text": "<p>with the highest quality materials</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_fXQiGR",
+        "text_block_PzTVeH",
+        "text_block_8iiUXM",
+        "text_block_U6R9tW"
+      ],
+      "settings": {
+        "bg_color": "",
+        "title": "",
+        "align_text": "center",
+        "desktop_columns_per_row": 4,
+        "icon_color": "#000000",
+        "button_label": "",
+        "button_link": "",
+        "divider": false
+      }
+    }
+  },
+  "order": [
+    "hero-video",
+    "scrolling_text_HLGe4q",
+    "categories_gUKYQy",
+    "featured_collection_switcher_Gxx3bU",
+    "images_and_text_KDm4wP",
+    "images_and_text_rtUTbF",
+    "hero_video_KKN4Mk",
+    "collection_callout_QJqhEF",
+    "categories_mMtAxM",
+    "images_and_text_thN8tx",
+    "text_with_icons_4xByjb"
+  ]
+}

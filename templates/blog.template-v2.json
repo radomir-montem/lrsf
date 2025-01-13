@@ -1,0 +1,413 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow_TTUMVj": {
+      "type": "slideshow",
+      "blocks": {
+        "image_La9pNd": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "title": "",
+            "title_size": 80,
+            "subheading": "",
+            "link": "https://upvir.al/160597/lp160597?utm_source=klaviyo-campaigns&utm_medium=campaign&utm_campaign=24%2F25%20-%20Upviral%20Sockeloen%20x%20Join%20x%20LSRF%20-%20Engaged&_kx=ccBaVBZvbOn3Ieu7t1anTYILhHwDn3fnsrrQIbcFtD4.YB59Kk",
+            "link_text": "",
+            "link2": "",
+            "link_text2": "ENTER TO WIN",
+            "text_align": "vertical-bottom horizontal-right",
+            "image": "shopify://shop_images/Giveaway02_16x9_1.jpg",
+            "image_mobile": "shopify://shop_images/Giveaway02_4x5_31e111aa-f741-47e4-8b89-054c0eff6f8f.jpg",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        },
+        "image_PNCmyW": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "title": "",
+            "title_size": 80,
+            "subheading": "",
+            "link": "shopify://blogs/stories/villa-tour",
+            "link_text": "",
+            "link2": "",
+            "link_text2": "",
+            "text_align": "vertical-bottom horizontal-left",
+            "image": "shopify://shop_images/villatourhero2.jpg",
+            "image_mobile": "shopify://shop_images/villatourhero2.jpg",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        },
+        "image_Y9KCVb": {
+          "type": "image",
+          "settings": {
+            "title": "",
+            "title_size": 80,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link2": "",
+            "link_text2": "",
+            "text_align": "vertical-bottom horizontal-left",
+            "image": "shopify://shop_images/edwin_9_van_72.jpg",
+            "image_mobile": "shopify://shop_images/edwin_9_van_72.jpg",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        },
+        "image_KfQmUN": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "title": "",
+            "title_size": 80,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link2": "",
+            "link_text2": "",
+            "text_align": "vertical-bottom horizontal-left",
+            "image": "shopify://shop_images/edwin_22_van_72.jpg",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_La9pNd",
+        "image_PNCmyW",
+        "image_Y9KCVb",
+        "image_KfQmUN"
+      ],
+      "settings": {
+        "section_height": "750px",
+        "mobile_height": "auto",
+        "parallax": false,
+        "style": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "lazyload_images": true
+      }
+    },
+    "banner_with_logo_TaKR4R": {
+      "type": "banner-with-logo",
+      "settings": {
+        "logo": "shopify://shop_images/logo-alt-transparent.png",
+        "text": "We try to keep the balance between good fun and hard work. Our passion for storytelling is leading in the projects we take on and the weekly podcasts we record.",
+        "background_color": "#000000",
+        "text_color": "#ffffff"
+      }
+    },
+    "rich_text_zKiWti": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_8hy9Tc": {
+          "type": "heading",
+          "settings": {
+            "title": "GIVEAWAY"
+          }
+        },
+        "text_qpVttU": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Together with our friends from Sockeloen and JOIN Cycling, we are  hyped to give away the winter cycling package of dreams. This prize includes a full LSRF fall set to keep you warm and dry, a Sockeloen set with socks, shoe covers, gloves and a hat and a 5 year JOIN Cycling membership. All you have to do is, click on the button and leave your email address. Good luck!</p>"
+          }
+        },
+        "button_LggMiE": {
+          "type": "button",
+          "settings": {
+            "link": "https://upvir.al/160597/lp160597?utm_source=klaviyo-campaigns&utm_medium=campaign&utm_campaign=24%2F25%20-%20Upviral%20Sockeloen%20x%20Join%20x%20LSRF%20-%20Engaged&_kx=ccBaVBZvbOn3Ieu7t1anTYILhHwDn3fnsrrQIbcFtD4.YB59Kk",
+            "link_text": "ENTER TO WIN"
+          }
+        }
+      },
+      "block_order": [
+        "heading_8hy9Tc",
+        "text_qpVttU",
+        "button_LggMiE"
+      ],
+      "disabled": true,
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "main": {
+      "type": "blog-template",
+      "settings": {
+        "blog_show_breadcrumbs": true,
+        "blog_show_title": false,
+        "blog_show_tag_filter": true,
+        "set_tags_manually": true,
+        "manual_tags": "stories, movies, podcasts",
+        "blog_show_rss": false,
+        "blog_show_tags": false,
+        "blog_show_date": true,
+        "blog_show_comments": false,
+        "blog_show_author": false,
+        "hide_article_btn": true,
+        "hide_articles": true
+      }
+    },
+    "slideshow_jC9Gai": {
+      "type": "slideshow",
+      "blocks": {
+        "image_EBE9TV": {
+          "type": "image",
+          "settings": {
+            "title": "",
+            "title_size": 50,
+            "subheading": "ENTER THE VILLA",
+            "link": "https://lsrf.cc/blogs/stories/villa-tour",
+            "link_text": "",
+            "link2": "",
+            "link_text2": "",
+            "text_align": "vertical-bottom horizontal-left",
+            "image": "shopify://shop_images/villatourhero2.jpg",
+            "image_mobile": "shopify://shop_images/villatourhero2.jpg",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_EBE9TV"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_height": "650px",
+        "mobile_height": "auto",
+        "parallax": false,
+        "style": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 10,
+        "lazyload_images": true
+      }
+    },
+    "title_with_id_G7Wmez": {
+      "type": "title-with-id",
+      "settings": {
+        "title": "STORIES",
+        "half_margin_top": true,
+        "desktop_margin_top": 0,
+        "desktop_margin_bottom": 70,
+        "mobile_margin_top": 50,
+        "mobile_margin_bottom": 16
+      }
+    },
+    "blog_post_by_tag_gnnpw8": {
+      "type": "blog-post-by-tag",
+      "settings": {
+        "title": "",
+        "blog": "stories",
+        "selected_tag": "ACTUEEL",
+        "post_limit": 2,
+        "blog_show_tags": false,
+        "blog_show_date": true,
+        "blog_show_comments": false,
+        "blog_show_author": false,
+        "view_all": true,
+        "hide_article_btn": true,
+        "divider": false
+      }
+    },
+    "title_with_id_NKkGzM": {
+      "type": "title-with-id",
+      "settings": {
+        "title": "MOVIES",
+        "half_margin_top": false,
+        "desktop_margin_top": 86,
+        "desktop_margin_bottom": 62,
+        "mobile_margin_top": 60,
+        "mobile_margin_bottom": 20
+      }
+    },
+    "images_and_text_L9dVAe": {
+      "type": "images-and-text",
+      "settings": {
+        "bg_color": "#1c1d1d",
+        "full_width": true,
+        "add_second_image": false,
+        "small_height": false,
+        "text_first_desktop": false,
+        "text_first_mobile": false,
+        "space_between": false,
+        "text_color": "white",
+        "subtext": "",
+        "title": "UNBOUND REBOUND",
+        "description": "<p>United in gravel, we rode REBOUND. The largest and most-shared gravel event in the world. On June 3rd 2023, a community of almost 300.000 gravel fans rode together more than four million miles - without actually being together.</p>",
+        "image_1": "shopify://shop_images/unboundreboundfoto1.jpg",
+        "button_text": "► WATCH",
+        "button_url": "https://www.youtube.com/watch?v=vSLcGyN4lmk",
+        "button_inverse": true
+      }
+    },
+    "images_and_text_NAxtnE": {
+      "type": "images-and-text",
+      "settings": {
+        "bg_color": "#1c1d1d",
+        "full_width": true,
+        "add_second_image": false,
+        "small_height": false,
+        "text_first_desktop": true,
+        "text_first_mobile": false,
+        "space_between": false,
+        "text_color": "white",
+        "subtext": "",
+        "title": "SHEPHERD",
+        "description": "<p>“We have no memory of pain, do we. So you know that hurts, but you can’t actually remember what hurt is. So that’s how we can do it again.”<br/>— Camille McMillan</p>",
+        "image_1": "shopify://shop_images/furtherfotomobile.jpg",
+        "button_text": "► WATCH",
+        "button_url": "https://www.youtube.com/watch?v=dMWCJLXjKy0&t=552s",
+        "button_inverse": true
+      }
+    },
+    "button_bTgpQA": {
+      "type": "button",
+      "settings": {
+        "button_text": "VIEW ALL MOVIES",
+        "button_link": "shopify://blogs/video-archive",
+        "button_style": "btn",
+        "padding_top": 30,
+        "padding_bottom": 0,
+        "padding_top_mobile": 30,
+        "padding_bottom_mobile": 0
+      }
+    },
+    "title_with_id_BD67Gj": {
+      "type": "title-with-id",
+      "settings": {
+        "title": "PODCASTS",
+        "half_margin_top": false,
+        "desktop_margin_top": 86,
+        "desktop_margin_bottom": 56,
+        "mobile_margin_top": 70,
+        "mobile_margin_bottom": 30
+      }
+    },
+    "background_image_text_ByMdcz": {
+      "type": "background-image-text",
+      "settings": {
+        "subtitle": "Podcasts",
+        "title": "Listen to the Live Slow Ride Fast Podcast",
+        "text": "<p>Everything inside and outside the peloton. We cover life both on and off the bike. Live Slow Ride Fast style! These series of podcasts are in <strong>Dutch</strong>. You can find all our English spoken episodes with international guests in our <a href=\"https://podcasts.apple.com/nl/podcast/coastin/id1602154154\" target=\"_blank\" title=\"https://podcasts.apple.com/nl/podcast/coastin/id1602154154\">COASTIN’ </a>podcast feed.</p>",
+        "button_label": "LISTEN NOW",
+        "button_link": "https://podcasts.apple.com/nl/podcast/live-slow-ride-fast-podcast/id1338514797",
+        "image": "shopify://shop_images/LSRF-podcasts-image-2024-live-slow-ride-fast.jpg",
+        "layout": "left",
+        "height": 550,
+        "parallax": true,
+        "parallax_direction": "top",
+        "lazyload_images": true
+      }
+    },
+    "featured_collection_XRU8rC": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "ACCESSORIES",
+        "home_featured_products": "mens-cycling-accessories",
+        "per_row": 4,
+        "rows": 1,
+        "view_all": true,
+        "divider": false
+      }
+    },
+    "title_with_id_WCyKeq": {
+      "type": "title-with-id",
+      "settings": {
+        "title": "PHOTOS",
+        "half_margin_top": false,
+        "desktop_margin_top": 70,
+        "desktop_margin_bottom": 60,
+        "mobile_margin_top": 20,
+        "mobile_margin_bottom": 20
+      }
+    },
+    "images_grid_4W7gAp": {
+      "type": "images-grid",
+      "blocks": {
+        "image_tzxyBm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/fotomvdp.jpg",
+            "double_height": false
+          }
+        },
+        "image_mPJwK4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/vlaanderenfoto3.jpg",
+            "double_height": false
+          }
+        },
+        "image_drcX8J": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/hazyipatourfoto.jpg",
+            "double_height": false
+          }
+        },
+        "image_MmkyXm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/vlaanderenfoto4.jpg",
+            "double_height": false
+          }
+        },
+        "image_iHzwfx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/vlaanderenfoto1.jpg",
+            "double_height": false
+          }
+        },
+        "image_EQLXnF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/vlaanderenfoto2.jpg",
+            "double_height": false
+          }
+        }
+      },
+      "block_order": [
+        "image_tzxyBm",
+        "image_mPJwK4",
+        "image_drcX8J",
+        "image_MmkyXm",
+        "image_iHzwfx",
+        "image_EQLXnF"
+      ],
+      "settings": {}
+    }
+  },
+  "order": [
+    "slideshow_TTUMVj",
+    "banner_with_logo_TaKR4R",
+    "rich_text_zKiWti",
+    "main",
+    "slideshow_jC9Gai",
+    "title_with_id_G7Wmez",
+    "blog_post_by_tag_gnnpw8",
+    "title_with_id_NKkGzM",
+    "images_and_text_L9dVAe",
+    "images_and_text_NAxtnE",
+    "button_bTgpQA",
+    "title_with_id_BD67Gj",
+    "background_image_text_ByMdcz",
+    "featured_collection_XRU8rC",
+    "title_with_id_WCyKeq",
+    "images_grid_4W7gAp"
+  ]
+}

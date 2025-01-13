@@ -1,0 +1,136 @@
+<div class="announcement{% if section.settings.announcement_closable %} announcement--closeable announcement--closed{% endif %}">
+  {%- if section.settings.announcement_link != blank and section.settings.announcement_link_text == blank -%}
+    <a href="{{ section.settings.announcement_link }}" class="announcement__link">
+  {%- endif -%}
+
+  <span
+    class="announcement__text{% unless section.settings.announcement_closable %} announcement__text--open{% endunless %}"
+    data-text="{{ section.settings.announcement_text | strip_html | handle }}"
+  >
+    {{ section.settings.announcement_text | strip_html }}
+  </span>
+
+  {%- if section.settings.announcement_link != blank and section.settings.announcement_link_text == blank -%}
+    </a>
+  {%- endif -%}
+  <div class="buttons_wrapper">
+    {%- if section.settings.announcement_closable -%}
+      <button type="button" class="text-link announcement__close">
+        HIDE THIS MESSAGE
+        <span class="icon__fallback-text">{{ 'general.accessibility.close' | t | json }}</span>
+      </button>
+    {%- endif -%}
+    {%- if section.settings.announcement_link != blank and section.settings.announcement_link_text != blank -%}
+      <a href="{{ section.settings.announcement_link }}" class="announcement_link_text">
+        {{- section.settings.announcement_link_text -}}
+      </a>
+    {%- endif -%}
+  </div>
+</div>
+
+<style>
+  #shopify-section-{{ section.id }}.shopify-section-group-header-group .announcement {
+    max-height: 70px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #shopify-section-{{ section.id }}.shopify-section-group-header-group .announcement--closed {
+    max-height: 0px !important;
+  }
+
+  #shopify-section-{{ section.id }} .buttons_wrapper {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 8px
+  }
+  @media screen and (min-width: 768px) {
+    #shopify-section-{{ section.id }} .buttons_wrapper {
+      gap: 5px;
+      margin-bottom: 0px
+    }
+  }
+  @media screen and (max-width: 767px) {
+    #shopify-section-{{ section.id }}.shopify-section-group-header-group .announcement {
+      flex-direction: column;
+    }
+  }
+  .announcement__close {
+    background: var(--accent-color);
+    border-radius: 3px;
+    position: relative;
+    transform: none;
+    color: white;
+    font-size: 10px;
+    line-height: 11.72px;
+    padding: 6px 11px;
+    font-weight: 600;
+  }
+  @media screen and (min-width: 768px) {
+    .announcement__close {
+      font-size: 11px;
+      line-height: 22px;
+      padding: 2px 11px;
+    }
+  }
+  .announcement__text {
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 11.72px;
+  }
+  @media screen and (min-width: 768px) {
+    .announcement__text {
+      font-size: 11px;
+      line-height: 24px;
+    }
+
+  }
+  .announcement_link_text {
+    color: white;
+    font-size: 10px;
+    line-height: 24px;
+    font-weight: 400;
+    padding: 0 10px
+  }
+  #shopify-section-{{ section.id }} .announcement_link_text:hover {
+    color: white;
+    text-decoration: underline;
+  }
+  @media screen and (min-width: 768px) {
+    .announcement_link_text {
+      font-size: 11px;
+    }
+  }
+</style>
+
+{% schema %}
+{
+  "name": "t:sections.header.settings.header_announcement_bar",
+  "settings": [
+    {
+      "type": "text",
+      "id": "announcement_text",
+      "label": "t:sections.header.settings.announcement_text.label",
+      "default": "Free shipping and returns",
+      "info": "t:sections.header.settings.announcement_text.info"
+    },
+    {
+      "type": "url",
+      "id": "announcement_link",
+      "label": "t:sections.header.settings.announcement_link.label",
+      "info": "If announcement link is present but no text is entered, the announcement will be wrapped in a link with the text of the announcement."
+    },
+    {
+      "type": "text",
+      "id": "announcement_link_text",
+      "label": "Announcement link text",
+      "info": "If announcement link and text are present, a hyperlink will be created."
+    },
+    {
+      "type": "checkbox",
+      "id": "announcement_closable",
+      "label": "t:sections.header.settings.announcement_closable.label"
+    }
+  ]
+}
+{% endschema %}

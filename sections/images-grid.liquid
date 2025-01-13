@@ -1,0 +1,71 @@
+<div class="page-width">
+  <div class="images-grid">
+    {% for block in section.blocks %}
+      <div class="relative {% if block.settings.double_height %}double-height {% endif %} ">
+        <img
+          src="{{ block.settings.image | image_url }}"
+          alt="{{ block.settings.image.alt }}"
+          class="grid-image"
+          height="auto"
+          width="auto"
+        >
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+<style>
+  .images-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(auto, 1fr);
+    grid-gap: 10px;
+    margin-bottom: 40px;
+  }
+
+  @media screen and (max-width: 768px) {
+    .images-grid {
+      grid-template-columns: repeat(2, 1fr);
+      margin-bottom: 20px;
+    }
+  }
+
+  .images-grid img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .double-height {
+    grid-row: span 2;
+  }
+</style>
+
+{% schema %}
+{
+  "name": "Images Grid",
+  "settings": [],
+  "blocks": [
+    {
+      "type": "image",
+      "name": "Image",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "checkbox",
+          "id": "double_height",
+          "label": "Double height"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Images grid"
+    }
+  ]
+}
+{% endschema %}

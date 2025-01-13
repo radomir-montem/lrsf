@@ -1,0 +1,418 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow_8gV9r6": {
+      "type": "slideshow",
+      "blocks": {
+        "image_eRqQ3X": {
+          "type": "image",
+          "settings": {
+            "title": "",
+            "title_size": 64,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link2": "",
+            "link_text2": "",
+            "text_align": "vertical-bottom horizontal-left",
+            "image": "shopify://shop_images/AW24-Hero-banner.jpg",
+            "image_mobile": "shopify://shop_images/AW24-Hero-banner.jpg",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        },
+        "image_6i4D7C": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "title": "LOREM IPSUM",
+            "title_size": 64,
+            "subheading": "",
+            "link": "shopify://collections/mens-cycling-gilets-and-jackets",
+            "link_text": "SHOP JACKETS",
+            "link2": "shopify://collections/mens-collection",
+            "link_text2": "SHOP ALL MEN",
+            "text_align": "vertical-bottom horizontal-left",
+            "image": "shopify://shop_images/Rectangle_2_56911097-e1c0-4c13-b963-5b80a4062594.png",
+            "image_mobile": "shopify://shop_images/Rectangle_2_1.png",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        },
+        "image_LEg9Ri": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "title": "LOREM IPSUM",
+            "title_size": 64,
+            "subheading": "",
+            "link": "shopify://collections/mens-cycling-gilets-and-jackets",
+            "link_text": "SHOP JACKETS",
+            "link2": "shopify://collections/mens-collection",
+            "link_text2": "SHOP ALL MEN",
+            "text_align": "vertical-bottom horizontal-left",
+            "image": "shopify://shop_images/Rectangle_2_56911097-e1c0-4c13-b963-5b80a4062594.png",
+            "image_mobile": "shopify://shop_images/Rectangle_2_1.png",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_eRqQ3X",
+        "image_6i4D7C",
+        "image_LEg9Ri"
+      ],
+      "settings": {
+        "section_height": "100vh",
+        "mobile_height": "auto",
+        "parallax": false,
+        "style": "dots",
+        "autoplay": true,
+        "autoplay_speed": 5,
+        "lazyload_images": true
+      }
+    },
+    "custom_article_yyXm3f": {
+      "type": "custom-article",
+      "settings": {
+        "padding_top": 60,
+        "padding_bottom": 60,
+        "padding_top_mobile": 30,
+        "padding_bottom_mobile": 30
+      }
+    },
+    "button_pgARdR": {
+      "type": "button",
+      "settings": {
+        "button_text": "SHOP NEW",
+        "button_link": "https://lsrf.cc/collections/autumn-winter-cycling-clothes-2024",
+        "button_style": "btn",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_top_mobile": 50,
+        "padding_bottom_mobile": 50
+      }
+    },
+    "hero_video_dbBeW8": {
+      "type": "hero-video",
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "title_size": 80,
+        "text_color": "#ffffff",
+        "subheading": "",
+        "btn_hover_color": "white",
+        "link_text": "WATCH",
+        "link": "https://youtu.be/dMWCJLXjKy0",
+        "link_text_2": "",
+        "link_2": "",
+        "text_align": "vertical-center horizontal-center",
+        "video_url": "",
+        "image": "shopify://shop_images/Rectangle_58.png",
+        "overlay_opacity": 0,
+        "section_height": "650px",
+        "mobile_height": "300px",
+        "full_width": false
+      }
+    },
+    "slideshow_HAAWjk": {
+      "type": "slideshow",
+      "blocks": {
+        "image_RExVD9": {
+          "type": "image",
+          "settings": {
+            "title": "",
+            "title_size": 80,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link2": "",
+            "link_text2": "",
+            "text_align": "vertical-bottom horizontal-left",
+            "image": "shopify://shop_images/LSRF-banner-cleon-aw24-25.jpg",
+            "image_mobile": "shopify://shop_images/LSRF-banner-cleon-aw24-25.jpg",
+            "parallax_direction": "left",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_RExVD9"
+      ],
+      "settings": {
+        "section_height": "650px",
+        "mobile_height": "auto",
+        "parallax": false,
+        "style": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 5,
+        "lazyload_images": true
+      }
+    },
+    "text_block_chJ4mM": {
+      "type": "text-block",
+      "blocks": {
+        "rich_text_pTwPtN": {
+          "type": "rich_text",
+          "disabled": true,
+          "settings": {
+            "subheading": "",
+            "heading": "DAILY PODCAST",
+            "description": "<p>Every day, directly after the stage, there will be a new Live Slow Ride Fast podcast recording for you to enjoy. Listen to the analysis of Stefan, Laurens, Sam and Thomas or watch the whole video on YouTube. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "rich_text_pTwPtN"
+      ],
+      "disabled": true,
+      "settings": {
+        "padding_top": 30,
+        "padding_bottom": 30,
+        "padding_top_mobile": 30,
+        "padding_bottom_mobile": 30
+      }
+    },
+    "hero_video_KNhNJV": {
+      "type": "hero-video",
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "title_size": 80,
+        "text_color": "#ffffff",
+        "subheading": "",
+        "btn_hover_color": "white",
+        "link_text": "WATCH HIGHLIGHTS 2023",
+        "link": "https://youtu.be/-GY8SfEaa7o?si=mxU9f_AnnL_IENT3",
+        "link_text_2": "",
+        "link_2": "",
+        "text_align": "vertical-center horizontal-center",
+        "video_url": "https://youtu.be/-GY8SfEaa7o?si=mxU9f_AnnL_IENT3",
+        "overlay_opacity": 0,
+        "section_height": "650px",
+        "mobile_height": "300px",
+        "full_width": false
+      }
+    },
+    "text_block_ag3LGa": {
+      "type": "text-block",
+      "blocks": {
+        "rich_text_RVU4Td": {
+          "type": "rich_text",
+          "disabled": true,
+          "settings": {
+            "subheading": "",
+            "heading": "PACMAN",
+            "description": "<p>Big prizes are given away almost every day to those who can predict the PACMAN of the next stage: the rider who finishes lasts. Follow Live Slow Ride Fast on Instagram and join the contest!</p>"
+          }
+        }
+      },
+      "block_order": [
+        "rich_text_RVU4Td"
+      ],
+      "disabled": true,
+      "settings": {
+        "padding_top": 30,
+        "padding_bottom": 30,
+        "padding_top_mobile": 30,
+        "padding_bottom_mobile": 30
+      }
+    },
+    "featured_collection_switcher_rVXdpr": {
+      "type": "featured-collection-switcher",
+      "settings": {
+        "title": "BEST SELLERS",
+        "hide_title": true,
+        "collection1": "cycling-clothing",
+        "collection2": "mens-cycling-gilets-and-jackets",
+        "per_row": 4,
+        "view_all": true,
+        "divider": false
+      }
+    },
+    "logo_grid_di3dKX": {
+      "type": "logo-grid",
+      "blocks": {
+        "icon_XpdkwF": {
+          "type": "icon",
+          "settings": {
+            "image": "shopify://shop_images/logo1.png"
+          }
+        },
+        "icon_NLgQbD": {
+          "type": "icon",
+          "settings": {
+            "image": "shopify://shop_images/brand-suimano.png"
+          }
+        },
+        "icon_qqbrtL": {
+          "type": "icon",
+          "settings": {
+            "image": "shopify://shop_images/brand-nederlandse.png"
+          }
+        },
+        "icon_bWajjV": {
+          "type": "icon",
+          "settings": {
+            "image": "shopify://shop_images/logo4.png"
+          }
+        },
+        "icon_zBpLzr": {
+          "type": "icon",
+          "settings": {
+            "image": "shopify://shop_images/logo5.png"
+          }
+        },
+        "icon_cAjLEW": {
+          "type": "icon",
+          "settings": {
+            "image": "shopify://shop_images/brand-wijnwoordeel.png"
+          }
+        },
+        "icon_rWQxD8": {
+          "type": "icon",
+          "settings": {
+            "image": "shopify://shop_images/logo7.png"
+          }
+        },
+        "icon_RVa6Jz": {
+          "type": "icon",
+          "settings": {
+            "image": "shopify://shop_images/brand-pr.png"
+          }
+        },
+        "icon_68fVcP": {
+          "type": "icon",
+          "settings": {
+            "image": "shopify://shop_images/logo9.png"
+          }
+        },
+        "icon_yXr4Hb": {
+          "type": "icon",
+          "settings": {
+            "image": "shopify://shop_images/logo10.png"
+          }
+        },
+        "icon_BgQPVD": {
+          "type": "icon",
+          "settings": {
+            "image": "shopify://shop_images/brand-purepower.png"
+          }
+        },
+        "icon_yWcD4C": {
+          "type": "icon",
+          "settings": {
+            "image": "shopify://shop_images/logo12.png"
+          }
+        },
+        "icon_GzA4U6": {
+          "type": "icon",
+          "settings": {
+            "image": "shopify://shop_images/brand-laka.png"
+          }
+        },
+        "icon_BDzNaX": {
+          "type": "icon",
+          "settings": {
+            "image": "shopify://shop_images/logo14.png"
+          }
+        },
+        "icon_6gnDrG": {
+          "type": "icon",
+          "settings": {
+            "image": "shopify://shop_images/logo15.png"
+          }
+        },
+        "icon_J93AzF": {
+          "type": "icon",
+          "settings": {
+            "image": "shopify://shop_images/logo16.png"
+          }
+        }
+      },
+      "block_order": [
+        "icon_XpdkwF",
+        "icon_NLgQbD",
+        "icon_qqbrtL",
+        "icon_bWajjV",
+        "icon_zBpLzr",
+        "icon_cAjLEW",
+        "icon_rWQxD8",
+        "icon_RVa6Jz",
+        "icon_68fVcP",
+        "icon_yXr4Hb",
+        "icon_BgQPVD",
+        "icon_yWcD4C",
+        "icon_GzA4U6",
+        "icon_BDzNaX",
+        "icon_6gnDrG",
+        "icon_J93AzF"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "PARTNERS OF LIVE SLOW RIDE FAST",
+        "padding_top": 0,
+        "padding_bottom": 100,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 50
+      }
+    },
+    "images_and_text_C3H87F": {
+      "type": "images-and-text",
+      "settings": {
+        "bg_color": "#f8b258",
+        "full_width": true,
+        "add_second_image": false,
+        "small_height": false,
+        "text_first_desktop": false,
+        "text_first_mobile": false,
+        "space_between": false,
+        "text_color": "#1B2831",
+        "subtext": "Who we are",
+        "title": "LSRF",
+        "description": "<p>Born and raised in the home of cycling, the Netherlands - a continuous source of inspiration with its long beaches and vast dunes, woods and heath lands, cities and small towns.</p><p>LSRF focusses on performance, no matter the conditions. We demand the best of ourselves - our clothing should also match that attitude. Tested in real life, under extreme conditions, on adventures all over the world, we want our jerseys and bibs to keep up with our pace. </p><p>With ex-pro roadie turned into ultra-gravel-adventurer Laurens ten Dam as one of our founding fathers and main ambassador, we take pride in our knowledge of this game called cycling and what it demands of their players.</p>",
+        "image_1": "shopify://shop_images/who_we_are.png",
+        "button_text": "READ MORE",
+        "button_url": "https://lsrf.cc/pages/lsrf-who-we-are",
+        "button_inverse": false
+      }
+    },
+    "blog_posts_4iCDQn": {
+      "type": "blog-posts",
+      "settings": {
+        "title": "OTHER STORIES",
+        "blog": "stories",
+        "post_limit": 4,
+        "blog_show_tags": false,
+        "blog_show_date": false,
+        "blog_show_comments": false,
+        "blog_show_author": false,
+        "view_all": true,
+        "divider": false
+      }
+    }
+  },
+  "order": [
+    "slideshow_8gV9r6",
+    "custom_article_yyXm3f",
+    "button_pgARdR",
+    "hero_video_dbBeW8",
+    "slideshow_HAAWjk",
+    "text_block_chJ4mM",
+    "hero_video_KNhNJV",
+    "text_block_ag3LGa",
+    "featured_collection_switcher_rVXdpr",
+    "logo_grid_di3dKX",
+    "images_and_text_C3H87F",
+    "blog_posts_4iCDQn"
+  ]
+}

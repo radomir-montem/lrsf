@@ -1,0 +1,233 @@
+.template-v2 .breadcrumb {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    color: #696969 !important;
+    padding-left: 10px;
+}
+.template-v2 .breadcrumb a {
+    color: #696969 !important;    
+}
+.template-v2 .manual-tags-wrapper {
+    margin-top: 23px;
+    gap: 8px;
+    padding-left: 10px;
+}
+.template-v2 .manual-tags-wrapper a {
+    font-family: Trade Gothic LT Std;
+    font-size: 23.24px;
+    font-weight: 700;
+    line-height: 27.89px;
+    text-align: left;
+    min-width: 125px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+.template-v2 .section-header__title {
+    font-family: Trade Gothic LT Std;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    color: black;
+}
+.template-v2 .blog-template-mb {
+    margin-bottom: 16px;
+}
+.title-width-id {
+    margin-top: 0 !important;
+    margin-bottom: 74px !important;
+}
+.template-v2 .article__image-wrap {
+    aspect-ratio: 2;
+}
+.template-v2 .article__image-wrap .blog-article-image {
+    aspect-ratio: 1.799;
+    height: unset;
+}
+.template-v2 .blog-articles-wrapper {
+    gap: 12px;
+}
+.template-v2 .blog-articles-wrapper .article__h3 {
+    color: black;
+    margin-top: 25px;
+}
+.template-v2 .truncate-text {
+    font-family: Trade Gothic LT Std;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 78px;
+}
+
+.template-v2 .blog-post-by-tag--btn .btn {
+    background: black !important;
+    font-family: Trade Gothic LT Std;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.template-v2 .images-and-text .text-wrapper .title {
+    font-size: 60px !important;
+    font-weight: 400 !important;
+    line-height: 66px !important;
+    margin-bottom: 13px !important;
+}
+.template-v2 .images-and-text .text-wrapper p {
+    font-family: Trade Gothic LT Std;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: justify;
+}
+.template-v2 .index-section {
+    margin-top: 110px;
+}
+.template-v2 .animation-contents .subtitle {
+    font-family: Trade Gothic LT Std;
+    font-size: 15.32px;
+    font-weight: 700;
+    line-height: 25.54px;
+    text-align: justify;
+}
+.template-v2 .animation-contents h2 {
+    font-family: Trade Gothic LT Std;
+    font-size: 30.51px;
+    font-weight: 700;
+    line-height: 36.62px;
+    text-align: left;
+    color: #1c1d1d;
+    text-transform: uppercase;
+}
+
+.template-v2 .animation-contents .rte p {
+    font-family: Trade Gothic LT Std;
+    font-size: 18.78px;
+    font-weight: 700;
+    line-height: 31.45px;
+    text-align: justify;
+    color: #1c1d1d;
+}
+.template-v2 .animation-contents .background-media-text__text {
+    padding: 26px;
+}
+.template-v2 .animation-contents a {
+    font-family: Trade Gothic LT Std;
+    font-size: 18.78px;
+    font-weight: 700;
+    line-height: 23.47px;
+    text-align: center;
+}
+.template-v2 .section-header__link {
+    font-family: Trade Gothic LT Std;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+}
+.template-v2 .grid-product__title span {
+    color: black;
+}
+.template-v2  .grid-product__price {
+    color: black;
+}
+
+@media (max-width: 425px) {
+    .template-v2 .manual-tags-wrapper {
+        margin-left: 18px;
+        padding-left: 0;
+        gap: 3px;
+    }
+    .template-v2 .blog-template {
+        padding: 0;
+    }
+    .template-v2 .manual-tags-wrapper a {
+        font-family: Trade Gothic LT Std;
+        font-size: 11.83px;
+        font-weight: 700;
+        line-height: 14.2px;
+        text-align: left;
+        padding: 4.58px 14px 2.5px;
+        height: 21.38px;
+        min-width: 63.63px;
+        background: black;
+        color: white;
+    }
+    .template-v2 .section-header__title {
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 31.2px;
+        color: #010101;
+    }
+    .template-v2 .blog-articles-wrapper .article__h3 {
+        font-size: 28.05px;
+        font-weight: 700;
+        line-height: 33.66px;
+        margin-top: 8px;
+    }
+    .template-v2 .blog-articles-wrapper .article__date {
+        font-family: Trade Gothic LT Std;
+        font-size: 11px;
+        font-weight: 700;
+        line-height: 13.2px;
+        margin-bottom: 13px;
+    }
+    .template-v2 .truncate-text {
+        font-size: 12px;
+        line-height: 21px;
+        margin-bottom: 0;
+    }
+    .template-v2 .article__image-wrap .blog-article-image {
+        aspect-ratio: 1.61;
+    }
+    .template-v2 .blog-post-by-tag--btn .btn {
+        font-size: 13.61px;
+        line-height: 17.02px;
+        padding: 8.5px 17px;
+        min-width: 79;
+    }
+    .template-v2 .blog-articles-wrapper {
+        gap: 59px;
+    }
+    .template-v2 .blog-post-by-tag--btn {
+        margin-top: 30px;
+    }
+    .template-v2 .images-and-text .text-wrapper .title {
+        font-size: 30px !important;
+        font-weight: 400 !important;
+        line-height: 33px !important;
+    }
+    .template-v2 .images-and-text .text-wrapper p {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 21.76px;
+    }
+    .template-v2 .text-wrapper {
+        padding: 40px;
+        height: 350px;
+        justify-content: flex-start;
+    }
+    .template-v2 .animation-contents .subtitle {
+        font-size: 13.06px;
+        font-weight: 700;
+        line-height: 21.76px;
+    }
+    .template-v2 .animation-contents h2 {
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 31.2px;
+        padding-right: 75px;
+    }
+    .template-v2 .animation-contents .rte p {
+        font-size: 16px;
+        line-height: 26.8px;
+    }
+} 

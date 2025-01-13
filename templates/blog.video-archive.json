@@ -1,0 +1,335 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow_TTUMVj": {
+      "type": "slideshow",
+      "blocks": {
+        "image_q88r6T": {
+          "type": "image",
+          "settings": {
+            "title": "VIDEO ARCHIVE",
+            "title_size": 80,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link2": "",
+            "link_text2": "",
+            "text_align": "vertical-bottom horizontal-left",
+            "image": "shopify://shop_images/videoarchive.jpg",
+            "image_mobile": "shopify://shop_images/videoarchive.jpg",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_q88r6T"
+      ],
+      "settings": {
+        "section_height": "650px",
+        "mobile_height": "auto",
+        "parallax": false,
+        "style": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "lazyload_images": true
+      }
+    },
+    "banner_with_logo_TaKR4R": {
+      "type": "banner-with-logo",
+      "settings": {
+        "logo": "shopify://shop_images/logo-alt-transparent.png",
+        "text": "We try to keep the balance between good fun and hard work. Our passion for storytelling is leading in the projects we take on and the weekly podcasts we record.",
+        "background_color": "#000000",
+        "text_color": "#ffffff"
+      }
+    },
+    "main": {
+      "type": "blog-template",
+      "disabled": true,
+      "settings": {
+        "blog_show_breadcrumbs": true,
+        "blog_show_title": false,
+        "blog_show_tag_filter": true,
+        "set_tags_manually": true,
+        "manual_tags": "stories, movies, podcasts",
+        "blog_show_rss": false,
+        "blog_show_tags": false,
+        "blog_show_date": true,
+        "blog_show_comments": false,
+        "blog_show_author": false,
+        "hide_article_btn": true,
+        "hide_articles": true
+      }
+    },
+    "featured_video_M7C4VL": {
+      "type": "featured-video",
+      "settings": {
+        "title": "SHEPHERD - A FURTHER TALE",
+        "video_url": "https://youtu.be/dMWCJLXjKy0?si=67ei61tgKs-uulGz",
+        "divider": false
+      }
+    },
+    "text_columns_DLTrFL": {
+      "type": "text-columns",
+      "blocks": {
+        "text_block_pEyHhX": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Thumbnail_Unbound_Rebound_16x9_7484684a-db6c-440f-8246-50be8a9c0acc.jpg",
+            "image_mask": "landscape",
+            "image_width": 650,
+            "title": "UNBOUND | REBOUND",
+            "text": "<p>The largest and most-shared gravel event in the world. On June 3rd 2023, a community of almost 300.000 gravel fans rode together more than four million miles - without actually being together. </p>",
+            "button_label": "WATCH NOW",
+            "button_link": "https://www.youtube.com/watch?v=vSLcGyN4lmk"
+          }
+        },
+        "text_block_PKRaUN": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/chimba_landscape_2.jpg",
+            "image_mask": "landscape",
+            "image_width": 650,
+            "title": "UNA CHIMBA",
+            "text": "<p>The most insane and intense self supported bike packing rally in Colombia: Transcordilleras. Watch the battle between frenemies Laurens ten Dam and Peter Stetina on the unforgiving but mindblowing gravel roads of Colombia. </p>",
+            "button_label": "WATCH NOW",
+            "button_link": "https://youtu.be/1F3Xj4fZHIs?si=biuV3Kwwakm-TNZ3"
+          }
+        },
+        "text_block_cRzrU4": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/zijn22wasnogschoon.jpg",
+            "image_mask": "landscape",
+            "image_width": 650,
+            "title": "HIS 22 WAS STILL CLEAN",
+            "text": "<p>A tribute to, what we think, is still the best book about cycling ever written, wether you're young or old: The Rider by Tim Krabbé.<br/></p>",
+            "button_label": "WATCH NOW",
+            "button_link": "https://youtu.be/JiaitFPHtqw?si=zujIuDGlv1CmwAue"
+          }
+        },
+        "text_block_mWfqLC": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Bartali_landscape_1920x1080_NL_5_met_subtitel.png",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "POSTILJON VAN DE VREDE",
+            "text": "<p>Gino Bartali. Cycling Legend. War hero. <br/>So it appeared, after his death. <br/>Who was this man and what drove him?</p>",
+            "button_label": "WATCH NOW",
+            "button_link": "https://youtu.be/8KViiThNK-c?si=1BCXJS-4r-bbXdFK"
+          }
+        },
+        "text_block_nm7LpM": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/wij_gaan_die_boot_niet_missen.jpg",
+            "image_mask": "landscape",
+            "image_width": 650,
+            "title": "WIJ GAAN DIE BOOT NIET MISSEN",
+            "text": "<p>600 kilometers, five islands, one long night, four ferry crossings, but in the end, it all comes down to one thing: catching that last boat.<br/></p>",
+            "button_label": "WATCH NOW",
+            "button_link": "https://youtu.be/pksVdkWufpc?si=A_ASZwAqyDMO68Xv"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_pEyHhX",
+        "text_block_PKRaUN",
+        "text_block_cRzrU4",
+        "text_block_mWfqLC",
+        "text_block_nm7LpM"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "left",
+        "divider": false
+      }
+    },
+    "text_columns_QGKzLN": {
+      "type": "text-columns",
+      "blocks": {
+        "text_block_y8CjBR": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/thumbnail.png",
+            "image_mask": "landscape",
+            "image_width": 650,
+            "title": "DUS WE HEBBEN EEN BATTLE",
+            "text": "<p>December 2019, friend and former pro cyclist Thomas Dekker, who had not ridden his bike for more than a few years, challenged Laurens by claiming he would beat him in the next race. </p>",
+            "button_label": "WATCH NOW",
+            "button_link": "https://youtu.be/3WGcK5Lk0qQ?si=0XQ8yxnGl8N2bCxE"
+          }
+        },
+        "text_block_etYw6R": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/thumbnail_def_HMEHZ_b8a54f2f-cb58-4be5-ba23-85096d4a7088.jpg",
+            "image_mask": "landscape",
+            "image_width": 650,
+            "title": "HET MOET EN HET ZAL",
+            "text": "<p>This is a story about chasing dreams and analysing that sacred fire within. About boyhood dreams, getting the best out of yourself, day in and day out.</p>",
+            "button_label": "WATCH NOW",
+            "button_link": "https://youtu.be/1F3Xj4fZHIs?si=biuV3Kwwakm-TNZ3"
+          }
+        },
+        "text_block_mQ76PQ": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/kokotolandscapedef4.png",
+            "image_mask": "landscape",
+            "image_width": 650,
+            "title": "KOKOTO",
+            "text": "<p>\"There is this African proverb that says:<br/>“If you want to go fast, go alone. If you want to go far, go together.”<br/>The Migration Gravel Race - Magic in the Mara</p>",
+            "button_label": "WATCH NOW",
+            "button_link": "https://youtu.be/i5JonrGSp8o?si=q4HUVq83ngp5_eEY"
+          }
+        },
+        "text_block_czpPPt": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/DirtyKanzelled.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "DIRTY KANZELLED",
+            "text": "<p>This is a story about the love for the bike and our desire to ride together. A story about a day that made us end this covid year on a high, with an unprecedented cycling event that was no event. We rode together without being together. </p>",
+            "button_label": "WATCH NOW",
+            "button_link": "https://youtu.be/sPOvAnIy7Vc?si=plUC_jOpP1L1g3eQ"
+          }
+        },
+        "text_block_gNehxE": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/11.jpg",
+            "image_mask": "landscape",
+            "image_width": 650,
+            "title": "TRANSIT",
+            "text": "<p>From Como to Siena. From Ride Fast to Live Slow. From pro racer, to pro adventurer. <br/>A road movie celebrating the end of a career and the beginning of a new one. </p>",
+            "button_label": "WATCH NOW",
+            "button_link": "https://youtu.be/Vqday4hkuvw?si=akXCSuO9EWOuykgj"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_y8CjBR",
+        "text_block_etYw6R",
+        "text_block_mQ76PQ",
+        "text_block_czpPPt",
+        "text_block_gNehxE"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "left",
+        "divider": false
+      }
+    },
+    "featured_collection_XRU8rC": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "ACCESSORIES",
+        "home_featured_products": "mens-cycling-accessories",
+        "per_row": 4,
+        "rows": 1,
+        "view_all": true,
+        "divider": false
+      }
+    },
+    "title_with_id_WCyKeq": {
+      "type": "title-with-id",
+      "settings": {
+        "title": "PHOTOS",
+        "half_margin_top": false,
+        "desktop_margin_top": 0,
+        "desktop_margin_bottom": 0,
+        "mobile_margin_top": 0,
+        "mobile_margin_bottom": 0
+      }
+    },
+    "images_grid_4W7gAp": {
+      "type": "images-grid",
+      "blocks": {
+        "image_tzxyBm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/fotomvdp.jpg",
+            "double_height": false
+          }
+        },
+        "image_mPJwK4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/vlaanderenfoto3.jpg",
+            "double_height": false
+          }
+        },
+        "image_drcX8J": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/hazyipatourfoto.jpg",
+            "double_height": false
+          }
+        },
+        "image_MmkyXm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/vlaanderenfoto4.jpg",
+            "double_height": false
+          }
+        },
+        "image_iHzwfx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/vlaanderenfoto1.jpg",
+            "double_height": false
+          }
+        },
+        "image_EQLXnF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/vlaanderenfoto2.jpg",
+            "double_height": false
+          }
+        }
+      },
+      "block_order": [
+        "image_tzxyBm",
+        "image_mPJwK4",
+        "image_drcX8J",
+        "image_MmkyXm",
+        "image_iHzwfx",
+        "image_EQLXnF"
+      ],
+      "settings": {}
+    }
+  },
+  "order": [
+    "slideshow_TTUMVj",
+    "banner_with_logo_TaKR4R",
+    "main",
+    "featured_video_M7C4VL",
+    "text_columns_DLTrFL",
+    "text_columns_QGKzLN",
+    "featured_collection_XRU8rC",
+    "title_with_id_WCyKeq",
+    "images_grid_4W7gAp"
+  ]
+}

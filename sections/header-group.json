@@ -1,0 +1,46 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "header",
+  "name": "t:sections.header-group.name",
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "disabled": true,
+      "settings": {
+        "announcement_text": "By using our website, you agree to the usage of cookies to help us make this website better.",
+        "announcement_link": "#",
+        "announcement_link_text": "More on cookies »",
+        "announcement_closable": true
+      }
+    },
+    "header": {
+      "type": "header",
+      "settings": {
+        "logo": "shopify://shop_images/LSRF-logo-image-2024-logo-black-homepage.png",
+        "logo-inverted": "shopify://shop_images/LSRF-logo-image-2024-logo-white-homepage.png",
+        "desktop_logo_width": 50,
+        "mobile_logo_width": 30,
+        "main_menu_link_list": "main-menu",
+        "hover_menu": true,
+        "main_menu_alignment": "left-center",
+        "show_locale_selector": true,
+        "header_sticky": true,
+        "sticky_blog": true,
+        "sticky_index": true,
+        "sticky_collection": true
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "header"
+  ]
+}

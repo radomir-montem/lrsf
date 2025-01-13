@@ -1,0 +1,93 @@
+.project-release-template .breadcrumbs {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+}
+.project-release-template .text-block__subheading {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+}
+.project-release-template .text-block__heading {
+    font-family: Trade Gothic LT Std;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52.28px;
+    text-align: left;
+}
+.project-release-template .text-block__description,
+.project-release-template .text-block__description p {
+    font-family: Trade Gothic LT Std;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 40.1px;
+    letter-spacing: 0.5414159297943115px;
+    text-align: justify;
+}
+.project-release-template .index-section {
+    margin: 80px 0 100px;
+}
+.project-release-template .section-header__title {
+    font-family: Trade Gothic LT Std;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+}
+.project-release-template .section-header {
+    margin-bottom: 30px;
+}
+.project-release-template .blog-posts .article__title {
+    font-family: Trade Gothic LT Std;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.8px;
+}
+.project-release-template .blog-posts .article__content {
+    font-family: Trade Gothic LT Std;
+    font-size: 17.58px;
+    font-weight: 400;
+    line-height: 21.09px;
+    text-align: left;
+}
+
+@media (max-width: 425px) {
+    .project-release-template .breadcrumbs, .project-release-template .text-block__subheading {
+        font-size: 14px;
+    }
+    .project-release-template .text-block__heading {
+        font-size: 22px;
+        line-height: 28.75px;
+    }
+    .project-release-template .text-block__description, .project-release-template .text-block__description p {
+        font-size: 14px;
+        line-height: 17.57px;
+    }
+    .project-release-template .text-center {
+        margin: 0;
+    }
+    .project-release-template .index-section {
+        margin: 40px 0 50px;
+    }
+    .project-release-template .section-header__title {
+        font-family: Trade Gothic LT Std;
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 31.2px;
+        text-align: center;
+    }
+    .project-release-template .blog-posts .article__title {
+        font-family: Trade Gothic LT Std;
+        font-size: 20.21px;
+        font-weight: 700;
+        line-height: 24.25px;
+    }
+    .project-release-template .blog-posts .article__content {
+        font-family: Trade Gothic LT Std;
+        font-size: 14.73px;
+        font-weight: 400;
+        line-height: 17.68px;
+    }
+}

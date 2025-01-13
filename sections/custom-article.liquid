@@ -1,0 +1,101 @@
+{% style %}
+    .section--{{ section.id }} {
+        padding-top: {{ section.settings.padding_top }}px;
+        padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+
+    @media (max-width: 768px) {
+        .section--{{ section.id }} {
+            padding-top: {{ section.settings.padding_top_mobile }}px;
+            padding-bottom: {{ section.settings.padding_bottom_mobile }}px;
+        }
+    }
+{% endstyle %}
+{% if template.name == 'article' %}
+<div class="section--{{ section.id }}">
+    <div class="page-width text-block">
+            {% assign subheading = article.created_at | date: '%B %d, %Y' %}
+            {% assign heading = article.title %}
+            {% assign description = article.content %}
+            {%liquid
+                assign split_1 = article.url | split: '/blogs/'
+                assign split_2 = split_1[1] | split: '/'
+                assign blog_handle = split_2[0] | strip
+                assign article_blog = blogs[blog_handle]
+            %}
+            <div class="breadcrumbs">
+                <a class="breadcrumb-link" href="{{ shop.url }}">HOME</a>
+                <span class="breadcrumb-line">/</span>
+                <a class="breadcrumb-link" href="{{ article_blog.url }}">{{ article_blog.title | upcase }}</a>
+                <span class="breadcrumb-line">/</span>
+                <a class="breadcrumb-link" href="{{ article.url }}">{{ article.title | upcase }}</a>
+            </div>
+
+        {% if subheading != blank %}
+            <h4 class="text-block__subheading">{{ subheading }}</h4>
+        {% endif %}
+        {% if heading != blank %}
+            <h2 class="text-block__heading">{{ heading }}</h2>
+        {% endif %}
+        {% if description != blank %}
+            <div class="text-block__description">{{ description }}</div>
+        {% endif %}
+    </div>
+</div>
+{% endif %}
+{% schema %}
+{
+    "name": "Article Template",
+    "settings": [
+        {
+            "type": "header",
+            "content": "Padding"
+        },
+        {
+            "type": "range",
+            "id": "padding_top",
+            "label": "Desk Padding Top",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "default": 50,
+            "unit": "px"
+        },
+        {
+            "type": "range",
+            "id": "padding_bottom",
+            "label": "Desk Padding Bottom",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "default": 50,
+            "unit": "px"
+        },
+        {
+            "type": "range",
+            "id": "padding_top_mobile",
+            "label": "Mobile Padding Top",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "default": 50,
+            "unit": "px"
+        },
+        {
+            "type": "range",
+            "id": "padding_bottom_mobile",
+            "label": "Mobile Padding Bottom",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "default": 50,
+            "unit": "px"
+        }
+    ],
+    "presets": [
+        {
+            "name": "Article Template"
+        }
+    ]
+}
+{% endschema %}

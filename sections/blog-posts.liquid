@@ -1,0 +1,184 @@
+{%- assign blog = blogs[section.settings.blog] -%}
+
+{%- if section.settings.divider -%}<div class="section--divider">{%- endif -%}
+
+<div class="page-width blog-posts">
+  {%- if section.settings.title != blank -%}
+    <header class="section-header">
+      <h2 class="section-header__title">
+        {{ section.settings.title | escape }}
+      </h2>
+    </header>
+  {%- endif -%}
+
+  <div class="blog-posts-grid">
+    {%- unless blog.empty? or blog.articles.size == 0 -%}
+      <div class="grid grid--uniform">
+        {%- for article in blog.articles limit: section.settings.post_limit -%}
+          <div class="grid__item medium-up--two-eighths" data-aos="row-of-4">
+            {%- if article.image -%}
+              <a href="{{ article.url }}" class="article__grid-image" aria-label="{{ article.title | escape }}">
+                <div
+                  class="image-wrap"
+                >
+                  {%- render 'image-element',
+                    img: article.image,
+                    widths: '180, 360, 540, 720, 900, 1080',
+                    alt: article.title,
+                    sizeVariable: '33vw'
+                  -%}
+                </div>
+              </a>
+            {%- endif -%}
+
+            <div class="article__grid-meta">
+              {%- if section.settings.blog_show_date or article.tags.size > 0 or articles.comments_count > 0 -%}
+                <div class="article__date">
+                  {%- if section.settings.blog_show_tags and article.tags.size > 0 -%}
+                    {%- for tag in article.tags -%}
+                      {% if tag contains '_' %}
+                        {%- assign tag_starts_with = tag | slice: 0 -%}
+                        {% if tag_starts_with == '_' -%}
+                          {%- if tag_count %}{%- assign tag_count = tag_count | minus: 1 | at_least: 0 -%}{% endif -%}
+                          {%- continue -%}
+                        {%- endif -%}
+                      {%- endif %}
+                      <a href="{{ blog.url }}/tagged/{{ tag | handle }}">{{ tag }}</a> &middot;
+                    {%- endfor -%}
+                  {%- endif -%}
+                  {%- if section.settings.blog_show_comments and article.comments_count > 0 -%}
+                    <a href="{{ article.url }}#comments">
+                      {{ 'blogs.comments.with_count' | t: count: article.comments_count }}
+                    </a>
+                    &middot;
+                  {%- endif -%}
+                  {%- if section.settings.blog_show_date -%}
+                    {{ article.published_at | time_tag: format: 'month_day_year' }}
+                  {%- endif -%}
+                </div>
+              {%- endif -%}
+
+              <a href="{{ article.url }}" class="article__title">{{ article.title }}</a>
+
+              {%- if section.settings.blog_show_author -%}
+                <div class="article__author">by {{ article.author }}</div>
+              {%- endif -%}
+
+              <div class="article__content">{{ article.content | strip_html | truncatewords: 13, "" }}</div>
+            </div>
+          </div>
+        {%- endfor -%}
+      </div>
+
+    {%- else -%}
+      <div class="grid grid--uniform">
+        {%- for i in (1..4) -%}
+          <div class="grid__item medium-up--two-eighths" data-aos>
+            <a href="#" class="article__grid-image">
+              <div class="image-wrap">
+                {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+              </div>
+            </a>
+
+            <div class="article__grid-meta">
+              {%- if section.settings.blog_show_date -%}
+                <div class="article__date">Jul 17 {{ 'now' | date: '%Y' }}</div>
+              {%- endif -%}
+
+              <a href="#" class="article__title">Example blog post</a>
+
+              {%- if section.settings.blog_show_author -%}
+                <div class="article__author">by John Doe</div>
+              {%- endif -%}
+            </div>
+          </div>
+        {%- endfor -%}
+      </div>
+      {%- if section.settings.view_all -%}
+        <a href="{{ blog.url }}" class="section-header__link">{{ 'blogs.article.view_all' | t }}</a>
+      {%- endif -%}
+    {%- endunless -%}
+  </div>
+
+  {% if section.settings.view_all %}
+    <div class="text-center small--hide">
+      <a class="btn btn--outline btn--inverse" href="{{ blog.url }}">VIEW MORE</a>
+    </div>
+  {% endif %}
+</div>
+
+{%- if section.settings.divider -%}</div>{%- endif -%}
+
+{% schema %}
+{
+  "name": "t:sections.blog-posts.name",
+  "class": "index-section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "t:sections.blog-posts.settings.title.label",
+      "default": "Blog posts"
+    },
+    {
+      "id": "blog",
+      "type": "blog",
+      "label": "t:sections.blog-posts.settings.blog.label"
+    },
+    {
+      "type": "range",
+      "id": "post_limit",
+      "label": "t:sections.blog-posts.settings.post_limit.label",
+      "default": 4,
+      "min": 2,
+      "max": 8,
+      "step": 2
+    },
+    {
+      "type": "checkbox",
+      "id": "blog_show_tags",
+      "label": "t:sections.blog-posts.settings.blog_show_tags.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "blog_show_date",
+      "label": "t:sections.blog-posts.settings.blog_show_date.label",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "blog_show_comments",
+      "label": "t:sections.blog-posts.settings.blog_show_comments.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "blog_show_author",
+      "label": "t:sections.blog-posts.settings.blog_show_author.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "view_all",
+      "label": "t:sections.blog-posts.settings.view_all.label",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "divider",
+      "label": "t:sections.blog-posts.settings.divider.label",
+      "default": false
+    }
+  ],
+  "presets": [
+    {
+      "name": "t:sections.blog-posts.presets.blog_posts.name",
+      "settings": {
+        "blog": "News",
+        "post_limit": 4
+      }
+    }
+  ],
+  "disabled_on": {
+    "groups": ["footer", "header", "custom.popups"]
+  }
+}
+{% endschema %}

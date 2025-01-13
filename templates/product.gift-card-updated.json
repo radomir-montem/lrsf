@@ -1,0 +1,239 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "judge_me_reviews_preview_badge_6V6XbE": {
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "disabled": true,
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "separator": {
+          "type": "separator",
+          "settings": {}
+        },
+        "color_selector_YUAqyA": {
+          "type": "color_selector",
+          "disabled": true,
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "variant_labels": true,
+            "picker_type": "button",
+            "product_dynamic_variants_enable": true,
+            "color_swatches": true,
+            "size_chart": ""
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "surface_pickup_enable": true,
+            "show_gift_card_recipient": false,
+            "add_to_cart_fixed": true,
+            "show_estimated_shipping": false
+          }
+        },
+        "separator_kEjU68": {
+          "type": "separator",
+          "settings": {}
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "is_tab": false
+          }
+        },
+        "tab": {
+          "type": "tab",
+          "disabled": true,
+          "settings": {
+            "title": "Specifications",
+            "content": "",
+            "page": ""
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_preview_badge_6V6XbE",
+        "price",
+        "separator",
+        "color_selector_YUAqyA",
+        "variant_picker",
+        "buy_buttons",
+        "separator_kEjU68",
+        "description",
+        "tab",
+        "share"
+      ],
+      "settings": {
+        "sku_enable": false,
+        "image_size": "large",
+        "product_zoom_enable": true,
+        "thumbnail_position": "beside",
+        "thumbnail_height": "flexible",
+        "thumbnail_arrows": true,
+        "enable_video_looping": true,
+        "product_video_style": "muted"
+      }
+    },
+    "sub": {
+      "type": "product-full-width",
+      "disabled": true,
+      "settings": {
+        "max_width": true
+      }
+    },
+    "images_and_text_tryEw4": {
+      "type": "images-and-text",
+      "disabled": true,
+      "settings": {
+        "bg_color": "#00b2b1",
+        "full_width": true,
+        "add_second_image": true,
+        "small_height": false,
+        "text_first_desktop": false,
+        "text_first_mobile": false,
+        "space_between": false,
+        "text_color": "#1B2831",
+        "subtext": "",
+        "title": "TESTED IN WORSE CONDITIONS THAN YOU'LL EVER EXPERIENCE",
+        "description": "<p>Don’t be fooled by the pretty colors and sleek styles. LSRF cycling clothing will get you through the toughest rides out there - rain or shine. Durable fabrics, high-end chamois pads and thermo and water repellent options for every occasion, make sure you can focus on the road instead</p>",
+        "image_1": "shopify://shop_images/further-tested-worse-experience_groot.jpg",
+        "image_2": "shopify://shop_images/unbound-tested-cycling-jerseys_groot.jpg",
+        "button_text": "",
+        "button_url": "",
+        "button_inverse": false
+      }
+    },
+    "collection-return": {
+      "type": "collection-return",
+      "disabled": true,
+      "settings": {}
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "product_recommendations_heading": "EXPLORE OUR COLLECTION",
+        "related_count": 6,
+        "products_per_row": 3
+      }
+    },
+    "featured_collection_wtLM67": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "FAN FAVOURITES",
+        "home_featured_products": "",
+        "per_row": 4,
+        "rows": 1,
+        "view_all": false,
+        "divider": false
+      }
+    },
+    "images_and_text_7CrUJq": {
+      "type": "images-and-text",
+      "disabled": true,
+      "settings": {
+        "bg_color": "#e56083",
+        "full_width": true,
+        "add_second_image": false,
+        "small_height": true,
+        "text_first_desktop": false,
+        "text_first_mobile": true,
+        "space_between": false,
+        "text_color": "white",
+        "subtext": "OUR CLASSIC JACKET",
+        "title": "REVIEWED BY EXPERTS",
+        "description": "",
+        "image_1": "shopify://shop_images/two-women-smiling.png",
+        "button_text": "► WATCH",
+        "button_url": "",
+        "button_inverse": true
+      }
+    },
+    "text_with_icons_wwXd3R": {
+      "type": "text-with-icons",
+      "blocks": {
+        "text_block_yjjztW": {
+          "type": "text_block",
+          "settings": {
+            "icon": "free_shipping",
+            "title": "FREE SHIPPING",
+            "text": "<p>for EU orders over €100</p>"
+          }
+        },
+        "text_block_GGjFp8": {
+          "type": "text_block",
+          "settings": {
+            "icon": "returns",
+            "title": "30-DAY RETURNS",
+            "text": "<p>for all orders</p>"
+          }
+        },
+        "text_block_YThAVg": {
+          "type": "text_block",
+          "settings": {
+            "icon": "tested",
+            "title": "TESTED",
+            "text": "<p>in worse conditions than you’ll ever experience</p>"
+          }
+        },
+        "text_block_UByrBa": {
+          "type": "text_block",
+          "settings": {
+            "icon": "eu_made",
+            "title": "MADE IN EU",
+            "text": "<p>with the highest quality materials</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_yjjztW",
+        "text_block_GGjFp8",
+        "text_block_YThAVg",
+        "text_block_UByrBa"
+      ],
+      "settings": {
+        "bg_color": "#f8b258",
+        "title": "",
+        "align_text": "center",
+        "desktop_columns_per_row": 4,
+        "icon_color": "#000000",
+        "button_label": "",
+        "button_link": "",
+        "divider": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "sub",
+    "images_and_text_tryEw4",
+    "collection-return",
+    "product-recommendations",
+    "featured_collection_wtLM67",
+    "images_and_text_7CrUJq",
+    "text_with_icons_wwXd3R"
+  ]
+}

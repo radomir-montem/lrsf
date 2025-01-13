@@ -1,0 +1,66 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "rich_text_8iKBdi": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_HqgEz3": {
+          "type": "heading",
+          "settings": {
+            "title": "Don't believe us"
+          }
+        },
+        "text_aYE9nz": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Read what our community has to say about our products & service.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_HqgEz3",
+        "text_aYE9nz"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "1725980490cd66f9db": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_all_reviews_page_U3cWXW": {
+          "type": "shopify://apps/judge-me-reviews/blocks/all_reviews_page/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_all_reviews_page_U3cWXW"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_8iKBdi",
+    "1725980490cd66f9db"
+  ]
+}

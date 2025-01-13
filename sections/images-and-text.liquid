@@ -1,0 +1,333 @@
+<div class="section-container {% unless section.settings.full_width %}page-width {% endunless %}">
+  {% if section.settings.image_1 != blank %}
+    <div class="images-and-text img-text-wrapper">
+      <div class="images-wrapper">
+        {% render 'image-element', img: section.settings.image_1 %}
+        {% if section.settings.add_second_image and section.settings.image_2 != blank %}
+          {% render 'image-element', img: section.settings.image_2 %}
+        {% endif %}
+      </div>
+      <div class="text-wrapper {% if section.settings.space_between %} text-btn-wrapper {% endif %}">
+        <div>
+          {% if section.settings.subtext %}
+            <h6 class="subtext">{{ section.settings.subtext }}</h6>
+          {% endif %}
+          {% if section.settings.title %}
+            <h2 class="title">{{ section.settings.title }}</h2>
+          {% endif %}
+          {% if section.settings.description %}
+            {{ section.settings.description }}
+          {% endif %}
+        </div> 
+        {% if section.settings.button_text != blank %}
+          <a
+            href="{{ section.settings.button_url }}"
+            class="btn {% if section.settings.button_inverse %} btn--inverse{% endif %}"
+          >
+            {{- section.settings.button_text }}
+          </a>
+        {% endif %}
+      </div>
+    </div>
+  {% endif %}
+</div>
+
+<style>
+  .text-btn-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between !important;
+  }
+    #shopify-section-{{ section.id }}  {
+        color: {{ section.settings.text_color }};
+        background-color: {{ section.settings.bg_color }};
+    }
+    #shopify-section-{{ section.id }} .img-text-wrapper {
+        display: flex;
+        flex-direction: column;
+        {% if section.settings.text_first_mobile %}
+          flex-direction: column-reverse;
+        {% endif %}
+        justify-content: space-between;
+        align-items: center;
+        {% if section.settings.small_height %}
+            height: 560px;
+        {% endif %}
+    }
+    #shopify-section-{{ section.id }} .images-wrapper {
+        display: flex;
+        height: 50%;
+        width: 100%;
+        object-fit: cover;
+    }
+    #shopify-section-{{ section.id }} .images-wrapper img {
+        height: 100%;
+        object-fit: cover;
+    }
+
+    {% if section.settings.small_height == false %}
+        @media screen and (max-width: 1023px){
+            #shopify-section-{{ section.id }} .images-wrapper img {
+                height: 350px;
+            }
+        }
+    {% endif %}
+
+    #shopify-section-{{ section.id }} .text-wrapper {
+        height: 50%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px 40px;
+    }
+    .project-release-template #shopify-section-{{ section.id }} .subtext {
+      font-family: Roboto;
+      font-size: 14.5px;
+      font-weight: 400;
+      line-height: 25.6px;
+      letter-spacing: 3.200000047683716px;
+    }
+    #shopify-section-{{ section.id }} .subtext {
+        font-size: 12px;
+        line-height: 14.06px;
+        font-weight: 400;
+        margin-bottom: 5px
+    }
+    .project-release-template #shopify-section-{{ section.id }} .title {
+      font-family: Roboto;
+      font-size: 36px;
+      font-weight: 600;
+      line-height: 36px;
+      text-align: left;
+    }
+    .project-release-template #shopify-section-{{ section.id }} p {
+      font-family: Roboto;
+      font-size: 16.59px;
+      font-weight: 400;
+      line-height: 28.8px;
+      letter-spacing: 0.44999998807907104px;
+    }
+    #shopify-section-{{ section.id }} .title {
+        font-size: 24px;
+        line-height: 1.17;
+        font-weight: 600;
+        margin-bottom: 20px
+    }
+
+    #shopify-section-{{ section.id }} .text-wrapper h3 {
+        font-size: 16px;
+        line-height: 1.3;
+        font-weight: 500;
+    }
+    #shopify-section-{{ section.id }} .btn {
+        width: fit-content;
+        background-color: #1B2831;
+        font-size: 14px;
+        font-weight: 600;
+        {% comment %} padding: 10px 20px {% endcomment %}
+    }
+    @media (max-width: 425px) {
+      .product-release-temlate .project-release-template #shopify-section-{{ section.id }} .subtext {
+        font-size: 12px;
+        line-height: 14.02px;
+      }
+      .project-release-template #shopify-section-{{ section.id }} .title {
+        font-family: Roboto;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 28.13px;
+        text-align: left;
+      }
+      .project-release-template #shopify-section-{{ section.id }} p {
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0.44999998807907104px;
+        text-align: left;
+
+      }
+    }
+
+    @media screen and (min-width: 1024px){
+        #shopify-section-{{ section.id }} .img-text-wrapper {
+            display: flex;
+            flex-direction: row;
+            {% if section.settings.text_first_desktop %}
+                flex-direction: row-reverse;
+            {% endif %}
+            {% if section.settings.small_height %}
+                height: 432px;
+            {% else %}
+                height: 650px;
+            {% endif %}
+        }
+        #shopify-section-{{ section.id }} .images-wrapper {
+            height: 100%;
+            width: 50%;
+            {% if section.settings.add_second_image and section.settings.image_2 != blank %}
+              width: 66.66%;
+            {% endif %}
+        }
+        .project-release-template #shopify-section-{{ section.id }} .text-wrapper {
+          padding: 40px 40px 68px 40px;
+        }
+        #shopify-section-{{ section.id }} .text-wrapper {
+            width: 50%;
+            {% if section.settings.add_second_image and section.settings.image_2 != blank %}
+              width: 33.33%;
+            {% endif %}
+            height: 100%;
+            padding: 0 70px 0 70px;
+            {% if section.settings.text_first %}
+              padding: 0 50px 0 100px;
+            {% endif %}
+            {% if section.settings.add_second_image and section.settings.image_2 != blank %}
+              justify-content: flex-end;
+              {% if section.settings.text_first %}
+                  padding: 0 40px 70px 50px;
+              {% else %}
+                  padding: 0 50px 70px 40px;
+              {% endif %}
+            {% endif %}
+      }
+      #shopify-section-{{ section.id }} .subtext {
+        font-size: 14.5px;
+        line-height: 25.6px;
+        letter-spacing: 3.2px;
+        margin-bottom: 8px
+
+    }
+      #shopify-section-{{ section.id }} .title {
+        font-size: 48px;
+        {% if section.settings.add_second_image and section.settings.image_2 != blank %}
+          font-size: 36px;
+        {% endif %}
+        margin-bottom: 40px
+    }
+      #shopify-section-{{ section.id }} .text-wrapper h3 {
+          font-size: 24px;
+      }
+  }
+  @media (max-width: 425px) {
+    #shopify-section-{{ section.id }} .text-wrapper {
+      padding: 20px 40px;
+      min-height: 350px;
+      justify-content: flex-start;
+    }
+  }
+</style>
+
+{% schema %}
+{
+  "name": "Images and text",
+  "settings": [
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Background color",
+      "default": "#fff"
+    },
+    {
+      "type": "checkbox",
+      "id": "full_width",
+      "label": "Full width",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "add_second_image",
+      "label": "Show second image",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "small_height",
+      "label": "Small height",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "text_first_desktop",
+      "label": "Text first on desktop",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "text_first_mobile",
+      "label": "Text first on mobile",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "space_between",
+      "label": "Text and Button space between",
+      "default": false
+    },
+    {
+      "type": "select",
+      "id": "text_color",
+      "label": "Text color",
+      "default": "#1B2831",
+      "options": [
+        {
+          "value": "#1B2831",
+          "label": "Dark"
+        },
+        {
+          "value": "white",
+          "label": "Light"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "subtext",
+      "label": "Subtext"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title"
+    },
+    {
+      "type": "richtext",
+      "id": "description",
+      "label": "Description"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_1",
+      "label": "Image 1"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_2",
+      "label": "Image 2"
+    },
+    {
+      "type": "text",
+      "id": "button_text",
+      "label": "Button text"
+    },
+    {
+      "type": "url",
+      "id": "button_url",
+      "label": "Button URL"
+    },
+    {
+      "type": "checkbox",
+      "id": "button_inverse",
+      "label": "Transparent button",
+      "default": false
+    }
+  ],
+  "presets": [
+    {
+      "name": "Images and text",
+      "category": "Image"
+    }
+  ]
+}
+{% endschema %}

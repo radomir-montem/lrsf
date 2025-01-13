@@ -1,0 +1,118 @@
+{% if linklists[block.settings.menu].links.size > 0 %}
+  {% if block.settings.show_footer_title %}
+    <h2 class="footer__title medium-down--hide">
+      {{ linklists[block.settings.menu].title }}
+    </h2>
+    <button
+      type="button"
+      class="footer__title collapsible-trigger collapsible-trigger-btn large-up--hide"
+      aria-controls="Footer-{{ block.id }}"
+    >
+      {{ linklists[block.settings.menu].title }}
+      {%- render 'collapsible-icons' -%}
+    </button>
+  {% endif %}
+  <div
+    {% if block.settings.show_footer_title %}
+      id="Footer-{{ block.id }}" class="collapsible-content collapsible-content--medium-down"
+    {% endif %}
+  >
+    <div class="collapsible-content__inner">
+      <div class="footer__collapsible{% unless block.settings.show_footer_title %} footer_collapsible--disabled{% endunless %}">
+        <ul class="no-bullets site-footer__linklist">
+          {%- for link in linklists[block.settings.menu].links -%}
+            {% if link.links != blank %}
+              <div class="sublinks-wrapper">
+                <button
+                  type="button"
+                  class="footer__title collapsible-trigger collapsible-trigger-btn large-up--hide"
+                  aria-controls="Footer-{{ block.id }}-sublink-{{ forloop.index }}"
+                >
+                  {{ link.title }}
+                  {%- render 'collapsible-icons' -%}
+                </button>
+                <a href="" class="medium-down--hide">{{ link.title }}</a>
+                <div
+                  id="Footer-{{ block.id }}-sublink-{{ forloop.index }}"
+                  class="collapsible-content collapsible-content--medium-down"
+                >
+                  <div class="collapsible-content__inner collapsible-content__inner--no-translate">
+                    <div class="footer__collapsible{% unless block.settings.show_footer_title %} footer_collapsible--disabled{% endunless %}">
+                      <ul class="no-bullets site-footer__linklist">
+                        {% for sublink in link.links %}
+                          <li>
+                            <a href="{{ sublink.url }}">{{ sublink.title }}</a>
+                          </li>
+                        {% endfor %}
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            {% else %}
+              <li>
+                <a href="{{ link.url }}">{{ link.title }}</a>
+              </li>
+            {% endif %}
+          {%- endfor -%}
+        </ul>
+      </div>
+    </div>
+  </div>
+{% endif %}
+<style>
+    @media screen and (max-width: 767px) {
+      #shopify-section-{{ section.id }} .site-footer {
+        padding-top: 20px;
+      }
+      .site-footer__linklist .sublinks-wrapper:not(:last-of-type) {
+        border-bottom: 1px solid #00a3a1;
+        padding-bottom: 12px
+      }
+      .site-footer__linklist .sublinks-wrapper:last-of-type {
+        padding-bottom: 30px
+      }
+      .site-footer .grid__item:after {
+        content: none;
+      }
+      .grid-newsletter .footer__collapsible {
+        padding-bottom: 0;
+      }
+      #shopify-section-{{ section.id }} .footer__collapsible.footer_collapsible--disabled {
+        padding-top: 12px;
+        padding-bottom: 0;
+      }
+      #shopify-section-{{ section.id }} .footer__collapsible.footer_collapsible--disabled:first-of-type {
+        padding-top: 20px;
+      }
+      #shopify-section-{{ section.id }} .collapsible-trigger-btn {
+        padding-top: 20px;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+  }
+    @media screen and (min-width: 768px) {
+      .site-footer__linklist {
+        display: flex;
+        justify-content: space-between;
+      }
+      .site-footer__linklist .sublinks-wrapper {
+        padding-right: 20px;
+      }
+      .site-footer__linklist .sublinks-wrapper .medium-down--hide{
+        font-weight: 600
+      }
+      .sublinks-wrapper .site-footer__linklist {
+        flex-direction: column;
+        min-width: 120px;
+      }
+    }
+    @media screen and (min-width: 1280px) {
+      .site-footer__linklist .sublinks-wrapper {
+        padding-right: 0px;
+      }
+      .sublinks-wrapper .site-footer__linklist {
+        min-width: 200px;
+      }
+    }
+</style>

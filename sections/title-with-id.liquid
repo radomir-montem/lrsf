@@ -1,0 +1,105 @@
+<header class="section-header title-width-id {% if blog.template_suffix == 'template-v2'%} template-v2 {% endif %} margin-section-{{ section.id }}">
+  <h2 class="section-header__title" id="{{ section.settings.title | downcase |handleize}}">
+    {{ section.settings.title | escape }}
+  </h2>
+</header>
+
+<style>
+  .margin-section-{{ section.id }} {
+    margin-top: {{ section.settings.desktop_margin_top }}px !important;
+    margin-bottom: {{ section.settings.desktop_margin_bottom }}px !important;
+  }
+
+  @media (max-width: 425px) {
+    .margin-section-{{ section.id }} {
+      margin-top: {{ section.settings.mobile_margin_top }}px !important;
+      margin-bottom: {{ section.settings.mobile_margin_bottom }}px !important;
+    }
+  }
+
+
+  #shopify-section-{{ section.id }} .section-header {
+      margin-bottom: 20px;
+      margin-top: 40px;
+  }
+  @media screen and (min-width: 768px) {
+      #shopify-section-{{ section.id }} .section-header {
+          margin-bottom: 40px;
+          margin-top: 80px;
+      }
+  }
+  {% if section.settings.half_margin_top %}
+    #shopify-section-{{ section.id }} .section-header {
+        margin-top: 20px;
+    }
+    @media screen and (min-width: 768px) {
+        #shopify-section-{{ section.id }} .section-header {
+            margin-top: 40px;
+        }
+    }
+    {% endif %}
+</style>
+
+{% schema %}
+{
+  "name": "Title with ID",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title"
+    },
+    {
+      "type": "checkbox",
+      "id": "half_margin_top",
+      "label": "Half margin top",
+      "default": false
+    },
+    {
+      "type": "range",
+      "id": "desktop_margin_top",
+      "label": "Desktop Margin top",
+      "min": 0,
+      "max": 150,
+      "step": 2,
+      "unit": "px",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "desktop_margin_bottom",
+      "label": "Desktop Margin bottom",
+      "min": 0,
+      "max": 150,
+      "step": 2,
+      "unit": "px",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "mobile_margin_top",
+      "label": "Mobile Margin top",
+      "min": 0,
+      "max": 150,
+      "step": 2,
+      "unit": "px",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "mobile_margin_bottom",
+      "label": "Mobile Margin bottom",
+      "min": 0,
+      "max": 150,
+      "step": 2,
+      "unit": "px",
+      "default": 0
+    }
+  ],
+  "presets": [
+    {
+      "name": "Title with ID"
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,93 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "article-template",
+      "settings": {
+        "blog_show_image": true,
+        "blog_show_tags": false,
+        "blog_show_date": true,
+        "blog_show_comments": true,
+        "blog_show_author": false,
+        "social_sharing_blog": true
+      }
+    },
+    "categories_MzPGCE": {
+      "type": "categories",
+      "blocks": {
+        "category_rTtcg9": {
+          "type": "Category",
+          "settings": {
+            "title": "CYCLING JERSEYS",
+            "subtitle": "SHOP NOW >",
+            "image": "shopify://shop_images/LSRF-jersey-collection-2024-homepage.jpg",
+            "link": "shopify://collections/cycling-jerseys"
+          }
+        },
+        "category_Ptp3M7": {
+          "type": "Category",
+          "settings": {
+            "title": "CYCLING BIBS",
+            "subtitle": "SHOP NOW >",
+            "image": "shopify://shop_images/LSRF-bibs-collection-2024-homepage.jpg",
+            "link": ""
+          }
+        },
+        "category_Rzg3eb": {
+          "type": "Category",
+          "settings": {
+            "title": "ESSENTIALS",
+            "subtitle": "SHOP NOW >",
+            "image": "shopify://shop_images/LSRF-essentials-collection-2024-homepage.png",
+            "link": "shopify://collections/mens-cycling-essentials"
+          }
+        },
+        "category_9HFe4j": {
+          "type": "Category",
+          "settings": {
+            "title": "GILETS & JACKETS",
+            "subtitle": "SHOP NOW >",
+            "image": "shopify://shop_images/LSRF-gilets-and-jackets-collection-2024-homepage.png",
+            "link": "shopify://collections/mens-cycling-gilets-and-jackets"
+          }
+        }
+      },
+      "block_order": [
+        "category_rTtcg9",
+        "category_Ptp3M7",
+        "category_Rzg3eb",
+        "category_9HFe4j"
+      ],
+      "settings": {
+        "no_wrap": false
+      }
+    },
+    "blog_posts_xFGYmE": {
+      "type": "blog-posts",
+      "settings": {
+        "title": "OTHER STORIES",
+        "blog": "stories",
+        "post_limit": 6,
+        "blog_show_tags": false,
+        "blog_show_date": true,
+        "blog_show_comments": false,
+        "blog_show_author": false,
+        "view_all": true,
+        "divider": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "categories_MzPGCE",
+    "blog_posts_xFGYmE"
+  ]
+}

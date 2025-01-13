@@ -1,0 +1,191 @@
+<div data-section-id="{{ section.id }}" data-section-type="blog" class="{% if blog.template_suffix == 'template-v2'%} template-v2 {% endif %}" >
+  <div class="blog-template page-width page-content">
+    {% if section.settings.blog_show_breadcrumbs %}
+      {%- render 'breadcrumbs' -%}
+    {% endif %}
+
+    <header class="section-header">
+      <h1 class="section-header__title">
+        {%- if section.settings.blog_show_title -%}
+          {{ blog.title }}
+        {%- endif -%}
+
+        <!-- TAG FILTERS -->
+        {%- if section.settings.blog_show_tag_filter -%}
+          {% if section.settings.set_tags_manually %}
+            {% assign tags = section.settings.manual_tags | split: ',' %}
+            <div class="manual-tags-wrapper">
+              {% for tag in tags %}
+                <a class="blog_tag_filter btn btn--tertiary" href="#{{tag | downcase | handleize | strip}}">
+                  {{ tag | upcase }}
+                </a>
+              {% endfor %}
+            </div>
+
+          {%- elsif blog.tags.size > 0 -%}
+            {% if section.settings.show_tags_dropdown %}
+              <select id="BlogTagFilter">
+                <option value="/blogs/{{ blog.handle }}">All</option>
+                {%- for tag in blog.all_tags -%}
+                  {% if tag contains '_' %}
+                    {%- assign tag_starts_with = tag | slice: 0 -%}
+                    {% if tag_starts_with == '_' -%}
+                      {%- if tag_count %}{%- assign tag_count = tag_count | minus: 1 | at_least: 0 -%}{% endif -%}
+                      {%- continue -%}
+                    {%- endif -%}
+                  {%- endif %}
+                  <option
+                    value="/blogs/{{ blog.handle }}/tagged/{{ tag | handleize }}"
+                    {% if current_tags contains tag %}
+                      selected
+                    {% endif %}
+                  >
+                    {{ tag }}
+                  </option>
+                {%- endfor -%}
+              </select>
+            {% else %}
+              {% for tag in blog.all_tags %}
+                <a class="blog_tag_filter btn btn--tertiary" href="#{{tag.title | downcase | handleize | strip}}">
+                  {{ tag.title | upcase }}
+                </a>
+              {% endfor %}
+            {% endif %}
+          {%- endif -%}
+        {%- endif -%}
+
+        {%- if section.settings.blog_show_rss -%}
+          <a href="{{ shop.url }}{{ blog.url }}.atom" class="rss-link">
+            <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-rss" viewBox="0 0 20 20">
+              <path fill="#444" d="M5.903 16.586a2.489 2.489 0 1 1-4.977 0 2.489 2.489 0 0 1 4.977 0zm7.053 2.489H9.43c0-4.688-3.817-8.505-8.505-8.505V7.044c6.638 0 12.031 5.393 12.031 12.031z"/><path fill="#444" d="M15.445 19.075c0-8.028-6.493-14.52-14.52-14.52V.925c10.019 0 18.15 8.131 18.15 18.15h-3.63z"/>
+            </svg>
+            <span class="icon__fallback-text">RSS</span>
+          </a>
+        {%- endif -%}
+      </h1>
+    </header>
+
+    <!-- BLOG ARTICLES -->
+    {% unless section.settings.hide_articles %}
+      {%- assign is_even_post = false -%}
+      <div class="blog-articles-wrapper">
+        {%- for article in blog.articles -%}
+          {% render 'blog-card', article: article %}
+          {% comment %}Set the next post as an even one{% endcomment %}
+          {%- liquid
+            if is_even_post
+              assign is_even_post = false
+            else
+              assign is_even_post = true
+            endif
+          -%}
+        {%- endfor -%}
+      </div>
+    {% endunless %}
+  </div>
+</div>
+
+<style>
+  .manual-tags-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 26px;
+    min-height: 28px;
+    gap: 8px;
+  }
+  @media screen and (min-width: 768px) {
+    .manual-tags-wrapper {
+      margin-top: 40px;
+      gap: 12px;
+    }
+  }
+  .manual-tags-wrapper .blog-tag_filter {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 20px;
+  }
+  @media screen and (min-width: 768px) {
+    .manual-tags-wrapper .blog-tag_filter {
+      font-size: 14px;
+    }
+  }
+</style>
+
+{% schema %}
+{
+  "name": "t:sections.blog-template.name",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "blog_show_breadcrumbs",
+      "label": "Show breadcrumbs",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "blog_show_title",
+      "label": "Show blog title",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "blog_show_tag_filter",
+      "label": "t:sections.blog-template.settings.blog_show_tag_filter.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "set_tags_manually",
+      "label": "Set tags manually (if not, all tags will be shown)"
+    },
+    {
+      "type": "text",
+      "id": "manual_tags",
+      "label": "Manual tags list",
+      "info": "Comma separated list of tags. Need to match section titles on this page for hyperlinks to work. You can use section 'Title with ID' for this purpose."
+    },
+    {
+      "type": "checkbox",
+      "id": "blog_show_rss",
+      "label": "t:sections.blog-template.settings.blog_show_rss.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "blog_show_tags",
+      "label": "t:sections.blog-template.settings.blog_show_tags.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "blog_show_date",
+      "label": "t:sections.blog-template.settings.blog_show_date.label",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "blog_show_comments",
+      "label": "t:sections.blog-template.settings.blog_show_comments.label",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "blog_show_author",
+      "label": "t:sections.blog-template.settings.blog_show_author.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "hide_article_btn",
+      "label": "Hide article button links",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "hide_articles",
+      "label": "Hide articles",
+      "default": true,
+      "info": "If checked, no articles will be shown. Useful for creating a blog landing page with custom content using 'blog-post-by-tag' section."
+    }
+  ],
+  "disabled_on": {
+    "groups": ["footer", "header", "custom.popups"]
+  }
+}
+{% endschema %}

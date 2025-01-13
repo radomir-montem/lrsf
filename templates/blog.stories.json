@@ -1,0 +1,276 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow_TTUMVj": {
+      "type": "slideshow",
+      "blocks": {
+        "image_q88r6T": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "title": "SHEPHERD",
+            "title_size": 80,
+            "subheading": "MOVIE",
+            "link": "https://youtu.be/dMWCJLXjKy0?si=6dESy5dG4PNyLrYz",
+            "link_text": "► WATCH",
+            "text_align": "vertical-center horizontal-left",
+            "image": "shopify://shop_images/shepherdbanner2.jpg",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_q88r6T"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_height": "650px",
+        "mobile_height": "auto",
+        "parallax": false,
+        "style": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 5,
+        "lazyload_images": true
+      }
+    },
+    "banner_with_logo_TaKR4R": {
+      "type": "banner-with-logo",
+      "disabled": true,
+      "settings": {
+        "logo": "shopify://shop_images/logo-alt-transparent.png",
+        "text": "We try to keep the balance between good fun and hard work. Our passion for storytelling is leading in the projects we take on and the weekly podcasts we record.",
+        "background_color": "#000000",
+        "text_color": "#ffffff"
+      }
+    },
+    "main": {
+      "type": "blog-template",
+      "settings": {
+        "blog_show_breadcrumbs": true,
+        "blog_show_title": false,
+        "blog_show_tag_filter": false,
+        "set_tags_manually": false,
+        "manual_tags": "",
+        "blog_show_rss": false,
+        "blog_show_tags": false,
+        "blog_show_date": true,
+        "blog_show_comments": false,
+        "blog_show_author": false,
+        "hide_article_btn": true,
+        "hide_articles": false
+      }
+    },
+    "blog_post_by_tag_wFLTJT": {
+      "type": "blog-post-by-tag",
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "blog": "live-slow-ride-fast",
+        "selected_tag": "Stories",
+        "post_limit": 8,
+        "blog_show_tags": false,
+        "blog_show_date": true,
+        "blog_show_comments": false,
+        "blog_show_author": false,
+        "view_all": true,
+        "hide_article_btn": true,
+        "divider": false
+      }
+    },
+    "title_with_id_NKkGzM": {
+      "type": "title-with-id",
+      "disabled": true,
+      "settings": {
+        "title": "MOVIES",
+        "half_margin_top": false
+      }
+    },
+    "images_and_text_L9dVAe": {
+      "type": "images-and-text",
+      "disabled": true,
+      "settings": {
+        "bg_color": "#1c1d1d",
+        "full_width": true,
+        "add_second_image": false,
+        "small_height": true,
+        "text_first_desktop": false,
+        "text_first_mobile": false,
+        "text_color": "white",
+        "subtext": "",
+        "title": "UNBOUND REBOUND",
+        "description": "<p>United in gravel, we rode REBOUND. The largest and most-shared gravel event in the world. On June 3rd 2023, a community of almost 300.000 gravel fans rode together more than four million miles - without actually being together.</p>",
+        "image_1": "shopify://shop_images/LSRF-movies-unbound-rebound-2024-live-slow-ride-fast.jpg",
+        "button_text": "► WATCH",
+        "button_url": "https://www.youtube.com/watch?v=vSLcGyN4lmk",
+        "button_inverse": true
+      }
+    },
+    "images_and_text_NAxtnE": {
+      "type": "images-and-text",
+      "disabled": true,
+      "settings": {
+        "bg_color": "#1c1d1d",
+        "full_width": true,
+        "add_second_image": false,
+        "small_height": true,
+        "text_first_desktop": true,
+        "text_first_mobile": false,
+        "text_color": "white",
+        "subtext": "",
+        "title": "CAN DO - WILL DO",
+        "description": "<p>When you want to win, but you can't. And then you no longer know why you actually wanted to win. At least, that was the case before Laurens went through life as a professional adventurer..</p>",
+        "image_1": "shopify://shop_images/LSRF-movies-het-moet-en-het-zal-2024-live-slow-ride-fast.jpg",
+        "button_text": "► WATCH",
+        "button_url": "https://youtu.be/sVqnK077EWc?si=VL3kd77w7aVud4js",
+        "button_inverse": true
+      }
+    },
+    "title_with_id_BD67Gj": {
+      "type": "title-with-id",
+      "disabled": true,
+      "settings": {
+        "title": "PODCASTS",
+        "half_margin_top": false
+      }
+    },
+    "background_image_text_ByMdcz": {
+      "type": "background-image-text",
+      "disabled": true,
+      "settings": {
+        "subtitle": "Podcasts",
+        "title": "Listen to the Live Slow Ride Fast Podcast",
+        "text": "<p>Everything inside and outside the peloton. We cover life both on and off the bike. Live Slow Ride Fast style! These series of podcasts are in <strong>Dutch</strong>. You can find all our English spoken episodes with international guests in our <a href=\"https://podcasts.apple.com/nl/podcast/coastin/id1602154154\" target=\"_blank\" title=\"https://podcasts.apple.com/nl/podcast/coastin/id1602154154\">COASTIN’ </a>podcast feed.</p>",
+        "button_label": "LISTEN NOW",
+        "button_link": "https://podcasts.apple.com/nl/podcast/live-slow-ride-fast-podcast/id1338514797",
+        "image": "shopify://shop_images/LSRF-podcasts-image-2024-live-slow-ride-fast.jpg",
+        "layout": "left",
+        "height": 550,
+        "parallax": true,
+        "parallax_direction": "top",
+        "lazyload_images": true
+      }
+    },
+    "featured_collection_XRU8rC": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "ACCESORIES",
+        "home_featured_products": "mens-cycling-accessories",
+        "per_row": 4,
+        "rows": 1,
+        "view_all": true,
+        "divider": false
+      }
+    },
+    "title_with_id_WCyKeq": {
+      "type": "title-with-id",
+      "settings": {
+        "title": "PHOTOS",
+        "half_margin_top": false
+      }
+    },
+    "images_grid_4W7gAp": {
+      "type": "images-grid",
+      "blocks": {
+        "image_tzxyBm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/fotomvdp.jpg",
+            "double_height": false
+          }
+        },
+        "image_mPJwK4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/vlaanderenfoto3.jpg",
+            "double_height": false
+          }
+        },
+        "image_drcX8J": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/hazyipatourfoto.jpg",
+            "double_height": false
+          }
+        },
+        "image_X37re8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/image_43.png",
+            "double_height": false
+          }
+        },
+        "image_MmkyXm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/vlaanderenfoto4.jpg",
+            "double_height": false
+          }
+        },
+        "image_XXkE7G": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/fotomuseeuw.jpg",
+            "double_height": false
+          }
+        },
+        "image_iHzwfx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/vlaanderenfoto1.jpg",
+            "double_height": false
+          }
+        },
+        "image_JbjMQ3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/image_49.png",
+            "double_height": false
+          }
+        },
+        "image_EQLXnF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/vlaanderenfoto2.jpg",
+            "double_height": false
+          }
+        }
+      },
+      "block_order": [
+        "image_tzxyBm",
+        "image_mPJwK4",
+        "image_drcX8J",
+        "image_X37re8",
+        "image_MmkyXm",
+        "image_XXkE7G",
+        "image_iHzwfx",
+        "image_JbjMQ3",
+        "image_EQLXnF"
+      ],
+      "settings": {}
+    }
+  },
+  "order": [
+    "slideshow_TTUMVj",
+    "banner_with_logo_TaKR4R",
+    "main",
+    "blog_post_by_tag_wFLTJT",
+    "title_with_id_NKkGzM",
+    "images_and_text_L9dVAe",
+    "images_and_text_NAxtnE",
+    "title_with_id_BD67Gj",
+    "background_image_text_ByMdcz",
+    "featured_collection_XRU8rC",
+    "title_with_id_WCyKeq",
+    "images_grid_4W7gAp"
+  ]
+}

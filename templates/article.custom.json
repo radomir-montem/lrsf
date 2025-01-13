@@ -1,0 +1,449 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow_8gV9r6": {
+      "type": "slideshow",
+      "blocks": {
+        "image_eRqQ3X": {
+          "type": "image",
+          "settings": {
+            "title": "LOREM IPSUM",
+            "title_size": 64,
+            "subheading": "",
+            "link": "shopify://collections/mens-cycling-gilets-and-jackets",
+            "link_text": "SHOP JACKETS",
+            "link2": "shopify://collections/mens-collection",
+            "link_text2": "SHOP ALL MEN",
+            "text_align": "vertical-bottom horizontal-left",
+            "image": "shopify://shop_images/Rectangle_2_56911097-e1c0-4c13-b963-5b80a4062594.png",
+            "image_mobile": "shopify://shop_images/Rectangle_2_1.png",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        },
+        "image_6i4D7C": {
+          "type": "image",
+          "settings": {
+            "title": "LOREM IPSUM",
+            "title_size": 64,
+            "subheading": "",
+            "link": "shopify://collections/mens-cycling-gilets-and-jackets",
+            "link_text": "SHOP JACKETS",
+            "link2": "shopify://collections/mens-collection",
+            "link_text2": "SHOP ALL MEN",
+            "text_align": "vertical-bottom horizontal-left",
+            "image": "shopify://shop_images/Rectangle_2_56911097-e1c0-4c13-b963-5b80a4062594.png",
+            "image_mobile": "shopify://shop_images/Rectangle_2_1.png",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        },
+        "image_LEg9Ri": {
+          "type": "image",
+          "settings": {
+            "title": "LOREM IPSUM",
+            "title_size": 64,
+            "subheading": "",
+            "link": "shopify://collections/mens-cycling-gilets-and-jackets",
+            "link_text": "SHOP JACKETS",
+            "link2": "shopify://collections/mens-collection",
+            "link_text2": "SHOP ALL MEN",
+            "text_align": "vertical-bottom horizontal-left",
+            "image": "shopify://shop_images/Rectangle_2_56911097-e1c0-4c13-b963-5b80a4062594.png",
+            "image_mobile": "shopify://shop_images/Rectangle_2_1.png",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_eRqQ3X",
+        "image_6i4D7C",
+        "image_LEg9Ri"
+      ],
+      "settings": {
+        "section_height": "100vh",
+        "mobile_height": "auto",
+        "parallax": false,
+        "style": "dots",
+        "autoplay": true,
+        "autoplay_speed": 5,
+        "lazyload_images": true
+      }
+    },
+    "custom_article_yyXm3f": {
+      "type": "custom-article",
+      "settings": {
+        "padding_top": 60,
+        "padding_bottom": 60,
+        "padding_top_mobile": 30,
+        "padding_bottom_mobile": 30
+      }
+    },
+    "hero_video_dbBeW8": {
+      "type": "hero-video",
+      "settings": {
+        "title": "",
+        "title_size": 80,
+        "text_color": "#ffffff",
+        "subheading": "",
+        "btn_hover_color": "white",
+        "link_text": "WATCH",
+        "link": "https://youtu.be/dMWCJLXjKy0",
+        "link_text_2": "",
+        "link_2": "",
+        "text_align": "vertical-center horizontal-center",
+        "video_url": "",
+        "image": "shopify://shop_images/Rectangle_58.png",
+        "overlay_opacity": 0,
+        "section_height": "650px",
+        "mobile_height": "300px",
+        "full_width": false
+      }
+    },
+    "text_block_693aUD": {
+      "type": "text-block",
+      "blocks": {
+        "rich_text_n7ARmT": {
+          "type": "rich_text",
+          "settings": {
+            "subheading": "",
+            "heading": "",
+            "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim. Lorem ipsum dolor sit amet, consectetur adipiscing elit, Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim. Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "rich_text_n7ARmT"
+      ],
+      "settings": {
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_top_mobile": 30,
+        "padding_bottom_mobile": 30
+      }
+    },
+    "images_grid_6hV9WN": {
+      "type": "images-grid",
+      "blocks": {
+        "image_gLQe3a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/image-grid-1.png",
+            "double_height": false
+          }
+        },
+        "image_GTLaqc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/image-grid-2.png",
+            "double_height": false
+          }
+        },
+        "image_XjDYTb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/image-grid-3.png",
+            "double_height": true
+          }
+        },
+        "image_BWAnAP": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/image-grid4.png",
+            "double_height": true
+          }
+        },
+        "image_3eEb8F": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/image-grid5.png",
+            "double_height": false
+          }
+        },
+        "image_mxiwU3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/image-grid6.png",
+            "double_height": false
+          }
+        },
+        "image_P3xUDU": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/image-grid6.png",
+            "double_height": false
+          }
+        }
+      },
+      "block_order": [
+        "image_gLQe3a",
+        "image_GTLaqc",
+        "image_XjDYTb",
+        "image_BWAnAP",
+        "image_3eEb8F",
+        "image_mxiwU3",
+        "image_P3xUDU"
+      ],
+      "settings": {}
+    },
+    "text_block_chJ4mM": {
+      "type": "text-block",
+      "blocks": {
+        "rich_text_pTwPtN": {
+          "type": "rich_text",
+          "settings": {
+            "subheading": "",
+            "heading": "",
+            "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "rich_text_pTwPtN"
+      ],
+      "settings": {
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_top_mobile": 30,
+        "padding_bottom_mobile": 30
+      }
+    },
+    "hero_video_KNhNJV": {
+      "type": "hero-video",
+      "settings": {
+        "title": "",
+        "title_size": 80,
+        "text_color": "#ffffff",
+        "subheading": "",
+        "btn_hover_color": "white",
+        "link_text": "WATCH",
+        "link": "https://youtu.be/dMWCJLXjKy0",
+        "link_text_2": "",
+        "link_2": "",
+        "text_align": "vertical-center horizontal-center",
+        "video_url": "",
+        "image": "shopify://shop_images/video-back.png",
+        "overlay_opacity": 0,
+        "section_height": "650px",
+        "mobile_height": "300px",
+        "full_width": false
+      }
+    },
+    "text_block_ag3LGa": {
+      "type": "text-block",
+      "blocks": {
+        "rich_text_RVU4Td": {
+          "type": "rich_text",
+          "settings": {
+            "subheading": "",
+            "heading": "",
+            "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim. Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>"
+          }
+        }
+      },
+      "block_order": [
+        "rich_text_RVU4Td"
+      ],
+      "settings": {
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_top_mobile": 30,
+        "padding_bottom_mobile": 30
+      }
+    },
+    "featured_collection_switcher_rVXdpr": {
+      "type": "featured-collection-switcher",
+      "settings": {
+        "title": "BEST SELLERS",
+        "hide_title": true,
+        "collection1": "cycling-clothing",
+        "collection2": "mens-cycling-gilets-and-jackets",
+        "per_row": 4,
+        "view_all": true,
+        "divider": false
+      }
+    },
+    "logo_grid_di3dKX": {
+      "type": "logo-grid",
+      "blocks": {
+        "icon_XpdkwF": {
+          "type": "icon",
+          "settings": {
+            "image": "shopify://shop_images/logo1.png"
+          }
+        },
+        "icon_NLgQbD": {
+          "type": "icon",
+          "settings": {
+            "image": "shopify://shop_images/logo2.png"
+          }
+        },
+        "icon_qqbrtL": {
+          "type": "icon",
+          "settings": {
+            "image": "shopify://shop_images/logo3.png"
+          }
+        },
+        "icon_bWajjV": {
+          "type": "icon",
+          "settings": {
+            "image": "shopify://shop_images/logo4.png"
+          }
+        },
+        "icon_zBpLzr": {
+          "type": "icon",
+          "settings": {
+            "image": "shopify://shop_images/logo5.png"
+          }
+        },
+        "icon_cAjLEW": {
+          "type": "icon",
+          "settings": {
+            "image": "shopify://shop_images/logo6.png"
+          }
+        },
+        "icon_rWQxD8": {
+          "type": "icon",
+          "settings": {
+            "image": "shopify://shop_images/logo7.png"
+          }
+        },
+        "icon_RVa6Jz": {
+          "type": "icon",
+          "settings": {
+            "image": "shopify://shop_images/logo8.png"
+          }
+        },
+        "icon_68fVcP": {
+          "type": "icon",
+          "settings": {
+            "image": "shopify://shop_images/logo9.png"
+          }
+        },
+        "icon_yXr4Hb": {
+          "type": "icon",
+          "settings": {
+            "image": "shopify://shop_images/logo10.png"
+          }
+        },
+        "icon_BgQPVD": {
+          "type": "icon",
+          "settings": {
+            "image": "shopify://shop_images/logo11.png"
+          }
+        },
+        "icon_yWcD4C": {
+          "type": "icon",
+          "settings": {
+            "image": "shopify://shop_images/logo12.png"
+          }
+        },
+        "icon_GzA4U6": {
+          "type": "icon",
+          "settings": {
+            "image": "shopify://shop_images/logo13.png"
+          }
+        },
+        "icon_BDzNaX": {
+          "type": "icon",
+          "settings": {
+            "image": "shopify://shop_images/logo14.png"
+          }
+        },
+        "icon_6gnDrG": {
+          "type": "icon",
+          "settings": {
+            "image": "shopify://shop_images/logo15.png"
+          }
+        },
+        "icon_J93AzF": {
+          "type": "icon",
+          "settings": {
+            "image": "shopify://shop_images/logo16.png"
+          }
+        }
+      },
+      "block_order": [
+        "icon_XpdkwF",
+        "icon_NLgQbD",
+        "icon_qqbrtL",
+        "icon_bWajjV",
+        "icon_zBpLzr",
+        "icon_cAjLEW",
+        "icon_rWQxD8",
+        "icon_RVa6Jz",
+        "icon_68fVcP",
+        "icon_yXr4Hb",
+        "icon_BgQPVD",
+        "icon_yWcD4C",
+        "icon_GzA4U6",
+        "icon_BDzNaX",
+        "icon_6gnDrG",
+        "icon_J93AzF"
+      ],
+      "settings": {
+        "heading": "PARTNERS",
+        "padding_top": 0,
+        "padding_bottom": 100,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 50
+      }
+    },
+    "images_and_text_C3H87F": {
+      "type": "images-and-text",
+      "settings": {
+        "bg_color": "#f8b258",
+        "full_width": true,
+        "add_second_image": false,
+        "small_height": false,
+        "text_first_desktop": false,
+        "text_first_mobile": false,
+        "text_color": "#1B2831",
+        "subtext": "ATHLETE FEATURE",
+        "title": "WHO WE ARE",
+        "description": "<p>My Saturday morning group ride would always leave the Santa Cruz Harbor at 8 am sharp. The group of 80 cyclists took on East Cliff Drive, where they would pass the house of the Santa Cruz legend, Jack O’Neill. Although it was still quite early, the ocean would be full of people on surf boards. We would race up Hazel Dell road, and when I say race, I mean race. When I felt strong, I would tackle Eureka Canyon. After a stop for snacks or sandwiches at Summit Store, I would head back to Santa Cruz. At the end of my ride I cruised on West Cliff Drive, trying to spot dolphins in the ocean. After every training, I would stop for a few minutes at the Santa Cruz Lighthouse, to watch the line-up at Steamers Lane. Then I would head home to Twin Lakes beach after a good day of training.</p>",
+        "image_1": "shopify://shop_images/who_we_are.png",
+        "button_text": "READ MORE",
+        "button_url": "#",
+        "button_inverse": false
+      }
+    },
+    "blog_posts_4iCDQn": {
+      "type": "blog-posts",
+      "settings": {
+        "title": "LOREM IPSUM DOLOR SIT",
+        "blog": "stories",
+        "post_limit": 4,
+        "blog_show_tags": false,
+        "blog_show_date": false,
+        "blog_show_comments": false,
+        "blog_show_author": false,
+        "view_all": true,
+        "divider": false
+      }
+    }
+  },
+  "order": [
+    "slideshow_8gV9r6",
+    "custom_article_yyXm3f",
+    "hero_video_dbBeW8",
+    "text_block_693aUD",
+    "images_grid_6hV9WN",
+    "text_block_chJ4mM",
+    "hero_video_KNhNJV",
+    "text_block_ag3LGa",
+    "featured_collection_switcher_rVXdpr",
+    "logo_grid_di3dKX",
+    "images_and_text_C3H87F",
+    "blog_posts_4iCDQn"
+  ]
+}
