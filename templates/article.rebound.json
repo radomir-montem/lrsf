@@ -288,7 +288,7 @@
           "settings": {
             "subheading": "",
             "heading": "ROAD TO REBOUND",
-            "description": "<p>Not everybody can digest 200 miles like that, you need to start training for a distance like this. Just like our four candidates did this year. Together with JOIN Cycling, they started their training routine three months earlier. In four episodes of the series 'The Long Way Home' we follow each of these warriors as they get ready for D-Day. Will Polly, Jarle, Sophia and Willie succeed at completing the enormous distance of 200 miles? </p>"
+            "description": "<p>Not everybody can digest 200 miles like that, you need to start training for a distance like this. Just like our four candidates did in 2024. Together with JOIN Cycling, they started their training routine three months earlier. In four episodes of the series 'The Long Way Home' we follow each of these warriors as they get ready for D-Day. Will Polly, Jarle, Sophia and Willie succeed at completing the enormous distance of 200 miles? </p>"
           }
         }
       },
@@ -503,6 +503,7 @@
         "small_height": false,
         "text_first_desktop": false,
         "text_first_mobile": false,
+        "space_between": false,
         "text_color": "#1B2831",
         "subtext": "Who we are",
         "title": "LSRF",
