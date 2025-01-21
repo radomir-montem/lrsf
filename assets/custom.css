@@ -442,6 +442,11 @@ button.color-swatch.disabled::after {
   text-align: left;
   font-family: Trade Gothic LT STD, sans-serif;
 }
+.blog-articles-wrapper .article__h3.h4 {
+  font-size: 28px;
+  line-height: 0.8;
+  margin-top: 13px;
+}
 @media screen and (max-width: 768px) {
   .blog-articles-wrapper .article__h3 {
     margin-top: 11px;
@@ -449,6 +454,12 @@ button.color-swatch.disabled::after {
     font-size: 20px;
     font-weight: 700;
     line-height: 23.7px;
+  }
+
+  .blog-articles-wrapper .article__h3.h4 {
+    font-size: 14px;
+    margin-bottom: 10px;
+    margin-top: 3x;
   }
 }
 .blog-articles-wrapper .article__date {

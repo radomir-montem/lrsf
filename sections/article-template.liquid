@@ -28,6 +28,11 @@
       </div>
     {% endif %}
     <h1 class="section-header__title">{{ article.title }}</h1>
+    {% if article.metafields.custom.subtitle != blank %}
+      <h3 class="section-header__title">
+        {{ article.metafields.custom.subtitle }}
+      </h3>
+      {% endif %}
     {% if section.settings.blog_show_author %}
       <div class="article__author">by {{ article.author }}</div>
     {% endif %}

@@ -29,6 +29,11 @@
       <h2 class="h3 article__h3">
         <a href="{{ article.url }}">{{ article.title }}</a>
       </h2>
+      {% if article.metafields.custom.subtitle != blank %}
+      <h4 class="h4 article__h3">
+        {{ article.metafields.custom.subtitle }}
+      </h4>
+      {% endif %}
       <div class="article__date">
         {%- assign first_item = true -%}
         {%- if section.settings.blog_show_tags and article.tags.size > 0 -%}
