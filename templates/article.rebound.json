@@ -23,8 +23,8 @@
             "link2": "",
             "link_text2": "",
             "text_align": "vertical-bottom horizontal-left",
-            "image": "shopify://shop_images/reboundofficalhero.jpg",
-            "image_mobile": "shopify://shop_images/reboundofficalhero.jpg",
+            "image": "shopify://shop_images/Hero_Banner_Mobile_Shimano_Bike_1440x720px_1.jpg",
+            "image_mobile": "shopify://shop_images/Hero_Banner_Mobile_Shimano_Bike_1440x720px_1.jpg",
             "parallax_direction": "top",
             "overlay_opacity": 0
           }
@@ -232,7 +232,7 @@
           "settings": {
             "subheading": "",
             "heading": "RULES",
-            "description": "<p>To have all the noses pointed in the same direction and really get that 'we are in this together' vibe going, there are only a few rules. The event takes place on the same day as UNBOUND, worldwide. Starting time is 06.00 am. Every cyclist is admitted. Create your own 200 mile route or use an existing route, but make sure to put in as much gravel as possible. Two rest-stops are allowed to fuel up and to get snacks and supplies. And last but not least: an after-party, big or small, is mandatory. <br/>In order to make this event transparent and inspirational for everybody, we invite our participants to join our REBOUND STRAVA Challenge. Routes and distances will then be uploaded and counted in. Bonus: you get a chance at winning some amazing prizes, like a VIP day at the Tour de France!</p>"
+            "description": "<p>To have all the noses pointed in the same direction and really get that 'we are in this together' vibe going, there are only a few rules. The event takes place on the same day as UNBOUND, worldwide. Starting time is 06.00 am. Every cyclist is admitted. Create your own 15-, 25-, 50-, 100- or, the OG event distance: 200 mile route, and make sure to put in as much gravel as possible. Two rest-stops are allowed to fuel up and to get snacks and supplies. And last but not least: an after-party, big or small, is mandatory. <br/>In order to make this event transparent and inspirational for everybody, we invite our participants to join our REBOUND STRAVA Challenge. Routes and distances will then be uploaded and counted in. Bonus: you get a chance at winning some amazing prizes, like a VIP day at the Tour de France!</p>"
           }
         }
       },
@@ -288,7 +288,7 @@
           "settings": {
             "subheading": "",
             "heading": "ROAD TO REBOUND",
-            "description": "<p>Not everybody can digest 200 miles like that, you need to start training for a distance like this. Just like our four candidates did this year. Together with JOIN Cycling, they started their training routine three months earlier. In four episodes of the series 'The Long Way Home' we follow each of these warriors as they get ready for D-Day. Will Polly, Jarle, Sophia and Willie succeed at completing the enormous distance of 200 miles? </p>"
+            "description": "<p>Not everybody can digest 200 miles like that, you need to start training for a distance like this. Just like our four candidates did in 2024. Together with JOIN Cycling, they started their training routine three months earlier. In four episodes of the series 'The Long Way Home' we follow each of these warriors as they get ready for D-Day. Will Polly, Jarle, Sophia and Willie succeed at completing the enormous distance of 200 miles? </p>"
           }
         }
       },
@@ -330,7 +330,7 @@
           "settings": {
             "subheading": "",
             "heading": "JOIN US",
-            "description": "<p>Let's make the 2025 edition our biggest one yet. Follow us on social media and get yourself subscribed to the REBOUND newsletter on the website. Mark the beginning of June in your agenda and enjoy the rest of the year on your bike. We will see each other next year!</p>"
+            "description": "<p>Let's make the 2025 edition our biggest one yet. Everybody is welcome and invited to join the party. Let's reach 5.000.000 miles worldwide and cover every continent by bike. Follow us on social media and get yourself subscribed to the REBOUND newsletter on the website. Mark the 31st of May in your agenda and start training!</p>"
           }
         }
       },
@@ -347,7 +347,7 @@
     "button_C6angp": {
       "type": "button",
       "settings": {
-        "button_text": "SUBSCRIBE ON REBOUND.CC",
+        "button_text": "SUBSCRIBE HERE",
         "button_link": "https://www.rebound.cc",
         "button_style": "btn",
         "padding_top": 50,
@@ -503,6 +503,7 @@
         "small_height": false,
         "text_first_desktop": false,
         "text_first_mobile": false,
+        "space_between": false,
         "text_color": "#1B2831",
         "subtext": "Who we are",
         "title": "LSRF",
