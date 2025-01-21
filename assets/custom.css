@@ -443,9 +443,10 @@ button.color-swatch.disabled::after {
   font-family: Trade Gothic LT STD, sans-serif;
 }
 .blog-articles-wrapper .article__h3.h4 {
-  font-size: 28px;
+  font-size: 20px;
   line-height: 0.8;
-  margin-top: 13px;
+  margin-top: 8px;
+  margin-bottom: 20px;
 }
 @media screen and (max-width: 768px) {
   .blog-articles-wrapper .article__h3 {
