@@ -249,7 +249,7 @@
     "button_mhmxem": {
       "type": "button",
       "settings": {
-        "button_text": "SUBSCRIBE HERE",
+        "button_text": "SUBSCRIBE NOW",
         "button_link": "https://www.rebound.cc",
         "button_style": "btn",
         "padding_top": 50,
