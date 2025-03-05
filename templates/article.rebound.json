@@ -232,7 +232,7 @@
           "settings": {
             "subheading": "",
             "heading": "RULES",
-            "description": "<p>To have all the noses pointed in the same direction and really get that 'we are in this together' vibe going, there are only a few rules. REBOUND takes place on the same day as UNBOUND, worldwide. For 2025, it is going to be <strong>Saturday May 31</strong>! <br/><br/>- Starting time is 06.00 am. <br/>- Every cyclist is admitted. <br/>- Create your own 15-, 25-, 50-, 100- or, the OG event distance: 200 mile route, and make sure to put in as much gravel as possible. <br/>- Two rest-stops are allowed to fuel up and to get snacks and supplies.<br/>- And last but not least: an after-party, big or small, is mandatory. <br/><br/>In order to make this event transparent and inspirational for everybody, we invite our participants not only to register for free but also to join our REBOUND STRAVA Challenge. Routes and distances will then be uploaded and counted in. Bonus: you get a chance at winning some amazing prizes, like a VIP day at the Tour de France!</p>"
+            "description": "<p>To have all the noses pointed in the same direction and really get that 'we are in this together' vibe going, there are only a few rules. REBOUND takes place on the same day as UNBOUND, worldwide. For 2025, it is going to be <strong>Saturday May 31</strong>! <br/><br/>- Starting time is 06.00 am. <br/>- Every cyclist is admitted. <br/>- Create your own 15-, 25-, 50-, 100- or, the OG event distance: 200 mile route, and make sure to put in as much gravel as possible. <br/>- Two rest-stops are allowed to fuel up and to get snacks and supplies. The rest you carry with you on the bike.<br/>- And last but not least: an after-party, big or small, is mandatory :)<br/><br/>In order to make this event transparent and inspirational for everybody, we invite our participants not only to register for free at rebound.cc but also to join our REBOUND STRAVA Challenge. Routes and distances will then be uploaded and counted in. Bonus: you get a chance at winning some amazing prizes, like a VIP day at the Tour de France!</p>"
           }
         }
       },
@@ -345,6 +345,18 @@
       }
     },
     "button_C6angp": {
+      "type": "button",
+      "settings": {
+        "button_text": "SUBSCRIBE HERE",
+        "button_link": "https://www.rebound.cc",
+        "button_style": "btn",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_top_mobile": 50,
+        "padding_bottom_mobile": 50
+      }
+    },
+    "button_mhmxem": {
       "type": "button",
       "settings": {
         "button_text": "SUBSCRIBE HERE",
@@ -537,6 +549,7 @@
     "text_block_693aUD",
     "images_grid_6hV9WN",
     "text_block_chJ4mM",
+    "button_mhmxem",
     "slideshow_Pb7Ry4",
     "text_block_ag3LGa",
     "hero_video_KNhNJV",
