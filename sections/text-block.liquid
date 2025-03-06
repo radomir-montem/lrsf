@@ -42,7 +42,11 @@
                 <h4 class="text-block__subheading">{{ subheading }}</h4>
             {% endif %}
             {% if heading != blank %}
-                <h2 class="text-block__heading">{{ heading }}</h2>
+                {% if template == 'article' %}
+                    <h1 class="text-block__heading">{{ heading }}</h1>
+                {% else %}
+                    <h2 class="text-block__heading">{{ heading }}</h2>
+                {% endif %}
             {% endif %}
             {% if description != blank %}
                 <div class="text-block__description">{{ description }}</div>
