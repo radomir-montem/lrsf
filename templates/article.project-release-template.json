@@ -225,6 +225,62 @@
         "padding_bottom_mobile": 30
       }
     },
+    "slideshow_YtDkdm": {
+      "type": "slideshow",
+      "blocks": {
+        "image_fhwFTb": {
+          "type": "image",
+          "settings": {
+            "title": "",
+            "title_size": 80,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link2": "",
+            "link_text2": "",
+            "text_align": "vertical-bottom horizontal-left",
+            "image": "shopify://shop_images/bombatour5.jpg",
+            "image_mobile": "shopify://shop_images/bombatour5.jpg",
+            "parallax_direction": "left",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_fhwFTb"
+      ],
+      "settings": {
+        "section_height": "650px",
+        "mobile_height": "auto",
+        "parallax": false,
+        "style": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 5,
+        "lazyload_images": true
+      }
+    },
+    "text_block_y7erAj": {
+      "type": "text-block",
+      "blocks": {
+        "rich_text_ej7HcH": {
+          "type": "rich_text",
+          "settings": {
+            "subheading": "",
+            "heading": "THE BOMBA TOUR",
+            "description": "<p>In 2020, when the the whole world suffered under covid-19,<br/>2021 vast in fryslan, bomba tour 2</p>"
+          }
+        }
+      },
+      "block_order": [
+        "rich_text_ej7HcH"
+      ],
+      "settings": {
+        "padding_top": 30,
+        "padding_bottom": 30,
+        "padding_top_mobile": 30,
+        "padding_bottom_mobile": 30
+      }
+    },
     "featured_collection_switcher_rVXdpr": {
       "type": "featured-collection-switcher",
       "settings": {
@@ -408,6 +464,8 @@
     "text_block_chJ4mM",
     "hero_video_KNhNJV",
     "text_block_ag3LGa",
+    "slideshow_YtDkdm",
+    "text_block_y7erAj",
     "featured_collection_switcher_rVXdpr",
     "logo_grid_di3dKX",
     "images_and_text_C3H87F",
