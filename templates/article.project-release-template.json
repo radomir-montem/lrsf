@@ -146,18 +146,6 @@
         "lazyload_images": true
       }
     },
-    "button_pgARdR": {
-      "type": "button",
-      "settings": {
-        "button_text": "GET TICKETS",
-        "button_link": "https://www.eventbrite.nl/e/lsrf-bomba-tour-ieper-tickets-1277936826449?aff=ebdsshcopyurl&utm-campaign=social&utm-content=attendeeshare&utm-medium=discovery&utm-term=",
-        "button_style": "btn",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "padding_top_mobile": 50,
-        "padding_bottom_mobile": 50
-      }
-    },
     "text_block_chJ4mM": {
       "type": "text-block",
       "blocks": {
@@ -335,6 +323,18 @@
         "padding_bottom": 30,
         "padding_top_mobile": 30,
         "padding_bottom_mobile": 30
+      }
+    },
+    "button_pgARdR": {
+      "type": "button",
+      "settings": {
+        "button_text": "GET TICKETS",
+        "button_link": "https://www.eventbrite.nl/e/lsrf-bomba-tour-ieper-tickets-1277936826449?aff=ebdsshcopyurl&utm-campaign=social&utm-content=attendeeshare&utm-medium=discovery&utm-term=",
+        "button_style": "btn",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_top_mobile": 50,
+        "padding_bottom_mobile": 50
       }
     },
     "featured_collection_switcher_rVXdpr": {
@@ -516,7 +516,6 @@
     "custom_article_yyXm3f",
     "hero_video_dbBeW8",
     "slideshow_HAAWjk",
-    "button_pgARdR",
     "text_block_chJ4mM",
     "hero_video_KNhNJV",
     "text_block_ag3LGa",
@@ -524,6 +523,7 @@
     "text_block_y7erAj",
     "slideshow_YtDkdm",
     "text_block_rHHYee",
+    "button_pgARdR",
     "featured_collection_switcher_rVXdpr",
     "logo_grid_di3dKX",
     "images_and_text_C3H87F",
