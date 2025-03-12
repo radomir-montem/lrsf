@@ -225,6 +225,62 @@
         "padding_bottom_mobile": 30
       }
     },
+    "slideshow_ygUeMG": {
+      "type": "slideshow",
+      "blocks": {
+        "image_QQMQAc": {
+          "type": "image",
+          "settings": {
+            "title": "",
+            "title_size": 80,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link2": "",
+            "link_text2": "",
+            "text_align": "vertical-bottom horizontal-left",
+            "image": "shopify://shop_images/bombatour5.jpg",
+            "image_mobile": "shopify://shop_images/bombatour5.jpg",
+            "parallax_direction": "left",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_QQMQAc"
+      ],
+      "settings": {
+        "section_height": "650px",
+        "mobile_height": "auto",
+        "parallax": false,
+        "style": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 5,
+        "lazyload_images": true
+      }
+    },
+    "text_block_y7erAj": {
+      "type": "text-block",
+      "blocks": {
+        "rich_text_ej7HcH": {
+          "type": "rich_text",
+          "settings": {
+            "subheading": "",
+            "heading": "THE BOMBA TOUR",
+            "description": "<p>At one point, the Bomba Tour was created, which was basically yet another excuse for Lau and Stefan to go on a little cycling adventure and to check out the local moonshining business. That Bomba needed to be filled, right? Little did they know, there first official BOMBA trip got cancelled halfway, due to sudden Covid-19 restrictions. A year later, in April 2021, they decided to pick up the idea again. Let's say there was some unfinished bussiness. Do check out the movie of that trip - BOMBA TOUR 2 | Vast in Fryslan: it’s linked <a href=\"https://youtu.be/7wHh9BcGS0M?si=9Gptci9_1Y-NwjyM\" target=\"_blank\">here</a>. </p><p>Many years had passed since that last trip. End of 2024, we decided to renew the original idea and make it a social gathering. Not just two gravel enthusiasts having an adventure, but a whole group of people enjoying a ride and a drink. A new concept, but with one thing in common: discovering new regions and enjoying some local moonshine.</p><p></p>"
+          }
+        }
+      },
+      "block_order": [
+        "rich_text_ej7HcH"
+      ],
+      "settings": {
+        "padding_top": 30,
+        "padding_bottom": 30,
+        "padding_top_mobile": 30,
+        "padding_bottom_mobile": 30
+      }
+    },
     "slideshow_YtDkdm": {
       "type": "slideshow",
       "blocks": {
@@ -259,20 +315,20 @@
         "lazyload_images": true
       }
     },
-    "text_block_y7erAj": {
+    "text_block_rHHYee": {
       "type": "text-block",
       "blocks": {
-        "rich_text_ej7HcH": {
+        "rich_text_9kRxcJ": {
           "type": "rich_text",
           "settings": {
             "subheading": "",
-            "heading": "THE BOMBA TOUR",
-            "description": "<p>At one point, the Bomba Tour was created, which was basically yet another excuse for Lau and Stefan to go on a little cycling adventure and to check out the local moonshining business. That Bomba needed to be filled, right? Little did they know, there first official BOMBA trip got cancelled halfway, due to sudden Covid-19 restrictions. A year later, in April 2021, they decided to pick up the idea again. Let's say there was some unfinished bussiness. Do check out the movie of that trip - BOMBA TOUR 2 | Vast in Fryslan: it’s linked <a href=\"https://youtu.be/7wHh9BcGS0M?si=9Gptci9_1Y-NwjyM\" target=\"_blank\">here</a>. </p><p>Many years had passed since that last trip. End of 2024, we decided to renew the original idea and make it a social gathering. Not just two gravel enthusiasts having an adventure, but a whole group of people enjoying a ride and a drink. A new concept, but with one thing in common: discovering new regions and enjoying some local moonshine.</p><p></p>"
+            "heading": "LSRF BOMBA TOUR IEPER",
+            "description": "<p>In fall 2024, we organized the first BOMBA TOUR in Zwolle. It was a big success and we cannot wait for the next event. <br/><br/>This spring of 2025, the BOMBA TOUR will be crossing the border to visit our Belgian friends in the city of Ieper. <br/>What to expect?</p><ul><li>welcome at Biking Bar Ieper with a drink</li><li>Social group ride on gravel or road (the choice is yours)</li><li>shot of local moonshine halfway</li><li>fresh burgers and bites from the grill</li><li> LSRF cycling clothing stand with the first drop of the new SS25 collection and some amazing archive deals</li><li>live podcast with Laurens and Stefan and special guests</li></ul><p>Don't miss out on this event on Saturday March 29 from 12:00 - 18:00. <br/>Get your tickets now, for only €17,50</p>"
           }
         }
       },
       "block_order": [
-        "rich_text_ej7HcH"
+        "rich_text_9kRxcJ"
       ],
       "settings": {
         "padding_top": 30,
@@ -464,8 +520,10 @@
     "text_block_chJ4mM",
     "hero_video_KNhNJV",
     "text_block_ag3LGa",
-    "slideshow_YtDkdm",
+    "slideshow_ygUeMG",
     "text_block_y7erAj",
+    "slideshow_YtDkdm",
+    "text_block_rHHYee",
     "featured_collection_switcher_rVXdpr",
     "logo_grid_di3dKX",
     "images_and_text_C3H87F",
