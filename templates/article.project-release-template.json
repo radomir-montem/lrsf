@@ -90,18 +90,6 @@
         "padding_bottom_mobile": 30
       }
     },
-    "button_pgARdR": {
-      "type": "button",
-      "settings": {
-        "button_text": "GET TICKETS",
-        "button_link": "https://www.eventbrite.nl/e/lsrf-bomba-tour-ieper-tickets-1277936826449?aff=ebdsshcopyurl&utm-campaign=social&utm-content=attendeeshare&utm-medium=discovery&utm-term=",
-        "button_style": "btn",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "padding_top_mobile": 50,
-        "padding_bottom_mobile": 50
-      }
-    },
     "hero_video_dbBeW8": {
       "type": "hero-video",
       "disabled": true,
@@ -138,8 +126,8 @@
             "link2": "",
             "link_text2": "",
             "text_align": "vertical-bottom horizontal-left",
-            "image": "shopify://shop_images/LSRF-banner-cleon-aw24-25.jpg",
-            "image_mobile": "shopify://shop_images/LSRF-banner-cleon-aw24-25.jpg",
+            "image": "shopify://shop_images/bombatour5.jpg",
+            "image_mobile": "shopify://shop_images/bombatour5.jpg",
             "parallax_direction": "left",
             "overlay_opacity": 0
           }
@@ -156,6 +144,18 @@
         "autoplay": true,
         "autoplay_speed": 5,
         "lazyload_images": true
+      }
+    },
+    "button_pgARdR": {
+      "type": "button",
+      "settings": {
+        "button_text": "GET TICKETS",
+        "button_link": "https://www.eventbrite.nl/e/lsrf-bomba-tour-ieper-tickets-1277936826449?aff=ebdsshcopyurl&utm-campaign=social&utm-content=attendeeshare&utm-medium=discovery&utm-term=",
+        "button_style": "btn",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_top_mobile": 50,
+        "padding_bottom_mobile": 50
       }
     },
     "text_block_chJ4mM": {
@@ -208,18 +208,16 @@
       "blocks": {
         "rich_text_RVU4Td": {
           "type": "rich_text",
-          "disabled": true,
           "settings": {
             "subheading": "",
-            "heading": "PACMAN",
-            "description": "<p>Big prizes are given away almost every day to those who can predict the PACMAN of the next stage: the rider who finishes lasts. Follow Live Slow Ride Fast on Instagram and join the contest!</p>"
+            "heading": "THE BOMBA STORY",
+            "description": "<p>Back in 2020, we designed a little hip flask, that would be the perfect compagnon for our 5-9 adventures. But why did we call it the Bomba? What’s up with that name? To explain the Bomba, you have to know a little story about a man called Eros Poli.</p><p>Eros Poli is from Italy. And when he was a pro cyclist in the 90s, he was the type of guy, that, besides being dead fast on a bicycle, could squeeze lemons between his biceps and underarm. Not to mention his impressive length of 1.94m.. Not really your typical modern day skinny cyclist. When he succeeded in winning a big mountain stage in the 1994 Tour de France, after a long solo on the Mont Ventoux, he became instantly famous. Laurens and him met during an InGamba cycling holiday trip in Italy, long after Eros had retired. Laurens was still a pro cyclist back then and Eros was curious to know what Laurens was taking in the final hour of the big stages. Not really sure what to answer and maybe a bit overwhelmed by this question, Laurens responded: ‘’I don’t know, nothing special really. A bit of caffeine and maybe some painkiller, if needed.’’ Well, that was when Eros smiled and let him in on the big Bomba secret.</p><p> ‘’That is not enough. Let me tell you. What you should take, is this: for the grand finale, you need some strong stuff. So you take two egg yokes, right? You mix them up, you add two espressos, you add a shot of grappa and you mix in some sugar. Or a lot, if you like that. Shake well and bottoms up. That, my friend, is what we Italians call a Bomba.’’</p>"
           }
         }
       },
       "block_order": [
         "rich_text_RVU4Td"
       ],
-      "disabled": true,
       "settings": {
         "padding_top": 30,
         "padding_bottom": 30,
@@ -404,9 +402,9 @@
   "order": [
     "slideshow_8gV9r6",
     "custom_article_yyXm3f",
-    "button_pgARdR",
     "hero_video_dbBeW8",
     "slideshow_HAAWjk",
+    "button_pgARdR",
     "text_block_chJ4mM",
     "hero_video_KNhNJV",
     "text_block_ag3LGa",
