@@ -23,8 +23,8 @@
             "link2": "",
             "link_text2": "",
             "text_align": "vertical-bottom horizontal-left",
-            "image": "shopify://shop_images/Bomba_Ieper_BannerV2.jpg",
-            "image_mobile": "shopify://shop_images/Bomba_Ieper_BannerV2.jpg",
+            "image": "shopify://shop_images/bombatour2.jpg",
+            "image_mobile": "shopify://shop_images/bombatour2.jpg",
             "parallax_direction": "top",
             "overlay_opacity": 0
           }
