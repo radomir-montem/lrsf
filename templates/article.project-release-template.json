@@ -112,6 +112,69 @@
         "full_width": false
       }
     },
+    "text_block_rHHYee": {
+      "type": "text-block",
+      "blocks": {
+        "rich_text_NYBwBt": {
+          "type": "rich_text",
+          "settings": {
+            "subheading": "",
+            "heading": "",
+            "description": ""
+          }
+        },
+        "rich_text_9kRxcJ": {
+          "type": "rich_text",
+          "settings": {
+            "subheading": "",
+            "heading": "LSRF BOMBA TOUR IEPER",
+            "description": "<p>This spring, the BOMBA TOUR will be crossing the border to visit our Belgian friends in the city of Ieper - the capital of Flanders Fields and starting place of the spring classic Gent-Wevelgem the very next day.  <br/>What to expect?</p><p><strong>Date: Saturday March 29<br/>Time: 12:00 - 18:00</strong></p><ul><li>welcome at Biking Bar Ieper with a drink</li><li>social group ride on gravel (60 km) or road (70 km) - the choice is yours</li><li>shot of local moonshine halfway</li><li>fresh burgers and bites from the grill</li><li> LSRF cycling clothing stand with the first drop of the new SS25 collection and some amazing archive deals</li><li>live podcast with Laurens and Stefan and special guests Nico Mattan and Freddy Maertens</li></ul><p>Don't miss out on this cycling event on Saturday March 29 from 12:00 - 18:00. <br/>Get your tickets now, for only €17,50.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "rich_text_NYBwBt",
+        "rich_text_9kRxcJ"
+      ],
+      "settings": {
+        "padding_top": 30,
+        "padding_bottom": 30,
+        "padding_top_mobile": 30,
+        "padding_bottom_mobile": 30
+      }
+    },
+    "button_pgARdR": {
+      "type": "button",
+      "settings": {
+        "button_text": "GET TICKETS",
+        "button_link": "https://www.eventbrite.nl/e/lsrf-bomba-tour-ieper-tickets-1277936826449?aff=ebdsshcopyurl&utm-campaign=social&utm-content=attendeeshare&utm-medium=discovery&utm-term=",
+        "button_style": "btn",
+        "padding_top": 31,
+        "padding_bottom": 33,
+        "padding_top_mobile": 33,
+        "padding_bottom_mobile": 33
+      }
+    },
+    "rich_text_AHWKPi": {
+      "type": "rich-text",
+      "blocks": {
+        "text_QxC9eG": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Keep scrolling down to read the story of the Bomba Tour—how everything began. You will be surprised.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_QxC9eG"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
     "slideshow_HAAWjk": {
       "type": "slideshow",
       "blocks": {
@@ -269,28 +332,6 @@
         "padding_bottom_mobile": 30
       }
     },
-    "text_block_rHHYee": {
-      "type": "text-block",
-      "blocks": {
-        "rich_text_9kRxcJ": {
-          "type": "rich_text",
-          "settings": {
-            "subheading": "",
-            "heading": "LSRF BOMBA TOUR IEPER",
-            "description": "<p>This spring, the BOMBA TOUR will be crossing the border to visit our Belgian friends in the city of Ieper - the capital of Flanders Fields and starting place of the spring classic Gent-Wevelgem the very next day.  <br/>What to expect?</p><p><strong>Date: Saturday March 29<br/>Time: 12:00 - 18:00</strong></p><ul><li>welcome at Biking Bar Ieper with a drink</li><li>social group ride on gravel (60 km) or road (70 km) - the choice is yours</li><li>shot of local moonshine halfway</li><li>fresh burgers and bites from the grill</li><li> LSRF cycling clothing stand with the first drop of the new SS25 collection and some amazing archive deals</li><li>live podcast with Laurens and Stefan and special guests Nico Mattan and Freddy Maertens</li></ul><p>Don't miss out on this cycling event on Saturday March 29 from 12:00 - 18:00. <br/>Get your tickets now, for only €17,50.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "rich_text_9kRxcJ"
-      ],
-      "settings": {
-        "padding_top": 30,
-        "padding_bottom": 30,
-        "padding_top_mobile": 30,
-        "padding_bottom_mobile": 30
-      }
-    },
     "slideshow_YtDkdm": {
       "type": "slideshow",
       "blocks": {
@@ -323,18 +364,6 @@
         "autoplay": true,
         "autoplay_speed": 5,
         "lazyload_images": true
-      }
-    },
-    "button_pgARdR": {
-      "type": "button",
-      "settings": {
-        "button_text": "GET TICKETS",
-        "button_link": "https://www.eventbrite.nl/e/lsrf-bomba-tour-ieper-tickets-1277936826449?aff=ebdsshcopyurl&utm-campaign=social&utm-content=attendeeshare&utm-medium=discovery&utm-term=",
-        "button_style": "btn",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "padding_top_mobile": 50,
-        "padding_bottom_mobile": 50
       }
     },
     "featured_collection_switcher_rVXdpr": {
@@ -517,6 +546,7 @@
     "hero_video_dbBeW8",
     "text_block_rHHYee",
     "button_pgARdR",
+    "rich_text_AHWKPi",
     "slideshow_HAAWjk",
     "text_block_chJ4mM",
     "hero_video_KNhNJV",
