@@ -243,7 +243,7 @@
         "judge_me_reviews_featured_carousel_BxWHMy"
       ],
       "settings": {
-        "full_width": false,
+        "full_width": true,
         "space_around": true
       }
     },
