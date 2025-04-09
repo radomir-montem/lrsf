@@ -33,12 +33,12 @@
     "scrolling_text_HLGe4q": {
       "type": "scrolling-text",
       "settings": {
-        "text": "15% OFF ALL LONG SLEEVE JERSEYS",
-        "link": "shopify://collections/autumn-winter-cycling-clothes-2024",
+        "text": "SS25 COMING SOON",
+        "link": "",
         "text_size": 20,
         "text_spacing": true,
         "direction": "left",
-        "speed": 60
+        "speed": 50
       }
     },
     "categories_gUKYQy": {
@@ -56,7 +56,7 @@
         "category_Ec4qLd": {
           "type": "Category",
           "settings": {
-            "title": "WOMAN",
+            "title": "WOMEN",
             "subtitle": "SHOP NOW >",
             "image": "shopify://shop_images/LSRF-collection-image-womens-2024-homepage.jpg",
             "link": "shopify://collections/womens-collection-cycling"
