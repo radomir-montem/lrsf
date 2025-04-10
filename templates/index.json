@@ -49,8 +49,16 @@
           "settings": {
             "title": "MEN",
             "subtitle": "SHOP NOW >",
-            "image": "shopify://shop_images/LSRF-Man-home-page.jpg",
+            "image": "shopify://shop_images/DSC02335.jpg",
             "link": "shopify://collections/mens-collection-cycling"
+          }
+        },
+        "category_ww7Tf9": {
+          "type": "Category",
+          "settings": {
+            "title": "",
+            "subtitle": "",
+            "link": ""
           }
         },
         "category_Ec4qLd": {
@@ -65,6 +73,7 @@
       },
       "block_order": [
         "category_j9A9Xe",
+        "category_ww7Tf9",
         "category_Ec4qLd"
       ],
       "settings": {
@@ -167,7 +176,7 @@
           "settings": {
             "title": "JERSEYS",
             "subtitle": "SHOP NOW >",
-            "image": "shopify://shop_images/LSRF-jersey-collection-2024-homepage.jpg",
+            "image": "shopify://shop_images/DSC03188.jpg",
             "link": "shopify://collections/cycling-jerseys"
           }
         },
@@ -176,7 +185,7 @@
           "settings": {
             "title": "BIBS",
             "subtitle": "SHOP NOW >",
-            "image": "shopify://shop_images/LSRF-bib-homepage.jpg",
+            "image": "shopify://shop_images/DSC03058.jpg",
             "link": "shopify://collections/cycling-bibs"
           }
         },
@@ -185,7 +194,7 @@
           "settings": {
             "title": "ESSENTIALS",
             "subtitle": "SHOP NOW >",
-            "image": "shopify://shop_images/LSRF-essentials-collection-2024-homepage.png",
+            "image": "shopify://shop_images/DSC03300.jpg",
             "link": "shopify://collections/mens-cycling-essentials"
           }
         },
