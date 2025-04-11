@@ -9,7 +9,7 @@
  */
 {
   "current": {
-    "custom_color_swatches": "Mid Berkeley:#A83252,\nYellow:#F49807,\ndaly city: #60677a,\nberkely/santa cruz: #e5ca87, \nhalf moon bay: #333451,\nwhite/sunset: #DFDDE0,\nwhite: #EBE7E8,\nocean green: #198E76,\nsea foam: #9B9F7B,\nhalf moon bay: #091E34,\nhmb light: #2D434E,\npink: #f00a6d,\nlt santa cruz: #8CE0D6,\nScott Peak: #FEC03D,\nGranite Chief: #323f58,\nsea foam: #BDC0B2, \nwhite: #E2E1E7,\nTiburon: #243B5B,\nDana Point: #F2B344,\nWoodside: #2D3542,\nMendocino: #265467,\nBlack: #0c0d10,",
+    "custom_color_swatches": "Mid Berkeley:#A83252,\nYellow:#F49807,\ndaly city: #60677a,\nberkely/santa cruz: #e5ca87, \nhalf moon bay: #333451,\nwhite/sunset: #DFDDE0,\nwhite: #EBE7E8,\nocean green: #198E76,\nsea foam: #9B9F7B,\nhalf moon bay: #091E34,\nhmb light: #2D434E,\npink: #f00a6d,\nlt santa cruz: #8CE0D6,\nScott Peak: #FEC03D,\nGranite Chief: #323f58,\nsea foam: #BDC0B2, \nwhite: #E2E1E7,\nTiburon: #243B5B,\nDana Point: #F2B344,\nWoodside: #2D3542,\nMendocino: #265467,\nBlack: #0c0d10,\nVentura: #4CC5D2,",
     "type_header_font_family": "roboto_condensed_n7",
     "type_header_spacing": "0",
     "type_base_font_family": "roboto_condensed_n4",
