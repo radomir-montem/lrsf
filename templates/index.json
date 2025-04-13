@@ -33,8 +33,8 @@
     "scrolling_text_HLGe4q": {
       "type": "scrolling-text",
       "settings": {
-        "text": "SS25 COMING SOON",
-        "link": "",
+        "text": "SHOP SUMMER 25",
+        "link": "shopify://collections/spring-summer-cycling-collection",
         "text_size": 20,
         "text_spacing": true,
         "direction": "left",
