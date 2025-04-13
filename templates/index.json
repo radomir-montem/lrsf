@@ -12,13 +12,13 @@
     "hero-video": {
       "type": "hero-video",
       "settings": {
-        "title": "SS25 COMING SOON",
+        "title": "SS25 CHAPTER ONE",
         "title_size": 80,
         "text_color": "#94cdc3",
         "subheading": "",
         "btn_hover_color": "Santa Cruz",
-        "link_text": "SHOP WINTER 24/25",
-        "link": "shopify://collections/autumn-winter-cycling-clothes-2024",
+        "link_text": "SHOP SUMMER 25",
+        "link": "shopify://collections/spring-summer-cycling-collection",
         "link_text_2": "",
         "link_2": "shopify://collections/shop-all-cycling-sale",
         "text_align": "vertical-center horizontal-left",
