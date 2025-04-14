@@ -460,7 +460,7 @@
                       {%- endif -%}
 
                       {%- if block.settings.show_estimated_shipping -%}
-                        {% if localization.country == 'Netherlands' %}
+                        {% if localization.country == 'Netherlands' or localization.country == 'Nederland' %}
                           {% if product.metafields.custom.estimated_shipping_ned != blank %}
                             <div style="text-align:center">
                               {{ settings.shipping_days_pre -}}
@@ -474,7 +474,7 @@
                               {{ settings.shipping_days_post }}
                             </div>
                           {% endif %}
-                        {% elsif localization.country.continent == 'Europe' %}
+                        {% elsif localization.country.continent == 'Europe' or localization.country.continent == 'Europa' %}
                           {% if product.metafields.custom.estimated_shipping_eu != blank %}
                             <div style="text-align:center">
                               {{ settings.shipping_days_pre -}}
