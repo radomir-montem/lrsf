@@ -12,13 +12,13 @@
     "hero-video": {
       "type": "hero-video",
       "settings": {
-        "title": "SS25 COMING SOON",
+        "title": "SS25 CHAPTER ONE",
         "title_size": 80,
-        "text_color": "#94cdc3",
+        "text_color": "#ffffff",
         "subheading": "",
         "btn_hover_color": "Santa Cruz",
-        "link_text": "SHOP WINTER 24/25",
-        "link": "shopify://collections/autumn-winter-cycling-clothes-2024",
+        "link_text": "SHOP SUMMER 25",
+        "link": "shopify://collections/spring-summer-cycling-collection",
         "link_text_2": "",
         "link_2": "shopify://collections/shop-all-cycling-sale",
         "text_align": "vertical-center horizontal-left",
@@ -33,8 +33,8 @@
     "scrolling_text_HLGe4q": {
       "type": "scrolling-text",
       "settings": {
-        "text": "SS25 COMING SOON",
-        "link": "",
+        "text": "SHOP SUMMER 25",
+        "link": "shopify://collections/spring-summer-cycling-collection",
         "text_size": 20,
         "text_spacing": true,
         "direction": "left",
@@ -83,9 +83,9 @@
     "featured_collection_switcher_Gxx3bU": {
       "type": "featured-collection-switcher",
       "settings": {
-        "title": "WINTER 24/25",
+        "title": "SPRING/SUMMER 25",
         "hide_title": true,
-        "collection1": "autumn-winter-cycling-clothes-2024",
+        "collection1": "spring-summer-cycling-collection",
         "collection2": "",
         "per_row": 3,
         "view_all": true,
@@ -156,12 +156,12 @@
     "collection_callout_QJqhEF": {
       "type": "collection-callout",
       "settings": {
-        "collection": "autumn-winter-cycling-clothes-2024",
+        "collection": "cycling-jerseys-mens",
         "subtitle": "Explore now",
-        "title": "Winter 24/25",
-        "text": "Designed for those who demand more from their winter rides.",
-        "cta_text1": "SHOP WINTER 24/25",
-        "cta_link1": "shopify://collections/autumn-winter-cycling-clothes-2024",
+        "title": "Race Jerseys SS25",
+        "text": "Sharper lines. Same mindset.",
+        "cta_text1": "SHOP NOW",
+        "cta_link1": "shopify://collections/cycling-jerseys-mens",
         "cta_text2": "",
         "cta_link2": "",
         "layout": "right",
