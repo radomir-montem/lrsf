@@ -9,12 +9,135 @@
  */
 {
   "sections": {
+    "logo_grid_XBjHwG": {
+      "type": "logo-grid",
+      "settings": {
+        "heading": "PARTNERS",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_top_mobile": 50,
+        "padding_bottom_mobile": 50
+      }
+    },
+    "scroll_logo_list_CdWgtb": {
+      "type": "scroll-logo-list",
+      "blocks": {
+        "logo_image_AYJkjp": {
+          "type": "logo_image",
+          "settings": {
+            "link": "",
+            "img_width": 250,
+            "img_height": 250
+          }
+        },
+        "logo_image_PN9RR4": {
+          "type": "logo_image",
+          "settings": {
+            "link": "",
+            "img_width": 250,
+            "img_height": 250
+          }
+        },
+        "logo_image_7hMdeT": {
+          "type": "logo_image",
+          "settings": {
+            "link": "",
+            "img_width": 250,
+            "img_height": 250
+          }
+        },
+        "logo_image_REYnBJ": {
+          "type": "logo_image",
+          "settings": {
+            "link": "",
+            "img_width": 250,
+            "img_height": 250
+          }
+        }
+      },
+      "block_order": [
+        "logo_image_AYJkjp",
+        "logo_image_PN9RR4",
+        "logo_image_7hMdeT",
+        "logo_image_REYnBJ"
+      ],
+      "settings": {
+        "heading": "",
+        "text": "",
+        "reverse": false,
+        "speed": 3,
+        "text_color": "#000000",
+        "back_color": "#FFFFFF",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_top_mobile": 50,
+        "padding_bottom_mobile": 50
+      }
+    },
+    "scroll_logo_list_EyWXpH": {
+      "type": "scroll-logo-list",
+      "blocks": {
+        "logo_image_GrCFpt": {
+          "type": "logo_image",
+          "settings": {
+            "link": "",
+            "img_width": 200,
+            "img_height": 200
+          }
+        },
+        "logo_image_yXGjPt": {
+          "type": "logo_image",
+          "settings": {
+            "link": "",
+            "img_width": 200,
+            "img_height": 200
+          }
+        },
+        "logo_image_mYekKq": {
+          "type": "logo_image",
+          "settings": {
+            "link": "",
+            "img_width": 200,
+            "img_height": 200
+          }
+        },
+        "logo_image_xemKHU": {
+          "type": "logo_image",
+          "settings": {
+            "link": "",
+            "img_width": 200,
+            "img_height": 200
+          }
+        }
+      },
+      "block_order": [
+        "logo_image_GrCFpt",
+        "logo_image_yXGjPt",
+        "logo_image_mYekKq",
+        "logo_image_xemKHU"
+      ],
+      "settings": {
+        "heading": "",
+        "text": "",
+        "reverse": false,
+        "speed": 3,
+        "text_color": "#000000",
+        "back_color": "#FFFFFF",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_top_mobile": 50,
+        "padding_bottom_mobile": 50
+      }
+    },
     "main": {
       "type": "main-page",
       "settings": {}
     }
   },
   "order": [
+    "logo_grid_XBjHwG",
+    "scroll_logo_list_CdWgtb",
+    "scroll_logo_list_EyWXpH",
     "main"
   ]
 }
