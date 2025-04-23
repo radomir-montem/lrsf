@@ -11,6 +11,7 @@
   "sections": {
     "logo_grid_XBjHwG": {
       "type": "logo-grid",
+      "disabled": true,
       "settings": {
         "heading": "PARTNERS",
         "padding_top": 50,
@@ -61,13 +62,14 @@
         "logo_image_7hMdeT",
         "logo_image_REYnBJ"
       ],
+      "disabled": true,
       "settings": {
-        "heading": "",
+        "heading": "Main sponsors",
         "text": "",
-        "reverse": false,
+        "reverse": true,
         "speed": 4,
         "text_color": "#000000",
-        "back_color": "#FFFFFF",
+        "back_color": "#ffffff",
         "padding_top": 50,
         "padding_bottom": 50,
         "padding_top_mobile": 50,
@@ -116,13 +118,14 @@
         "logo_image_mYekKq",
         "logo_image_xemKHU"
       ],
+      "disabled": true,
       "settings": {
         "heading": "",
         "text": "",
         "reverse": false,
         "speed": 4,
         "text_color": "#000000",
-        "back_color": "#FFFFFF",
+        "back_color": "#ffffff",
         "padding_top": 50,
         "padding_bottom": 50,
         "padding_top_mobile": 50,
