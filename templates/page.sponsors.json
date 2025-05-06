@@ -21,7 +21,7 @@
           "settings": {
             "image": "shopify://shop_images/specialized.png",
             "link": "",
-            "img_width": 300,
+            "img_width": 200,
             "img_height": 200
           }
         },
@@ -30,7 +30,7 @@
           "settings": {
             "image": "shopify://shop_images/shimano.png",
             "link": "",
-            "img_width": 300,
+            "img_width": 200,
             "img_height": 200
           }
         },
@@ -39,7 +39,7 @@
           "settings": {
             "image": "shopify://shop_images/Skoda_Wordmark_RGB_Emerald_Green.png",
             "link": "",
-            "img_width": 300,
+            "img_width": 200,
             "img_height": 200
           }
         },
@@ -48,7 +48,7 @@
           "settings": {
             "image": "shopify://shop_images/b83e7fcd-nedlot_sponsor-logo_compleet_nedlot_sponsor-logo_black-2.png",
             "link": "",
-            "img_width": 300,
+            "img_width": 200,
             "img_height": 200
           }
         }
@@ -80,8 +80,8 @@
           "settings": {
             "image": "shopify://shop_images/futurumshop.png",
             "link": "",
-            "img_width": 250,
-            "img_height": 200
+            "img_width": 150,
+            "img_height": 150
           }
         },
         "logo_image_QG4kQa": {
@@ -89,8 +89,8 @@
           "settings": {
             "image": "shopify://shop_images/pro.png",
             "link": "",
-            "img_width": 250,
-            "img_height": 200
+            "img_width": 150,
+            "img_height": 150
           }
         },
         "logo_image_AnaGEX": {
@@ -98,8 +98,8 @@
           "settings": {
             "image": "shopify://shop_images/buycycle.png",
             "link": "",
-            "img_width": 250,
-            "img_height": 200
+            "img_width": 150,
+            "img_height": 150
           }
         },
         "logo_image_XkKUVk": {
@@ -107,8 +107,8 @@
           "settings": {
             "image": "shopify://shop_images/laka.png",
             "link": "",
-            "img_width": 250,
-            "img_height": 200
+            "img_width": 150,
+            "img_height": 150
           }
         },
         "logo_image_Xf8HDm": {
@@ -116,8 +116,8 @@
           "settings": {
             "image": "shopify://shop_images/KlakAf_logo_kopie_wit.png",
             "link": "",
-            "img_width": 250,
-            "img_height": 200
+            "img_width": 150,
+            "img_height": 150
           }
         },
         "logo_image_XQNGNC": {
@@ -125,8 +125,8 @@
           "settings": {
             "image": "shopify://shop_images/LSRF.png",
             "link": "",
-            "img_width": 250,
-            "img_height": 200
+            "img_width": 150,
+            "img_height": 150
           }
         }
       },
@@ -159,8 +159,8 @@
           "settings": {
             "image": "shopify://shop_images/ppeeqq.png",
             "link": "#",
-            "img_width": 200,
-            "img_height": 200
+            "img_width": 100,
+            "img_height": 100
           }
         },
         "logo_image_WHwe3i": {
@@ -168,8 +168,8 @@
           "settings": {
             "image": "shopify://shop_images/Wijnvoordeel.png",
             "link": "",
-            "img_width": 200,
-            "img_height": 200
+            "img_width": 100,
+            "img_height": 100
           }
         },
         "logo_image_Bi9KQM": {
@@ -177,8 +177,8 @@
           "settings": {
             "image": "shopify://shop_images/Logo_Dynamic_Copy_white_small_e8d1f339-fff5-4800-847d-d1c7202f9bd9.png",
             "link": "",
-            "img_width": 200,
-            "img_height": 200
+            "img_width": 100,
+            "img_height": 100
           }
         },
         "logo_image_X9tjz8": {
@@ -186,8 +186,8 @@
           "settings": {
             "image": "shopify://shop_images/thebastard.png",
             "link": "",
-            "img_width": 200,
-            "img_height": 200
+            "img_width": 100,
+            "img_height": 100
           }
         },
         "logo_image_napJQJ": {
@@ -195,8 +195,8 @@
           "settings": {
             "image": "shopify://shop_images/Shokz-black.png",
             "link": "",
-            "img_width": 200,
-            "img_height": 200
+            "img_width": 100,
+            "img_height": 100
           }
         },
         "logo_image_LxfxAW": {
@@ -204,8 +204,8 @@
           "settings": {
             "image": "shopify://shop_images/kwaremont.png",
             "link": "",
-            "img_width": 200,
-            "img_height": 200
+            "img_width": 100,
+            "img_height": 100
           }
         },
         "logo_image_QFxnHp": {
@@ -213,8 +213,8 @@
           "settings": {
             "image": "shopify://shop_images/4iiii_Logo-WHITE_new.png",
             "link": "",
-            "img_width": 200,
-            "img_height": 200
+            "img_width": 100,
+            "img_height": 100
           }
         }
       },
@@ -227,6 +227,7 @@
         "logo_image_LxfxAW",
         "logo_image_QFxnHp"
       ],
+      "custom_css": [],
       "settings": {
         "heading": "",
         "text": "",
