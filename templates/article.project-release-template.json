@@ -327,10 +327,10 @@
     "featured_collection_switcher_rVXdpr": {
       "type": "featured-collection-switcher",
       "settings": {
-        "title": "BEST SELLERS",
+        "title": "BIB SHORTS EVO",
         "hide_title": true,
-        "collection1": "cycling-clothing",
-        "collection2": "mens-cycling-gilets-and-jackets",
+        "collection1": "cycling-bibs-mens",
+        "collection2": "spring-summer-cycling-collection",
         "per_row": 4,
         "view_all": true,
         "divider": false
