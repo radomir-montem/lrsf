@@ -19,24 +19,16 @@
         "logo_image_9i4L48": {
           "type": "logo_image",
           "settings": {
-            "image": "shopify://shop_images/logo.svg",
+            "image": "shopify://shop_images/logo1.png",
             "link": "",
             "img_width": 300,
             "img_height": 200
           }
         },
-        "logo_image_UANeWm": {
-          "type": "logo_image",
-          "settings": {
-            "image": "shopify://shop_images/logo_860de81c-cc7a-451f-b43e-12568a81377d.png",
-            "link": "",
-            "img_width": 300,
-            "img_height": 100
-          }
-        },
         "logo_image_VwhbMD": {
           "type": "logo_image",
           "settings": {
+            "image": "shopify://shop_images/logo2.png",
             "link": "",
             "img_width": 300,
             "img_height": 200
@@ -45,6 +37,7 @@
         "logo_image_zNNKAx": {
           "type": "logo_image",
           "settings": {
+            "image": "shopify://shop_images/logo4.png",
             "link": "",
             "img_width": 300,
             "img_height": 200
@@ -53,6 +46,7 @@
         "logo_image_LRhUTn": {
           "type": "logo_image",
           "settings": {
+            "image": "shopify://shop_images/NLO_RGB_Spelmerken_Merkoppeling_Logo_300dpi.png",
             "link": "",
             "img_width": 300,
             "img_height": 200
@@ -61,7 +55,6 @@
       },
       "block_order": [
         "logo_image_9i4L48",
-        "logo_image_UANeWm",
         "logo_image_VwhbMD",
         "logo_image_zNNKAx",
         "logo_image_LRhUTn"
@@ -86,6 +79,7 @@
         "logo_image_HeAKRC": {
           "type": "logo_image",
           "settings": {
+            "image": "shopify://shop_images/futurumshop-logo-01.png",
             "link": "",
             "img_width": 250,
             "img_height": 200
@@ -94,6 +88,7 @@
         "logo_image_QG4kQa": {
           "type": "logo_image",
           "settings": {
+            "image": "shopify://shop_images/logo8.png",
             "link": "",
             "img_width": 250,
             "img_height": 200
@@ -102,6 +97,7 @@
         "logo_image_AnaGEX": {
           "type": "logo_image",
           "settings": {
+            "image": "shopify://shop_images/logo16.png",
             "link": "",
             "img_width": 250,
             "img_height": 200
@@ -110,6 +106,7 @@
         "logo_image_XkKUVk": {
           "type": "logo_image",
           "settings": {
+            "image": "shopify://shop_images/logo13.png",
             "link": "",
             "img_width": 250,
             "img_height": 200
@@ -169,6 +166,7 @@
         "logo_image_T7K7QK": {
           "type": "logo_image",
           "settings": {
+            "image": "shopify://shop_images/logo14.png",
             "link": "#",
             "img_width": 200,
             "img_height": 200
@@ -177,6 +175,7 @@
         "logo_image_WHwe3i": {
           "type": "logo_image",
           "settings": {
+            "image": "shopify://shop_images/logo6.png",
             "link": "",
             "img_width": 200,
             "img_height": 200
@@ -185,6 +184,7 @@
         "logo_image_Bi9KQM": {
           "type": "logo_image",
           "settings": {
+            "image": "shopify://shop_images/logo12.png",
             "link": "",
             "img_width": 200,
             "img_height": 200
@@ -193,6 +193,7 @@
         "logo_image_X9tjz8": {
           "type": "logo_image",
           "settings": {
+            "image": "shopify://shop_images/logo9.png",
             "link": "",
             "img_width": 200,
             "img_height": 200
@@ -201,6 +202,7 @@
         "logo_image_napJQJ": {
           "type": "logo_image",
           "settings": {
+            "image": "shopify://shop_images/logo7.png",
             "link": "",
             "img_width": 200,
             "img_height": 200
@@ -209,6 +211,7 @@
         "logo_image_LxfxAW": {
           "type": "logo_image",
           "settings": {
+            "image": "shopify://shop_images/0513-0188_Kwaremont_logo_vrijstaand_web_small_bb6f2fc1-2a44-4af2-86b0-24a228c9431d.jpg",
             "link": "",
             "img_width": 200,
             "img_height": 200
