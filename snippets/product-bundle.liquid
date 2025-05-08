@@ -95,7 +95,7 @@
 
     function updateBundleAddToCartButton() {
       let checkedCheckboxes = document.querySelectorAll('.product-checkbox:checked').length;
-      if (checkedCheckboxes === checkboxesNumber) {
+      if (checkedCheckboxes > 0) {
         document.getElementById('bundle-add-to-cart').removeAttribute('disabled');
       } else {
         document.getElementById('bundle-add-to-cart').setAttribute('disabled', 'disabled');
@@ -103,8 +103,11 @@
     }
 
     checkboxes.forEach(function (checkbox) {
-      checkbox.addEventListener('change', function () {
+      checkbox.addEventListener('change', function (e) {
         updateBundleAddToCartButton();
+        const target = e.currentTarget;
+        const card = target.closest('.bundle_product_card');
+        card.querySelector('[data-upsell-variant-id]').disabled = !target.checked;
       });
     });
     window.addEventListener('load', function () {
@@ -118,7 +121,7 @@
 
     const upsellButton = document.querySelector('[upsell-add-to-cart-btn]');
     upsellButton.addEventListener('click', function () {
-      const inputs = document.querySelectorAll('[data-upsell-variant-id]');
+      const inputs = document.querySelectorAll('[data-upsell-variant-id]:not(:disabled)');
       const values = Array.from(inputs).map((input) => input.value);
       const items = values.map((value) => ({ id: value, quantity: 1 }));
       const productVariantId = document.querySelector('[data-product-select]').value;
