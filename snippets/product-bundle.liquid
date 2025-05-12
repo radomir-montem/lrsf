@@ -24,6 +24,7 @@
               id="include_product_{{ bundle_variant.id }}"
               class="product-checkbox"
               checked
+              data-price="{{ bundle_variant.price }}"
             >
             {% render 'image-element', img: bundle_product.featured_image | image_url, img_width: "68px", classes: "bundle_img" %}
             <div class="bundle_text">
@@ -92,13 +93,22 @@
     // LISTENER TO ENABLE SUBMIT BUTTON
     let checkboxes = document.querySelectorAll('.product-checkbox');
     let checkboxesNumber = checkboxes.length;
+    const totalPriceElement = document.querySelector('.bundle_total-price');
+    const currentVariantPrice = Number('{{ current_variant.price }}');
+    const currency = '{{ localization.country.currency.symbol }}'
 
     function updateBundleAddToCartButton() {
       let checkedCheckboxes = document.querySelectorAll('.product-checkbox:checked').length;
+      let totalPrice = currentVariantPrice;
+      document.querySelectorAll('.product-checkbox:checked').forEach(checkbox => {
+        totalPrice += Number(checkbox.dataset.price);
+      });
       if (checkedCheckboxes > 0) {
         document.getElementById('bundle-add-to-cart').removeAttribute('disabled');
+        totalPriceElement.innerHTML = `TOTAL PRICE: ${moneyFormat(totalPrice * 0.9)}<span class="bundle_total-price-no-discount">${moneyFormat(totalPrice)}</span>`;
       } else {
         document.getElementById('bundle-add-to-cart').setAttribute('disabled', 'disabled');
+        totalPriceElement.innerHTML = `TOTAL PRICE: ${moneyFormat(totalPrice)}`;
       }
     }
 
@@ -149,6 +159,10 @@
           throw new Error(e);
           console.log(e);
         });
+    }
+
+    function moneyFormat(money) {
+      return `${currency}${(money / 100).toFixed(2)}`;
     }
   </script>
 {% endif %}

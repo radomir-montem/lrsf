@@ -658,7 +658,7 @@
                     </div>
                   {%- when 'bundle_products' -%}
                     <div class="product-block" {{ block.shopify_attributes }}>
-                      {%- render 'product-bundle', block: block, product: product, type: 'block' -%}
+                      {%- render 'product-bundle', block: block, product: product, current_variant: current_variant, type: 'block' -%}
                     </div>
                   {%- when 'trust_badge' -%}
                     <div class="product-block" {{ block.shopify_attributes }}>
