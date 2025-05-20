@@ -73,6 +73,14 @@
     "featured_video_M7C4VL": {
       "type": "featured-video",
       "settings": {
+        "title": "TERRA INCOGNITA - EPISODE 1",
+        "video_url": "https://youtu.be/TIZJ5RhmVuE",
+        "divider": false
+      }
+    },
+    "featured_video_RzmkzQ": {
+      "type": "featured-video",
+      "settings": {
         "title": "SHEPHERD - A FURTHER TALE",
         "video_url": "https://youtu.be/dMWCJLXjKy0?si=67ei61tgKs-uulGz",
         "divider": false
@@ -326,6 +334,7 @@
     "banner_with_logo_TaKR4R",
     "main",
     "featured_video_M7C4VL",
+    "featured_video_RzmkzQ",
     "text_columns_DLTrFL",
     "text_columns_QGKzLN",
     "featured_collection_XRU8rC",
