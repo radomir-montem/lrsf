@@ -136,13 +136,13 @@
     "hero_video_KKN4Mk": {
       "type": "hero-video",
       "settings": {
-        "title": "SHEPHERD",
+        "title": "TERRA INCOGNITA",
         "title_size": 80,
         "text_color": "#eeeeee",
         "subheading": "",
         "btn_hover_color": "white",
-        "link_text": "WATCH THE MOVIE",
-        "link": "https://youtu.be/dMWCJLXjKy0",
+        "link_text": "WATCH EPISODE 1",
+        "link": "https://youtu.be/54Cq2TPEuek",
         "link_text_2": "",
         "link_2": "",
         "text_align": "vertical-center horizontal-center",
