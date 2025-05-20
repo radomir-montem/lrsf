@@ -106,13 +106,13 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify://shop_images/chimba_landscape_2.jpg",
+            "image": "shopify://shop_images/Thumbnail_2.png",
             "image_mask": "landscape",
             "image_width": 650,
-            "title": "UNA CHIMBA",
-            "text": "<p>The most insane and intense self supported bike packing rally in Colombia: Transcordilleras. Watch the battle between frenemies Laurens ten Dam and Peter Stetina on the unforgiving but mindblowing gravel roads of Colombia. </p>",
+            "title": "SHEPHERD",
+            "text": "<p>“We have no memory of pain, do we. So you know that hurts, but you can’t actually remember what hurt is. So that’s how we can do it again.”— Camille McMillan<br/>A short movie dedicated to the adventure bike race, Further Scotland.</p>",
             "button_label": "WATCH NOW",
-            "button_link": "https://youtu.be/1F3Xj4fZHIs?si=biuV3Kwwakm-TNZ3"
+            "button_link": "https://youtu.be/dMWCJLXjKy0"
           }
         }
       },
