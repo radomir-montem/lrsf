@@ -78,14 +78,6 @@
         "divider": false
       }
     },
-    "featured_video_RzmkzQ": {
-      "type": "featured-video",
-      "settings": {
-        "title": "SHEPHERD - A FURTHER TALE",
-        "video_url": "https://youtu.be/dMWCJLXjKy0?si=67ei61tgKs-uulGz",
-        "divider": false
-      }
-    },
     "text_columns_DLTrFL": {
       "type": "text-columns",
       "blocks": {
@@ -374,7 +366,6 @@
     "banner_with_logo_TaKR4R",
     "main",
     "featured_video_M7C4VL",
-    "featured_video_RzmkzQ",
     "text_columns_DLTrFL",
     "text_columns_jf9C3G",
     "text_columns_QGKzLN",
