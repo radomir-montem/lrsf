@@ -246,11 +246,12 @@
         "space_between": false,
         "text_color": "white",
         "subtext": "",
-        "title": "UNBOUND REBOUND",
-        "description": "<p>United in gravel, we rode REBOUND. The largest and most-shared gravel event in the world. On June 3rd 2023, a community of almost 300.000 gravel fans rode together more than four million miles - without actually being together.</p>",
-        "image_1": "shopify://shop_images/unboundreboundfoto1.jpg",
+        "title": "TERRA INCOGNITA",
+        "description": "<p>For over 150 years, cycling has delivered heroes, battles, and stories. But these big classics and grand tours, they’re more than races. They’re windows into the soul of mountains, towns, and hidden valleys.<br/><br/>And yet, it all rushes by. No time to linger. Twelve years in the pro peloton, always moving. But Laurens kept a list - a little black notebook - a quiet promise to return.</p>",
+        "image_1": "shopify://shop_images/TI-Lagos-Feed02.jpg",
+        "image_2": "shopify://shop_images/TI-Lagos-Feed02.jpg",
         "button_text": "► WATCH",
-        "button_url": "https://www.youtube.com/watch?v=vSLcGyN4lmk",
+        "button_url": "https://youtu.be/TIZJ5RhmVuE",
         "button_inverse": true
       }
     },
