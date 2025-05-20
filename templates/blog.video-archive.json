@@ -93,13 +93,13 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify://shop_images/Thumbnail_Unbound_Rebound_16x9_7484684a-db6c-440f-8246-50be8a9c0acc.jpg",
+            "image": "shopify://shop_images/maxresdefault.webp",
             "image_mask": "landscape",
             "image_width": 650,
-            "title": "UNBOUND | REBOUND",
-            "text": "<p>The largest and most-shared gravel event in the world. On June 3rd 2023, a community of almost 300.000 gravel fans rode together more than four million miles - without actually being together. </p>",
+            "title": "THE LONG WAY HOME",
+            "text": "<p>Remember the DIY version of Unbound? Each year, at the end of May, we’re doing it again. United in gravel, we ride REBOUND! Join Polly from the UK, Jarle from Norway, Willy from Belgium and Sophie from the Netherlands on their Road to Rebound 2024.</p>",
             "button_label": "WATCH NOW",
-            "button_link": "https://www.youtube.com/watch?v=vSLcGyN4lmk"
+            "button_link": "https://youtu.be/utHhns6v8co"
           }
         },
         "text_block_PKRaUN": {
@@ -114,8 +114,48 @@
             "button_label": "WATCH NOW",
             "button_link": "https://youtu.be/1F3Xj4fZHIs?si=biuV3Kwwakm-TNZ3"
           }
+        }
+      },
+      "block_order": [
+        "text_block_pEyHhX",
+        "text_block_PKRaUN"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "left",
+        "divider": false
+      }
+    },
+    "text_columns_jf9C3G": {
+      "type": "text-columns",
+      "blocks": {
+        "text_block_7aTdgg": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Thumbnail_Unbound_Rebound_16x9_7484684a-db6c-440f-8246-50be8a9c0acc.jpg",
+            "image_mask": "landscape",
+            "image_width": 650,
+            "title": "UNBOUND | REBOUND",
+            "text": "<p>The largest and most-shared gravel event in the world. On June 3rd 2023, a community of almost 300.000 gravel fans rode together more than four million miles - without actually being together. </p>",
+            "button_label": "WATCH NOW",
+            "button_link": "https://www.youtube.com/watch?v=vSLcGyN4lmk"
+          }
         },
-        "text_block_cRzrU4": {
+        "text_block_NBJp7m": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/chimba_landscape_2.jpg",
+            "image_mask": "landscape",
+            "image_width": 650,
+            "title": "UNA CHIMBA",
+            "text": "<p>The most insane and intense self supported bike packing rally in Colombia: Transcordilleras. Watch the battle between frenemies Laurens ten Dam and Peter Stetina on the unforgiving but mindblowing gravel roads of Colombia. </p>",
+            "button_label": "WATCH NOW",
+            "button_link": "https://youtu.be/1F3Xj4fZHIs?si=biuV3Kwwakm-TNZ3"
+          }
+        },
+        "text_block_cww8Ba": {
           "type": "text_block",
           "settings": {
             "enable_image": true,
@@ -128,7 +168,7 @@
             "button_link": "https://youtu.be/JiaitFPHtqw?si=zujIuDGlv1CmwAue"
           }
         },
-        "text_block_mWfqLC": {
+        "text_block_QVRAFD": {
           "type": "text_block",
           "settings": {
             "enable_image": true,
@@ -141,7 +181,7 @@
             "button_link": "https://youtu.be/8KViiThNK-c?si=1BCXJS-4r-bbXdFK"
           }
         },
-        "text_block_nm7LpM": {
+        "text_block_EUY7Bf": {
           "type": "text_block",
           "settings": {
             "enable_image": true,
@@ -156,11 +196,11 @@
         }
       },
       "block_order": [
-        "text_block_pEyHhX",
-        "text_block_PKRaUN",
-        "text_block_cRzrU4",
-        "text_block_mWfqLC",
-        "text_block_nm7LpM"
+        "text_block_7aTdgg",
+        "text_block_NBJp7m",
+        "text_block_cww8Ba",
+        "text_block_QVRAFD",
+        "text_block_EUY7Bf"
       ],
       "settings": {
         "title": "",
@@ -336,6 +376,7 @@
     "featured_video_M7C4VL",
     "featured_video_RzmkzQ",
     "text_columns_DLTrFL",
+    "text_columns_jf9C3G",
     "text_columns_QGKzLN",
     "featured_collection_XRU8rC",
     "title_with_id_WCyKeq",
