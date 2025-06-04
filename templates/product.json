@@ -87,6 +87,10 @@
           "type": "separator",
           "settings": {}
         },
+        "selleasy_lb_upsell_widget_bl_VWhebk": {
+          "type": "shopify://apps/selleasy/blocks/lb-upsell-widget-bl/790c1a03-a71f-4bc1-9869-00dad526d3c2",
+          "settings": {}
+        },
         "description": {
           "type": "description",
           "settings": {
@@ -137,6 +141,7 @@
         "sales_point",
         "sales_point_QfUTVU",
         "separator_kEjU68",
+        "selleasy_lb_upsell_widget_bl_VWhebk",
         "description",
         "tab",
         "tab_qMqaNp",
