@@ -223,6 +223,28 @@
         "divider": false
       }
     },
+    "hero_video_RgJAc9": {
+      "type": "hero-video",
+      "disabled": true,
+      "name": "t:sections.hero-video.presets.video_hero.name",
+      "settings": {
+        "title": "",
+        "title_size": 80,
+        "text_color": "#ffffff",
+        "subheading": "",
+        "btn_hover_color": "Santa Cruz",
+        "link_text": "",
+        "link": "",
+        "link_text_2": "",
+        "link_2": "",
+        "text_align": "vertical-center horizontal-center",
+        "video_url": "https://youtu.be/54Cq2TPEuek",
+        "overlay_opacity": 0,
+        "section_height": "16-9",
+        "mobile_height": "auto",
+        "full_width": true
+      }
+    },
     "title_with_id_NKkGzM": {
       "type": "title-with-id",
       "settings": {
@@ -267,11 +289,11 @@
         "space_between": false,
         "text_color": "white",
         "subtext": "",
-        "title": "SHEPHERD",
-        "description": "<p>“We have no memory of pain, do we. So you know that hurts, but you can’t actually remember what hurt is. So that’s how we can do it again.”<br/>— Camille McMillan</p>",
-        "image_1": "shopify://shop_images/furtherfotomobile.jpg",
+        "title": "ROAMING RWANDA",
+        "description": "<p>A Country of Thousand Hills. The Race Around Rwanda, an ultra endurance cycling event, leads its riders over a spectacular route around the beautiful but challenging Rwandan countryside.</p>",
+        "image_1": "shopify://shop_images/RAR_Thumb02.jpg",
         "button_text": "► WATCH",
-        "button_url": "https://www.youtube.com/watch?v=dMWCJLXjKy0&t=552s",
+        "button_url": "https://youtu.be/yMmkwdUoETE",
         "button_inverse": true
       }
     },
@@ -327,6 +349,7 @@
     },
     "title_with_id_WCyKeq": {
       "type": "title-with-id",
+      "disabled": true,
       "settings": {
         "title": "PHOTOS",
         "half_margin_top": false,
@@ -401,6 +424,7 @@
     "slideshow_jC9Gai",
     "title_with_id_G7Wmez",
     "blog_post_by_tag_gnnpw8",
+    "hero_video_RgJAc9",
     "title_with_id_NKkGzM",
     "images_and_text_L9dVAe",
     "images_and_text_NAxtnE",
