@@ -234,6 +234,18 @@
         "padding_bottom_mobile": 30
       }
     },
+    "featured_collection_switcher_rVXdpr": {
+      "type": "featured-collection-switcher",
+      "settings": {
+        "title": "SHOP THE TRAINING COLLECTION",
+        "hide_title": true,
+        "collection1": "cycling-training-collection",
+        "collection2": "cycling-training-collection",
+        "per_row": 2,
+        "view_all": false,
+        "divider": false
+      }
+    },
     "slideshow_ygUeMG": {
       "type": "slideshow",
       "blocks": {
@@ -324,7 +336,7 @@
         "lazyload_images": true
       }
     },
-    "featured_collection_switcher_rVXdpr": {
+    "featured_collection_switcher_3JQDgp": {
       "type": "featured-collection-switcher",
       "settings": {
         "title": "SHOP THE COLLECTIONS",
@@ -507,10 +519,11 @@
     "text_block_chJ4mM",
     "hero_video_KNhNJV",
     "text_block_ag3LGa",
+    "featured_collection_switcher_rVXdpr",
     "slideshow_ygUeMG",
     "text_block_y7erAj",
     "slideshow_YtDkdm",
-    "featured_collection_switcher_rVXdpr",
+    "featured_collection_switcher_3JQDgp",
     "logo_grid_di3dKX",
     "images_and_text_C3H87F",
     "blog_posts_4iCDQn"
