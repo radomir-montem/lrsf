@@ -339,11 +339,11 @@
     "featured_collection_switcher_3JQDgp": {
       "type": "featured-collection-switcher",
       "settings": {
-        "title": "SHOP THE COLLECTIONS",
+        "title": "SHOP THE COLLECTION",
         "hide_title": true,
         "collection1": "cycling-adventure-collection",
-        "collection2": "cycling-training-collection",
-        "per_row": 4,
+        "collection2": "",
+        "per_row": 5,
         "view_all": true,
         "divider": false
       }
