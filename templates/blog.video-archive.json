@@ -113,11 +113,11 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify://shop_images/maxresdefault.webp",
+            "image": "shopify://shop_images/TI-Lagos-Feed02.jpg",
             "image_mask": "landscape",
             "image_width": 650,
-            "title": "THE LONG WAY HOME",
-            "text": "<p>Remember the DIY version of Unbound? Each year, at the end of May, we’re doing it again. United in gravel, we ride REBOUND! Join Polly from the UK, Jarle from Norway, Willy from Belgium and Sophie from the Netherlands on their Road to Rebound 2024.</p>",
+            "title": "LAGOS DE COVADONGA",
+            "text": "<p>Twelve years in the pro peloton  rushed by. No time to linger. No time to truly see. But LtD  kept a list - a little black notebook - a quiet promise to return.<br/><br/>Episode 1: Lagos de Covadonga.<br/></p>",
             "button_label": "WATCH NOW",
             "button_link": "https://youtu.be/utHhns6v8co"
           }
@@ -139,6 +139,46 @@
       "block_order": [
         "text_block_pEyHhX",
         "text_block_PKRaUN"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "left",
+        "divider": false
+      }
+    },
+    "text_columns_JqTQbf": {
+      "type": "text-columns",
+      "blocks": {
+        "text_block_KBJCAV": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/maxresdefault.webp",
+            "image_mask": "landscape",
+            "image_width": 650,
+            "title": "THE LONG WAY HOME",
+            "text": "<p>Remember the DIY version of Unbound? Each year, at the end of May, we’re doing it again. United in gravel, we ride REBOUND! Join Polly from the UK, Jarle from Norway, Willy from Belgium and Sophie from the Netherlands on their Road to Rebound 2024.</p>",
+            "button_label": "WATCH NOW",
+            "button_link": "https://youtu.be/utHhns6v8co"
+          }
+        },
+        "text_block_PknhmP": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Thumbnail_2.png",
+            "image_mask": "landscape",
+            "image_width": 650,
+            "title": "SHEPHERD",
+            "text": "<p>“We have no memory of pain, do we. So you know that hurts, but you can’t actually remember what hurt is. So that’s how we can do it again.”— Camille McMillan<br/>A short movie dedicated to the adventure bike race, Further Scotland.</p>",
+            "button_label": "WATCH NOW",
+            "button_link": "https://youtu.be/dMWCJLXjKy0"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_KBJCAV",
+        "text_block_PknhmP"
       ],
       "settings": {
         "title": "",
@@ -396,6 +436,7 @@
     "featured_video_M7C4VL",
     "rich_text_jzMxCg",
     "text_columns_DLTrFL",
+    "text_columns_JqTQbf",
     "text_columns_jf9C3G",
     "text_columns_QGKzLN",
     "featured_collection_XRU8rC",
