@@ -258,7 +258,7 @@
         "image_HgayTK": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/instagramhero.jpg",
+            "image": "shopify://shop_images/DSC03246.jpg",
             "slide_title1": "FOLLOW US ON INSTAGRAM",
             "slide_title2": ""
           }
@@ -317,6 +317,27 @@
         "padding_bottom_mobile": 30
       }
     },
+    "hero_video_NwjtpD": {
+      "type": "hero-video",
+      "name": "t:sections.hero-video.presets.video_hero.name",
+      "settings": {
+        "title": "",
+        "title_size": 80,
+        "text_color": "#ffffff",
+        "subheading": "",
+        "btn_hover_color": "Santa Cruz",
+        "link_text": "",
+        "link": "",
+        "link_text_2": "",
+        "link_2": "",
+        "text_align": "vertical-center horizontal-center",
+        "video_url": "https://youtu.be/K_JIKK6svl4",
+        "overlay_opacity": 0,
+        "section_height": "650px",
+        "mobile_height": "auto",
+        "full_width": true
+      }
+    },
     "images_grid_6hV9WN": {
       "type": "images-grid",
       "blocks": {
@@ -371,28 +392,8 @@
         "image_ffDCnG",
         "image_kBPYep"
       ],
+      "disabled": true,
       "settings": {}
-    },
-    "hero_video_NwjtpD": {
-      "type": "hero-video",
-      "name": "t:sections.hero-video.presets.video_hero.name",
-      "settings": {
-        "title": "",
-        "title_size": 80,
-        "text_color": "#ffffff",
-        "subheading": "",
-        "btn_hover_color": "Santa Cruz",
-        "link_text": "",
-        "link": "",
-        "link_text_2": "",
-        "link_2": "",
-        "text_align": "vertical-center horizontal-center",
-        "video_url": "https://youtu.be/K_JIKK6svl4",
-        "overlay_opacity": 0,
-        "section_height": "650px",
-        "mobile_height": "auto",
-        "full_width": true
-      }
     },
     "featured_collection_switcher_rVXdpr": {
       "type": "featured-collection-switcher",
@@ -454,8 +455,8 @@
     "fading_images_Xc7dx7",
     "text_block_GnjDbM",
     "button_wpwBKA",
-    "images_grid_6hV9WN",
     "hero_video_NwjtpD",
+    "images_grid_6hV9WN",
     "featured_collection_switcher_rVXdpr",
     "images_and_text_C3H87F",
     "blog_posts_4iCDQn"
