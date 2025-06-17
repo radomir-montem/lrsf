@@ -373,6 +373,27 @@
       ],
       "settings": {}
     },
+    "hero_video_NwjtpD": {
+      "type": "hero-video",
+      "name": "t:sections.hero-video.presets.video_hero.name",
+      "settings": {
+        "title": "",
+        "title_size": 80,
+        "text_color": "#ffffff",
+        "subheading": "",
+        "btn_hover_color": "Santa Cruz",
+        "link_text": "",
+        "link": "",
+        "link_text_2": "",
+        "link_2": "",
+        "text_align": "vertical-center horizontal-center",
+        "video_url": "https://youtu.be/OQUnZ9VDBks",
+        "overlay_opacity": 0,
+        "section_height": "650px",
+        "mobile_height": "auto",
+        "full_width": true
+      }
+    },
     "featured_collection_switcher_rVXdpr": {
       "type": "featured-collection-switcher",
       "settings": {
@@ -560,6 +581,7 @@
     "text_block_GnjDbM",
     "button_wpwBKA",
     "images_grid_6hV9WN",
+    "hero_video_NwjtpD",
     "featured_collection_switcher_rVXdpr",
     "logo_grid_di3dKX",
     "images_and_text_C3H87F",
