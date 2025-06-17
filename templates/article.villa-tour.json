@@ -23,8 +23,8 @@
             "link2": "",
             "link_text2": "",
             "text_align": "vertical-bottom horizontal-left",
-            "image": "shopify://shop_images/villatourhero2.jpg",
-            "image_mobile": "shopify://shop_images/villatourhero2.jpg",
+            "image": "shopify://shop_images/villatourheader.jpg",
+            "image_mobile": "shopify://shop_images/villatourheader.jpg",
             "parallax_direction": "top",
             "overlay_opacity": 0
           }
