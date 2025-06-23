@@ -121,6 +121,7 @@
         },
         "bundle_products_46nmPG": {
           "type": "bundle_products",
+          "disabled": true,
           "settings": {
             "header": "COMPLETE YOUR SET",
             "subheader": "Buy this bundle and get 10% off",
