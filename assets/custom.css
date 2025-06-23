@@ -835,6 +835,62 @@ button.color-swatch.disabled::after {
   object-position: center;
 }
 
+.drawer__inner lb-upsell-widget {
+  padding: 0 40px;
+}
+
+@media (min-width: 590px) {
+  .drawer__inner lb-upsell-widget {
+    padding: 0 25px;
+  }
+}
+
+.drawer__inner .lb-addon-title {
+  color: #fff !important;
+}
+
+.drawer__inner .lb-variant-picker {
+  color: #000 !important;
+}
+
+.product-single__meta .lb-bundle-title {
+  text-transform: uppercase;
+}
+
+.product-single__meta .lb-flat-card,
+.product-single__meta  .lb-card-img,
+.product-single__meta .lb-bundle-offers,
+.product-single__meta .lb-variant-picker {
+  border-radius: 3px !important;
+}
+
+.product-single__meta .lb-button {
+  border-radius: 0 !important;
+}
+
+.product-single__meta .lb-variant-picker,
+.product-single__meta .lb-price-sl .lb-price * {
+  font-size: 12px !important;
+}
+
+.product-single__meta .lb-card-title {
+  font-weight: 700 !important;
+}
+
+.product-single__meta .lb-cta-cont {
+  gap: 4px !important;
+}
+
+.product-single__meta .lb-custom-checkbox {
+  border-color: #00a3a1 !important;
+  width: 14px !important;
+  height: 14px !important;
+}
+
+.product-single__meta .lb-custom-checkbox.lb-checked {
+  background-color: #00a3a1 !important;
+}
+
 @keyframes loop-logo-list {
   0% {
     transform: translateX(0);

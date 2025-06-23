@@ -34,7 +34,7 @@
           {% endif %}
 
           <!-- CART UPSELL -->
-          {% if product.metafields.custom.cart_upsell_products.value != blank
+          {% comment %} {% if product.metafields.custom.cart_upsell_products.value != blank
             or settings.cross_sell_products != blank
           %}
             {% if product.metafields.custom.cart_upsell_products.value != blank %}
@@ -135,10 +135,10 @@
               }
             </script>
             <!-- CART UPSELL -->
-          {% endif %}
+          {% endif %} {% endcomment %}
         </div>
 
-        <div class="drawer__footer appear-animation appear-delay-4">
+        <div class="drawer__footer appear-animation appear-delay-4 lb-upsell-cart">
           {% if settings.offer_free_shipping %}
             {% if localization.country == 'Netherlands' and settings.free_shipping_threshold_ned != blank %}
               {% assign free_shipping_threshold = settings.free_shipping_threshold_ned | times: 1 %}
