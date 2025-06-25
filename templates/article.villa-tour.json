@@ -340,6 +340,28 @@
         "full_width": true
       }
     },
+    "logo_grid_WQHF9X": {
+      "type": "logo-grid",
+      "blocks": {
+        "icon_M4CUMC": {
+          "type": "icon",
+          "settings": {
+            "image": "shopify://shop_images/Skoda_Wordmark_RGB_Black.png"
+          }
+        }
+      },
+      "block_order": [
+        "icon_M4CUMC"
+      ],
+      "name": "Logo Grid",
+      "settings": {
+        "heading": "OFFICIAL PARTNER OF VILLA TOUR",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_top_mobile": 50,
+        "padding_bottom_mobile": 50
+      }
+    },
     "images_grid_6hV9WN": {
       "type": "images-grid",
       "blocks": {
@@ -442,17 +464,6 @@
         "view_all": true,
         "divider": false
       }
-    },
-    "logo_grid_WQHF9X": {
-      "type": "logo-grid",
-      "name": "Logo Grid",
-      "settings": {
-        "heading": "PARTNERS",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "padding_top_mobile": 50,
-        "padding_bottom_mobile": 50
-      }
     }
   },
   "order": [
@@ -469,10 +480,10 @@
     "text_block_GnjDbM",
     "button_wpwBKA",
     "hero_video_NwjtpD",
+    "logo_grid_WQHF9X",
     "images_grid_6hV9WN",
     "featured_collection_switcher_rVXdpr",
     "images_and_text_C3H87F",
-    "blog_posts_4iCDQn",
-    "logo_grid_WQHF9X"
+    "blog_posts_4iCDQn"
   ]
 }
