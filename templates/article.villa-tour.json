@@ -442,6 +442,17 @@
         "view_all": true,
         "divider": false
       }
+    },
+    "logo_grid_WQHF9X": {
+      "type": "logo-grid",
+      "name": "Logo Grid",
+      "settings": {
+        "heading": "PARTNERS",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_top_mobile": 50,
+        "padding_bottom_mobile": 50
+      }
     }
   },
   "order": [
@@ -461,6 +472,7 @@
     "images_grid_6hV9WN",
     "featured_collection_switcher_rVXdpr",
     "images_and_text_C3H87F",
-    "blog_posts_4iCDQn"
+    "blog_posts_4iCDQn",
+    "logo_grid_WQHF9X"
   ]
 }
