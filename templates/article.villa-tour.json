@@ -340,19 +340,8 @@
         "full_width": true
       }
     },
-    "logo_grid_WQHF9X": {
+    "logo_grid_YjMNay": {
       "type": "logo-grid",
-      "blocks": {
-        "icon_M4CUMC": {
-          "type": "icon",
-          "settings": {
-            "image": "shopify://shop_images/Skoda_Wordmark_RGB_Black.png"
-          }
-        }
-      },
-      "block_order": [
-        "icon_M4CUMC"
-      ],
       "name": "Logo Grid",
       "settings": {
         "heading": "OFFICIAL PARTNER OF VILLA TOUR",
@@ -365,58 +354,17 @@
     "images_grid_6hV9WN": {
       "type": "images-grid",
       "blocks": {
-        "image_XjDYTb": {
+        "image_H3f7AK": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/tdf3.jpg",
-            "double_height": false
-          }
-        },
-        "image_gLQe3a": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/tdf1.jpg",
-            "double_height": false
-          }
-        },
-        "image_GTLaqc": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/tdf2.jpg",
-            "double_height": false
-          }
-        },
-        "image_P3xUDU": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/tdf4.jpg",
-            "double_height": false
-          }
-        },
-        "image_ffDCnG": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/tdf5.jpg",
-            "double_height": false
-          }
-        },
-        "image_kBPYep": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/villatour5.jpg",
+            "image": "shopify://shop_images/Skoda_Wordmark_RGB_Black.png",
             "double_height": false
           }
         }
       },
       "block_order": [
-        "image_XjDYTb",
-        "image_gLQe3a",
-        "image_GTLaqc",
-        "image_P3xUDU",
-        "image_ffDCnG",
-        "image_kBPYep"
+        "image_H3f7AK"
       ],
-      "disabled": true,
       "settings": {}
     },
     "featured_collection_switcher_rVXdpr": {
@@ -480,7 +428,7 @@
     "text_block_GnjDbM",
     "button_wpwBKA",
     "hero_video_NwjtpD",
-    "logo_grid_WQHF9X",
+    "logo_grid_YjMNay",
     "images_grid_6hV9WN",
     "featured_collection_switcher_rVXdpr",
     "images_and_text_C3H87F",
