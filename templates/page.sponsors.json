@@ -104,6 +104,7 @@
         },
         "logo_image_XkKUVk": {
           "type": "logo_image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/laka.png",
             "link": "",
