@@ -360,10 +360,26 @@
             "image": "shopify://shop_images/Skoda_Wordmark_RGB_Black.png",
             "double_height": false
           }
+        },
+        "image_DRwHBe": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Skoda_Wordmark_RGB_Black.png",
+            "double_height": false
+          }
+        },
+        "image_aztz4M": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Skoda_Wordmark_RGB_Black.png",
+            "double_height": false
+          }
         }
       },
       "block_order": [
-        "image_H3f7AK"
+        "image_H3f7AK",
+        "image_DRwHBe",
+        "image_aztz4M"
       ],
       "settings": {}
     },
