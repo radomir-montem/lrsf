@@ -18,7 +18,7 @@
                 <h2 class="section-header__title">{{ section.settings.heading }}</h2>
             </div>
         {% endif %}
-        <div class="logo-grid">
+        <div class="logo-grid" data-block-size="{{ section.blocks.size }}">
             {% for block in section.blocks %}
                 <div class="logo-grid-item">
                     <div class="logo-grid__image">

@@ -891,6 +891,33 @@ button.color-swatch.disabled::after {
   background-color: #00a3a1 !important;
 }
 
+.logo-grid[data-block-size="1"] {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-grid[data-block-size="1"] .logo-grid-item,
+.logo-grid[data-block-size="2"] .logo-grid-item,
+.logo-grid[data-block-size="3"] .logo-grid-item {
+  width: 50%;
+}
+
+@media (min-width: 768px) {
+  .logo-grid[data-block-size="2"],
+  .logo-grid[data-block-size="3"] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .logo-grid[data-block-size="1"] .logo-grid-item,
+  .logo-grid[data-block-size="2"] .logo-grid-item,
+  .logo-grid[data-block-size="3"] .logo-grid-item {
+    width: 25%;
+  }
+}
+
 @keyframes loop-logo-list {
   0% {
     transform: translateX(0);
