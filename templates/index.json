@@ -49,6 +49,7 @@
           "settings": {
             "title": "MEN",
             "subtitle": "SHOP NOW >",
+            "image": "shopify://shop_images/LSRF-collection-image-men-2024-homepage.jpg",
             "link": "shopify://collections/mens-collection-cycling"
           }
         },
