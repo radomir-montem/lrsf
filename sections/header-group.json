@@ -17,8 +17,8 @@
       "settings": {
         "announcement_text": "TOUR SPECIALS UP to 40%",
         "announcement_link": "shopify://collections/shop-all-cycling-sale",
-        "announcement_link_text": "More on cookies »",
-        "announcement_closable": true
+        "announcement_link_text": "SHOP NOW »",
+        "announcement_closable": false
       }
     },
     "header": {
