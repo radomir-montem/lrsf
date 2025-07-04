@@ -13,9 +13,8 @@
   "sections": {
     "announcement-bar": {
       "type": "announcement-bar",
-      "disabled": true,
       "settings": {
-        "announcement_text": "TOUR SPECIALS UP to 40%",
+        "announcement_text": "TOUR SPECIALS UP TO 40%",
         "announcement_link": "shopify://collections/shop-all-cycling-sale",
         "announcement_link_text": "SHOP NOW »",
         "announcement_closable": false
