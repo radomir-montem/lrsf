@@ -12,18 +12,18 @@
     "hero-video": {
       "type": "hero-video",
       "settings": {
-        "title": "ADVENTURE STARTS HERE",
+        "title": "TOUR SEASON: ON",
         "title_size": 80,
         "text_color": "#ffffff",
-        "subheading": "Built for escapes, tested on real rides",
+        "subheading": "Up to 40% off. Weekly deals",
         "btn_hover_color": "Santa Cruz",
-        "link_text": "SHOP ADVENTURE",
-        "link": "shopify://collections/spring-summer-cycling-collection",
+        "link_text": "SHOP TOUR SPECIALS",
+        "link": "shopify://collections/shop-all-cycling-sale",
         "link_text_2": "",
         "link_2": "shopify://collections/shop-all-cycling-sale",
         "text_align": "vertical-center horizontal-left",
         "video_url": "",
-        "image": "shopify://shop_images/LSRF-Adventure-jersey-hero-banner-SS25.jpg",
+        "image": "shopify://shop_images/LSRF-Tour-Banner-03.jpg",
         "overlay_opacity": 24,
         "section_height": "750px",
         "mobile_height": "500px",
@@ -33,7 +33,7 @@
     "scrolling_text_HLGe4q": {
       "type": "scrolling-text",
       "settings": {
-        "text": "TdF SPECIAL: JERSEY & BIB –15%",
+        "text": "TdF SPECIAL: JERSEY + BIB –15%",
         "link": "shopify://collections/cycling-jerseys-mens",
         "text_size": 20,
         "text_spacing": true,
