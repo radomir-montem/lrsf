@@ -128,8 +128,8 @@
             "button_text": "ADD BUNDLE TO CART"
           }
         },
-        "aov_bundle_upsell_mix_match_offer_inline_UkaDQt": {
-          "type": "shopify://apps/aov-bundle-upsell/blocks/mix-match-offer-inline/0335d423-143c-4ad7-b224-99a1db74a9ee",
+        "aov_bundle_upsell_offer_volume_jXkTn4": {
+          "type": "shopify://apps/aov-bundle-upsell/blocks/offer-volume/0335d423-143c-4ad7-b224-99a1db74a9ee",
           "settings": {}
         }
       },
@@ -152,7 +152,7 @@
         "tab_qMqaNp",
         "share",
         "bundle_products_46nmPG",
-        "aov_bundle_upsell_mix_match_offer_inline_UkaDQt"
+        "aov_bundle_upsell_offer_volume_jXkTn4"
       ],
       "settings": {
         "sku_enable": false,
