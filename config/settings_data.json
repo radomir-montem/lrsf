@@ -108,7 +108,7 @@
       },
       "16605207545338212596": {
         "type": "shopify://apps/aov-bundle-upsell/blocks/aov-offer/0335d423-143c-4ad7-b224-99a1db74a9ee",
-        "disabled": false,
+        "disabled": true,
         "settings": {}
       }
     }
