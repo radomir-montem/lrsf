@@ -294,7 +294,7 @@
   },
   "platform_customizations": {
     "custom_css": [
-      ".site-nav__link[href*=\"/collections/shop-all-cycling-sale\"] {color: #00a3a1;}"
+      ".site-nav__link[href*=\"/collections/shop-all-cycling-sale\"] {color: #F0D849;}"
     ]
   }
 }
