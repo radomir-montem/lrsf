@@ -53,7 +53,7 @@
             >
               <div class="animation-cropper">
                 <div class="animation-contents collection-title">
-                  {{ collection.title | upcase }}
+                  {{ collection.title | append: ' (' | append: collection.products.count | append: ')' | upcase }}
                 </div>
               </div>
             </h1>

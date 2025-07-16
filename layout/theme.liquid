@@ -190,6 +190,9 @@
       </image-element>
     </template>
 
+    {% render 'recently-viewed-manager' %}
+    <script src="{{ 'recently-viewed-manager.js' | asset_url }}" defer="defer"></script>
+
 
 <script src="https://a.klaviyo.com/media/js/onsite/onsite.js"></script>
 <script>
@@ -233,5 +236,7 @@
 
     
   {{'tiny-img-link-preloader.js' | asset_url | script_tag }}
+
+  {% render 'back-top' %}
 </body>
 </html>

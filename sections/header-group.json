@@ -13,13 +13,32 @@
   "sections": {
     "announcement-bar": {
       "type": "announcement-bar",
-      "disabled": true,
-      "settings": {
-        "announcement_text": "By using our website, you agree to the usage of cookies to help us make this website better.",
-        "announcement_link": "#",
-        "announcement_link_text": "More on cookies »",
-        "announcement_closable": true
-      }
+      "blocks": {
+        "bar_item_EPgHEi": {
+          "type": "bar_item",
+          "settings": {
+            "announcement_text": "<p>Free shipping and returns</p>"
+          }
+        },
+        "bar_item_deRyKB": {
+          "type": "bar_item",
+          "settings": {
+            "announcement_text": "<p>By using our website, you agree to the usage of cookies to help us make this website better.</p>"
+          }
+        },
+        "bar_item_9YFNAT": {
+          "type": "bar_item",
+          "settings": {
+            "announcement_text": "<p>By using our website, you agree to the usage of cookies to help us make this website better. <a href=\"#\" title=\"#\">Here</a></p>"
+          }
+        }
+      },
+      "block_order": [
+        "bar_item_EPgHEi",
+        "bar_item_deRyKB",
+        "bar_item_9YFNAT"
+      ],
+      "settings": {}
     },
     "header": {
       "type": "header",

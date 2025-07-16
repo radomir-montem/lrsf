@@ -1,0 +1,84 @@
+{%- liquid
+  assign recommend_products = true
+
+  if recommendations.products and recommendations.products_count > 0
+    assign related_collection = recommendations
+  endif
+
+  assign number_of_products = section.settings.related_count
+-%}
+
+{% if cart.attributes._viewed_product_handles %}
+<div
+    data-subsection
+    data-section-type="collection-template"
+    class="index-section">
+    <div class="page-width">
+      <header class="section-header">
+        <h3 class="section-header__title">
+          {{ section.settings.product_recommendations_heading }}
+        </h3>
+      </header>
+    </div>
+
+    <div class="page-width page-width--flush-small">
+      <div class="grid-overflow-wrapper">
+            <div class="product-recommendations page-width">
+                <div class="product-single__related grid grid--uniform" data-aos="overflow__animation">
+                    {% for handle in cart.attributes._viewed_product_handles %}
+                        {% liquid
+                            if handle == product.handle
+                                continue
+                            endif
+                            assign history_product = all_products[handle]
+                            if history_product.metafields.seo.hidden == 1 or history_product.id == blank
+                                continue
+                            endif
+                            assign count = count | plus: 1
+                            assign has_view_history = true
+                            render 'product-grid-item', product: history_product, per_row: section.settings.products_per_row, fallback: '66vw'
+                        %}
+                    {% endfor %}
+                </div>
+            </div>
+      </div>
+    </div>
+</div>
+{% endif %}
+
+{% schema %}
+{
+  "name": "Recently viewed",
+  "settings": [
+    {
+      "type": "text",
+      "id": "product_recommendations_heading",
+      "label": "t:sections.product-recommendations.settings.product_recommendations_heading.label",
+      "default": "Recently viewed"
+    },
+    {
+      "type": "range",
+      "id": "related_count",
+      "label": "t:sections.product-recommendations.settings.related_count.label",
+      "default": 6,
+      "min": 2,
+      "max": 6,
+      "step": 1
+    },
+    {
+      "type": "range",
+      "id": "products_per_row",
+      "label": "t:sections.product-recommendations.settings.products_per_row.label",
+      "default": 3,
+      "min": 2,
+      "max": 5,
+      "step": 1
+    }
+  ],
+  "presets": [
+    {
+        "name": "Recently viewed"
+    }
+  ]
+}
+{% endschema %}
