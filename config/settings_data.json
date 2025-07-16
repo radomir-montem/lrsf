@@ -110,6 +110,11 @@
         "type": "shopify://apps/aov-bundle-upsell/blocks/aov-offer/0335d423-143c-4ad7-b224-99a1db74a9ee",
         "disabled": false,
         "settings": {}
+      },
+      "16216491870256628967": {
+        "type": "shopify://apps/ta-labels-badges/blocks/bss-pl-config-data/91bfe765-b604-49a1-805e-3599fa600b24",
+        "disabled": false,
+        "settings": {}
       }
     }
   },
@@ -294,7 +299,7 @@
   },
   "platform_customizations": {
     "custom_css": [
-      ".site-nav__link[href*=\"/collections/shop-all-cycling-sale\"] {color: #F0D849;}"
+      ".site-nav__link[href*=\"/collections/shop-all-cycling-sale\"] {color: #f0d849;}"
     ]
   }
 }
