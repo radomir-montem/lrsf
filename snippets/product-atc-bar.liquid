@@ -1,0 +1,123 @@
+
+{{ 'scroll-hidden-bar.css' |  asset_url |  stylesheet_tag }}
+        
+<sticky-atc-button data-sticky-type="on-scroll-up" id="sticky-bottom-bar" class="sticky-bottom">
+    {%- liquid
+      assign current_variant = product.selected_or_first_available_variant
+    -%}
+    <div class="full-width container">
+      <div class="sticky-stc-button--container">
+        <div class="sticky-product__title">
+          <h2 class="sticky-stc__title">
+            <span>{{ product.title | upcase }} | </span>
+            <span class="sticky-stc-price">{{ current_variant.price | money }}</span>
+          </h2>
+        </div>
+        <div class="sticky-qualities">
+          <div class="color-swatches-wrapper">
+          {% assign main_color = '' %}
+            {% if product.metafields.custom.general_product_name != blank %}
+              {% assign general_product = product.metafields.custom.general_product_name %}
+            {% endif %}
+            {%- liquid
+              assign custom_color_swatches = settings.custom_color_swatches | split: ','
+              assign bg_color = blank
+            -%}
+            {% for option in product.options_with_values %}
+              {% if option.name == 'color' %}
+                {% assign main_color = option.values[0] %}
+                <!-- OVERWRITE COLOR IF CUSTOM SWATCH NAME MATCHES -->
+                {% for color in custom_color_swatches %}
+                  {% assign color_dc = color | downcase %}
+                  {% assign color_to_find = main_color | downcase %}
+                  {% if color_dc contains color_to_find %}
+                    {% assign bg_color = color | split: ':' | last %}
+                  {% endif %}
+                {% endfor %}
+              {% endif %}
+            {% endfor %}
+            <div class="color-swatch-block">
+              <button
+                class="color-swatch {% if product.available != true %}disabled {% endif %}"
+                style="background-color: {{ bg_color }};box-shadow: 0 0 0 2px var(--colorTextBody);"
+              ></button>
+            </div>
+            {% assign product_handle_array = '' %}
+            <!-- OTHER PRODUCTS SWATCHES -->
+            {% for collection in collections %}
+              {% paginate collection.products by 1000 %}
+                {% for prod in collection.products %}
+                  {% assign product_handle = prod.handle %}
+                  {% if prod == product or product_handle_array contains product_handle %}
+                    {% continue %}
+                  {% endif %}
+                  {% assign product_handle_array = product_handle_array | append: ',' | append: product_handle %}
+                  {% if prod.metafields.custom.general_product_name != blank
+                    and prod.metafields.custom.general_product_name == general_product
+                  %}
+                    {% assign main_color = '' %}
+                    {%- liquid
+                      assign custom_color_swatches = settings.custom_color_swatches | split: ','
+                      assign bg_color = blank
+                    -%}
+                    {% for option in prod.options_with_values %}
+                      {% if option.name == 'color' %}
+                        {% assign main_color = option.values[0] %}
+                        <!-- OVERWRITE COLOR IF CUSTOM SWATCH NAME MATCHES -->
+                        {% for color in custom_color_swatches %}
+                          {% assign color_dc = color | downcase %}
+                          {% assign color_to_find = main_color | downcase %}
+                          {% if color_dc contains color_to_find %}
+                            {% assign bg_color = color | split: ':' | last %}
+                          {% endif %}
+                        {% endfor %}
+                      {% endif %}
+                    {% endfor %}
+                    <a
+                      class="color-swatch-block"
+                      href="{{ prod.url }}"
+                      data-color-name="{{ main_color | capitalize}}"
+                      onmouseover="document.getElementById('selected-color-label').innerHTML = this.dataset.colorName;"
+                      onmouseout="document.getElementById('selected-color-label').innerHTML = document.getElementById('selected-color-label').dataset.colorName;"
+                    >
+                      <button
+                        class="color-swatch {% if prod.available != true %}disabled {% endif %}"
+                        style="background-color: {{ bg_color }};"
+                      ></button>
+                    </a>
+                  {% endif %}
+                {% endfor %}
+              {% endpaginate %}
+            {% endfor %}
+          </div>      
+          {% if product.has_only_default_variant %}
+            <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
+          {% else %}
+            <select name="id" class="size-selector">
+              {% for variant in product.variants %}
+              <option value="{{ variant.id }}" data-price="{{ variant.price | money }}" {% unless variant.available %}disabled{% endunless %} {% if variant == product.selected_or_first_available_variant %}selected{% endif %}>
+                {{ variant.title }}
+              </option>
+              {% endfor %}
+            </select>
+          {% endif %}
+        </div>
+      </div>
+      <div class="sticky_post">
+        <div class="sticky-product__button">
+          <button
+            class="btn btn--full sticky__button"
+          >
+            <span class="icon">
+              {{ 'icon-cart.svg' | inline_asset_content }}
+            </span>
+            <span style="text-transform:uppercase">
+              {{ 'products.product.add_to_cart' | t }}
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
+</sticky-atc-button>
+
+<script src="{{ 'sticky-atc.js' | asset_url }}" defer></script>

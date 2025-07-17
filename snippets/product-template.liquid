@@ -709,6 +709,14 @@
       </div>
     </div>
   </div>
+  {%- render 'product-atc-bar', 
+      product: product,
+      form_id: form_id,
+      section_id: section_id,
+      option: option,
+      forloop: forloop,
+      variant_labels: block.settings.variant_labels
+  -%}
 </div>
 {% comment %}
   <style>
@@ -776,5 +784,3 @@
     });
   </script>
 {% endcomment %}
-
-{% render 'sticky-atc' %}
