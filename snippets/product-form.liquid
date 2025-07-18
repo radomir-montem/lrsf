@@ -45,7 +45,7 @@
     {% endunless %}
   >
     <span class="icon">
-      {{ 'icon-cart.svg' | inline_asset_content }}
+      {% render 'icon-white-cart' %}
     </span>
     <span data-add-to-cart-text data-default-text="{{ default_text }}" style="text-transform:uppercase">
       {{ button_text | upcase }}

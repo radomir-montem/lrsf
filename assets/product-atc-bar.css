@@ -19,7 +19,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #1b2831;
+    color: white;
     gap: 0.8rem;
+}
+
+.product-section .add-to-cart .icon svg {
+    width: 20px;
+    height: 20px;
 }
 
 .product-section .add-to-cart.btn:not(.btn--no-animate):not(.btn--tertiary):not(.btn--static) {
@@ -78,10 +85,14 @@
 
 .sticky-bottom .container .sticky_post .sticky__button .icon {
     display: block;
+    width: 20px;
+    height: 20px;
 }
 
 .sticky-bottom .container .sticky_post .sticky__button .icon svg {
     color: white;
+    width: 20px;
+    height: 20px;
 }
 
 .sticky-bottom .container .sticky__button.btn:not(.btn--no-animate):not(.btn--tertiary):not(.btn--static) {

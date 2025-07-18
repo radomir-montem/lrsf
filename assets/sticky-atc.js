@@ -5,6 +5,7 @@ class stickyAtc extends HTMLElement {
         this.atcButton = document.querySelector('.add-to-cart');
         this.stickyButton = this.querySelector('.sticky__button');
         this.stickySelect = this.querySelector('[name="id"]');
+        this.priceElement = this.querySelector('.sticky-stc-price');
         this.variantSelect = document.querySelector('.product-single__form').querySelector('[name="id"]');
     }
     
@@ -20,7 +21,6 @@ class stickyAtc extends HTMLElement {
         new IntersectionObserver(handleIntersection.bind(this.productForm), {rootMargin: `0px 0px -100px 0px`}).observe(this.productForm);
         this.stickyButton.addEventListener('click', this.onClickAtcButton.bind(this));
         this.stickySelect.addEventListener('change', this.onChangeStickySelect.bind(this));
-        this.stickySelect.addEventListener('change', this.onChangeVariantMoney.bind(this));
         this.variantSelect.addEventListener('change', this.onChangeVariantSelect.bind(this));
     }
     
@@ -30,6 +30,7 @@ class stickyAtc extends HTMLElement {
     
     onChangeStickySelect () {
         const option = this.stickySelect.querySelector(`option[value="${this.stickySelect.value}"]`);
+        const price = option.dataset.price;
         const options = option.textContent.trim().split(' / ');
         options.forEach((_option,index)=> {
             if(index > 0) {
@@ -43,22 +44,15 @@ class stickyAtc extends HTMLElement {
             }
         });
         this.variantSelect.value = this.stickySelect.value;
+        this.priceElement.textContent = price;
     };
 
     onChangeVariantSelect () {
         const variantId = this.variantSelect.value;
         const stickyOption = this.stickySelect.querySelector(`option[value="${variantId}"]`);
         stickyOption.selected = true;
-    }
-
-    onChangeVariantMoney () {
-        const selectedOption = this.stickySelect.options[this.stickySelect.selectedIndex];
-        const price = selectedOption.getAttribute('data-price');
-        const showedPrice = document.querySelector('.sticky-stc-price');
-
-        if(showedPrice) {
-            showedPrice.textContent = price;
-        } 
+        const price = stickyOption.dataset.price;
+        this.priceElement.textContent = price;
     }
 }
 
