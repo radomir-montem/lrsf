@@ -224,6 +224,19 @@
         "padding_bottom_mobile": 30
       }
     },
+    "button_JttyTn": {
+      "type": "button",
+      "name": "Button",
+      "settings": {
+        "button_text": "LATEST EPISODE ON SPOTIFY",
+        "button_link": "https://open.spotify.com/show/0M7Mo3pN1Hcc5ImqHP20H4?si=589b4c1588654783",
+        "button_style": "btn",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_top_mobile": 50,
+        "padding_bottom_mobile": 50
+      }
+    },
     "hero_video_KNhNJV": {
       "type": "hero-video",
       "settings": {
@@ -431,6 +444,7 @@
     "button_GXtHyh",
     "hero_video_nATVAw",
     "text_block_chJ4mM",
+    "button_JttyTn",
     "hero_video_KNhNJV",
     "text_block_ag3LGa",
     "fading_images_Xc7dx7",
