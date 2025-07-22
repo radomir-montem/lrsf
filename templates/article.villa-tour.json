@@ -126,8 +126,8 @@
             "link2": "",
             "link_text2": "",
             "text_align": "vertical-bottom horizontal-left",
-            "image": "shopify://shop_images/VillaTour_Dag_18-8.jpg",
-            "image_mobile": "shopify://shop_images/VillaTour_Dag_18-8.jpg",
+            "image": "shopify://shop_images/DSC00146.jpg",
+            "image_mobile": "shopify://shop_images/DSC00146.jpg",
             "parallax_direction": "left",
             "overlay_opacity": 0
           }
@@ -260,7 +260,7 @@
         "image_HgayTK": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/DSC03246.jpg",
+            "image": "shopify://shop_images/DSC00523.jpg",
             "slide_title1": "FOLLOW US ON INSTAGRAM",
             "slide_title2": ""
           }
