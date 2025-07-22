@@ -181,25 +181,39 @@
         "padding_bottom_mobile": 50
       }
     },
-    "hero_video_nATVAw": {
-      "type": "hero-video",
+    "slideshow_JRRVjg": {
+      "type": "slideshow",
+      "blocks": {
+        "image_rTdrUd": {
+          "type": "image",
+          "settings": {
+            "title": "",
+            "title_size": 80,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link2": "",
+            "link_text2": "",
+            "text_align": "vertical-bottom horizontal-left",
+            "image": "shopify://shop_images/DSC09462.jpg",
+            "image_mobile": "shopify://shop_images/DSC09462.jpg",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_rTdrUd"
+      ],
+      "name": "t:sections.slideshow.presets.hero_optional_slideshow.name",
       "settings": {
-        "title": "",
-        "title_size": 80,
-        "text_color": "#ffffff",
-        "subheading": "",
-        "btn_hover_color": "white",
-        "link_text": "",
-        "link": "https://youtu.be/_7PbgQH-d9A",
-        "link_text_2": "",
-        "link_2": "",
-        "text_align": "vertical-center horizontal-center",
-        "video_url": "https://youtu.be/_7PbgQH-d9A",
-        "image": "shopify://shop_images/lematin.jpg",
-        "overlay_opacity": 0,
         "section_height": "650px",
-        "mobile_height": "300px",
-        "full_width": false
+        "mobile_height": "auto",
+        "parallax": true,
+        "style": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 5,
+        "lazyload_images": true
       }
     },
     "text_block_chJ4mM": {
@@ -218,10 +232,10 @@
         "rich_text_pTwPtN"
       ],
       "settings": {
-        "padding_top": 30,
-        "padding_bottom": 30,
-        "padding_top_mobile": 30,
-        "padding_bottom_mobile": 30
+        "padding_top": 10,
+        "padding_bottom": 10,
+        "padding_top_mobile": 10,
+        "padding_bottom_mobile": 10
       }
     },
     "button_JttyTn": {
@@ -231,10 +245,10 @@
         "button_text": "LATEST EPISODE ON SPOTIFY",
         "button_link": "https://open.spotify.com/show/0M7Mo3pN1Hcc5ImqHP20H4?si=589b4c1588654783",
         "button_style": "btn",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "padding_top_mobile": 50,
-        "padding_bottom_mobile": 50
+        "padding_top": 10,
+        "padding_bottom": 10,
+        "padding_top_mobile": 10,
+        "padding_bottom_mobile": 10
       }
     },
     "hero_video_KNhNJV": {
@@ -442,7 +456,7 @@
     "slideshow_HAAWjk",
     "text_block_693aUD",
     "button_GXtHyh",
-    "hero_video_nATVAw",
+    "slideshow_JRRVjg",
     "text_block_chJ4mM",
     "button_JttyTn",
     "hero_video_KNhNJV",
