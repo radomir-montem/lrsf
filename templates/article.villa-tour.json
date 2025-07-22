@@ -86,8 +86,8 @@
       "settings": {
         "padding_top": 60,
         "padding_bottom": 60,
-        "padding_top_mobile": 30,
-        "padding_bottom_mobile": 30
+        "padding_top_mobile": 10,
+        "padding_bottom_mobile": 10
       }
     },
     "hero_video_dbBeW8": {
