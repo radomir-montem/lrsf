@@ -177,8 +177,8 @@
         "button_style": "btn",
         "padding_top": 50,
         "padding_bottom": 50,
-        "padding_top_mobile": 50,
-        "padding_bottom_mobile": 50
+        "padding_top_mobile": 10,
+        "padding_bottom_mobile": 10
       }
     },
     "slideshow_JRRVjg": {
