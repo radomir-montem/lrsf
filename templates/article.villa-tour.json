@@ -84,8 +84,8 @@
     "custom_article_yyXm3f": {
       "type": "custom-article",
       "settings": {
-        "padding_top": 60,
-        "padding_bottom": 60,
+        "padding_top": 10,
+        "padding_bottom": 11,
         "padding_top_mobile": 10,
         "padding_bottom_mobile": 10
       }
@@ -162,8 +162,8 @@
         "rich_text_n7ARmT"
       ],
       "settings": {
-        "padding_top": 50,
-        "padding_bottom": 50,
+        "padding_top": 10,
+        "padding_bottom": 10,
         "padding_top_mobile": 10,
         "padding_bottom_mobile": 10
       }
@@ -175,8 +175,8 @@
         "button_text": "LATEST EPISODE ON SPOTIFY",
         "button_link": "https://open.spotify.com/show/0M7Mo3pN1Hcc5ImqHP20H4?si=589b4c1588654783",
         "button_style": "btn",
-        "padding_top": 50,
-        "padding_bottom": 50,
+        "padding_top": 10,
+        "padding_bottom": 10,
         "padding_top_mobile": 10,
         "padding_bottom_mobile": 10
       }
