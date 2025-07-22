@@ -355,8 +355,8 @@
         "button_style": "btn",
         "padding_top": 30,
         "padding_bottom": 30,
-        "padding_top_mobile": 30,
-        "padding_bottom_mobile": 30
+        "padding_top_mobile": 10,
+        "padding_bottom_mobile": 10
       }
     },
     "hero_video_NwjtpD": {
