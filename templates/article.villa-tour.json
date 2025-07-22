@@ -288,8 +288,8 @@
         "rich_text_Mai6ak"
       ],
       "settings": {
-        "padding_top": 30,
-        "padding_bottom": 30,
+        "padding_top": 10,
+        "padding_bottom": 10,
         "padding_top_mobile": 10,
         "padding_bottom_mobile": 10
       }
