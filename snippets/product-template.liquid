@@ -195,32 +195,43 @@
                         >
                           {{ 'products.general.regular_price' | t }}
                         </span>
-                        <span data-product-price-wrap class="{% if hide_sale_price %}hide{% endif %}">
-                          <span data-compare-price class="product__price product__price--compare">
-                            {%- if current_variant.compare_at_price > current_variant.price -%}
-                              {{ current_variant.compare_at_price | money }}
-                            {%- endif -%}
-                          </span>
-                        </span>
                         <span data-compare-price-a11y class="visually-hidden">
                           {{- 'products.general.sale_price' | t -}}
-                        </span>
-                      {%- else -%}
-                        <span data-a11y-price class="visually-hidden">{{ 'products.general.regular_price' | t }}</span>
-                      {%- endif -%}
-
-                      <span
+                          </span>
+                          {%- else -%}
+                          <span data-a11y-price class="visually-hidden">{{ 'products.general.regular_price' | t }}</span>
+                        {%- endif -%}
+                        
+                        <span
                         data-product-price
-                        class="product__price{% if current_variant.compare_at_price > current_variant.price %} sale-price{% endif %}"
+                      class="product__price{% if current_variant.compare_at_price > current_variant.price %} sale-price{% endif %}"
                       >
-                        {%- unless product.empty? -%}
-                          {{ current_variant.price | money }}
+                      {%- unless product.empty? -%}
+                        {{ current_variant.price | money }}
                         {%- else -%}
-                          {{ 1999 | money }}
-                        {%- endunless -%}
+                        {{ 1999 | money }}
+                      {%- endunless -%}
                       </span>
-
-                      <div
+                      
+                      <span data-product-price-wrap>
+                        <span data-compare-price class="product__price product__price--compare">
+                          {%- if current_variant.compare_at_price > current_variant.price -%}
+                            {{ current_variant.compare_at_price | money }}
+                          {%- endif -%}
+                        </span>
+                      </span>
+                      
+                      {%- if product.compare_at_price and product.compare_at_price > product.price and template.name == 'product' -%}
+                        {% assign original_price = product.compare_at_price |  divided_by: 1.0 %}
+                        {% assign discounted_price = product.price |  divided_by: 1.0 %} 
+                        {% assign discount_percentage = original_price | minus: discounted_price | times: 100 | divided_by: original_price %}
+                        
+                        <span class="badge save_price-badge price__badge-sale color-{{ settings.sale_badge_color_scheme }}">
+                          {{ discount_percentage | round  }}% Save
+                          </span>
+                        {%- endif -%}
+                        
+                        <div
                         data-unit-price-wrapper
                         class="product__unit-price{% unless current_variant.unit_price_measurement %} hide{% endunless %}"
                       >

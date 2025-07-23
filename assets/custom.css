@@ -570,6 +570,13 @@ button.color-swatch.disabled::after {
   margin-left: 8px;
 }
 
+.save_price-badge {
+  background-color: #000;
+  color: white;
+  padding: 5px 14px;
+  border-radius: 50px;
+}
+
 .bundle_total-price-subtexxt {
   font-size: 12px;
 }
