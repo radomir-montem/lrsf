@@ -55,6 +55,10 @@
             "show_estimated_shipping": true
           }
         },
+        "selleasy_lb_upsell_widget_bl_VWhebk": {
+          "type": "shopify://apps/selleasy/blocks/lb-upsell-widget-bl/790c1a03-a71f-4bc1-9869-00dad526d3c2",
+          "settings": {}
+        },
         "size_chart_mHk9gz": {
           "type": "size_chart",
           "disabled": true,
@@ -68,10 +72,6 @@
             "inventory_threshold": 8,
             "inventory_transfers_enable": false
           }
-        },
-        "selleasy_lb_upsell_widget_bl_VWhebk": {
-          "type": "shopify://apps/selleasy/blocks/lb-upsell-widget-bl/790c1a03-a71f-4bc1-9869-00dad526d3c2",
-          "settings": {}
         },
         "sales_point": {
           "type": "sales_point",
@@ -141,9 +141,9 @@
         "color_selector_YUAqyA",
         "variant_picker",
         "buy_buttons",
+        "selleasy_lb_upsell_widget_bl_VWhebk",
         "size_chart_mHk9gz",
         "inventory_status",
-        "selleasy_lb_upsell_widget_bl_VWhebk",
         "sales_point",
         "sales_point_QfUTVU",
         "separator_kEjU68",
