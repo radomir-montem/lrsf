@@ -69,6 +69,10 @@
             "inventory_transfers_enable": false
           }
         },
+        "selleasy_lb_upsell_widget_bl_VWhebk": {
+          "type": "shopify://apps/selleasy/blocks/lb-upsell-widget-bl/790c1a03-a71f-4bc1-9869-00dad526d3c2",
+          "settings": {}
+        },
         "sales_point": {
           "type": "sales_point",
           "settings": {
@@ -85,10 +89,6 @@
         },
         "separator_kEjU68": {
           "type": "separator",
-          "settings": {}
-        },
-        "selleasy_lb_upsell_widget_bl_VWhebk": {
-          "type": "shopify://apps/selleasy/blocks/lb-upsell-widget-bl/790c1a03-a71f-4bc1-9869-00dad526d3c2",
           "settings": {}
         },
         "description": {
@@ -129,7 +129,7 @@
           }
         },
         "aov_bundle_upsell_offer_volume_jXkTn4": {
-          "type": "shopify://apps/aov-bundle-upsell/blocks/offer-volume/0335d423-143c-4ad7-b224-99a1db74a9ee",
+          "type": "shopify://apps/aov-ai-bundle-upsell/blocks/offer-volume/0335d423-143c-4ad7-b224-99a1db74a9ee",
           "settings": {}
         }
       },
@@ -143,10 +143,10 @@
         "buy_buttons",
         "size_chart_mHk9gz",
         "inventory_status",
+        "selleasy_lb_upsell_widget_bl_VWhebk",
         "sales_point",
         "sales_point_QfUTVU",
         "separator_kEjU68",
-        "selleasy_lb_upsell_widget_bl_VWhebk",
         "description",
         "tab",
         "tab_qMqaNp",
