@@ -129,6 +129,24 @@
             "subheader": "Buy this bundle and get 10% off",
             "button_text": "ADD BUNDLE TO CART"
           }
+        },
+        "video_4KpJwz": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/ezgif-7-7a93a4e580.mp4"
+          }
+        },
+        "video_CkeFpJ": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/ezgif-7-649b40613f.mp4"
+          }
+        },
+        "video_TFA6cm": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/ezgif-7-7a93a4e580.mp4"
+          }
         }
       },
       "block_order": [
@@ -149,7 +167,10 @@
         "tab_JLwyhc",
         "tab_qMqaNp",
         "share",
-        "bundle_products_46nmPG"
+        "bundle_products_46nmPG",
+        "video_4KpJwz",
+        "video_CkeFpJ",
+        "video_TFA6cm"
       ],
       "settings": {
         "sku_enable": false,

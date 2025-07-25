@@ -3,6 +3,8 @@
   context - used to determine whether on the featured product or main product template
 {% endcomment %}
 
+{{ 'flickity.css' |  asset_url |  stylesheet_tag }}
+
 {%- liquid
   assign current_variant = product.selected_or_first_available_variant
 
@@ -703,6 +705,18 @@
                   <div class="placeholder-content" style="min-height: 86px;"></div>
                 </div>
               {%- endfor -%}
+              {% assign video_blocks = section.blocks | where: 'type', 'video' %}
+              {% if video_blocks.size > 0 %}
+                <div class="video-slides">
+                  {% for video_block in video_blocks %}
+                    <div class="video-slide__item">
+                      <div class="video-slide__item-wrapper">
+                        {{ video_block.settings.video | video_tag: controls: true, autoplay: false }}
+                      </div>
+                    </div>
+                  {% endfor %}
+                </div>
+              {% endif %}
             </div>
 
             {%- unless product.empty? -%}
@@ -728,7 +742,10 @@
       forloop: forloop,
       variant_labels: block.settings.variant_labels
   -%}
-</div>
+</div>                                                                                                                                                       
+
+<style>
+</style>
 {% comment %}
   <style>
     button[data-add-to-cart],
@@ -795,3 +812,16 @@
     });
   </script>
 {% endcomment %}
+
+
+<script>
+  const videoCells = document.querySelector('video-slides')
+
+  document.addEventListener('DOMContentLoaded', function() {
+    const flickity = new Flickity(document.querySelector('.video-slides'), {
+      cellAlign: 'center',
+      contain: true,
+      pageDots: videoCells.length > 3,
+    });
+  });
+</script>
