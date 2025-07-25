@@ -48,7 +48,7 @@
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
-            "show_dynamic_checkout": true,
+            "show_dynamic_checkout": false,
             "surface_pickup_enable": true,
             "show_gift_card_recipient": false,
             "add_to_cart_fixed": true,
@@ -91,18 +91,20 @@
           "type": "shopify://apps/selleasy/blocks/lb-upsell-widget-bl/790c1a03-a71f-4bc1-9869-00dad526d3c2",
           "settings": {}
         },
-        "description": {
-          "type": "description",
-          "settings": {
-            "is_tab": false
-          }
-        },
         "tab": {
           "type": "tab",
           "disabled": true,
           "settings": {
             "title": "Specifications",
             "content": "",
+            "page": ""
+          }
+        },
+        "tab_JLwyhc": {
+          "type": "tab",
+          "settings": {
+            "title": "Description",
+            "content": "{{ product.description }}",
             "page": ""
           }
         },
@@ -143,8 +145,8 @@
         "sales_point_QfUTVU",
         "separator_kEjU68",
         "selleasy_lb_upsell_widget_bl_VWhebk",
-        "description",
         "tab",
+        "tab_JLwyhc",
         "tab_qMqaNp",
         "share",
         "bundle_products_46nmPG"
