@@ -12,13 +12,13 @@
     "hero-video": {
       "type": "hero-video",
       "settings": {
-        "title": "TOUR SEASON: ON",
+        "title": "LIMITED DROP",
         "title_size": 80,
         "text_color": "#ffffff",
-        "subheading": "Up to 40% off. And weekly deals",
+        "subheading": "Some rides need something extra",
         "btn_hover_color": "Santa Cruz",
-        "link_text": "SHOP TOUR SPECIALS",
-        "link": "shopify://collections/shop-all-cycling-sale",
+        "link_text": "SHOP NOW",
+        "link": "shopify://collections/mens-cycling-clothing",
         "link_text_2": "",
         "link_2": "shopify://collections/shop-all-cycling-sale",
         "text_align": "vertical-center horizontal-left",
