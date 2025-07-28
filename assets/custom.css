@@ -204,7 +204,7 @@ h2.title {
   background-image: var(--urlButtonArrowPng) !important;
 }
 .santa-cruz-btn:hover {
-  background-color: var(--accent-color) !important;
+  background-color: #A94159 !important;
   color: white !important;
   border: transparent !important;
 }
