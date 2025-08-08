@@ -91,6 +91,13 @@
             "text": "30-day returns"
           }
         },
+        "sales_point_QBgyE7": {
+          "type": "sales_point",
+          "settings": {
+            "icon": "shield",
+            "text": "100% Satisfaction guarantee"
+          }
+        },
         "separator_kEjU68": {
           "type": "separator",
           "settings": {}
@@ -147,6 +154,7 @@
         "inventory_status",
         "sales_point",
         "sales_point_QfUTVU",
+        "sales_point_QBgyE7",
         "separator_kEjU68",
         "description",
         "tab",
