@@ -84,13 +84,6 @@
             "text": "Free shipping for EU orders over €100"
           }
         },
-        "sales_point_QfUTVU": {
-          "type": "sales_point",
-          "settings": {
-            "icon": "checkmark",
-            "text": "30-day returns"
-          }
-        },
         "sales_point_QBgyE7": {
           "type": "sales_point",
           "settings": {
@@ -103,6 +96,13 @@
           "settings": {
             "icon": "globe",
             "text": "Made in EU"
+          }
+        },
+        "sales_point_QfUTVU": {
+          "type": "sales_point",
+          "settings": {
+            "icon": "checkmark",
+            "text": "30-day returns"
           }
         },
         "separator_kEjU68": {
@@ -160,9 +160,9 @@
         "size_chart_mHk9gz",
         "inventory_status",
         "sales_point",
-        "sales_point_QfUTVU",
         "sales_point_QBgyE7",
         "sales_point_9CFcwE",
+        "sales_point_QfUTVU",
         "separator_kEjU68",
         "description",
         "tab",
