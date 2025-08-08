@@ -80,7 +80,7 @@
         "sales_point": {
           "type": "sales_point",
           "settings": {
-            "icon": "globe",
+            "icon": "package",
             "text": "Free shipping for EU orders over €100"
           }
         },
@@ -96,6 +96,13 @@
           "settings": {
             "icon": "shield",
             "text": "100% Satisfaction guarantee"
+          }
+        },
+        "sales_point_9CFcwE": {
+          "type": "sales_point",
+          "settings": {
+            "icon": "globe",
+            "text": "Made in EU"
           }
         },
         "separator_kEjU68": {
@@ -155,6 +162,7 @@
         "sales_point",
         "sales_point_QfUTVU",
         "sales_point_QBgyE7",
+        "sales_point_9CFcwE",
         "separator_kEjU68",
         "description",
         "tab",
