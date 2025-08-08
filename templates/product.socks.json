@@ -35,10 +35,6 @@
           "type": "shopify://apps/aov-ai-bundle-upsell/blocks/offer-volume/0335d423-143c-4ad7-b224-99a1db74a9ee",
           "settings": {}
         },
-        "color_selector_YUAqyA": {
-          "type": "color_selector",
-          "settings": {}
-        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -91,6 +87,13 @@
             "text": "30-day returns"
           }
         },
+        "sales_point_tNFmp4": {
+          "type": "sales_point",
+          "settings": {
+            "icon": "shield",
+            "text": "100% satisfaction guarantee"
+          }
+        },
         "separator_kEjU68": {
           "type": "separator",
           "settings": {}
@@ -139,7 +142,6 @@
         "text_xgnn3L",
         "separator",
         "aov_bundle_upsell_offer_volume_jXkTn4",
-        "color_selector_YUAqyA",
         "variant_picker",
         "buy_buttons",
         "selleasy_lb_upsell_widget_bl_VWhebk",
@@ -147,6 +149,7 @@
         "inventory_status",
         "sales_point",
         "sales_point_QfUTVU",
+        "sales_point_tNFmp4",
         "separator_kEjU68",
         "description",
         "tab",

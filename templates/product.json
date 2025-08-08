@@ -31,6 +31,10 @@
           "type": "separator",
           "settings": {}
         },
+        "aov_bundle_upsell_offer_volume_jXkTn4": {
+          "type": "shopify://apps/aov-ai-bundle-upsell/blocks/offer-volume/0335d423-143c-4ad7-b224-99a1db74a9ee",
+          "settings": {}
+        },
         "color_selector_YUAqyA": {
           "type": "color_selector",
           "settings": {}
@@ -44,10 +48,6 @@
             "color_swatches": true,
             "size_chart": "lsrf-cycling-clothing-size-charts"
           }
-        },
-        "aov_bundle_upsell_offer_volume_jXkTn4": {
-          "type": "shopify://apps/aov-ai-bundle-upsell/blocks/offer-volume/0335d423-143c-4ad7-b224-99a1db74a9ee",
-          "settings": {}
         },
         "buy_buttons": {
           "type": "buy_buttons",
@@ -138,9 +138,9 @@
         "price",
         "text_xgnn3L",
         "separator",
+        "aov_bundle_upsell_offer_volume_jXkTn4",
         "color_selector_YUAqyA",
         "variant_picker",
-        "aov_bundle_upsell_offer_volume_jXkTn4",
         "buy_buttons",
         "selleasy_lb_upsell_widget_bl_VWhebk",
         "size_chart_mHk9gz",
