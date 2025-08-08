@@ -27,10 +27,6 @@
             "text": "LSRF | Where surf meets cycling | Inspired by the salty beach life in Santa Cruz, LSRF is all about having fun on the bike. Cycling clothing and apparel that keeps you going from sunrise to sunset, wherever the road may lead."
           }
         },
-        "aov_bundle_upsell_offer_volume_jXkTn4": {
-          "type": "shopify://apps/aov-ai-bundle-upsell/blocks/offer-volume/0335d423-143c-4ad7-b224-99a1db74a9ee",
-          "settings": {}
-        },
         "separator": {
           "type": "separator",
           "settings": {}
@@ -48,6 +44,10 @@
             "color_swatches": true,
             "size_chart": "lsrf-cycling-clothing-size-charts"
           }
+        },
+        "aov_bundle_upsell_offer_volume_jXkTn4": {
+          "type": "shopify://apps/aov-ai-bundle-upsell/blocks/offer-volume/0335d423-143c-4ad7-b224-99a1db74a9ee",
+          "settings": {}
         },
         "buy_buttons": {
           "type": "buy_buttons",
@@ -137,10 +137,10 @@
         "judge_me_reviews_preview_badge_6V6XbE",
         "price",
         "text_xgnn3L",
-        "aov_bundle_upsell_offer_volume_jXkTn4",
         "separator",
         "color_selector_YUAqyA",
         "variant_picker",
+        "aov_bundle_upsell_offer_volume_jXkTn4",
         "buy_buttons",
         "selleasy_lb_upsell_widget_bl_VWhebk",
         "size_chart_mHk9gz",
