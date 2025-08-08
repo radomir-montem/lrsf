@@ -1,0 +1,323 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "judge_me_reviews_preview_badge_6V6XbE": {
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "text_xgnn3L": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "LSRF | Where surf meets cycling | Inspired by the salty beach life in Santa Cruz, LSRF is all about having fun on the bike. Cycling clothing and apparel that keeps you going from sunrise to sunset, wherever the road may lead."
+          }
+        },
+        "separator": {
+          "type": "separator",
+          "settings": {}
+        },
+        "aov_bundle_upsell_offer_volume_jXkTn4": {
+          "type": "shopify://apps/aov-ai-bundle-upsell/blocks/offer-volume/0335d423-143c-4ad7-b224-99a1db74a9ee",
+          "settings": {}
+        },
+        "color_selector_YUAqyA": {
+          "type": "color_selector",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "variant_labels": true,
+            "picker_type": "button",
+            "product_dynamic_variants_enable": true,
+            "color_swatches": true,
+            "size_chart": "lsrf-cycling-clothing-size-charts"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "surface_pickup_enable": true,
+            "show_gift_card_recipient": false,
+            "add_to_cart_fixed": true,
+            "show_estimated_shipping": true
+          }
+        },
+        "selleasy_lb_upsell_widget_bl_VWhebk": {
+          "type": "shopify://apps/selleasy/blocks/lb-upsell-widget-bl/790c1a03-a71f-4bc1-9869-00dad526d3c2",
+          "settings": {}
+        },
+        "size_chart_mHk9gz": {
+          "type": "size_chart",
+          "disabled": true,
+          "settings": {
+            "size_chart": "lsrf-cycling-clothing-size-charts"
+          }
+        },
+        "inventory_status": {
+          "type": "inventory_status",
+          "settings": {
+            "inventory_threshold": 8,
+            "inventory_transfers_enable": false
+          }
+        },
+        "sales_point": {
+          "type": "sales_point",
+          "settings": {
+            "icon": "globe",
+            "text": "Free shipping for EU orders over €100"
+          }
+        },
+        "sales_point_QfUTVU": {
+          "type": "sales_point",
+          "settings": {
+            "icon": "checkmark",
+            "text": "30-day returns"
+          }
+        },
+        "separator_kEjU68": {
+          "type": "separator",
+          "settings": {}
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "is_tab": false
+          }
+        },
+        "tab": {
+          "type": "tab",
+          "disabled": true,
+          "settings": {
+            "title": "Specifications",
+            "content": "",
+            "page": ""
+          }
+        },
+        "tab_qMqaNp": {
+          "type": "tab",
+          "settings": {
+            "title": "Shipping information",
+            "content": "<ul><li>Shipping <strong>within</strong> <strong>NL</strong> costs € 7,- and is free above €100</li><li>Shipping <strong>within the EU</strong> costs € 10,- and is free above €100</li><li>Shipping <strong>outside of the EU</strong> costs € 15,- and is free above €150</li></ul><p>View our <a href=\"/pages/lsrf-shipping-and-delivery\" target=\"_blank\" title=\"LSRF SHIPPING AND DELIVERY\"><strong>full shipping policy here</strong></a></p>",
+            "page": ""
+          }
+        },
+        "share": {
+          "type": "share",
+          "disabled": true,
+          "settings": {}
+        },
+        "bundle_products_46nmPG": {
+          "type": "bundle_products",
+          "disabled": true,
+          "settings": {
+            "header": "COMPLETE YOUR SET",
+            "subheader": "Buy this bundle and get 10% off",
+            "button_text": "ADD BUNDLE TO CART"
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_preview_badge_6V6XbE",
+        "price",
+        "text_xgnn3L",
+        "separator",
+        "aov_bundle_upsell_offer_volume_jXkTn4",
+        "color_selector_YUAqyA",
+        "variant_picker",
+        "buy_buttons",
+        "selleasy_lb_upsell_widget_bl_VWhebk",
+        "size_chart_mHk9gz",
+        "inventory_status",
+        "sales_point",
+        "sales_point_QfUTVU",
+        "separator_kEjU68",
+        "description",
+        "tab",
+        "tab_qMqaNp",
+        "share",
+        "bundle_products_46nmPG"
+      ],
+      "settings": {
+        "sku_enable": false,
+        "image_size": "large",
+        "product_zoom_enable": true,
+        "thumbnail_position": "beside",
+        "thumbnail_height": "flexible",
+        "thumbnail_arrows": true,
+        "enable_video_looping": true,
+        "product_video_style": "muted"
+      }
+    },
+    "sub": {
+      "type": "product-full-width",
+      "disabled": true,
+      "settings": {
+        "max_width": true
+      }
+    },
+    "images_and_text_tryEw4": {
+      "type": "images-and-text",
+      "settings": {
+        "bg_color": "#00b2b1",
+        "full_width": true,
+        "add_second_image": true,
+        "small_height": false,
+        "text_first_desktop": false,
+        "text_first_mobile": false,
+        "space_between": false,
+        "text_color": "#1B2831",
+        "subtext": "",
+        "title": "TESTED IN WORSE CONDITIONS THAN YOU'LL EVER EXPERIENCE",
+        "description": "<p>Don’t be fooled by the pretty colors and sleek styles. LSRF cycling clothing will get you through the toughest rides out there - rain or shine. Durable fabrics, high-end chamois pads and thermo and water repellent options for every occasion, make sure you can focus on the road instead</p>",
+        "image_1": "shopify://shop_images/further-tested-worse-experience_groot.jpg",
+        "image_2": "shopify://shop_images/unbound-tested-cycling-jerseys_groot.jpg",
+        "button_text": "",
+        "button_url": "",
+        "button_inverse": false
+      }
+    },
+    "collection-return": {
+      "type": "collection-return",
+      "disabled": true,
+      "settings": {}
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "product_recommendations_heading": "MORE FROM THIS COLLECTION",
+        "related_count": 6,
+        "products_per_row": 3
+      }
+    },
+    "featured_collection_wtLM67": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "FAN FAVOURITES",
+        "home_featured_products": "",
+        "per_row": 4,
+        "rows": 1,
+        "view_all": false,
+        "divider": false
+      }
+    },
+    "1712066174f16c3fdb": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_WwDn6F": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_WwDn6F"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
+    "images_and_text_7CrUJq": {
+      "type": "images-and-text",
+      "disabled": true,
+      "settings": {
+        "bg_color": "#e56083",
+        "full_width": true,
+        "add_second_image": false,
+        "small_height": true,
+        "text_first_desktop": false,
+        "text_first_mobile": true,
+        "space_between": false,
+        "text_color": "white",
+        "subtext": "OUR CLASSIC JACKET",
+        "title": "REVIEWED BY EXPERTS",
+        "description": "",
+        "image_1": "shopify://shop_images/two-women-smiling.png",
+        "button_text": "► WATCH",
+        "button_url": "",
+        "button_inverse": true
+      }
+    },
+    "text_with_icons_wwXd3R": {
+      "type": "text-with-icons",
+      "blocks": {
+        "text_block_yjjztW": {
+          "type": "text_block",
+          "settings": {
+            "icon": "free_shipping",
+            "title": "FREE SHIPPING",
+            "text": "<p>for EU orders over €100</p>"
+          }
+        },
+        "text_block_GGjFp8": {
+          "type": "text_block",
+          "settings": {
+            "icon": "returns",
+            "title": "30-DAY RETURNS",
+            "text": "<p>for all orders</p>"
+          }
+        },
+        "text_block_YThAVg": {
+          "type": "text_block",
+          "settings": {
+            "icon": "tested",
+            "title": "TESTED",
+            "text": "<p>in worse conditions than you’ll ever experience</p>"
+          }
+        },
+        "text_block_UByrBa": {
+          "type": "text_block",
+          "settings": {
+            "icon": "eu_made",
+            "title": "MADE IN EU",
+            "text": "<p>with the highest quality materials</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_yjjztW",
+        "text_block_GGjFp8",
+        "text_block_YThAVg",
+        "text_block_UByrBa"
+      ],
+      "settings": {
+        "bg_color": "#f8b258",
+        "title": "",
+        "align_text": "center",
+        "desktop_columns_per_row": 4,
+        "icon_color": "#000000",
+        "button_label": "",
+        "button_link": "",
+        "divider": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "sub",
+    "images_and_text_tryEw4",
+    "collection-return",
+    "product-recommendations",
+    "featured_collection_wtLM67",
+    "1712066174f16c3fdb",
+    "images_and_text_7CrUJq",
+    "text_with_icons_wwXd3R"
+  ]
+}
