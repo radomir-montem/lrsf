@@ -21,7 +21,7 @@
     "animate_images_style": "fade-in",
     "shipping_days_post": "business days",
     "estimated_shipping_ned": "1-2",
-    "estimated_shipping_eu": "4-6",
+    "estimated_shipping_eu": "2-5",
     "estimated_shipping_world": "10-15",
     "offer_free_shipping": true,
     "free_shipping_threshold_ned": 100,
