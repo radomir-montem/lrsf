@@ -13,8 +13,13 @@ class stickyAtc extends HTMLElement {
         const _this = this;
         const handleIntersection = (entries, observer) => {
             entries.forEach(entrie => {
-                _this.classList.toggle('hidden', entrie.isIntersecting && window.scrollY > _this.productForm.getBoundingClientRect().bottom);
-                _this.classList.toggle('show', !entrie.isIntersecting && window.scrollY > _this.productForm.getBoundingClientRect().bottom);
+                if(window.innerWidth > 768) {
+                    _this.classList.toggle('hidden', entrie.isIntersecting);
+                    _this.classList.toggle('show', !entrie.isIntersecting);
+                } else {
+                    _this.classList.toggle('hidden', entrie.isIntersecting || window.scrollY <= 850);
+                    _this.classList.toggle('show', !entrie.isIntersecting && window.scrollY > 850);
+                }
             });
         }
         
@@ -25,7 +30,8 @@ class stickyAtc extends HTMLElement {
     }
     
     onClickAtcButton() {
-        this.atcButton.click();
+        // this.atcButton.click();
+        window.scrollTo({ top: 0, behavior: 'smooth' });
     }
     
     onChangeStickySelect () {

@@ -105,11 +105,13 @@
 }
 
 .sticky-bottom.show {
-    transform: translateY(0);
+    transform: translate(-50%, 0);
+    bottom: 1rem;
 }
 
 .sticky-bottom.hidden {
-    transform: translateY(100%);
+    transform: translate(-50%, 100%);
+    bottom: -1rem;
 }
 
 @media screen and (max-width:1024px) {
@@ -190,4 +192,27 @@
     .sticky-bottom .sticky-stc-button--container .sticky-stc__title span {
         font-size: 1.3rem;
     }
+}
+
+.sticky-bottom .sticky-stc-button--container {
+    display: none;
+}
+
+.sticky-bottom .container .sticky_post .sticky-product__button,
+.sticky-bottom .container .sticky_post {
+    width: 100%;
+}
+
+.sticky-bottom {
+    max-width: 440px;
+    border: none;
+    box-shadow: none;
+    bottom: -1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    background: transparent;
+}
+
+.sticky-bottom .container {
+    padding: 0 !important;
 }
