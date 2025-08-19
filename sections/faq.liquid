@@ -7,6 +7,11 @@
       <h2 class="section-header__title">
         {{ section.settings.title | escape }}
       </h2>
+      {% if section.settings.text != blank %}
+        <div class="section-header__text">
+          {{ section.settings.text }}
+        </div>
+      {% endif %}
     </header>
   {%- endif -%}
 
@@ -102,6 +107,11 @@
       "id": "title",
       "label": "t:sections.faq.settings.title.label",
       "default": "FAQs"
+    },
+    {
+      "type": "richtext",
+      "id": "text",
+      "label": "Text"
     }
   ],
   "blocks": [

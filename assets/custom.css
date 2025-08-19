@@ -995,6 +995,10 @@ button.color-swatch.disabled::after {
   display: flex;
 }
 
+.section-header__text {
+  margin-top: 24px;
+}
+
 @keyframes loop-logo-list {
   0% {
     transform: translateX(0);
