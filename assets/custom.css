@@ -999,6 +999,59 @@ button.color-swatch.disabled::after {
   margin-top: 24px;
 }
 
+.ugc-image-item {
+  width: 20%;
+  padding: 0 10px;
+}
+
+@media (max-width: 991px) {
+  .ugc-image-item {
+    width: 25%;
+  }
+}
+
+@media (max-width: 768px) {
+  .ugc-image-item {
+    width: 33.33%;
+  }
+}
+
+@media (max-width: 450px) {
+  .ugc-image-item {
+    width: 260px;
+  }
+}
+
+.ugc-image-img {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  aspect-ratio: 0.66;
+  border-radius: 24px;
+}
+
+.ugc-image-img img,
+.ugc-image-img svg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  object-position: center;
+}
+
+.ugc-image-text {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  padding: 16px 30px;
+  margin: 0;
+  z-index: 1;
+  color: #fff;
+}
+
 @keyframes loop-logo-list {
   0% {
     transform: translateX(0);
