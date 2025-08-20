@@ -960,6 +960,10 @@ button.color-swatch.disabled::after {
   animation:fade-in 0.5s ease forwards;
 }
 
+.video-slides .flickity-viewport {
+  width: 100%;
+}
+
 .video-slide__item {
   width: calc(33.33% - 6px);
   margin-right: 10px;

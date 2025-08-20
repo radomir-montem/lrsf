@@ -146,7 +146,7 @@
                   {%- when 'separator' -%}
                     <div class="product-block" {{ block.shopify_attributes }}><hr></div>
                   {%- when 'text' -%}
-                    <div {{ block.shopify_attributes }} class="product-block product-block-text">
+                    <div {{ block.shopify_attributes }} class="product-block product-block-text {{ block.settings.text_alignment }}">
                       {{ block.settings.text }}
                     </div>
                   {%- when 'tab' -%}
@@ -815,13 +815,16 @@
 
 
 <script>
-  const videoCells = document.querySelector('video-slides')
 
   document.addEventListener('DOMContentLoaded', function() {
-    const flickity = new Flickity(document.querySelector('.video-slides'), {
-      cellAlign: 'center',
-      contain: true,
-      pageDots: videoCells.length > 3,
-    });
+    const videoCells = document.querySelectorAll('.video-slide__item');
+    if(videoCells.length > 3) {
+        const flickity = new Flickity(document.querySelector('.video-slides'), {
+        cellAlign: 'left',
+        contain: true,
+        pageDots: true,
+        wrapAround: true
+      });
+    }
   });
 </script>
