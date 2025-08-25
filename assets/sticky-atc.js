@@ -31,7 +31,8 @@ class stickyAtc extends HTMLElement {
     
     onClickAtcButton() {
         // this.atcButton.click();
-        window.scrollTo({ top: 0, behavior: 'smooth' });
+        if(window.innerWidth > 768) window.scrollTo({ top: 0, behavior: 'smooth' });
+        else window.scrollTo({ top: 500, behavior: 'smooth' });
     }
     
     onChangeStickySelect () {

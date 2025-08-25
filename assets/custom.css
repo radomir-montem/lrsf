@@ -1064,3 +1064,10 @@ button.color-swatch.disabled::after {
     transform: translateX(-50%);
   }
 }
+
+.hero__review {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 4px;
+}
