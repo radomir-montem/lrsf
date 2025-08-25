@@ -931,7 +931,7 @@ button.color-swatch.disabled::after {
 }
 
 .announcement a {
-  color: var(--accent-color);
+  color: #fff;
   transition: 0.3s;
 }
 
