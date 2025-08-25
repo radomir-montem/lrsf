@@ -1071,3 +1071,7 @@ button.color-swatch.disabled::after {
   flex-wrap: wrap;
   gap: 4px;
 }
+
+.add-to-cart .icon {
+  margin-bottom: 3px;
+}
