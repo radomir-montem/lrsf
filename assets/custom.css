@@ -570,11 +570,19 @@ button.color-swatch.disabled::after {
   margin-left: 8px;
 }
 
+.product-block.product-block--price {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
 .save_price-badge {
   background-color: #000;
   color: white;
-  padding: 5px 14px;
-  border-radius: 50px;
+  padding: 6px 14px 4px;
+  font-size: 14px;
+  line-height: 1;
+  text-transform: uppercase;
 }
 
 .bundle_total-price-subtexxt {
