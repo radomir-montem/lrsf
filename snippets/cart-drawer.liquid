@@ -34,7 +34,7 @@
           {% endif %}
 
           <!-- CART UPSELL -->
-          {% comment %} {% if product.metafields.custom.cart_upsell_products.value != blank
+          {% if product.metafields.custom.cart_upsell_products.value != blank
             or settings.cross_sell_products != blank
           %}
             {% if product.metafields.custom.cart_upsell_products.value != blank %}
@@ -135,7 +135,7 @@
               }
             </script>
             <!-- CART UPSELL -->
-          {% endif %} {% endcomment %}
+          {% endif %}
         </div>
 
         <div class="drawer__footer appear-animation appear-delay-4 lb-upsell-cart">
