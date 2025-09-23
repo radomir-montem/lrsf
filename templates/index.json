@@ -12,18 +12,20 @@
     "hero-video": {
       "type": "hero-video",
       "settings": {
-        "title": "ADVANCE RACE JERSEY \nLIMITED DROP",
+        "review_star": "shopify://shop_images/LSRF-Banner-IONE-LS-Race-Jersey-SS25.jpg",
+        "review_text": "",
+        "title": "SEASON SHIFT",
         "title_size": 80,
         "text_color": "#ffffff",
-        "subheading": "Save your energy for the bike, so you can leave it all on the road",
-        "btn_hover_color": "Santa Cruz",
+        "subheading": "Mesh long sleeves for late summer rides",
+        "btn_hover_color": "white",
         "link_text": "SHOP NOW",
-        "link": "shopify://collections/mens-cycling-clothing",
+        "link": "shopify://collections/spring-summer-cycling-collection",
         "link_text_2": "",
-        "link_2": "shopify://collections/spring-summer-cycling-collection",
+        "link_2": "shopify://collections/mens-cycling-clothing",
         "text_align": "vertical-center horizontal-left",
         "video_url": "",
-        "image": "shopify://shop_images/Banner-Race-Jersey-oceanside-SS25.jpg",
+        "image": "shopify://shop_images/LSRF-Hero-banner-IONE-LS-Jersey-SS25-01.jpg",
         "overlay_opacity": 24,
         "section_height": "750px",
         "mobile_height": "500px",
@@ -33,8 +35,8 @@
     "scrolling_text_HLGe4q": {
       "type": "scrolling-text",
       "settings": {
-        "text": "Jersey + Bib:  Save 10%",
-        "link": "shopify://collections/cycling-jerseys-mens",
+        "text": "SHOP ARCHIVE SALE",
+        "link": "shopify://collections/archive-sale",
         "text_size": 20,
         "text_spacing": true,
         "direction": "left",
@@ -151,6 +153,7 @@
     "hero_video_KKN4Mk": {
       "type": "hero-video",
       "settings": {
+        "review_text": "Rated 4.9 out of 5 by 200,000+ happy customers.",
         "title": "",
         "title_size": 80,
         "text_color": "#eeeeee",
@@ -238,6 +241,106 @@
         "button_inverse": false
       }
     },
+    "ugc_image_slider_f6pFCh": {
+      "type": "ugc-image-slider",
+      "blocks": {
+        "item_kgJqVk": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/WhatsApp_Image_2025-09-11_at_15.03.38.jpg",
+            "text": "@ruben.vdh"
+          }
+        },
+        "item_kMgPnJ": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/italijanno.jpg",
+            "text": "@italjanno"
+          }
+        },
+        "item_wkB8ac": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Michelle_degraaf1.jpg",
+            "text": "@michelle_degraaf"
+          }
+        },
+        "item_nmaTfb": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/526291197_18395103031139396_3917489083575528828_n.jpg",
+            "text": "@leys_w"
+          }
+        },
+        "item_GJPhK8": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Julian_Manrique.jpg",
+            "text": "@Julian_Manrique"
+          }
+        },
+        "item_afW6Yh": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/537749167_18397924504139396_6029063209325307045_n.jpg",
+            "text": "@leys_w"
+          }
+        },
+        "item_xdcV3h": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Bomba_Tour.jpg",
+            "text": "LSRF Bomba Tour"
+          }
+        },
+        "item_QYK3Dc": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/WhatsApp_Image_2025-09-11_at_15.03.39.jpg",
+            "text": "@ruben.vdh"
+          }
+        },
+        "item_kRQP3M": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Cazaux-Debat.jpg",
+            "text": "Cazaux-Debat"
+          }
+        },
+        "item_mrLTAz": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Leys_w.jpg",
+            "text": "@leys_w"
+          }
+        },
+        "item_kf7UB9": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/521409395_18318893551230267_5047715084758725114_n.jpg",
+            "text": "LSRF Villa Tour"
+          }
+        }
+      },
+      "block_order": [
+        "item_kgJqVk",
+        "item_kMgPnJ",
+        "item_wkB8ac",
+        "item_nmaTfb",
+        "item_GJPhK8",
+        "item_afW6Yh",
+        "item_xdcV3h",
+        "item_QYK3Dc",
+        "item_kRQP3M",
+        "item_mrLTAz",
+        "item_kf7UB9"
+      ],
+      "name": "UGC Image Slider",
+      "settings": {
+        "title": "Don't just ride, LSRF"
+      }
+    },
     "17442031109582ef8b": {
       "type": "apps",
       "blocks": {
@@ -321,6 +424,7 @@
     "hero_video_KKN4Mk",
     "categories_mMtAxM",
     "images_and_text_thN8tx",
+    "ugc_image_slider_f6pFCh",
     "17442031109582ef8b",
     "text_with_icons_4xByjb"
   ]

@@ -3,6 +3,8 @@
   context - used to determine whether on the featured product or main product template
 {% endcomment %}
 
+{{ 'flickity.css' |  asset_url |  stylesheet_tag }}
+
 {%- liquid
   assign current_variant = product.selected_or_first_available_variant
 
@@ -144,7 +146,7 @@
                   {%- when 'separator' -%}
                     <div class="product-block" {{ block.shopify_attributes }}><hr></div>
                   {%- when 'text' -%}
-                    <div {{ block.shopify_attributes }} class="product-block product-block-text">
+                    <div {{ block.shopify_attributes }} class="product-block product-block-text {{ block.settings.text_alignment }}">
                       {{ block.settings.text }}
                     </div>
                   {%- when 'tab' -%}
@@ -195,32 +197,43 @@
                         >
                           {{ 'products.general.regular_price' | t }}
                         </span>
-                        <span data-product-price-wrap class="{% if hide_sale_price %}hide{% endif %}">
-                          <span data-compare-price class="product__price product__price--compare">
-                            {%- if current_variant.compare_at_price > current_variant.price -%}
-                              {{ current_variant.compare_at_price | money }}
-                            {%- endif -%}
-                          </span>
-                        </span>
                         <span data-compare-price-a11y class="visually-hidden">
                           {{- 'products.general.sale_price' | t -}}
-                        </span>
-                      {%- else -%}
-                        <span data-a11y-price class="visually-hidden">{{ 'products.general.regular_price' | t }}</span>
-                      {%- endif -%}
-
-                      <span
+                          </span>
+                          {%- else -%}
+                          <span data-a11y-price class="visually-hidden">{{ 'products.general.regular_price' | t }}</span>
+                        {%- endif -%}
+                        
+                        <span
                         data-product-price
-                        class="product__price{% if current_variant.compare_at_price > current_variant.price %} sale-price{% endif %}"
+                      class="product__price{% if current_variant.compare_at_price > current_variant.price %} sale-price{% endif %}"
                       >
-                        {%- unless product.empty? -%}
-                          {{ current_variant.price | money }}
+                      {%- unless product.empty? -%}
+                        {{ current_variant.price | money }}
                         {%- else -%}
-                          {{ 1999 | money }}
-                        {%- endunless -%}
+                        {{ 1999 | money }}
+                      {%- endunless -%}
                       </span>
-
-                      <div
+                      
+                      <span data-product-price-wrap>
+                        <span data-compare-price class="product__price product__price--compare">
+                          {%- if current_variant.compare_at_price > current_variant.price -%}
+                            {{ current_variant.compare_at_price | money }}
+                          {%- endif -%}
+                        </span>
+                      </span>
+                      
+                      {%- if product.compare_at_price and product.compare_at_price > product.price and template.name == 'product' -%}
+                        {% assign original_price = product.compare_at_price |  divided_by: 1.0 %}
+                        {% assign discounted_price = product.price |  divided_by: 1.0 %} 
+                        {% assign discount_percentage = original_price | minus: discounted_price | times: 100 | divided_by: original_price %}
+                        
+                        <span class="badge save_price-badge price__badge-sale color-{{ settings.sale_badge_color_scheme }}">
+                          Save {{ discount_percentage | round  }}%
+                          </span>
+                        {%- endif -%}
+                        
+                        <div
                         data-unit-price-wrapper
                         class="product__unit-price{% unless current_variant.unit_price_measurement %} hide{% endunless %}"
                       >
@@ -437,7 +450,7 @@
                       {% endfor %}
                     </div>
                   {%- when 'buy_buttons' -%}
-                    <div class="product-block" {{ block.shopify_attributes }}>
+                    <div class="product-block product-form-block" {{ block.shopify_attributes }}>
                       {%- unless product.empty? -%}
                         <div class="product-block">
                           {%- render 'product-form',
@@ -692,6 +705,18 @@
                   <div class="placeholder-content" style="min-height: 86px;"></div>
                 </div>
               {%- endfor -%}
+              {% assign video_blocks = section.blocks | where: 'type', 'video' %}
+              {% if video_blocks.size > 0 %}
+                <div class="video-slides">
+                  {% for video_block in video_blocks %}
+                    <div class="video-slide__item">
+                      <div class="video-slide__item-wrapper">
+                        {{ video_block.settings.video | video_tag: controls: true, autoplay: false }}
+                      </div>
+                    </div>
+                  {% endfor %}
+                </div>
+              {% endif %}
             </div>
 
             {%- unless product.empty? -%}
@@ -709,7 +734,18 @@
       </div>
     </div>
   </div>
-</div>
+  {%- render 'product-atc-bar', 
+      product: product,
+      form_id: form_id,
+      section_id: section_id,
+      option: option,
+      forloop: forloop,
+      variant_labels: block.settings.variant_labels
+  -%}
+</div>                                                                                                                                                       
+
+<style>
+</style>
 {% comment %}
   <style>
     button[data-add-to-cart],
@@ -776,3 +812,19 @@
     });
   </script>
 {% endcomment %}
+
+
+<script>
+
+  document.addEventListener('DOMContentLoaded', function() {
+    const videoCells = document.querySelectorAll('.video-slide__item');
+    if(videoCells.length > 3) {
+        const flickity = new Flickity(document.querySelector('.video-slides'), {
+        cellAlign: 'left',
+        contain: true,
+        pageDots: true,
+        wrapAround: true
+      });
+    }
+  });
+</script>

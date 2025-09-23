@@ -1,0 +1,79 @@
+<div class="page-width">
+    {%- if section.settings.title != blank -%}
+        <header class="section-header">
+        <h2 class="section-header__title">
+            {{ section.settings.title | escape }}
+        </h2>
+        </header>
+    {%- endif -%}
+
+    {% if section.blocks.size > 0 %}
+        <div class="ugc-image-slider" id="ugc-image-slider--{{ section.id }}">
+            {% for block in section.blocks %}
+                <div class="ugc-image-item">
+                    <div class="ugc-image-img">
+                        {% if block.settings.image != blank %}
+                            {{ block.settings.image | image_url: width: block.settings.image.width | image_tag }}
+                        {% else %}
+                            {{ 'image' | placeholder_svg_tag }}
+                        {% endif %}
+                    </div>
+                    {% if block.settings.text != blank %}
+                        <p class="ugc-image-text">{{ block.settings.text }}</p>
+                    {% endif %}
+                </div>
+            {% endfor %}
+        </div>
+    {% endif %}
+</div>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const flickity = new Flickity(document.getElementById('ugc-image-slider--{{ section.id }}'), {
+      cellAlign: 'left',
+      pageDots: false,
+      prevNextButtons: false,
+      autoPlay: 3000,
+      wrapAround: true,
+      dragThreshold: 10
+    });
+  });
+</script>
+
+{% schema %}
+    {
+        "tag": "section",
+        "name": "UGC Image Slider",
+        "class": "index-section",
+        "settings": [
+            {
+                "type": "text",
+                "id": "title",
+                "label": "t:sections.faq.settings.title.label",
+                "default": "Join the #hearsfam"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "item",
+                "name": "Item",
+                "settings": [
+                    {
+                        "type": "image_picker",
+                        "id": "image",
+                        "label": "Image"
+                    },
+                    {
+                        "type": "text",
+                        "id": "text",
+                        "label": "Text"
+                    }
+                ]
+            }
+        ],
+        "presets": [
+            {
+                "name": "UGC Image Slider"
+            }
+        ]
+    }
+{% endschema %}

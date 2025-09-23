@@ -1,3 +1,4 @@
+
 {%- liquid
   assign isModal = false
   if template == 'product.modal'
@@ -452,10 +453,30 @@
       "name": "t:product_block.text.name",
       "settings": [
         {
-          "type": "text",
+          "type": "richtext",
           "id": "text",
-          "default": "Text block",
+          "default": "<p>Text block</p>",
           "label": "t:product_block.text.settings.text.label"
+        },
+        {
+          "type": "select",
+          "id": "text_alignment",
+          "label": "Text alignment",
+          "options": [
+            {
+              "value": "text-left",
+              "label": "Left"
+            },
+            {
+              "value": "text-center",
+              "label": "Center"
+            },
+            {
+              "value": "text-right",
+              "label": "Right"
+            }
+          ],
+          "default": "text-left"
         }
       ]
     },
@@ -540,6 +561,17 @@
           "label": "t:product_block.html.settings.code.label",
           "default": "<h4>Custom code block</h4><p>Use this advanced section to add custom HTML, app scripts, or liquid.</p>",
           "info": "t:product_block.html.settings.code.info"
+        }
+      ]
+    },
+    {
+      "type": "video",
+      "name": "Video",
+      "settings": [
+        {
+          "type": "video",
+          "id": "video",
+          "label": "Video"
         }
       ]
     }

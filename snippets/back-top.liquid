@@ -1,0 +1,14 @@
+<button type="button" class="lf-back-to-top text-link">
+    Back to Top
+</button>
+
+<script>
+    const backToTopButton = document.querySelector('.lf-back-to-top');
+    window.onscroll = function() {
+        backToTopButton.classList.toggle('active', document.body.scrollTop > 300 || document.documentElement.scrollTop > 300);
+    }
+
+    backToTopButton.addEventListener('click', function(){
+        window.scrollTo({top: 0, behavior: "smooth"});
+    });
+</script>

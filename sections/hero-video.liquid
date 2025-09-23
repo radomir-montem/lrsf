@@ -116,6 +116,16 @@
   <div class="hero__text-wrap{% if section.settings.section_height == '16-9' %} hero__text-wrap--absolute{% endif %}">
     <div class="page-width">
       <div class="hero__text-content {{ section.settings.text_align }}">
+        {% if section.settings.review_text != blank %}
+          <p class="hero__review">
+            {% if section.settings.review_star != blank %}
+              <span class="hero__review-img">
+                {{ section.settings.review_star | image_url: width: 90 | image_tag }}
+              </span>
+              <span class="hero__review-text">{{ section.settings.review_text }}</span>
+            {% endif %}
+          </p>
+        {% endif %}
         {%- unless section.settings.title == blank -%}
           <h2 class="h1 hero__title">
             <div class="animation-cropper">
@@ -203,6 +213,21 @@
   "name": "t:sections.hero-video.name",
   "class": "index-section--hero",
   "settings": [
+    {
+      "type": "header",
+      "content": "Review"
+    },
+    {
+      "type": "image_picker",
+      "id": "review_star",
+      "label": "Review star"
+    },
+    {
+      "type": "textarea",
+      "id": "review_text",
+      "label": "Review text",
+      "default": "Rated 4.9 out of 5 by 200,000+ happy customers."
+    },
     {
       "type": "textarea",
       "id": "title",
