@@ -1,4 +1,4 @@
-{% comment %} <div class="announcement{% if section.settings.announcement_closable %} announcement--closeable announcement--closed{% endif %}">
+<div class="announcement{% if section.settings.announcement_closable %} announcement--closeable announcement--closed{% endif %}">
   {%- if section.settings.announcement_link != blank and section.settings.announcement_link_text == blank -%}
     <a href="{{ section.settings.announcement_link }}" class="announcement__link">
   {%- endif -%}
@@ -26,9 +26,7 @@
       </a>
     {%- endif -%}
   </div>
-</div> {% endcomment %}
-
-{% render 'announcement-bar' %}
+</div>
 
 <style>
   #shopify-section-{{ section.id }}.shopify-section-group-header-group .announcement {
@@ -105,46 +103,33 @@
   }
 </style>
 
-<script>
-  const announcementTexts = document.querySelectorAll('.announcement__text');
-  let announcementCount = 0;
-  const announcementTimer = parseInt('{{ section.settings.autoplay_speed | times: 1000 }}'); 
-  setInterval(() => {
-    announcementTexts.forEach((announcementText, index) => {
-      announcementText.classList.toggle('lf-hidden', announcementCount != index);
-    });
-    announcementCount++;
-    if(announcementCount >= announcementTexts.length) announcementCount = 0;
-  }, announcementTimer);
-</script>
-
 {% schema %}
 {
   "name": "t:sections.header.settings.header_announcement_bar",
   "settings": [
     {
-      "type": "range",
-      "id": "autoplay_speed",
-      "label": "Autoplay Speed",
-      "min": 3,
-      "max": 10,
-      "default": 5,
-      "step": 1,
-      "unit": "S"
-    }
-  ],
-  "blocks": [
+      "type": "text",
+      "id": "announcement_text",
+      "label": "t:sections.header.settings.announcement_text.label",
+      "default": "Free shipping and returns",
+      "info": "t:sections.header.settings.announcement_text.info"
+    },
     {
-      "type": "bar_item",
-      "name": "Bar Item",
-      "settings": [
-        {
-          "type": "richtext",
-          "id": "announcement_text",
-          "label": "t:sections.header.settings.announcement_text.label",
-          "default": "<p>Free shipping and returns</p>"
-        }
-      ]
+      "type": "url",
+      "id": "announcement_link",
+      "label": "t:sections.header.settings.announcement_link.label",
+      "info": "If announcement link is present but no text is entered, the announcement will be wrapped in a link with the text of the announcement."
+    },
+    {
+      "type": "text",
+      "id": "announcement_link_text",
+      "label": "Announcement link text",
+      "info": "If announcement link and text are present, a hyperlink will be created."
+    },
+    {
+      "type": "checkbox",
+      "id": "announcement_closable",
+      "label": "t:sections.header.settings.announcement_closable.label"
     }
   ]
 }

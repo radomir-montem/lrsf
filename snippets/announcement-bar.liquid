@@ -1,4 +1,4 @@
-{% comment %} <div class="announcement{% if section.settings.announcement_closable %} announcement--closeable announcement--closed{% endif %}">
+<div class="announcement{% if section.settings.announcement_closable %} announcement--closeable announcement--closed{% endif %}">
   {%- if section.settings.announcement_link != blank -%}
     <a href="{{ section.settings.announcement_link }}" class="announcement__link">
   {%- endif -%}
@@ -17,14 +17,4 @@
       <span class="icon__fallback-text">{{ 'general.accessibility.close' | t | json }}</span>
     </button>
   {%- endif -%}
-</div> {% endcomment %}
-
-
-
-<div class="announcement">
-    {% for block in section.blocks %}
-      <div class="announcement__text {% unless forloop.first %}lf-hidden{% endunless %}">
-        {{ block.settings.announcement_text }}
-      </div>
-    {% endfor %}
 </div>
