@@ -63,7 +63,7 @@
         {% endif %}
         name="add"
         data-add-to-cart
-        class=" btn btn--full add-to-cart{% if enable_dynamic_buttons and product.selling_plan_groups.size == 0 %} add-to-cart--secondary{% endif %}"
+        class=" btn btn--full add-to-cart"
         {% unless current_variant.available %}
           disabled="disabled"
         {% endunless %}
