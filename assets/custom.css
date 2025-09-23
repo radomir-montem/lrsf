@@ -1066,3 +1066,7 @@ button.color-swatch.disabled::after {
 .add-to-cart .icon {
   margin-bottom: 3px;
 }
+
+.atc-float-btn {
+  display: none !important;
+}
