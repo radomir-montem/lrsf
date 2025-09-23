@@ -24,7 +24,8 @@
           "type": "text",
           "disabled": true,
           "settings": {
-            "text": "LSRF | Where surf meets cycling | Inspired by the salty beach life in Santa Cruz, LSRF is all about having fun on the bike. Cycling clothing and apparel that keeps you going from sunrise to sunset, wherever the road may lead."
+            "text": "<p>LSRF | Where surf meets cycling | Inspired by the salty beach life in Santa Cruz, LSRF is all about having fun on the bike. Cycling clothing and apparel that keeps you going from sunrise to sunset, wherever the road may lead.</p>",
+            "text_alignment": "text-left"
           }
         },
         "separator": {
@@ -130,22 +131,46 @@
             "button_text": "ADD BUNDLE TO CART"
           }
         },
+        "text_8x6gDM": {
+          "type": "text",
+          "settings": {
+            "text": "<p></p><p><strong>Loved by 5.000+ happy customers.</strong></p>",
+            "text_alignment": "text-left"
+          }
+        },
         "video_4KpJwz": {
           "type": "video",
+          "disabled": true,
           "settings": {
             "video": "shopify://files/videos/ezgif-7-7a93a4e580.mp4"
           }
         },
         "video_CkeFpJ": {
           "type": "video",
+          "disabled": true,
           "settings": {
             "video": "shopify://files/videos/ezgif-7-649b40613f.mp4"
           }
         },
         "video_TFA6cm": {
           "type": "video",
+          "disabled": true,
           "settings": {
             "video": "shopify://files/videos/ezgif-7-7a93a4e580.mp4"
+          }
+        },
+        "video_7gccFp": {
+          "type": "video",
+          "disabled": true,
+          "settings": {
+            "video": "shopify://files/videos/WhatsApp Video 2024-11-06 at 13.44.02.mp4"
+          }
+        },
+        "video_QGV99A": {
+          "type": "video",
+          "disabled": true,
+          "settings": {
+            "video": "shopify://files/videos/WhatsApp Video 2024-11-06 at 13.44.02.mp4"
           }
         }
       },
@@ -168,9 +193,12 @@
         "tab_qMqaNp",
         "share",
         "bundle_products_46nmPG",
+        "text_8x6gDM",
         "video_4KpJwz",
         "video_CkeFpJ",
-        "video_TFA6cm"
+        "video_TFA6cm",
+        "video_7gccFp",
+        "video_QGV99A"
       ],
       "settings": {
         "sku_enable": false,
@@ -190,8 +218,265 @@
         "max_width": true
       }
     },
+    "ugc_image_slider_7HqkXi": {
+      "type": "ugc-image-slider",
+      "blocks": {
+        "item_xVBxnm": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/WhatsApp_Image_2025-09-11_at_15.03.38.jpg",
+            "text": "@ruben.vdh"
+          }
+        },
+        "item_innUhr": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Julian_Manrique.jpg",
+            "text": "@julian_manrique"
+          }
+        },
+        "item_ekGp7p": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/526291197_18395103031139396_3917489083575528828_n.jpg",
+            "text": "@leys_w"
+          }
+        },
+        "item_gyXfzR": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/transcordilleras.jpg",
+            "text": "transcordilleras"
+          }
+        },
+        "item_hBnyai": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/537749167_18397924504139396_6029063209325307045_n.jpg",
+            "text": "@leys_w"
+          }
+        },
+        "item_AeaVRh": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Bomba_Tour.jpg",
+            "text": "LSRF Bomba Tour"
+          }
+        },
+        "item_T3QhBL": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/WhatsApp_Image_2025-09-11_at_15.03.39.jpg",
+            "text": "@ruben.vdh"
+          }
+        },
+        "item_RGfDYx": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Michelle_degraaf1.jpg",
+            "text": "@michelle_degraaf"
+          }
+        },
+        "item_hFhrNQ": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Leys_w.jpg",
+            "text": "@leys_w"
+          }
+        },
+        "item_ikLM3C": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/transcordilleras.jpg",
+            "text": "transcordilleras"
+          }
+        },
+        "item_JXCgJF": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/italijanno.jpg",
+            "text": "@italjanno"
+          }
+        },
+        "item_x3iYgk": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/521409395_18318893551230267_5047715084758725114_n.jpg",
+            "text": "LSRF Villa Tour"
+          }
+        }
+      },
+      "block_order": [
+        "item_xVBxnm",
+        "item_innUhr",
+        "item_ekGp7p",
+        "item_gyXfzR",
+        "item_hBnyai",
+        "item_AeaVRh",
+        "item_T3QhBL",
+        "item_RGfDYx",
+        "item_hFhrNQ",
+        "item_ikLM3C",
+        "item_JXCgJF",
+        "item_x3iYgk"
+      ],
+      "name": "UGC Image Slider",
+      "settings": {
+        "title": "Don't just ride, LSRF"
+      }
+    },
+    "collection-return": {
+      "type": "collection-return",
+      "disabled": true,
+      "settings": {}
+    },
+    "images_and_text_7CrUJq": {
+      "type": "images-and-text",
+      "settings": {
+        "bg_color": "#ffffff",
+        "full_width": true,
+        "add_second_image": false,
+        "small_height": false,
+        "text_first_desktop": false,
+        "text_first_mobile": false,
+        "space_between": false,
+        "text_color": "#1B2831",
+        "subtext": "",
+        "title": "TESTED IN WORSE CONDITIONS THAN YOU'LL EVER EXPERIENCE",
+        "description": "<p>Don’t be fooled by the pretty colors and sleek styles. LSRF cycling clothing will get you through the toughest rides out there - rain or shine.</p><ul><li>Durable fabrics</li><li>High-end chamois pads</li><li>Thermo and water repellent options for every occasion</li><li>Ride-ready in all conditions</li></ul>",
+        "image_1": "shopify://shop_images/unbound-tested-cycling-jerseys_groot.jpg",
+        "image_2": "shopify://shop_images/further-tested-worse-experience_groot.jpg",
+        "button_text": "",
+        "button_url": "",
+        "button_inverse": true
+      }
+    },
+    "1712066174f16c3fdb": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_WwDn6F": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "review_data": "sample_data",
+            "max_width": 1200
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_WwDn6F"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "product_recommendations_heading": "MORE FROM THIS COLLECTION",
+        "related_count": 6,
+        "products_per_row": 3
+      }
+    },
+    "faq_7WwEYb": {
+      "type": "faq",
+      "blocks": {
+        "question_mzwbpV": {
+          "type": "question",
+          "settings": {
+            "title": "Where is your clothing being made?",
+            "text": "<p>Our products are made for 95% in Europe. Our factories are in Italy and Portugal.</p>"
+          }
+        },
+        "question_bzgfzB": {
+          "type": "question",
+          "settings": {
+            "title": "How do you test your clothing?",
+            "text": "<p>Our clothes are tested on many (extreme) bike rides, that we undertake as team LSRF or individually. These real life tests give us feedback for further production and design of our clothing. Next to our personal experience, we take in the feedback from our customers.</p>"
+          }
+        },
+        "question_4xaiXk": {
+          "type": "question",
+          "settings": {
+            "title": "Under what circumstances is LSRF clothing being produced?",
+            "text": "<p>Our production takes place in factories, that match the highest modern demands when it comes to working conditions.The locations are certified with OEKO-TEX® and Fair Wear to ensure a safe working environment. Moreover, they work with durable solutions like solar energy to ensure a production with the least amount of emission as possible.</p>"
+          }
+        },
+        "question_jmtJK8": {
+          "type": "question",
+          "settings": {
+            "title": "What materials do you use?",
+            "text": "<p>We use mostly materials that are produced in Europe, with the OEKE-TEX standard 100 certificate. This certificate guarantees that the piece of clothing is free from ingredients that could be harmful for people or nature.</p>"
+          }
+        },
+        "question_EahmEF": {
+          "type": "question",
+          "settings": {
+            "title": "How do I wash my cycling clothes?",
+            "text": "<p>Cycling clothes get dirty from sweat and road conditions. In order to keep your clothes nice and fresh, we advice you to follow the specific washing instructions provided in the label of the piece of clothing. Generally speaking, we advise you to wash at the lowest temperature as possible, hang to dry and and don’t use any fabric softener.</p>"
+          }
+        },
+        "question_wkXf3V": {
+          "type": "question",
+          "settings": {
+            "title": "How do I know which size to buy?",
+            "text": "<p>Please use our size charts and measuring instructions, which you can find <a href=\"https://lsrf.cc/pages/lsrf-cycling-clothing-size-charts\">here</a>. When in doubt, size up.</p>"
+          }
+        },
+        "question_86P7jT": {
+          "type": "question",
+          "settings": {
+            "title": "When will my order be delivered?",
+            "text": "<p>Within the Netherlands, delivery usually takes 1–2 working days. Orders that are placed before 20:00 uur will leave the warehouse that same day. For delivery times within Europe, please visit this page.</p>"
+          }
+        },
+        "question_eM7jxq": {
+          "type": "question",
+          "settings": {
+            "title": "How do I return a product?",
+            "text": "<p>You have a 30 day period to decide on your new purchase. If you want to return it, please use the <a href=\"https://lsrf.cc/pages/lsrf-returns-and-exchanges\">return portal</a>. </p>"
+          }
+        },
+        "question_tBzWah": {
+          "type": "question",
+          "settings": {
+            "title": "Can I exchange for a different color or size?",
+            "text": "<p>Due to the fast changing character of our stock, we advise you to place a new order to be sure you get what you want. Exchanging is therefore not possible through our return portal.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_mzwbpV",
+        "question_bzgfzB",
+        "question_4xaiXk",
+        "question_jmtJK8",
+        "question_EahmEF",
+        "question_wkXf3V",
+        "question_86P7jT",
+        "question_eM7jxq",
+        "question_tBzWah"
+      ],
+      "name": "t:sections.faq.presets.faq.name",
+      "settings": {
+        "title": "Questions?",
+        "text": "<p>We've got answers</p>"
+      }
+    },
+    "featured_collection_wtLM67": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "FAN FAVOURITES",
+        "home_featured_products": "",
+        "per_row": 4,
+        "rows": 1,
+        "view_all": false,
+        "divider": false
+      }
+    },
     "images_and_text_tryEw4": {
       "type": "images-and-text",
+      "disabled": true,
       "settings": {
         "bg_color": "#00b2b1",
         "full_width": true,
@@ -209,68 +494,6 @@
         "button_text": "",
         "button_url": "",
         "button_inverse": false
-      }
-    },
-    "collection-return": {
-      "type": "collection-return",
-      "disabled": true,
-      "settings": {}
-    },
-    "product-recommendations": {
-      "type": "product-recommendations",
-      "settings": {
-        "product_recommendations_heading": "MORE FROM THIS COLLECTION",
-        "related_count": 6,
-        "products_per_row": 3
-      }
-    },
-    "featured_collection_wtLM67": {
-      "type": "featured-collection",
-      "disabled": true,
-      "settings": {
-        "title": "FAN FAVOURITES",
-        "home_featured_products": "",
-        "per_row": 4,
-        "rows": 1,
-        "view_all": false,
-        "divider": false
-      }
-    },
-    "1712066174f16c3fdb": {
-      "type": "apps",
-      "blocks": {
-        "judge_me_reviews_review_widget_WwDn6F": {
-          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "judge_me_reviews_review_widget_WwDn6F"
-      ],
-      "settings": {
-        "full_width": false,
-        "space_around": true
-      }
-    },
-    "images_and_text_7CrUJq": {
-      "type": "images-and-text",
-      "disabled": true,
-      "settings": {
-        "bg_color": "#e56083",
-        "full_width": true,
-        "add_second_image": false,
-        "small_height": true,
-        "text_first_desktop": false,
-        "text_first_mobile": true,
-        "space_between": false,
-        "text_color": "white",
-        "subtext": "OUR CLASSIC JACKET",
-        "title": "REVIEWED BY EXPERTS",
-        "description": "",
-        "image_1": "shopify://shop_images/two-women-smiling.png",
-        "button_text": "► WATCH",
-        "button_url": "",
-        "button_inverse": true
       }
     },
     "text_with_icons_wwXd3R": {
@@ -330,12 +553,14 @@
   "order": [
     "main",
     "sub",
-    "images_and_text_tryEw4",
+    "ugc_image_slider_7HqkXi",
     "collection-return",
-    "product-recommendations",
-    "featured_collection_wtLM67",
-    "1712066174f16c3fdb",
     "images_and_text_7CrUJq",
+    "1712066174f16c3fdb",
+    "product-recommendations",
+    "faq_7WwEYb",
+    "featured_collection_wtLM67",
+    "images_and_text_tryEw4",
     "text_with_icons_wwXd3R"
   ]
 }

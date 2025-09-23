@@ -21,7 +21,7 @@
     "animate_images_style": "fade-in",
     "shipping_days_post": "business days",
     "estimated_shipping_ned": "1-2",
-    "estimated_shipping_eu": "4-6",
+    "estimated_shipping_eu": "2-4",
     "estimated_shipping_world": "10-15",
     "offer_free_shipping": true,
     "free_shipping_threshold_ned": 100,
@@ -103,6 +103,16 @@
       },
       "15393088698543645836": {
         "type": "shopify://apps/essential-preorder/blocks/app-embed/bb7e7a06-2a82-4e7d-8984-c3918deb1c2a",
+        "disabled": false,
+        "settings": {}
+      },
+      "16216491870256628967": {
+        "type": "shopify://apps/ta-labels-badges/blocks/bss-pl-config-data/91bfe765-b604-49a1-805e-3599fa600b24",
+        "disabled": false,
+        "settings": {}
+      },
+      "16605207545338212596": {
+        "type": "shopify://apps/aov-ai-bundle/blocks/aov-offer/0335d423-143c-4ad7-b224-99a1db74a9ee",
         "disabled": false,
         "settings": {}
       }

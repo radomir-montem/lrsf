@@ -13,32 +13,15 @@
   "sections": {
     "announcement-bar": {
       "type": "announcement-bar",
-      "blocks": {
-        "bar_item_EPgHEi": {
-          "type": "bar_item",
-          "settings": {
-            "announcement_text": "<p>Free shipping and returns</p>"
-          }
-        },
-        "bar_item_deRyKB": {
-          "type": "bar_item",
-          "settings": {
-            "announcement_text": "<p>By using our website, you agree to the usage of cookies to help us make this website better.</p>"
-          }
-        },
-        "bar_item_9YFNAT": {
-          "type": "bar_item",
-          "settings": {
-            "announcement_text": "<p>By using our website, you agree to the usage of cookies to help us make this website better. <a href=\"#\" title=\"#\">Here</a></p>"
-          }
-        }
-      },
-      "block_order": [
-        "bar_item_EPgHEi",
-        "bar_item_deRyKB",
-        "bar_item_9YFNAT"
+      "custom_css": [
+        ".announcement_link_text {font-weight: bold; font-size: 16px;}"
       ],
-      "settings": {}
+      "settings": {
+        "announcement_text": "",
+        "announcement_link": "shopify://products/advance-race-jersey-oceanside",
+        "announcement_link_text": "Limited Edition Jersey - Shop Now",
+        "announcement_closable": false
+      }
     },
     "header": {
       "type": "header",
