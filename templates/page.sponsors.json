@@ -42,22 +42,12 @@
             "img_width": 200,
             "img_height": 200
           }
-        },
-        "logo_image_LRhUTn": {
-          "type": "logo_image",
-          "settings": {
-            "image": "shopify://shop_images/b83e7fcd-nedlot_sponsor-logo_compleet_nedlot_sponsor-logo_black-2.png",
-            "link": "",
-            "img_width": 200,
-            "img_height": 200
-          }
         }
       },
       "block_order": [
         "logo_image_9i4L48",
         "logo_image_VwhbMD",
-        "logo_image_zNNKAx",
-        "logo_image_LRhUTn"
+        "logo_image_zNNKAx"
       ],
       "settings": {
         "heading": "PARTNERS",
