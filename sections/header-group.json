@@ -13,14 +13,13 @@
   "sections": {
     "announcement-bar": {
       "type": "announcement-bar",
-      "disabled": true,
       "custom_css": [
         ".announcement_link_text {font-weight: bold; font-size: 16px;}"
       ],
       "settings": {
         "announcement_text": "",
-        "announcement_link": "shopify://collections/mens-collection",
-        "announcement_link_text": "Gravel Worlds Specials - Ending today",
+        "announcement_link": "shopify://collections/archive-sale",
+        "announcement_link_text": "ARCHIVE SALE - SHOP NOW",
         "announcement_closable": false
       }
     },
