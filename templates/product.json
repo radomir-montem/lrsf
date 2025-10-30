@@ -325,6 +325,13 @@
             "image": "shopify://shop_images/521409395_18318893551230267_5047715084758725114_n.jpg",
             "text": "LSRF Villa Tour"
           }
+        },
+        "item_jYafpU": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/LSRF_RACE_JERSEY.png",
+            "text": "LSRF"
+          }
         }
       },
       "block_order": [
@@ -339,7 +346,8 @@
         "item_hFhrNQ",
         "item_ikLM3C",
         "item_JXCgJF",
-        "item_x3iYgk"
+        "item_x3iYgk",
+        "item_jYafpU"
       ],
       "name": "UGC Image Slider",
       "settings": {
@@ -379,7 +387,9 @@
           "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
             "review_data": "sample_data",
-            "max_width": 1200
+            "max_width": 1200,
+            "show_shop_reviews": false,
+            "empty_state": "empty_widget"
           }
         }
       },
