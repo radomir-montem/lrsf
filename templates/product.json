@@ -330,7 +330,7 @@
           "type": "item",
           "settings": {
             "image": "shopify://shop_images/LSRF_RACE_JERSEY.png",
-            "text": "LSRF"
+            "text": "@LSRF"
           }
         }
       },
