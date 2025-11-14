@@ -21,7 +21,7 @@
         "announcement_link": "shopify://collections/autumn-winter-cycling-clothes-2025",
         "announcement_link_text": "WINTER STARTS HERE",
         "announcement_closable": false,
-        "sticky": false
+        "sticky": true
       }
     },
     "header": {
