@@ -110,12 +110,12 @@
     }
 
     .site-header--stuck {
-      top: 24px;
+      top: var(--top, 24px);
     }
 
     @media (max-width: 749px) {
       .site-header--stuck {
-        top: 41px;
+        top: var(--top, 41px);
       }
     }
   {% endif %}
