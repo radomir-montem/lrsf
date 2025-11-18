@@ -118,6 +118,10 @@
         top: var(--top, 41px);
       }
     }
+  {% else %}
+    .site-header--stuck {
+      top: var(--top, 0);
+    }
   {% endif %}
 </style>
 
