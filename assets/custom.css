@@ -1070,3 +1070,18 @@ button.color-swatch.disabled::after {
 .atc-float-btn {
   display: none !important;
 }
+
+.essential_countdown_annoucement_bar_wrapper,
+.shopify-section-header-sticky {
+  z-index: 15 !important;
+}
+
+.essential_countdown_annoucement_bar_wrapper ~ .shopify-section-header-sticky {
+  top: 51px;
+}
+
+@media (max-width: 749px) {
+  .essential_countdown_annoucement_bar_wrapper ~ .shopify-section-header-sticky {
+    top: 38px;
+  }
+}
