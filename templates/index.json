@@ -43,6 +43,18 @@
         "speed": 50
       }
     },
+    "featured_collection_switcher_Gxx3bU": {
+      "type": "featured-collection-switcher",
+      "settings": {
+        "title": "BLACK FRIDAY EXCLUSIVE DEALS",
+        "hide_title": true,
+        "collection1": "black-friday-sale",
+        "collection2": "",
+        "per_row": 3,
+        "view_all": true,
+        "divider": false
+      }
+    },
     "categories_gUKYQy": {
       "type": "categories",
       "blocks": {
@@ -80,18 +92,6 @@
       ],
       "settings": {
         "no_wrap": false
-      }
-    },
-    "featured_collection_switcher_Gxx3bU": {
-      "type": "featured-collection-switcher",
-      "settings": {
-        "title": "BLACK FRIDAY EXCLUSIVE DEALS",
-        "hide_title": true,
-        "collection1": "black-friday-sale",
-        "collection2": "",
-        "per_row": 3,
-        "view_all": true,
-        "divider": false
       }
     },
     "images_and_text_KDm4wP": {
@@ -416,8 +416,8 @@
   "order": [
     "hero-video",
     "scrolling_text_HLGe4q",
-    "categories_gUKYQy",
     "featured_collection_switcher_Gxx3bU",
+    "categories_gUKYQy",
     "images_and_text_KDm4wP",
     "images_and_text_rtUTbF",
     "collection_callout_QJqhEF",
