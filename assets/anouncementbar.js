@@ -1,6 +1,6 @@
 function initCountdownAnnouncementbar() {
   const countDownBar = document.querySelector('.essential_countdown_annoucement_bar_wrapper');
-  const stickyHeader = document.querySelector('.shopify-section-header-sticky');
+  const stickyHeader = document.querySelector('.site-header--stuck');
 
   if (!countDownBar || !stickyHeader) return;
 
