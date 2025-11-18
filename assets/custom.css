@@ -1075,3 +1075,24 @@ button.color-swatch.disabled::after {
 .shopify-section-header-sticky {
   z-index: 15 !important;
 }
+
+@media (max-width: 749px) {
+  .site-nav__icons {
+    display: flex;
+    align-items: center;
+  }
+
+  .language-form-header {
+    padding: 10px 0;
+  }
+
+  .multi-selectors__item .disclosure {
+    margin-bottom: 0;
+  }
+
+  .language-form-header button {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+}
