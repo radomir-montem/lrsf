@@ -236,18 +236,6 @@
         "padding_bottom_mobile": 30
       }
     },
-    "featured_collection_switcher_rVXdpr": {
-      "type": "featured-collection-switcher",
-      "settings": {
-        "title": "SHOP THE TRAINING COLLECTION",
-        "hide_title": true,
-        "collection1": "cycling-training-collection",
-        "collection2": "cycling-training-collection",
-        "per_row": 2,
-        "view_all": false,
-        "divider": false
-      }
-    },
     "slideshow_ygUeMG": {
       "type": "slideshow",
       "blocks": {
@@ -285,57 +273,23 @@
     "text_block_y7erAj": {
       "type": "text-block",
       "blocks": {
-        "rich_text_ej7HcH": {
+        "rich_text_yNngGC": {
           "type": "rich_text",
           "settings": {
             "subheading": "",
-            "heading": "ADVENTURE COLLECTION",
-            "description": "<p>The Adventure Jerseys are an updated version of our Merino Adventure Shirt and use a slightly denser merino blend, still summer-ready, but with a bit more substance and structure.<br/>It’s the perfect combination of a traditional cycling jersey and a casual T-shirt. While maintaining the functionality of a classic jersey, it features a relaxed fit like a T-shirt, offering extra comfort on longer rides or off-the-bike moments.</p><p>The collar has been refined to hold its shape better, and the sleeves offer a slightly closer fit for more stability on the bike — without losing the easy, loose feel this shirt is known for. It retains the practicality of rear pockets, and the lightweight merino fabric still packs down easily — ideal for gravel adventures, bike-packing, or just throwing in your bag when you head out.</p><p>The Adventure Jerseys are available in two styles, depending on the warmth you desire for your summer gravel ride or hike.</p><p>The Adventure Jersey Midweight Bolinas is your best choice for changing summer weather conditions. It provides a bit more warmth and comes in a dark blue color.</p><p>The Adventure Jersey Auburn and Saratoga are for those hot summer days, when you need all the breathability you can find, without actually taking off your shirt. They come in an oatmeal and blue-grey color that will match any outfit, on and off the bike. </p>"
+            "heading": "KOM KIJKEN",
+            "description": "<p>Beleef met ons samen de première van de Race Around the Netherlands in Forum, Groningen op zondag 18 januari 2026. Voor en na de film wordt er in gesprek gegaan met Laurens ten Dam en Stefan Bolt. Bestel nu je kaarten. </p>"
           }
         }
       },
       "block_order": [
-        "rich_text_ej7HcH"
+        "rich_text_yNngGC"
       ],
       "settings": {
         "padding_top": 30,
         "padding_bottom": 30,
         "padding_top_mobile": 30,
         "padding_bottom_mobile": 30
-      }
-    },
-    "slideshow_YtDkdm": {
-      "type": "slideshow",
-      "blocks": {
-        "image_fhwFTb": {
-          "type": "image",
-          "settings": {
-            "title": "",
-            "title_size": 80,
-            "subheading": "",
-            "link": "",
-            "link_text": "",
-            "link2": "",
-            "link_text2": "",
-            "text_align": "vertical-bottom horizontal-left",
-            "image": "shopify://shop_images/LSRF-Adventure-jersey-hero-banner-SS25.jpg",
-            "image_mobile": "shopify://shop_images/LSRF-Adventure-jersey-hero-banner-SS25.jpg",
-            "parallax_direction": "left",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "image_fhwFTb"
-      ],
-      "settings": {
-        "section_height": "650px",
-        "mobile_height": "auto",
-        "parallax": false,
-        "style": "arrows",
-        "autoplay": true,
-        "autoplay_speed": 5,
-        "lazyload_images": true
       }
     },
     "featured_collection_switcher_3JQDgp": {
@@ -521,10 +475,8 @@
     "text_block_chJ4mM",
     "hero_video_KNhNJV",
     "text_block_ag3LGa",
-    "featured_collection_switcher_rVXdpr",
     "slideshow_ygUeMG",
     "text_block_y7erAj",
-    "slideshow_YtDkdm",
     "featured_collection_switcher_3JQDgp",
     "logo_grid_di3dKX",
     "images_and_text_C3H87F",
