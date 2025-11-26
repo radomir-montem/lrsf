@@ -292,6 +292,19 @@
         "padding_bottom_mobile": 30
       }
     },
+    "button_X69dY3": {
+      "type": "button",
+      "name": "Button",
+      "settings": {
+        "button_text": "BESTEL KAARTEN",
+        "button_link": "https://tickets.forum.nl/mtTicket/performance/10331627?lang=nl&format=&stlt=gf&_gl=1*uvo013*_ga*MTU1MzI1NjUxMC4xNzY0MTU2OTkw*_ga_J4GZWWPHS5*czE3NjQxNTY5ODgkbzEkZzAkdDE3NjQxNTY5ODgkajYwJGwwJGgxMTY5MzE0NzEy",
+        "button_style": "btn",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_top_mobile": 50,
+        "padding_bottom_mobile": 50
+      }
+    },
     "featured_collection_switcher_3JQDgp": {
       "type": "featured-collection-switcher",
       "settings": {
@@ -477,6 +490,7 @@
     "text_block_ag3LGa",
     "slideshow_ygUeMG",
     "text_block_y7erAj",
+    "button_X69dY3",
     "featured_collection_switcher_3JQDgp",
     "logo_grid_di3dKX",
     "images_and_text_C3H87F",
