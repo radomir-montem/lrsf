@@ -228,6 +228,7 @@
       "disabled": true,
       "name": "t:sections.hero-video.presets.video_hero.name",
       "settings": {
+        "review_text": "Rated 4.9 out of 5 by 200,000+ happy customers.",
         "title": "",
         "title_size": 80,
         "text_color": "#ffffff",
@@ -340,7 +341,7 @@
       "type": "featured-collection",
       "settings": {
         "title": "ACCESSORIES",
-        "home_featured_products": "mens-cycling-accessories",
+        "home_featured_products": "lsrf-gifts",
         "per_row": 4,
         "rows": 1,
         "view_all": true,
