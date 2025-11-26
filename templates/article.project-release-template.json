@@ -23,8 +23,8 @@
             "link2": "",
             "link_text2": "",
             "text_align": "vertical-bottom horizontal-left",
-            "image": "shopify://shop_images/ADVENTURE_JERSEYS.jpg",
-            "image_mobile": "shopify://shop_images/ADVENTURE_JERSEYS.jpg",
+            "image": "shopify://shop_images/Lau_RATN-14.jpg",
+            "image_mobile": "shopify://shop_images/Lau_RATN-14.jpg",
             "parallax_direction": "top",
             "overlay_opacity": 0
           }
@@ -94,6 +94,7 @@
       "type": "hero-video",
       "disabled": true,
       "settings": {
+        "review_text": "Rated 4.9 out of 5 by 200,000+ happy customers.",
         "title": "",
         "title_size": 80,
         "text_color": "#ffffff",
@@ -148,8 +149,8 @@
             "link2": "",
             "link_text2": "",
             "text_align": "vertical-bottom horizontal-left",
-            "image": "shopify://shop_images/DSC04170.jpg",
-            "image_mobile": "shopify://shop_images/DSC04170.jpg",
+            "image": "shopify://shop_images/Lau_Fiets_RATN-9.jpg",
+            "image_mobile": "shopify://shop_images/Lau_Fiets_RATN-9.jpg",
             "parallax_direction": "left",
             "overlay_opacity": 0
           }
@@ -195,6 +196,7 @@
       "type": "hero-video",
       "disabled": true,
       "settings": {
+        "review_text": "Rated 4.9 out of 5 by 200,000+ happy customers.",
         "title": "",
         "title_size": 80,
         "text_color": "#ffffff",
@@ -219,8 +221,8 @@
           "type": "rich_text",
           "settings": {
             "subheading": "",
-            "heading": "TRAINING COLLECTION",
-            "description": "<p>The Training Jersey is built for comfort — whether you're spinning easy, climbing steady, or riding long. The fit is more relaxed than our Race Jersey, with a looser cut and more freedom through the body and sleeves.</p><p>Made from a lightweight, fast-drying microfiber, it's breathable and soft on the skin — ideal for warmer days or riders who prefer a bit more room.</p><p><strong>Prefer a tighter fit?</strong> Go one size down from your LSRF Race Jersey 2.0 size.<br/><strong>Looking for a looser cut?</strong> This is your go-to.<br/></p><p>Specifications:<br/>• Mesh side panels to enhance breathability<br/>• Clean cut sleeve hems<br/>• Reverse YKK® cam-lock zipper<br/>• Low collar (2 cm)<br/>• Internal elastic with silicone gripper at the hem<br/>• Relaxed comfort fit — slightly longer in length</p>"
+            "heading": "RAR 2025: DE FILM",
+            "description": "<p>Hij rijdt een rondje om zijn land.<br/>En terwijl hij kijkt, kijkt het land terug.</p><p><em>Race Around the Netherlands </em>is een tocht van meer dan 1900 kilometer, maar deze film gaat niet over afstand of tijd. Het gaat over kijken. Over hoe Nederland – het land dat we denken te kennen – verandert wanneer het langzaam onder je vandaan rolt, uur na uur, dag na dag. En hoe datzelfde land ook jou vormt, raakt, spiegelt en soms stilzet.<br/><br/>We volgen oud-wielerprof Laurens ten Dam door stille, dauwige ochtenden, diep donkere nachten en zonovergoten middagen. Terwijl hij voortgaat, raken zijn momenten die van anderen: de oestervisser in het getij, de kapitein op het veer, een groep dansend op een jazzfestival, de boer die op zijn akkers rijdt. Sommige ontmoetingen worden gesprekken, andere blijven blikken die voorbijglijden. In die kruispunten ontstaat het verhaal. Het is een zoektocht naar de rust die ontstaat als je nergens anders kunt zijn dan precies hier. Een land dat opnieuw vorm krijgt wanneer je het langzaam doorkruist – van Texel tot het Drielandenpunt, van Amerongen tot Pernis. En het is een portret van iedereen die langs de route leefde, werkte, keek of heel even stilviel in de eindeloze zomer van 2025.<br/> </p>"
           }
         }
       },
