@@ -12,10 +12,6 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "selleasy_lb_upsell_widget_pac_dgCQ8F": {
-          "type": "shopify://apps/selleasy/blocks/lb-upsell-widget-pac/790c1a03-a71f-4bc1-9869-00dad526d3c2",
-          "settings": {}
-        },
         "judge_me_reviews_preview_badge_6V6XbE": {
           "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {}
@@ -139,6 +135,10 @@
             "page": ""
           }
         },
+        "selleasy_lb_upsell_widget_pac_dgCQ8F": {
+          "type": "shopify://apps/selleasy/blocks/lb-upsell-widget-pac/790c1a03-a71f-4bc1-9869-00dad526d3c2",
+          "settings": {}
+        },
         "share": {
           "type": "share",
           "disabled": true,
@@ -197,7 +197,6 @@
         }
       },
       "block_order": [
-        "selleasy_lb_upsell_widget_pac_dgCQ8F",
         "judge_me_reviews_preview_badge_6V6XbE",
         "price",
         "text_xgnn3L",
@@ -217,6 +216,7 @@
         "tab",
         "tab_JLwyhc",
         "tab_qMqaNp",
+        "selleasy_lb_upsell_widget_pac_dgCQ8F",
         "share",
         "bundle_products_46nmPG",
         "text_8x6gDM",
