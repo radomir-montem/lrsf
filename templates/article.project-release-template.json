@@ -92,7 +92,6 @@
     },
     "hero_video_dbBeW8": {
       "type": "hero-video",
-      "disabled": true,
       "settings": {
         "review_text": "Rated 4.9 out of 5 by 200,000+ happy customers.",
         "title": "",
@@ -159,6 +158,7 @@
       "block_order": [
         "image_RExVD9"
       ],
+      "disabled": true,
       "settings": {
         "section_height": "650px",
         "mobile_height": "auto",
@@ -250,8 +250,8 @@
             "link2": "",
             "link_text2": "",
             "text_align": "vertical-bottom horizontal-left",
-            "image": "shopify://shop_images/LSRF_SS25-02631.jpg",
-            "image_mobile": "shopify://shop_images/LSRF_SS25-02631.jpg",
+            "image": "shopify://shop_images/Lau_RATN-14.jpg",
+            "image_mobile": "shopify://shop_images/Lau_RATN-14.jpg",
             "parallax_direction": "left",
             "overlay_opacity": 0
           }
