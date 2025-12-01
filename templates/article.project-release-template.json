@@ -90,50 +90,6 @@
         "padding_bottom_mobile": 30
       }
     },
-    "hero_video_dbBeW8": {
-      "type": "hero-video",
-      "settings": {
-        "review_text": "Rated 4.9 out of 5 by 200,000+ happy customers.",
-        "title": "",
-        "title_size": 80,
-        "text_color": "#ffffff",
-        "subheading": "",
-        "btn_hover_color": "white",
-        "link_text": "WATCH",
-        "link": "https://youtu.be/dMWCJLXjKy0",
-        "link_text_2": "",
-        "link_2": "",
-        "text_align": "vertical-center horizontal-center",
-        "video_url": "",
-        "image": "shopify://shop_images/Rectangle_58.png",
-        "overlay_opacity": 0,
-        "section_height": "650px",
-        "mobile_height": "300px",
-        "full_width": false
-      }
-    },
-    "text_block_rHHYee": {
-      "type": "text-block",
-      "blocks": {
-        "rich_text_NYBwBt": {
-          "type": "rich_text",
-          "settings": {
-            "subheading": "",
-            "heading": "",
-            "description": ""
-          }
-        }
-      },
-      "block_order": [
-        "rich_text_NYBwBt"
-      ],
-      "settings": {
-        "padding_top": 30,
-        "padding_bottom": 30,
-        "padding_top_mobile": 30,
-        "padding_bottom_mobile": 30
-      }
-    },
     "slideshow_HAAWjk": {
       "type": "slideshow",
       "blocks": {
@@ -221,7 +177,7 @@
           "type": "rich_text",
           "settings": {
             "subheading": "",
-            "heading": "Race Around The Netherlands",
+            "heading": "",
             "description": "<p>Hij rijdt een rondje om zijn land.<br/>En terwijl hij kijkt, kijkt het land terug.</p><p><em>Race Around the Netherlands </em>is een tocht van meer dan 1900 kilometer, maar deze film gaat niet over afstand of tijd. Het gaat over kijken. Over hoe Nederland – het land dat we denken te kennen – verandert wanneer het langzaam onder je vandaan rolt, uur na uur, dag na dag. En hoe datzelfde land ook jou vormt, raakt, spiegelt en soms stilzet.<br/><br/>We volgen oud-wielerprof Laurens ten Dam door stille, dauwige ochtenden, diep donkere nachten en zonovergoten middagen. Terwijl hij voortgaat, raken zijn momenten die van anderen: de oestervisser in het getij, de kapitein op het veer, een groep dansend op een jazzfestival, de boer die op zijn akkers rijdt. Sommige ontmoetingen worden gesprekken, andere blijven blikken die voorbijglijden. In die kruispunten ontstaat het verhaal. Het is een zoektocht naar de rust die ontstaat als je nergens anders kunt zijn dan precies hier. Een land dat opnieuw vorm krijgt wanneer je het langzaam doorkruist – van Texel tot het Drielandenpunt, van Amerongen tot Pernis. En het is een portret van iedereen die langs de route leefde, werkte, keek of heel even stilviel in de eindeloze zomer van 2025.</p>"
           }
         }
@@ -303,6 +259,28 @@
         "padding_bottom": 50,
         "padding_top_mobile": 50,
         "padding_bottom_mobile": 50
+      }
+    },
+    "hero_video_dbBeW8": {
+      "type": "hero-video",
+      "settings": {
+        "review_text": "Rated 4.9 out of 5 by 200,000+ happy customers.",
+        "title": "",
+        "title_size": 80,
+        "text_color": "#ffffff",
+        "subheading": "",
+        "btn_hover_color": "white",
+        "link_text": "WATCH",
+        "link": "https://youtu.be/dMWCJLXjKy0",
+        "link_text_2": "",
+        "link_2": "",
+        "text_align": "vertical-center horizontal-center",
+        "video_url": "",
+        "image": "shopify://shop_images/Rectangle_58.png",
+        "overlay_opacity": 0,
+        "section_height": "650px",
+        "mobile_height": "300px",
+        "full_width": false
       }
     },
     "featured_collection_switcher_3JQDgp": {
@@ -482,8 +460,6 @@
   "order": [
     "slideshow_8gV9r6",
     "custom_article_yyXm3f",
-    "hero_video_dbBeW8",
-    "text_block_rHHYee",
     "slideshow_HAAWjk",
     "text_block_chJ4mM",
     "hero_video_KNhNJV",
@@ -491,6 +467,7 @@
     "slideshow_ygUeMG",
     "text_block_y7erAj",
     "button_X69dY3",
+    "hero_video_dbBeW8",
     "featured_collection_switcher_3JQDgp",
     "logo_grid_di3dKX",
     "images_and_text_C3H87F",
