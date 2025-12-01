@@ -104,7 +104,7 @@
 
     {{ content_for_header }}
     {{ 'c-feedback-template-v2.css' |  asset_url |  stylesheet_tag }}
-    {{ 'c-feedback-project-relase-template.css' |  asset_url |  stylesheet_tag }}
+    {% comment %} {{ 'c-feedback-project-relase-template.css' |  asset_url |  stylesheet_tag }} {% endcomment %}
     
     <script src="{{ 'vendor-scripts-v14.js' | asset_url | split: '?' | first }}" defer="defer"></script>
 
