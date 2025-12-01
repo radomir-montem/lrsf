@@ -81,20 +81,20 @@
         justify-content: center;
         padding: 20px 40px;
     }
-    .project-release-template #shopify-section-{{ section.id }} .subtext {
+    {% comment %} .project-release-template #shopify-section-{{ section.id }} .subtext {
       font-family: Roboto;
       font-size: 14.5px;
       font-weight: 400;
       line-height: 25.6px;
       letter-spacing: 3.200000047683716px;
-    }
+    } {% endcomment %}
     #shopify-section-{{ section.id }} .subtext {
         font-size: 12px;
         line-height: 14.06px;
         font-weight: 400;
         margin-bottom: 5px
     }
-    .project-release-template #shopify-section-{{ section.id }} .title {
+    {% comment %} .project-release-template #shopify-section-{{ section.id }} .title {
       font-family: Roboto;
       font-size: 36px;
       font-weight: 600;
@@ -107,7 +107,7 @@
       font-weight: 400;
       line-height: 28.8px;
       letter-spacing: 0.44999998807907104px;
-    }
+    } {% endcomment %}
     #shopify-section-{{ section.id }} .title {
         font-size: 24px;
         line-height: 1.17;
@@ -128,7 +128,7 @@
         {% comment %} padding: 10px 20px {% endcomment %}
     }
     @media (max-width: 425px) {
-      .product-release-temlate .project-release-template #shopify-section-{{ section.id }} .subtext {
+      {% comment %} .product-release-temlate .project-release-template #shopify-section-{{ section.id }} .subtext {
         font-size: 12px;
         line-height: 14.02px;
       }
@@ -147,7 +147,7 @@
         letter-spacing: 0.44999998807907104px;
         text-align: left;
 
-      }
+      } {% endcomment %}
     }
 
     @media screen and (min-width: 1024px){
@@ -170,9 +170,9 @@
               width: 66.66%;
             {% endif %}
         }
-        .project-release-template #shopify-section-{{ section.id }} .text-wrapper {
+        {% comment %} .project-release-template #shopify-section-{{ section.id }} .text-wrapper {
           padding: 40px 40px 68px 40px;
-        }
+        } {% endcomment %}
         #shopify-section-{{ section.id }} .text-wrapper {
             width: 50%;
             {% if section.settings.add_second_image and section.settings.image_2 != blank %}
