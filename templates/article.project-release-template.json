@@ -192,40 +192,6 @@
         "padding_bottom_mobile": 30
       }
     },
-    "slideshow_ygUeMG": {
-      "type": "slideshow",
-      "blocks": {
-        "image_QQMQAc": {
-          "type": "image",
-          "settings": {
-            "title": "",
-            "title_size": 80,
-            "subheading": "",
-            "link": "",
-            "link_text": "",
-            "link2": "",
-            "link_text2": "",
-            "text_align": "vertical-bottom horizontal-left",
-            "image": "shopify://shop_images/Lau_RATN-14.jpg",
-            "image_mobile": "shopify://shop_images/Lau_RATN-14.jpg",
-            "parallax_direction": "left",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "image_QQMQAc"
-      ],
-      "settings": {
-        "section_height": "650px",
-        "mobile_height": "auto",
-        "parallax": false,
-        "style": "arrows",
-        "autoplay": true,
-        "autoplay_speed": 5,
-        "lazyload_images": true
-      }
-    },
     "text_block_y7erAj": {
       "type": "text-block",
       "blocks": {
@@ -281,6 +247,40 @@
         "section_height": "650px",
         "mobile_height": "300px",
         "full_width": false
+      }
+    },
+    "slideshow_ygUeMG": {
+      "type": "slideshow",
+      "blocks": {
+        "image_QQMQAc": {
+          "type": "image",
+          "settings": {
+            "title": "",
+            "title_size": 80,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link2": "",
+            "link_text2": "",
+            "text_align": "vertical-bottom horizontal-left",
+            "image": "shopify://shop_images/Lau_RATN-14.jpg",
+            "image_mobile": "shopify://shop_images/Lau_RATN-14.jpg",
+            "parallax_direction": "left",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_QQMQAc"
+      ],
+      "settings": {
+        "section_height": "650px",
+        "mobile_height": "auto",
+        "parallax": false,
+        "style": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 5,
+        "lazyload_images": true
       }
     },
     "featured_collection_switcher_3JQDgp": {
@@ -464,10 +464,10 @@
     "text_block_chJ4mM",
     "hero_video_KNhNJV",
     "text_block_ag3LGa",
-    "slideshow_ygUeMG",
+    "hero_video_dbBeW8",
     "text_block_y7erAj",
     "button_X69dY3",
-    "hero_video_dbBeW8",
+    "slideshow_ygUeMG",
     "featured_collection_switcher_3JQDgp",
     "logo_grid_di3dKX",
     "images_and_text_C3H87F",
