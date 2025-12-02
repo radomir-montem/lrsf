@@ -46,9 +46,9 @@
     "featured_collection_switcher_Gxx3bU": {
       "type": "featured-collection-switcher",
       "settings": {
-        "title": "BLACK FRIDAY EXCLUSIVE DEALS",
+        "title": "ARCHIVE SALE SECRETS",
         "hide_title": true,
-        "collection1": "black-friday-sale",
+        "collection1": "archive-sale",
         "collection2": "",
         "per_row": 3,
         "view_all": true,
