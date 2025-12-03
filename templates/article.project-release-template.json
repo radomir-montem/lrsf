@@ -222,7 +222,7 @@
           "settings": {
             "subheading": "",
             "heading": "KOM KIJKEN",
-            "description": "<p>Beleef met ons samen de première van de Race Around the Netherlands in Forum, Groningen op zondag 18 januari 2026. Voor en na de film wordt er in gesprek gegaan met Laurens ten Dam en Stefan Bolt. Bestel nu je kaarten. </p>"
+            "description": "<p>De première van de Race Around the Netherlands vindt plaats in Forum, Groningen op zondag 18 januari 2026. Voor en na de film wordt er in gesprek gegaan met Laurens ten Dam en Stefan Bolt. Deze voorstelling is uitverkocht, maar er komen wellicht nog nieuwe data aan. Houd deze website en Instagram in de gaten. </p>"
           }
         }
       },
@@ -238,6 +238,7 @@
     },
     "button_X69dY3": {
       "type": "button",
+      "disabled": true,
       "name": "Button",
       "settings": {
         "button_text": "BESTEL KAARTEN",
