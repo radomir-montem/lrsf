@@ -13,14 +13,13 @@
   "sections": {
     "announcement-bar": {
       "type": "announcement-bar",
-      "disabled": true,
       "custom_css": [
         ".announcement_link_text {font-weight: bold; font-size: 16px;}"
       ],
       "settings": {
-        "announcement_text": "",
-        "announcement_link": "shopify://collections/black-friday-sale",
-        "announcement_link_text": "10% off above €200 · 15% off above €250",
+        "announcement_text": "GIFTING SEASON , FIND YOUR GIFTS",
+        "announcement_link": "shopify://collections/lsrf-gifts",
+        "announcement_link_text": "",
         "announcement_closable": false,
         "sticky": true
       }
