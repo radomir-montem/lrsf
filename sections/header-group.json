@@ -14,7 +14,7 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "custom_css": [
-        ".announcement_link_text {font-weight: bold; font-size: 16px;}"
+        ".announcement_link_text {font-weight: bold; font-size: 18px;}"
       ],
       "settings": {
         "announcement_text": "GIFTING SEASON.  FIND YOUR PERFECT GIFT",
