@@ -71,6 +71,13 @@
             "size_chart": "lsrf-cycling-clothing-size-charts"
           }
         },
+        "text_TkRhY6": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Order by December 18 for the best chance of receiving your items before the Holidays.</p>",
+            "text_alignment": "text-left"
+          }
+        },
         "inventory_status": {
           "type": "inventory_status",
           "settings": {
@@ -207,6 +214,7 @@
         "buy_buttons",
         "selleasy_lb_upsell_widget_bl_VWhebk",
         "size_chart_mHk9gz",
+        "text_TkRhY6",
         "inventory_status",
         "sales_point",
         "sales_point_QBgyE7",
