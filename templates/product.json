@@ -73,8 +73,9 @@
         },
         "text_TkRhY6": {
           "type": "text",
+          "disabled": true,
           "settings": {
-            "text": "<p>Order by December 19 for the best chance of receiving your items before the Holidays.</p>",
+            "text": "",
             "text_alignment": "text-left"
           }
         },
