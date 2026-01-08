@@ -13,6 +13,7 @@
   "sections": {
     "announcement-bar": {
       "type": "announcement-bar",
+      "disabled": true,
       "custom_css": [
         ".announcement_link_text {font-weight: bold; font-size: 18px;}"
       ],
