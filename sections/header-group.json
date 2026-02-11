@@ -13,13 +13,12 @@
   "sections": {
     "announcement-bar": {
       "type": "announcement-bar",
-      "disabled": true,
       "custom_css": [
         ".announcement_link_text {font-weight: bold; font-size: 18px;}"
       ],
       "settings": {
-        "announcement_text": "GIFTING SEASON.  FIND YOUR PERFECT GIFT",
-        "announcement_link": "shopify://collections/lsrf-gifts",
+        "announcement_text": "NEW ARCHIVE SALE ADDITIONS | SHOP NOW",
+        "announcement_link": "shopify://collections/archive-sale",
         "announcement_link_text": "",
         "announcement_closable": false,
         "sticky": true
