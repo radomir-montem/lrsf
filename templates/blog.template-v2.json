@@ -338,6 +338,18 @@
         "lazyload_images": true
       }
     },
+    "title_with_id_c6CtzB": {
+      "type": "title-with-id",
+      "name": "Title with ID",
+      "settings": {
+        "title": "KLAK AF!",
+        "half_margin_top": false,
+        "desktop_margin_top": 50,
+        "desktop_margin_bottom": 56,
+        "mobile_margin_top": 70,
+        "mobile_margin_bottom": 30
+      }
+    },
     "featured_collection_XRU8rC": {
       "type": "featured-collection",
       "settings": {
@@ -433,8 +445,9 @@
     "button_bTgpQA",
     "title_with_id_BD67Gj",
     "background_image_text_ByMdcz",
+    "title_with_id_c6CtzB",
+    "images_grid_4W7gAp",
     "featured_collection_XRU8rC",
-    "title_with_id_WCyKeq",
-    "images_grid_4W7gAp"
+    "title_with_id_WCyKeq"
   ]
 }
