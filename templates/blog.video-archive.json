@@ -324,8 +324,22 @@
             "button_label": "WATCH NOW",
             "button_link": "https://youtu.be/1F3Xj4fZHIs?si=biuV3Kwwakm-TNZ3"
           }
-        },
-        "text_block_mQ76PQ": {
+        }
+      },
+      "block_order": [
+        "text_block_y8CjBR",
+        "text_block_etYw6R"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "left",
+        "divider": false
+      }
+    },
+    "text_columns_4FhQhL": {
+      "type": "text-columns",
+      "blocks": {
+        "text_block_U8kLNU": {
           "type": "text_block",
           "settings": {
             "enable_image": true,
@@ -338,7 +352,7 @@
             "button_link": "https://youtu.be/i5JonrGSp8o?si=q4HUVq83ngp5_eEY"
           }
         },
-        "text_block_czpPPt": {
+        "text_block_jjq3Db": {
           "type": "text_block",
           "settings": {
             "enable_image": true,
@@ -351,7 +365,7 @@
             "button_link": "https://youtu.be/sPOvAnIy7Vc?si=plUC_jOpP1L1g3eQ"
           }
         },
-        "text_block_gNehxE": {
+        "text_block_Pg9zQ9": {
           "type": "text_block",
           "settings": {
             "enable_image": true,
@@ -366,11 +380,9 @@
         }
       },
       "block_order": [
-        "text_block_y8CjBR",
-        "text_block_etYw6R",
-        "text_block_mQ76PQ",
-        "text_block_czpPPt",
-        "text_block_gNehxE"
+        "text_block_U8kLNU",
+        "text_block_jjq3Db",
+        "text_block_Pg9zQ9"
       ],
       "settings": {
         "title": "",
@@ -467,6 +479,7 @@
     "text_columns_JqTQbf",
     "text_columns_jf9C3G",
     "text_columns_QGKzLN",
+    "text_columns_4FhQhL",
     "featured_collection_XRU8rC",
     "title_with_id_WCyKeq",
     "images_grid_4W7gAp"
