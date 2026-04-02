@@ -263,7 +263,7 @@
       "type": "button",
       "settings": {
         "button_text": "SEE ALL STORIES",
-        "button_link": "shopify://blogs/live-slow-ride-fast",
+        "button_link": "shopify://blogs/stories",
         "button_style": "btn",
         "padding_top": 30,
         "padding_bottom": 0,
