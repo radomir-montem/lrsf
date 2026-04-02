@@ -218,9 +218,22 @@
         "blog_show_date": true,
         "blog_show_comments": false,
         "blog_show_author": false,
-        "view_all": true,
+        "view_all": false,
         "hide_article_btn": true,
         "divider": false
+      }
+    },
+    "button_y9jzD4": {
+      "type": "button",
+      "name": "Button",
+      "settings": {
+        "button_text": "READ MORE STORIES",
+        "button_link": "",
+        "button_style": "btn",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_top_mobile": 50,
+        "padding_bottom_mobile": 50
       }
     },
     "hero_video_RgJAc9": {
@@ -244,6 +257,18 @@
         "section_height": "16-9",
         "mobile_height": "auto",
         "full_width": true
+      }
+    },
+    "button_jTtJ9J": {
+      "type": "button",
+      "settings": {
+        "button_text": "SEE ALL STORIES",
+        "button_link": "shopify://blogs/live-slow-ride-fast",
+        "button_style": "btn",
+        "padding_top": 30,
+        "padding_bottom": 0,
+        "padding_top_mobile": 30,
+        "padding_bottom_mobile": 0
       }
     },
     "title_with_id_NKkGzM": {
@@ -350,29 +375,6 @@
         "mobile_margin_bottom": 30
       }
     },
-    "featured_collection_XRU8rC": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "ACCESSORIES",
-        "home_featured_products": "lsrf-gifts",
-        "per_row": 4,
-        "rows": 1,
-        "view_all": true,
-        "divider": false
-      }
-    },
-    "title_with_id_WCyKeq": {
-      "type": "title-with-id",
-      "disabled": true,
-      "settings": {
-        "title": "PHOTOS",
-        "half_margin_top": false,
-        "desktop_margin_top": 70,
-        "desktop_margin_bottom": 60,
-        "mobile_margin_top": 20,
-        "mobile_margin_bottom": 20
-      }
-    },
     "images_grid_4W7gAp": {
       "type": "images-grid",
       "blocks": {
@@ -428,6 +430,29 @@
         "image_EQLXnF"
       ],
       "settings": {}
+    },
+    "featured_collection_XRU8rC": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "ACCESSORIES",
+        "home_featured_products": "lsrf-gifts",
+        "per_row": 4,
+        "rows": 1,
+        "view_all": true,
+        "divider": false
+      }
+    },
+    "title_with_id_WCyKeq": {
+      "type": "title-with-id",
+      "disabled": true,
+      "settings": {
+        "title": "PHOTOS",
+        "half_margin_top": false,
+        "desktop_margin_top": 70,
+        "desktop_margin_bottom": 60,
+        "mobile_margin_top": 20,
+        "mobile_margin_bottom": 20
+      }
     }
   },
   "order": [
@@ -438,7 +463,9 @@
     "slideshow_jC9Gai",
     "title_with_id_G7Wmez",
     "blog_post_by_tag_gnnpw8",
+    "button_y9jzD4",
     "hero_video_RgJAc9",
+    "button_jTtJ9J",
     "title_with_id_NKkGzM",
     "images_and_text_L9dVAe",
     "images_and_text_NAxtnE",
