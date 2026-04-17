@@ -17,8 +17,8 @@
         ".announcement_link_text {font-weight: bold; font-size: 20px;}"
       ],
       "settings": {
-        "announcement_text": "NEW ARCHIVE SALE ADDITIONS | SHOP NOW",
-        "announcement_link": "shopify://collections/archive-sale",
+        "announcement_text": "S/S26 DROP 1 | ONLY A FEW MORE DAYS",
+        "announcement_link": "",
         "announcement_link_text": "",
         "announcement_closable": false,
         "sticky": true
