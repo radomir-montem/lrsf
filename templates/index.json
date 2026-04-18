@@ -32,18 +32,6 @@
         "full_width": true
       }
     },
-    "scrolling_text_HLGe4q": {
-      "type": "scrolling-text",
-      "disabled": true,
-      "settings": {
-        "text": "DISCOVER WINTER COLLECTION",
-        "link": "shopify://collections/autumn-winter-cycling-clothes-2025",
-        "text_size": 20,
-        "text_spacing": true,
-        "direction": "left",
-        "speed": 50
-      }
-    },
     "featured_collection_switcher_Gxx3bU": {
       "type": "featured-collection-switcher",
       "settings": {
@@ -416,7 +404,6 @@
   },
   "order": [
     "hero-video",
-    "scrolling_text_HLGe4q",
     "featured_collection_switcher_Gxx3bU",
     "categories_gUKYQy",
     "images_and_text_KDm4wP",
