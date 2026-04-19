@@ -14,8 +14,8 @@
       "settings": {
         "review_star": "shopify://shop_images/LSRF_BF25-Banner_01.jpg",
         "review_text": "",
-        "title": "S/S 26 DROP 1",
-        "title_size": 88,
+        "title": "FIRST SUMMER DROP IS HERE",
+        "title_size": 79,
         "text_color": "#ffffff",
         "subheading": "",
         "btn_hover_color": "white",
@@ -26,7 +26,7 @@
         "text_align": "vertical-center horizontal-left",
         "video_url": "",
         "image": "shopify://shop_images/DSC04086.jpg",
-        "overlay_opacity": 24,
+        "overlay_opacity": 58,
         "section_height": "750px",
         "mobile_height": "500px",
         "full_width": true
