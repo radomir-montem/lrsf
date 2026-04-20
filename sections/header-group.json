@@ -18,7 +18,7 @@
       ],
       "settings": {
         "announcement_text": "FIRST SUMMER DROP IS HERE - SHOP NOW",
-        "announcement_link": "",
+        "announcement_link": "shopify://collections/summer-26",
         "announcement_link_text": "",
         "announcement_closable": false,
         "sticky": true
