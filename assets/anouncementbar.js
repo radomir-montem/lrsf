@@ -9,6 +9,7 @@ function initCountdownAnnouncementbar() {
   const barHeight = countDownBar.offsetHeight;
 
   stickyHeader.style.setProperty('--top', `${barHeight}px`);
+  console.log(barHeight);
 }
 
 document.addEventListener("DOMContentLoaded", () => {
