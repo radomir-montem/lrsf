@@ -26,7 +26,7 @@
         "text_align": "vertical-center horizontal-left",
         "video_url": "",
         "image": "shopify://shop_images/DSC05208.jpg",
-        "overlay_opacity": 40,
+        "overlay_opacity": 22,
         "section_height": "750px",
         "mobile_height": "500px",
         "full_width": true
