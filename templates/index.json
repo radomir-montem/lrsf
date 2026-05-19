@@ -23,10 +23,10 @@
         "link": "shopify://collections/summer",
         "link_text_2": "",
         "link_2": "",
-        "text_align": "vertical-bottom horizontal-left",
+        "text_align": "vertical-center horizontal-center",
         "video_url": "",
         "image": "shopify://shop_images/headerhome.jpg",
-        "overlay_opacity": 0,
+        "overlay_opacity": 24,
         "section_height": "750px",
         "mobile_height": "500px",
         "full_width": true
