@@ -14,7 +14,7 @@
       "settings": {
         "review_star": "shopify://shop_images/LSRF_BF25-Banner_01.jpg",
         "review_text": "",
-        "title": "SUMMER STARTS HERE",
+        "title": "LOADING SUMMER",
         "title_size": 79,
         "text_color": "#ffffff",
         "subheading": "",
@@ -25,8 +25,8 @@
         "link_2": "",
         "text_align": "vertical-bottom horizontal-left",
         "video_url": "",
-        "image": "shopify://shop_images/DSC05208.jpg",
-        "overlay_opacity": 22,
+        "image": "shopify://shop_images/headerhome.jpg",
+        "overlay_opacity": 0,
         "section_height": "750px",
         "mobile_height": "500px",
         "full_width": true
