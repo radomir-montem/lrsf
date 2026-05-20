@@ -256,6 +256,13 @@
     "ugc_image_slider_7HqkXi": {
       "type": "ugc-image-slider",
       "blocks": {
+        "item_Kk9ezn": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/655770837_18102363568991820_3695301037824441550_n.jpg",
+            "text": "@leys_w"
+          }
+        },
         "item_xVBxnm": {
           "type": "item",
           "settings": {
@@ -349,6 +356,7 @@
         }
       },
       "block_order": [
+        "item_Kk9ezn",
         "item_xVBxnm",
         "item_innUhr",
         "item_ekGp7p",
