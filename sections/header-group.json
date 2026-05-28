@@ -18,7 +18,7 @@
       ],
       "settings": {
         "announcement_text": "NEW RACE COLLECTION IS HERE",
-        "announcement_link": "shopify://collections/summer",
+        "announcement_link": "shopify://collections/cycling-race-collection",
         "announcement_link_text": "",
         "announcement_closable": false,
         "sticky": true
