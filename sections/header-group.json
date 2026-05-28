@@ -17,7 +17,7 @@
         ".announcement_link_text {font-weight: bold; font-size: 20px;}"
       ],
       "settings": {
-        "announcement_text": "FIRST SUMMER DROP IS HERE - SHOP NOW",
+        "announcement_text": "LSRF RACE DROPS TONIGHT",
         "announcement_link": "shopify://collections/summer",
         "announcement_link_text": "",
         "announcement_closable": false,
