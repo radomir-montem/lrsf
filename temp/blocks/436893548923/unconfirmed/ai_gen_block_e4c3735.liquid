@@ -1,6 +1,407 @@
+{% doc %}
+  @prompt
+    In the product color variant switcher, update the swatch for the color option named "Multicolour" so that it displays a rainbow conic-gradient instead of solid white. Use CSS conic-gradient with red, orange, yellow, green, blue, indigo, violet on the swatch element when the variant label matches "Multicolour" or "Multicolor".
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-color-variant-switcher-{{ ai_gen_id }} {
+    display: block;
+    width: {{ block.settings.desktop_width_percent }}%;
+    max-width: 100%;
+  }
+
+  .ai-color-variant-switcher__container-{{ ai_gen_id }} {
+    display: flex;
+    flex-wrap: wrap;
+    gap: {{ block.settings.swatch_spacing }}px;
+    align-items: center;
+  }
+
+  .ai-color-variant-switcher__label-{{ ai_gen_id }} {
+    font-size: {{ block.settings.label_size }}px;
+    color: {{ block.settings.label_color }};
+    margin-bottom: {{ block.settings.label_spacing }}px;
+    display: block;
+  }
+
+  .ai-color-variant-switcher__swatch-{{ ai_gen_id }} {
+    position: relative;
+    width: {{ block.settings.swatch_size }}px;
+    height: {{ block.settings.swatch_size }}px;
+    border-radius: {{ block.settings.swatch_border_radius }}px;
+    border: {{ block.settings.border_width }}px solid {{ block.settings.border_color }};
+    cursor: pointer;
+    transition: all 0.3s ease;
+    overflow: hidden;
+  }
+
+  .ai-color-variant-switcher__swatch-{{ ai_gen_id }}:hover {
+    transform: scale(1.1);
+    border-color: {{ block.settings.border_hover_color }};
+  }
+
+  .ai-color-variant-switcher__swatch-{{ ai_gen_id }}.active {
+    border-color: {{ block.settings.border_active_color }};
+    border-width: {{ block.settings.border_active_width }}px;
+  }
+
+  .ai-color-variant-switcher__swatch-{{ ai_gen_id }}--multicolour {
+    background: conic-gradient(
+      from 0deg,
+      #ff0000 0deg 51.4deg,
+      #ff7f00 51.4deg 102.8deg,
+      #ffff00 102.8deg 154.2deg,
+      #00ff00 154.2deg 205.6deg,
+      #0000ff 205.6deg 257deg,
+      #4b0082 257deg 308.4deg,
+      #9400d3 308.4deg 360deg
+    );
+  }
+
+  .ai-color-variant-switcher__selected-name-{{ ai_gen_id }} {
+    font-size: {{ block.settings.selected_name_size }}px;
+    color: {{ block.settings.selected_name_color }};
+    margin-top: {{ block.settings.selected_name_spacing }}px;
+  }
+
+  @media screen and (max-width: 749px) {
+    .ai-color-variant-switcher__swatch-{{ ai_gen_id }} {
+      width: {{ block.settings.swatch_size | times: 0.8 }}px;
+      height: {{ block.settings.swatch_size | times: 0.8 }}px;
+    }
+  }
+{% endstyle %}
+
+<product-color-variant-switcher-{{ ai_gen_id }}
+  class="ai-color-variant-switcher-{{ ai_gen_id }}"
+  {{ block.shopify_attributes }}
+>
+  {% if block.settings.show_label %}
+    <div class="ai-color-variant-switcher__label-{{ ai_gen_id }}">
+      {{ block.settings.label_text }}
+    </div>
+  {% endif %}
+
+  <div class="ai-color-variant-switcher__container-{{ ai_gen_id }}">
+    {% if product.options_with_values.size > 0 %}
+      {% for option in product.options_with_values %}
+        {% assign option_name_downcase = option.name | downcase %}
+        {% if option_name_downcase == 'color' or option_name_downcase == 'colour' %}
+          {% for value in option.values %}
+            {% assign value_handle = value | handleize %}
+            {% assign value_downcase = value | downcase %}
+            {% assign is_multicolour = false %}
+            
+            {% if value_downcase == 'multicolour' or value_downcase == 'multicolor' or value_downcase == 'multi-colour' or value_downcase == 'multi-color' %}
+              {% assign is_multicolour = true %}
+            {% endif %}
+
+            {% assign swatch_color = '' %}
+            {% for variant in product.variants %}
+              {% if variant.options contains value %}
+                {% assign swatch_color = variant.metafields.custom.color_swatch %}
+                {% break %}
+              {% endif %}
+            {% endfor %}
+
+            {% if swatch_color == blank %}
+              {% assign swatch_color = '#ffffff' %}
+            {% endif %}
+
+            <button
+              type="button"
+              class="ai-color-variant-switcher__swatch-{{ ai_gen_id }} {% if is_multicolour %}ai-color-variant-switcher__swatch-{{ ai_gen_id }}--multicolour{% endif %}"
+              data-color-value="{{ value | escape }}"
+              data-option-position="{{ option.position }}"
+              aria-label="{{ value }}"
+              {% unless is_multicolour %}
+                style="background-color: {{ swatch_color }};"
+              {% endunless %}
+            ></button>
+          {% endfor %}
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+  </div>
+
+  {% if block.settings.show_selected_name %}
+    <div class="ai-color-variant-switcher__selected-name-{{ ai_gen_id }}" data-selected-name>
+      {% if product.selected_or_first_available_variant %}
+        {% for option in product.options_with_values %}
+          {% assign option_name_downcase = option.name | downcase %}
+          {% if option_name_downcase == 'color' or option_name_downcase == 'colour' %}
+            {{ product.selected_or_first_available_variant.options[forloop.index0] }}
+          {% endif %}
+        {% endfor %}
+      {% endif %}
+    </div>
+  {% endif %}
+</product-color-variant-switcher-{{ ai_gen_id }}>
+
+<script>
+  (function() {
+    class ProductColorVariantSwitcher{{ ai_gen_id }} extends HTMLElement {
+      constructor() {
+        super();
+        this.swatches = this.querySelectorAll('.ai-color-variant-switcher__swatch-{{ ai_gen_id }}');
+        this.selectedNameElement = this.querySelector('[data-selected-name]');
+      }
+
+      connectedCallback() {
+        this.setupEventListeners();
+        this.setInitialActive();
+      }
+
+      setupEventListeners() {
+        this.swatches.forEach((swatch) => {
+          swatch.addEventListener('click', (e) => {
+            const colorValue = e.currentTarget.getAttribute('data-color-value');
+            const optionPosition = e.currentTarget.getAttribute('data-option-position');
+            
+            this.swatches.forEach((s) => s.classList.remove('active'));
+            e.currentTarget.classList.add('active');
+            
+            if (this.selectedNameElement) {
+              this.selectedNameElement.textContent = colorValue;
+            }
+            
+            this.updateVariant(colorValue, optionPosition);
+          });
+        });
+      }
+
+      setInitialActive() {
+        const urlParams = new URLSearchParams(window.location.search);
+        const variantId = urlParams.get('variant');
+        
+        if (variantId && window.productData && window.productData.variants) {
+          const selectedVariant = window.productData.variants.find(v => v.id == variantId);
+          if (selectedVariant) {
+            const colorOption = selectedVariant.options.find((opt, idx) => {
+              const optionName = window.productData.options[idx].toLowerCase();
+              return optionName === 'color' || optionName === 'colour';
+            });
+            
+            if (colorOption) {
+              this.swatches.forEach((swatch) => {
+                if (swatch.getAttribute('data-color-value') === colorOption) {
+                  swatch.classList.add('active');
+                }
+              });
+            }
+          }
+        } else if (this.swatches.length > 0) {
+          this.swatches[0].classList.add('active');
+        }
+      }
+
+      updateVariant(colorValue, optionPosition) {
+        const form = document.querySelector('form[action*="/cart/add"]');
+        if (!form) return;
+
+        const variantIdInput = form.querySelector('[name="id"]');
+        if (!variantIdInput) return;
+
+        if (window.productData && window.productData.variants) {
+          const matchingVariant = window.productData.variants.find((variant) => {
+            return variant.options[optionPosition - 1] === colorValue && variant.available;
+          });
+
+          if (matchingVariant) {
+            variantIdInput.value = matchingVariant.id;
+            
+            const url = new URL(window.location);
+            url.searchParams.set('variant', matchingVariant.id);
+            window.history.replaceState({}, '', url);
+            
+            const event = new CustomEvent('variant:change', {
+              detail: { variant: matchingVariant }
+            });
+            document.dispatchEvent(event);
+          }
+        }
+      }
+    }
+
+    customElements.define('product-color-variant-switcher-{{ ai_gen_id }}', ProductColorVariantSwitcher{{ ai_gen_id }});
+  })();
+</script>
+
 {% schema %}
- {
-   "name": "AI_Block",
-   "tag": "shopify-ai-generated-block"
- }
+{
+  "name": "Color variant switcher",
+  "tag": null,
+  "settings": [
+    {
+      "type": "header",
+      "content": "Label"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_label",
+      "label": "Show label",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "label_text",
+      "label": "Label text",
+      "default": "Color"
+    },
+    {
+      "type": "range",
+      "id": "label_size",
+      "label": "Label size",
+      "min": 12,
+      "max": 24,
+      "step": 1,
+      "unit": "px",
+      "default": 14
+    },
+    {
+      "type": "color",
+      "id": "label_color",
+      "label": "Label color",
+      "default": "#000000"
+    },
+    {
+      "type": "range",
+      "id": "label_spacing",
+      "label": "Label spacing",
+      "min": 0,
+      "max": 30,
+      "step": 2,
+      "unit": "px",
+      "default": 8
+    },
+    {
+      "type": "header",
+      "content": "Swatches"
+    },
+    {
+      "type": "range",
+      "id": "swatch_size",
+      "label": "Swatch size",
+      "min": 20,
+      "max": 60,
+      "step": 2,
+      "unit": "px",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "swatch_spacing",
+      "label": "Swatch spacing",
+      "min": 4,
+      "max": 20,
+      "step": 2,
+      "unit": "px",
+      "default": 8
+    },
+    {
+      "type": "range",
+      "id": "swatch_border_radius",
+      "label": "Border radius",
+      "min": 0,
+      "max": 30,
+      "step": 2,
+      "unit": "px",
+      "default": 4
+    },
+    {
+      "type": "range",
+      "id": "border_width",
+      "label": "Border width",
+      "min": 1,
+      "max": 5,
+      "step": 1,
+      "unit": "px",
+      "default": 2
+    },
+    {
+      "type": "color",
+      "id": "border_color",
+      "label": "Border color",
+      "default": "#cccccc"
+    },
+    {
+      "type": "color",
+      "id": "border_hover_color",
+      "label": "Border hover color",
+      "default": "#000000"
+    },
+    {
+      "type": "range",
+      "id": "border_active_width",
+      "label": "Active border width",
+      "min": 2,
+      "max": 6,
+      "step": 1,
+      "unit": "px",
+      "default": 3
+    },
+    {
+      "type": "color",
+      "id": "border_active_color",
+      "label": "Active border color",
+      "default": "#000000"
+    },
+    {
+      "type": "header",
+      "content": "Selected name"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_selected_name",
+      "label": "Show selected color name",
+      "default": true
+    },
+    {
+      "type": "range",
+      "id": "selected_name_size",
+      "label": "Name size",
+      "min": 12,
+      "max": 20,
+      "step": 1,
+      "unit": "px",
+      "default": 14
+    },
+    {
+      "type": "color",
+      "id": "selected_name_color",
+      "label": "Name color",
+      "default": "#000000"
+    },
+    {
+      "type": "range",
+      "id": "selected_name_spacing",
+      "label": "Name spacing",
+      "min": 0,
+      "max": 30,
+      "step": 2,
+      "unit": "px",
+      "default": 8
+    },
+    {
+      "type": "header",
+      "content": "Layout"
+    },
+    {
+      "type": "range",
+      "id": "desktop_width_percent",
+      "label": "Desktop width",
+      "min": 50,
+      "max": 100,
+      "step": 5,
+      "unit": "%",
+      "default": 100
+    }
+  ],
+  "presets": [
+    {
+      "name": "Color variant switcher"
+    }
+  ]
+}
 {% endschema %}
