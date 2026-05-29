@@ -67,7 +67,7 @@
                         {% for variant in reco_product.variants %}
                           {% if variant.available %}
                             <option data-index="option2" data-value="{{ variant.option2 }}" value="{{ variant.id }}">
-                              {{ variant.option2 }}
+                              {{ variant }}
                             </option>
                           {% endif %}
                         {% endfor %}
