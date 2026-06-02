@@ -282,27 +282,6 @@
         "mobile_margin_bottom": 20
       }
     },
-    "images_and_text_L9dVAe": {
-      "type": "images-and-text",
-      "settings": {
-        "bg_color": "#1c1d1d",
-        "full_width": true,
-        "add_second_image": false,
-        "small_height": false,
-        "text_first_desktop": false,
-        "text_first_mobile": false,
-        "space_between": false,
-        "text_color": "white",
-        "subtext": "",
-        "title": "HIER IN DE ZON",
-        "description": "<p>He rides the edges of his country. And as he looks, the land looks back at him.<br/><br/>A journey of more than 1,900 kilometers. But this movie is not about distance or time. It is about seeing. About how The Netherlands - the country we think we know - changes when it slowly rolls out from beneath you, hour after hour, day after day. And how that same land shapes you, touches you, mirrors you, and now and then forces you to pause.<br/><br/>We follow former professional cyclist Laurens ten Dam through quiet, dew-soaked mornings, deep dark nights, and sun-drenched afternoons as he rides the Race around the Netherlands.<br/></p>",
-        "image_1": "shopify://shop_images/RATN_Thumb02_16x9_e21be82c-767b-4904-9294-44ccb11b93bb.jpg",
-        "image_2": "shopify://shop_images/RATN_Thumb02_16x9_e21be82c-767b-4904-9294-44ccb11b93bb.jpg",
-        "button_text": "► WATCH",
-        "button_url": "https://youtu.be/k8lgDLGmzVk?si=vAGQnqs0X5mlysnn",
-        "button_inverse": true
-      }
-    },
     "images_and_text_NAxtnE": {
       "type": "images-and-text",
       "settings": {
@@ -321,6 +300,27 @@
         "image_2": "shopify://shop_images/nightriders.jpg",
         "button_text": "► WATCH MOVIE",
         "button_url": "https://youtu.be/-HhWedf_J8I?si=ajSmmDGAdA8tKgOf",
+        "button_inverse": true
+      }
+    },
+    "images_and_text_L9dVAe": {
+      "type": "images-and-text",
+      "settings": {
+        "bg_color": "#1c1d1d",
+        "full_width": true,
+        "add_second_image": false,
+        "small_height": false,
+        "text_first_desktop": false,
+        "text_first_mobile": false,
+        "space_between": false,
+        "text_color": "white",
+        "subtext": "",
+        "title": "HIER IN DE ZON",
+        "description": "<p>He rides the edges of his country. And as he looks, the land looks back at him.<br/><br/>A journey of more than 1,900 kilometers. But this movie is not about distance or time. It is about seeing. About how The Netherlands - the country we think we know - changes when it slowly rolls out from beneath you, hour after hour, day after day. And how that same land shapes you, touches you, mirrors you, and now and then forces you to pause.<br/><br/>We follow former professional cyclist Laurens ten Dam through quiet, dew-soaked mornings, deep dark nights, and sun-drenched afternoons as he rides the Race around the Netherlands.<br/></p>",
+        "image_1": "shopify://shop_images/RATN_Thumb02_16x9_e21be82c-767b-4904-9294-44ccb11b93bb.jpg",
+        "image_2": "shopify://shop_images/RATN_Thumb02_16x9_e21be82c-767b-4904-9294-44ccb11b93bb.jpg",
+        "button_text": "► WATCH",
+        "button_url": "https://youtu.be/k8lgDLGmzVk?si=vAGQnqs0X5mlysnn",
         "button_inverse": true
       }
     },
@@ -467,8 +467,8 @@
     "hero_video_RgJAc9",
     "button_jTtJ9J",
     "title_with_id_NKkGzM",
-    "images_and_text_L9dVAe",
     "images_and_text_NAxtnE",
+    "images_and_text_L9dVAe",
     "button_bTgpQA",
     "title_with_id_BD67Gj",
     "background_image_text_ByMdcz",

@@ -109,6 +109,19 @@
     "text_columns_DLTrFL": {
       "type": "text-columns",
       "blocks": {
+        "text_block_484AtV": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/RATN_Thumb02_16x9_e21be82c-767b-4904-9294-44ccb11b93bb.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "HIER IN DE ZON",
+            "text": "<p>He rides the edges of his country. And as he looks, the land looks back at him.<br/><br/>This movie is not about distance or time. It is about seeing. About how The Netherlands - the country we think we know - changes when it slowly rolls out from beneath you, hour after hour, day after day. </p>",
+            "button_label": "WATCH NOW",
+            "button_link": ""
+          }
+        },
         "text_block_iwBk9c": {
           "type": "text_block",
           "settings": {
@@ -150,6 +163,7 @@
         }
       },
       "block_order": [
+        "text_block_484AtV",
         "text_block_iwBk9c",
         "text_block_PKRaUN",
         "text_block_pEyHhX"
