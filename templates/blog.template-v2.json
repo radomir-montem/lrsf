@@ -146,6 +146,7 @@
     },
     "main": {
       "type": "blog-template",
+      "disabled": true,
       "settings": {
         "blog_show_breadcrumbs": true,
         "blog_show_title": false,
@@ -196,33 +197,6 @@
         "lazyload_images": true
       }
     },
-    "title_with_id_G7Wmez": {
-      "type": "title-with-id",
-      "settings": {
-        "title": "STORIES",
-        "half_margin_top": true,
-        "desktop_margin_top": 0,
-        "desktop_margin_bottom": 70,
-        "mobile_margin_top": 50,
-        "mobile_margin_bottom": 16
-      }
-    },
-    "blog_post_by_tag_gnnpw8": {
-      "type": "blog-post-by-tag",
-      "settings": {
-        "title": "",
-        "blog": "stories",
-        "selected_tag": "ACTUEEL",
-        "post_limit": 2,
-        "blog_show_tags": false,
-        "blog_show_date": true,
-        "blog_show_comments": false,
-        "blog_show_author": false,
-        "view_all": false,
-        "hide_article_btn": true,
-        "divider": false
-      }
-    },
     "button_y9jzD4": {
       "type": "button",
       "name": "Button",
@@ -257,18 +231,6 @@
         "section_height": "16-9",
         "mobile_height": "auto",
         "full_width": true
-      }
-    },
-    "button_jTtJ9J": {
-      "type": "button",
-      "settings": {
-        "button_text": "SEE ALL STORIES",
-        "button_link": "shopify://blogs/stories",
-        "button_style": "btn",
-        "padding_top": 30,
-        "padding_bottom": 0,
-        "padding_top_mobile": 30,
-        "padding_bottom_mobile": 0
       }
     },
     "title_with_id_NKkGzM": {
@@ -329,6 +291,45 @@
       "settings": {
         "button_text": "VIEW ALL MOVIES",
         "button_link": "shopify://blogs/video-archive",
+        "button_style": "btn",
+        "padding_top": 30,
+        "padding_bottom": 0,
+        "padding_top_mobile": 30,
+        "padding_bottom_mobile": 30
+      }
+    },
+    "title_with_id_G7Wmez": {
+      "type": "title-with-id",
+      "settings": {
+        "title": "STORIES",
+        "half_margin_top": true,
+        "desktop_margin_top": 0,
+        "desktop_margin_bottom": 70,
+        "mobile_margin_top": 50,
+        "mobile_margin_bottom": 16
+      }
+    },
+    "blog_post_by_tag_gnnpw8": {
+      "type": "blog-post-by-tag",
+      "settings": {
+        "title": "",
+        "blog": "stories",
+        "selected_tag": "ACTUEEL",
+        "post_limit": 2,
+        "blog_show_tags": false,
+        "blog_show_date": true,
+        "blog_show_comments": false,
+        "blog_show_author": false,
+        "view_all": false,
+        "hide_article_btn": true,
+        "divider": false
+      }
+    },
+    "button_jTtJ9J": {
+      "type": "button",
+      "settings": {
+        "button_text": "SEE ALL STORIES",
+        "button_link": "shopify://blogs/stories",
         "button_style": "btn",
         "padding_top": 30,
         "padding_bottom": 0,
@@ -461,15 +462,15 @@
     "rich_text_zKiWti",
     "main",
     "slideshow_jC9Gai",
-    "title_with_id_G7Wmez",
-    "blog_post_by_tag_gnnpw8",
     "button_y9jzD4",
     "hero_video_RgJAc9",
-    "button_jTtJ9J",
     "title_with_id_NKkGzM",
     "images_and_text_NAxtnE",
     "images_and_text_L9dVAe",
     "button_bTgpQA",
+    "title_with_id_G7Wmez",
+    "blog_post_by_tag_gnnpw8",
+    "button_jTtJ9J",
     "title_with_id_BD67Gj",
     "background_image_text_ByMdcz",
     "title_with_id_c6CtzB",
