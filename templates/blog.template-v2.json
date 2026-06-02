@@ -59,8 +59,8 @@
             "link2": "",
             "link_text2": "",
             "text_align": "vertical-bottom horizontal-left",
-            "image": "shopify://shop_images/cycling-clothes-LSRF-men-cycling-SS25.jpg",
-            "image_mobile": "shopify://shop_images/cycling-clothes-LSRF-men-cycling-SS25.jpg",
+            "image": "shopify://shop_images/DSC02267_2.jpg",
+            "image_mobile": "shopify://shop_images/DSC02267_2.jpg",
             "parallax_direction": "top",
             "overlay_opacity": 0
           }
@@ -213,7 +213,7 @@
       "type": "hero-video",
       "name": "t:sections.hero-video.presets.video_hero.name",
       "settings": {
-        "review_text": "Rated 4.9 out of 5 by 200,000+ happy customers.",
+        "review_text": "",
         "title": "",
         "title_size": 80,
         "text_color": "#ffffff",
