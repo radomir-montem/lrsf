@@ -211,7 +211,6 @@
     },
     "hero_video_RgJAc9": {
       "type": "hero-video",
-      "disabled": true,
       "name": "t:sections.hero-video.presets.video_hero.name",
       "settings": {
         "review_text": "Rated 4.9 out of 5 by 200,000+ happy customers.",
@@ -295,6 +294,16 @@
         "padding_bottom": 0,
         "padding_top_mobile": 30,
         "padding_bottom_mobile": 0
+      }
+    },
+    "text_block_xkPygy": {
+      "type": "text-block",
+      "name": "Text Block",
+      "settings": {
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_top_mobile": 50,
+        "padding_bottom_mobile": 50
       }
     },
     "title_with_id_G7Wmez": {
@@ -467,6 +476,7 @@
     "images_and_text_NAxtnE",
     "images_and_text_L9dVAe",
     "button_bTgpQA",
+    "text_block_xkPygy",
     "title_with_id_G7Wmez",
     "blog_post_by_tag_gnnpw8",
     "button_jTtJ9J",
