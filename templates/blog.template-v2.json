@@ -146,7 +146,6 @@
     },
     "main": {
       "type": "blog-template",
-      "disabled": true,
       "settings": {
         "blog_show_breadcrumbs": true,
         "blog_show_title": false,
