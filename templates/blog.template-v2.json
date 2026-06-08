@@ -234,25 +234,16 @@
     "advanced_content_MBygU4": {
       "type": "advanced-content",
       "blocks": {
-        "image_4aBphj": {
-          "type": "image",
-          "settings": {
-            "link": "",
-            "width": "50%",
-            "alignment": "center"
-          }
-        },
         "liquid_qnUDMe": {
           "type": "liquid",
           "settings": {
             "code": "<iframe \n  src=\"https://tjoffringa.github.io/ItalyDivide/tracker/?race=tourdivide26\"\n  width=\"100%\" \n  height=\"800px\" \n  frameborder=\"0\"\n  style=\"border:none; display:block;\">\n</iframe>",
-            "width": "50%",
+            "width": "100%",
             "alignment": "center"
           }
         }
       },
       "block_order": [
-        "image_4aBphj",
         "liquid_qnUDMe"
       ],
       "name": "t:sections.advanced-content.presets.custom_content.name",
