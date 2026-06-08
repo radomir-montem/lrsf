@@ -1097,12 +1097,16 @@ button.color-swatch.disabled::after {
   }
 }
 
-.template-v2 .custom-index-section {
+.template-v2 .custom-rich-text {
   margin-block: 20px;
 }
 
 @media only screen and (min-width: 590px) {
-  .template-v2 .custom-index-section {
+  .template-v2 .custom-rich-text {
     margin-block: 20px;
   }
+}
+
+.custom-advanced-content {
+
 }
