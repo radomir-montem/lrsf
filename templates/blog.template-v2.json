@@ -9,6 +9,39 @@
  */
 {
   "sections": {
+    "title_with_id_NKkGzM": {
+      "type": "title-with-id",
+      "settings": {
+        "title": "TOUR DIVIDE",
+        "half_margin_top": false,
+        "desktop_margin_top": 86,
+        "desktop_margin_bottom": 62,
+        "mobile_margin_top": 60,
+        "mobile_margin_bottom": 20
+      }
+    },
+    "advanced_content_MBygU4": {
+      "type": "advanced-content",
+      "blocks": {
+        "liquid_qnUDMe": {
+          "type": "liquid",
+          "settings": {
+            "code": "<iframe \n  src=\"https://tjoffringa.github.io/ItalyDivide/tracker/?race=tourdivide26\"\n  width=\"100%\" \n  height=\"800px\" \n  frameborder=\"0\"\n  style=\"border:none; display:block;\">\n</iframe>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "liquid_qnUDMe"
+      ],
+      "name": "Tour Divide Tracker",
+      "settings": {
+        "full_width": false,
+        "space_around": true,
+        "lazyload_images": true
+      }
+    },
     "slideshow_TTUMVj": {
       "type": "slideshow",
       "blocks": {
@@ -229,39 +262,6 @@
         "section_height": "16-9",
         "mobile_height": "auto",
         "full_width": true
-      }
-    },
-    "title_with_id_NKkGzM": {
-      "type": "title-with-id",
-      "settings": {
-        "title": "TOUR DIVIDE",
-        "half_margin_top": false,
-        "desktop_margin_top": 86,
-        "desktop_margin_bottom": 62,
-        "mobile_margin_top": 60,
-        "mobile_margin_bottom": 20
-      }
-    },
-    "advanced_content_MBygU4": {
-      "type": "advanced-content",
-      "blocks": {
-        "liquid_qnUDMe": {
-          "type": "liquid",
-          "settings": {
-            "code": "<iframe \n  src=\"https://tjoffringa.github.io/ItalyDivide/tracker/?race=tourdivide26\"\n  width=\"100%\" \n  height=\"800px\" \n  frameborder=\"0\"\n  style=\"border:none; display:block;\">\n</iframe>",
-            "width": "100%",
-            "alignment": "center"
-          }
-        }
-      },
-      "block_order": [
-        "liquid_qnUDMe"
-      ],
-      "name": "Tour Divide Tracker",
-      "settings": {
-        "full_width": false,
-        "space_around": false,
-        "lazyload_images": true
       }
     },
     "title_with_id_UbqAN6": {
@@ -498,6 +498,8 @@
     }
   },
   "order": [
+    "title_with_id_NKkGzM",
+    "advanced_content_MBygU4",
     "slideshow_TTUMVj",
     "banner_with_logo_TaKR4R",
     "rich_text_zKiWti",
@@ -505,8 +507,6 @@
     "slideshow_jC9Gai",
     "button_y9jzD4",
     "hero_video_RgJAc9",
-    "title_with_id_NKkGzM",
-    "advanced_content_MBygU4",
     "title_with_id_UbqAN6",
     "images_and_text_NAxtnE",
     "images_and_text_L9dVAe",
