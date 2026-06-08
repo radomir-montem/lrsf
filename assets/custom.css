@@ -1098,6 +1098,7 @@ button.color-swatch.disabled::after {
 }
 
 .template-v2 .custom-rich-text {
+  margin-top: 0;
   margin-block: 20px !important;
 }
 
