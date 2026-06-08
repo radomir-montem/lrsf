@@ -231,6 +231,37 @@
         "full_width": true
       }
     },
+    "advanced_content_MBygU4": {
+      "type": "advanced-content",
+      "blocks": {
+        "image_4aBphj": {
+          "type": "image",
+          "settings": {
+            "link": "",
+            "width": "50%",
+            "alignment": "center"
+          }
+        },
+        "liquid_qnUDMe": {
+          "type": "liquid",
+          "settings": {
+            "code": "<iframe \n  src=\"https://tjoffringa.github.io/ItalyDivide/tracker/?race=tourdivide26\"\n  width=\"100%\" \n  height=\"800px\" \n  frameborder=\"0\"\n  style=\"border:none; display:block;\">\n</iframe>",
+            "width": "50%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "image_4aBphj",
+        "liquid_qnUDMe"
+      ],
+      "name": "t:sections.advanced-content.presets.custom_content.name",
+      "settings": {
+        "full_width": false,
+        "space_around": true,
+        "lazyload_images": true
+      }
+    },
     "title_with_id_NKkGzM": {
       "type": "title-with-id",
       "settings": {
@@ -472,6 +503,7 @@
     "slideshow_jC9Gai",
     "button_y9jzD4",
     "hero_video_RgJAc9",
+    "advanced_content_MBygU4",
     "title_with_id_NKkGzM",
     "images_and_text_NAxtnE",
     "images_and_text_L9dVAe",
