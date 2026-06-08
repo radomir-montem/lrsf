@@ -1113,6 +1113,6 @@ button.color-swatch.disabled::after {
 
 @media only screen and (min-width: 590px) {
   .template-v2 .custom-advanced-content {
-    margin-block: 20px;
+    margin-top: 20px;
   }
 }
