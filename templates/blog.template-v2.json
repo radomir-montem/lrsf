@@ -20,6 +20,27 @@
         "mobile_margin_bottom": 20
       }
     },
+    "rich_text_KbqXff": {
+      "type": "rich-text",
+      "blocks": {
+        "text_HR67Ta": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>This is you ultimate Tour Divide Dotwatch experience.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_HR67Ta"
+      ],
+      "name": "t:sections.rich-text.presets.rich_text.name",
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
     "advanced_content_MBygU4": {
       "type": "advanced-content",
       "blocks": {
@@ -499,6 +520,7 @@
   },
   "order": [
     "title_with_id_NKkGzM",
+    "rich_text_KbqXff",
     "advanced_content_MBygU4",
     "slideshow_TTUMVj",
     "banner_with_logo_TaKR4R",
