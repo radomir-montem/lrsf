@@ -16,9 +16,9 @@
         "title": "TOUR DIVIDE TRACKER",
         "half_margin_top": false,
         "desktop_margin_top": 86,
-        "desktop_margin_bottom": 14,
+        "desktop_margin_bottom": 0,
         "mobile_margin_top": 60,
-        "mobile_margin_bottom": 20
+        "mobile_margin_bottom": 0
       }
     },
     "rich_text_KbqXff": {
