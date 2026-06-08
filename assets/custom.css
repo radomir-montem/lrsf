@@ -1107,6 +1107,12 @@ button.color-swatch.disabled::after {
   }
 }
 
-.custom-advanced-content {
+.template-v2 .custom-advanced-content {
+  margin-top: 20px;
+}
 
+@media only screen and (min-width: 590px) {
+  .template-v2 .custom-advanced-content {
+    margin-block: 20px;
+  }
 }
