@@ -1109,11 +1109,11 @@ button.color-swatch.disabled::after {
 }
 
 .template-v2 .custom-advanced-content {
-  margin-top: 20px !important;
+  margin-top: 40px !important;
 }
 
 @media only screen and (min-width: 590px) {
   .template-v2 .custom-advanced-content {
-    margin-top: 20px !important;
+    margin-top: 40px !important;
   }
 }
