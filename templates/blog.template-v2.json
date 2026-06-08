@@ -11,11 +11,12 @@
   "sections": {
     "title_with_id_NKkGzM": {
       "type": "title-with-id",
+      "custom_css": [],
       "settings": {
         "title": "TOUR DIVIDE TRACKER",
         "half_margin_top": false,
         "desktop_margin_top": 86,
-        "desktop_margin_bottom": 62,
+        "desktop_margin_bottom": 14,
         "mobile_margin_top": 60,
         "mobile_margin_bottom": 20
       }
