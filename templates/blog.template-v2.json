@@ -248,7 +248,7 @@
         "liquid_qnUDMe": {
           "type": "liquid",
           "settings": {
-            "code": "<iframe \n  src=\"https://tjoffringa.github.io/ItalyDivide/tracker/?race=tourdivide26?lat=&lng=\"\n  width=\"100%\" \n  height=\"800px\" \n  frameborder=\"0\"\n  style=\"border:none; display:block;\">\n</iframe>",
+            "code": "<iframe \n  src=\"https://tjoffringa.github.io/ItalyDivide/tracker/?race=tourdivide26\"\n  width=\"100%\" \n  height=\"800px\" \n  frameborder=\"0\"\n  style=\"border:none; display:block;\">\n</iframe>",
             "width": "100%",
             "alignment": "center"
           }
