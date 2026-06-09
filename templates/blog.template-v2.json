@@ -64,6 +64,29 @@
         "lazyload_images": true
       }
     },
+    "advanced_content_xzyq8r": {
+      "type": "advanced-content",
+      "blocks": {
+        "liquid_Nk7g4H": {
+          "type": "liquid",
+          "settings": {
+            "code": "<div style=\"display:flex;gap:24px;justify-content:center;flex-wrap:wrap;margin:40px 0;font-family:inherit;\">\n\n  <!-- West Peak -->\n  <div style=\"flex:1;min-width:220px;max-width:300px;text-align:center;\">\n    <a href=\"/products/race-jersey-2-0-west-peak\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0676/8790/7558/files/race-jersey-20-west-peak-3008947.jpg\" alt=\"Race Jersey 2.0 West Peak\" style=\"width:100%;display:block;\">\n    </a>\n    <p style=\"margin:12px 0 2px;font-weight:700;font-size:13px;letter-spacing:0.08em;text-transform:uppercase;\">Race Jersey 2.0 West Peak</p>\n    <p style=\"margin:0 0 12px;font-size:13px;\">€139,50</p>\n    <a href=\"/products/race-jersey-2-0-west-peak\" style=\"display:block;background:#1c1d1d;color:#fff;padding:12px 16px;text-decoration:none;font-size:13px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;text-align:center;\">ADD TO CART</a>\n  </div>\n\n  <!-- Tahoe -->\n  <div style=\"flex:1;min-width:220px;max-width:300px;text-align:center;\">\n    <a href=\"/products/race-jersey-2-0-tahoe\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0676/8790/7558/files/race-jersey-20-tahoe-5260746.jpg\" alt=\"Race Jersey 2.0 Tahoe\" style=\"width:100%;display:block;\">\n    </a>\n    <p style=\"margin:12px 0 2px;font-weight:700;font-size:13px;letter-spacing:0.08em;text-transform:uppercase;\">Race Jersey 2.0 Tahoe</p>\n    <p style=\"margin:0 0 12px;font-size:13px;\">€139,50</p>\n    <a href=\"/products/race-jersey-2-0-tahoe\" style=\"display:block;background:#1c1d1d;color:#fff;padding:12px 16px;text-decoration:none;font-size:13px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;text-align:center;\">ADD TO CART</a>\n  </div>\n\n  <!-- Reno -->\n  <div style=\"flex:1;min-width:220px;max-width:300px;text-align:center;\">\n    <a href=\"/products/race-jersey-2-0-reno\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0676/8790/7558/files/race-jersey-20-reno-7739321.jpg\" alt=\"Race Jersey 2.0 Reno\" style=\"width:100%;display:block;\">\n    </a>\n    <p style=\"margin:12px 0 2px;font-weight:700;font-size:13px;letter-spacing:0.08em;text-transform:uppercase;\">Race Jersey 2.0 Reno</p>\n    <p style=\"margin:0 0 12px;font-size:13px;\">€139,50</p>\n    <a href=\"/products/race-jersey-2-0-reno\" style=\"display:block;background:#1c1d1d;color:#fff;padding:12px 16px;text-decoration:none;font-size:13px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;text-align:center;\">ADD TO CART</a>\n  </div>\n\n</div>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "liquid_Nk7g4H"
+      ],
+      "disabled": true,
+      "name": "Product block",
+      "settings": {
+        "full_width": true,
+        "space_around": true,
+        "lazyload_images": true
+      }
+    },
     "slideshow_TTUMVj": {
       "type": "slideshow",
       "blocks": {
@@ -523,6 +546,7 @@
     "title_with_id_NKkGzM",
     "rich_text_KbqXff",
     "advanced_content_MBygU4",
+    "advanced_content_xzyq8r",
     "slideshow_TTUMVj",
     "banner_with_logo_TaKR4R",
     "rich_text_zKiWti",
