@@ -17,8 +17,8 @@
         ".announcement_link_text {font-weight: bold; font-size: 20px;}"
       ],
       "settings": {
-        "announcement_text": "NEW RACE COLLECTION IS HERE",
-        "announcement_link": "shopify://collections/cycling-race-collection",
+        "announcement_text": "THE BOMBA COLLECTION IS HERE",
+        "announcement_link": "shopify://collections/bomba",
         "announcement_link_text": "",
         "announcement_closable": false,
         "sticky": true
