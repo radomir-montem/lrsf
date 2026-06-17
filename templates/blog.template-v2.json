@@ -21,41 +21,6 @@
         "mobile_margin_bottom": 66
       }
     },
-    "slideshow_VEd9kf": {
-      "type": "slideshow",
-      "blocks": {
-        "image_7MjfWV": {
-          "type": "image",
-          "settings": {
-            "title": "",
-            "title_size": 80,
-            "subheading": "",
-            "link": "",
-            "link_text": "",
-            "link2": "",
-            "link_text2": "",
-            "text_align": "vertical-bottom horizontal-left",
-            "image": "shopify://shop_images/LSRF_BOMBA_Banner_Small_d4a9a15c-8851-44d3-94de-ff6b1cff1e3d.jpg",
-            "image_mobile": "shopify://shop_images/LSRF_BOMBA_Banner_Small_d4a9a15c-8851-44d3-94de-ff6b1cff1e3d.jpg",
-            "parallax_direction": "top",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "image_7MjfWV"
-      ],
-      "disabled": true,
-      "settings": {
-        "section_height": "natural",
-        "mobile_height": "auto",
-        "parallax": false,
-        "style": "arrows",
-        "autoplay": true,
-        "autoplay_speed": 7,
-        "lazyload_images": true
-      }
-    },
     "rich_text_KbqXff": {
       "type": "rich-text",
       "blocks": {
@@ -113,6 +78,28 @@
       },
       "block_order": [
         "liquid_Nk7g4H"
+      ],
+      "name": "Product block",
+      "settings": {
+        "full_width": true,
+        "space_around": true,
+        "lazyload_images": true
+      }
+    },
+    "advanced_content_6hUf3r": {
+      "type": "advanced-content",
+      "blocks": {
+        "liquid_iLEgJN": {
+          "type": "liquid",
+          "settings": {
+            "code": "<a href=\"https://lsrf.cc/collections/bomba\" class=\"bomba-banner\" aria-label=\"Shop the BOMBA collection\">\n  <img\n    src=\"https://admin.shopify.com/store/lsrf/content/files/70776972542331\"\n    alt=\"The BOMBA collection is here - shop now\"\n    width=\"4500\"\n    height=\"1292\"\n    loading=\"eager\"\n  >\n</a>\n\n<style>\n  .bomba-banner {\n    display: block;\n    width: 100%;\n    line-height: 0;\n  }\n  .bomba-banner img {\n    width: 100%;\n    height: auto;\n    display: block;\n  }\n</style>",
+            "width": "100%",
+            "alignment": "top-middle"
+          }
+        }
+      },
+      "block_order": [
+        "liquid_iLEgJN"
       ],
       "name": "Product block",
       "settings": {
@@ -543,10 +530,10 @@
   },
   "order": [
     "title_with_id_NKkGzM",
-    "slideshow_VEd9kf",
     "rich_text_KbqXff",
     "advanced_content_MBygU4",
     "advanced_content_xzyq8r",
+    "advanced_content_6hUf3r",
     "slideshow_TTUMVj",
     "banner_with_logo_TaKR4R",
     "rich_text_zKiWti",
