@@ -15,7 +15,7 @@
       "settings": {
         "title": "TOUR DIVIDE TRACKER",
         "half_margin_top": false,
-        "desktop_margin_top": 0,
+        "desktop_margin_top": 66,
         "desktop_margin_bottom": 48,
         "mobile_margin_top": 60,
         "mobile_margin_bottom": 66
@@ -78,28 +78,6 @@
       },
       "block_order": [
         "liquid_Nk7g4H"
-      ],
-      "name": "Product block",
-      "settings": {
-        "full_width": true,
-        "space_around": true,
-        "lazyload_images": true
-      }
-    },
-    "advanced_content_6hUf3r": {
-      "type": "advanced-content",
-      "blocks": {
-        "liquid_iLEgJN": {
-          "type": "liquid",
-          "settings": {
-            "code": "<a href=\"https://lsrf.cc/collections/bomba\" class=\"bomba-banner\" aria-label=\"Shop the BOMBA collection\">\n  <img\n    src=\"https://admin.shopify.com/store/lsrf/content/files/70776972542331\"\n    alt=\"The BOMBA collection is here - shop now\"\n    width=\"4500\"\n    height=\"1292\"\n    loading=\"eager\"\n  >\n</a>\n\n<style>\n  .bomba-banner {\n    display: block;\n    width: 100%;\n    line-height: 0;\n  }\n  .bomba-banner img {\n    width: 100%;\n    height: auto;\n    display: block;\n  }\n</style>",
-            "width": "100%",
-            "alignment": "top-middle"
-          }
-        }
-      },
-      "block_order": [
-        "liquid_iLEgJN"
       ],
       "name": "Product block",
       "settings": {
@@ -533,7 +511,6 @@
     "rich_text_KbqXff",
     "advanced_content_MBygU4",
     "advanced_content_xzyq8r",
-    "advanced_content_6hUf3r",
     "slideshow_TTUMVj",
     "banner_with_logo_TaKR4R",
     "rich_text_zKiWti",
