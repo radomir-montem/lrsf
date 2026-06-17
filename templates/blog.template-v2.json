@@ -33,6 +33,7 @@
       "block_order": [
         "image_KfQmUN"
       ],
+      "disabled": true,
       "settings": {
         "section_height": "natural",
         "mobile_height": "auto",
@@ -58,7 +59,7 @@
         "text_HR67Ta"
       ],
       "custom_css": [
-        "h1,h2,h3,h4,p,.rich-text__heading,.rich-text__text {font-size: clamp(2rem, 5vw, 3.5rem) !important; line-height: 1.2; }"
+        "h1,h2,h3,h4,p,.rich-text__heading,.rich-text__text {font-size: clamp(2rem, 5vw, 3.5rem) !important; line-height: 1.2;}"
       ],
       "name": "t:sections.rich-text.presets.rich_text.name",
       "settings": {
