@@ -9,16 +9,38 @@
  */
 {
   "sections": {
-    "title_with_id_NKkGzM": {
-      "type": "title-with-id",
-      "custom_css": [],
+    "slideshow_TTUMVj": {
+      "type": "slideshow",
+      "blocks": {
+        "image_KfQmUN": {
+          "type": "image",
+          "settings": {
+            "title": "",
+            "title_size": 80,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link2": "",
+            "link_text2": "",
+            "text_align": "vertical-bottom horizontal-left",
+            "image": "shopify://shop_images/LSRF_BOMBA_Banner_Small_d4a9a15c-8851-44d3-94de-ff6b1cff1e3d.jpg",
+            "image_mobile": "shopify://shop_images/LSRF_BOMBA_Banner_Small_d4a9a15c-8851-44d3-94de-ff6b1cff1e3d.jpg",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_KfQmUN"
+      ],
       "settings": {
-        "title": "TOUR DIVIDE TRACKER",
-        "half_margin_top": false,
-        "desktop_margin_top": 66,
-        "desktop_margin_bottom": 48,
-        "mobile_margin_top": 60,
-        "mobile_margin_bottom": 66
+        "section_height": "natural",
+        "mobile_height": "auto",
+        "parallax": false,
+        "style": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "lazyload_images": true
       }
     },
     "rich_text_KbqXff": {
@@ -28,12 +50,36 @@
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<p>This is your ultimate Tour Divide Dotwatch experience.</p>"
+            "text": "<p><strong>TOUR DIVIDE TRACKER</strong></p>"
           }
         }
       },
       "block_order": [
         "text_HR67Ta"
+      ],
+      "custom_css": [
+        "h1,h2,h3,h4,p,.rich-text__heading,.rich-text__text {font-size: clamp(2rem, 5vw, 3.5rem) !important; line-height: 1.2;}"
+      ],
+      "name": "t:sections.rich-text.presets.rich_text.name",
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "rich_text_Lizpam": {
+      "type": "rich-text",
+      "blocks": {
+        "text_RJHRkn": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>This is your ultimate Tour Divide Dotwatch experience.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_RJHRkn"
       ],
       "name": "t:sections.rich-text.presets.rich_text.name",
       "settings": {
@@ -86,10 +132,10 @@
         "lazyload_images": true
       }
     },
-    "slideshow_TTUMVj": {
+    "slideshow_aYqEnd": {
       "type": "slideshow",
       "blocks": {
-        "image_La9pNd": {
+        "image_kQ6nqb": {
           "type": "image",
           "disabled": true,
           "settings": {
@@ -107,7 +153,7 @@
             "overlay_opacity": 0
           }
         },
-        "image_PNCmyW": {
+        "image_TDA39a": {
           "type": "image",
           "disabled": true,
           "settings": {
@@ -125,7 +171,7 @@
             "overlay_opacity": 0
           }
         },
-        "image_Y9KCVb": {
+        "image_UhadRa": {
           "type": "image",
           "settings": {
             "title": "",
@@ -142,7 +188,7 @@
             "overlay_opacity": 0
           }
         },
-        "image_KfQmUN": {
+        "image_7qJc6e": {
           "type": "image",
           "disabled": true,
           "settings": {
@@ -161,10 +207,10 @@
         }
       },
       "block_order": [
-        "image_La9pNd",
-        "image_PNCmyW",
-        "image_Y9KCVb",
-        "image_KfQmUN"
+        "image_kQ6nqb",
+        "image_TDA39a",
+        "image_UhadRa",
+        "image_7qJc6e"
       ],
       "settings": {
         "section_height": "750px",
@@ -507,11 +553,12 @@
     }
   },
   "order": [
-    "title_with_id_NKkGzM",
+    "slideshow_TTUMVj",
     "rich_text_KbqXff",
+    "rich_text_Lizpam",
     "advanced_content_MBygU4",
     "advanced_content_xzyq8r",
-    "slideshow_TTUMVj",
+    "slideshow_aYqEnd",
     "banner_with_logo_TaKR4R",
     "rich_text_zKiWti",
     "main",
