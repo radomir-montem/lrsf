@@ -15,10 +15,44 @@
       "settings": {
         "title": "TOUR DIVIDE TRACKER",
         "half_margin_top": false,
-        "desktop_margin_top": 86,
-        "desktop_margin_bottom": 0,
+        "desktop_margin_top": 0,
+        "desktop_margin_bottom": 48,
         "mobile_margin_top": 60,
-        "mobile_margin_bottom": 0
+        "mobile_margin_bottom": 66
+      }
+    },
+    "slideshow_VEd9kf": {
+      "type": "slideshow",
+      "blocks": {
+        "image_7MjfWV": {
+          "type": "image",
+          "settings": {
+            "title": "",
+            "title_size": 80,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link2": "",
+            "link_text2": "",
+            "text_align": "vertical-bottom horizontal-left",
+            "image": "shopify://shop_images/LSRF_BOMBA_Banner_Small_d4a9a15c-8851-44d3-94de-ff6b1cff1e3d.jpg",
+            "image_mobile": "shopify://shop_images/LSRF_BOMBA_Banner_Small_d4a9a15c-8851-44d3-94de-ff6b1cff1e3d.jpg",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_7MjfWV"
+      ],
+      "settings": {
+        "section_height": "natural",
+        "mobile_height": "auto",
+        "parallax": false,
+        "style": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "lazyload_images": true
       }
     },
     "rich_text_KbqXff": {
@@ -236,41 +270,6 @@
         "blog_show_author": false,
         "hide_article_btn": true,
         "hide_articles": true
-      }
-    },
-    "slideshow_jC9Gai": {
-      "type": "slideshow",
-      "blocks": {
-        "image_EBE9TV": {
-          "type": "image",
-          "settings": {
-            "title": "",
-            "title_size": 50,
-            "subheading": "ENTER THE VILLA",
-            "link": "https://lsrf.cc/blogs/stories/villa-tour",
-            "link_text": "",
-            "link2": "",
-            "link_text2": "",
-            "text_align": "vertical-bottom horizontal-left",
-            "image": "shopify://shop_images/villatourhero2.jpg",
-            "image_mobile": "shopify://shop_images/villatourhero2.jpg",
-            "parallax_direction": "top",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "image_EBE9TV"
-      ],
-      "disabled": true,
-      "settings": {
-        "section_height": "650px",
-        "mobile_height": "auto",
-        "parallax": false,
-        "style": "arrows",
-        "autoplay": true,
-        "autoplay_speed": 10,
-        "lazyload_images": true
       }
     },
     "button_y9jzD4": {
@@ -543,6 +542,7 @@
   },
   "order": [
     "title_with_id_NKkGzM",
+    "slideshow_VEd9kf",
     "rich_text_KbqXff",
     "advanced_content_MBygU4",
     "advanced_content_xzyq8r",
@@ -550,7 +550,6 @@
     "banner_with_logo_TaKR4R",
     "rich_text_zKiWti",
     "main",
-    "slideshow_jC9Gai",
     "button_y9jzD4",
     "hero_video_RgJAc9",
     "title_with_id_UbqAN6",
