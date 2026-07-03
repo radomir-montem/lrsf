@@ -29,10 +29,8 @@
     "free_shipping_threshold_world": 250,
     "product_save_type": "dollar",
     "cross_sell_products": [
-      "liv-slow-ride-fast-bottle",
-      "live-slow-ride-fast-mug",
-      "lsrf-high-performance-socks-white",
-      "live-slow-ride-fast-cap-black"
+      "baselayer-ss26",
+      "lsrf-high-performance-socks-26"
     ],
     "quick_shop_enable": false,
     "enable_swatches": false,
