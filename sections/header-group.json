@@ -17,7 +17,7 @@
         ".announcement_link_text {font-weight: bold; font-size: 20px;}"
       ],
       "settings": {
-        "announcement_text": "DROPPING SOON: TDF DEALS",
+        "announcement_text": "TDF DEALS ARE LIVE",
         "announcement_link": "shopify://collections/tour-de-france-deals-2026",
         "announcement_link_text": "",
         "announcement_closable": false,
