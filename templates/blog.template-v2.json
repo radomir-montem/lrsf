@@ -14,6 +14,7 @@
       "blocks": {
         "image_KfQmUN": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "title": "",
             "title_size": 80,
@@ -33,6 +34,7 @@
       "block_order": [
         "image_KfQmUN"
       ],
+      "disabled": true,
       "settings": {
         "section_height": "natural",
         "mobile_height": "auto",
@@ -43,78 +45,12 @@
         "lazyload_images": true
       }
     },
-    "rich_text_KbqXff": {
-      "type": "rich-text",
-      "blocks": {
-        "text_HR67Ta": {
-          "type": "text",
-          "settings": {
-            "enlarge_text": true,
-            "text": "<p><strong>TOUR DIVIDE TRACKER</strong></p>"
-          }
-        }
-      },
-      "block_order": [
-        "text_HR67Ta"
-      ],
-      "custom_css": [
-        "h1,h2,h3,h4,p,.rich-text__heading,.rich-text__text {font-size: clamp(2rem, 5vw, 3.5rem) !important; line-height: 1.2; margin-top: 40px !important;}"
-      ],
-      "name": "t:sections.rich-text.presets.rich_text.name",
-      "settings": {
-        "align_text": "center",
-        "narrow_column": true,
-        "divider": false
-      }
-    },
-    "rich_text_Lizpam": {
-      "type": "rich-text",
-      "blocks": {
-        "text_RJHRkn": {
-          "type": "text",
-          "settings": {
-            "enlarge_text": true,
-            "text": "<p>This is your ultimate Tour Divide Dotwatch experience.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "text_RJHRkn"
-      ],
-      "name": "t:sections.rich-text.presets.rich_text.name",
-      "settings": {
-        "align_text": "center",
-        "narrow_column": true,
-        "divider": false
-      }
-    },
-    "advanced_content_MBygU4": {
-      "type": "advanced-content",
-      "blocks": {
-        "liquid_qnUDMe": {
-          "type": "liquid",
-          "settings": {
-            "code": "<iframe \n  src=\"https://tjoffringa.github.io/ItalyDivide/tracker/?race=tourdivide26\"\n  width=\"100%\" \n  height=\"800px\" \n  frameborder=\"0\"\n  style=\"border:none; display:block;\">\n</iframe>",
-            "width": "100%",
-            "alignment": "center"
-          }
-        }
-      },
-      "block_order": [
-        "liquid_qnUDMe"
-      ],
-      "name": "Tour Divide Tracker",
-      "settings": {
-        "full_width": false,
-        "space_around": true,
-        "lazyload_images": true
-      }
-    },
     "advanced_content_xzyq8r": {
       "type": "advanced-content",
       "blocks": {
         "liquid_Nk7g4H": {
           "type": "liquid",
+          "disabled": true,
           "settings": {
             "code": "<style>\n  .lsrf-product-grid {\n    display: flex;\n    flex-wrap: wrap;\n    gap: 24px;\n    justify-content: center;\n    margin: 40px 0;\n    font-family: inherit;\n  }\n  .lsrf-product-card {\n    flex: 1 1 calc(33% - 24px);\n    min-width: 180px;\n    max-width: 300px;\n    text-align: center;\n    box-sizing: border-box;\n  }\n  @media (max-width: 640px) {\n    .lsrf-product-grid {\n      padding: 0 10px;\n      gap: 24px;\n    }\n    .lsrf-product-card {\n      flex: 1 1 100%;\n      max-width: 100%;\n      min-width: 0;\n    }\n  }\n</style>\n\n<div class=\"lsrf-product-grid\">\n\n  <!-- Erba -->\n  <div class=\"lsrf-product-card\">\n    <a href=\"/products/merino-jersey-bomba-erba\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0676/8790/7558/files/bomba-merino-jersey-erba-6687770.jpg\" alt=\"BOMBA Merino Jersey Erba\" style=\"width:100%;display:block;\">\n    </a>\n    <p style=\"margin:12px 0 2px;font-weight:700;font-size:13px;letter-spacing:0.08em;text-transform:uppercase;\">BOMBA Merino Jersey Erba</p>\n    <p style=\"margin:0 0 12px;font-size:13px;\">€129,50</p>\n    <a href=\"/products/merino-jersey-bomba-erba\" style=\"display:block;background:#1c1d1d;color:#fff;padding:12px 16px;text-decoration:none;font-size:13px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;text-align:center;\">SHOP NOW</a>\n  </div>\n\n  <!-- Fano -->\n  <div class=\"lsrf-product-card\">\n    <a href=\"/products/merino-jersey-bomba-fano\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0676/8790/7558/files/bomba-merino-jersey-fano-2722556.jpg\" alt=\"BOMBA Merino Jersey Fano\" style=\"width:100%;display:block;\">\n    </a>\n    <p style=\"margin:12px 0 2px;font-weight:700;font-size:13px;letter-spacing:0.08em;text-transform:uppercase;\">BOMBA Merino Jersey Fano</p>\n    <p style=\"margin:0 0 12px;font-size:13px;\">€129,50</p>\n    <a href=\"/products/merino-jersey-bomba-fano\" style=\"display:block;background:#1c1d1d;color:#fff;padding:12px 16px;text-decoration:none;font-size:13px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;text-align:center;\">SHOP NOW</a>\n  </div>\n\n  <!-- Goro -->\n  <div class=\"lsrf-product-card\">\n    <a href=\"/products/merino-jersey-bomba-goro\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0676/8790/7558/files/bomba-merino-jersey-goro-1850374.jpg\" alt=\"BOMBA Merino Jersey Goro\" style=\"width:100%;display:block;\">\n    </a>\n    <p style=\"margin:12px 0 2px;font-weight:700;font-size:13px;letter-spacing:0.08em;text-transform:uppercase;\">BOMBA Merino Jersey Goro</p>\n    <p style=\"margin:0 0 12px;font-size:13px;\">€129,50</p>\n    <a href=\"/products/merino-jersey-bomba-goro\" style=\"display:block;background:#1c1d1d;color:#fff;padding:12px 16px;text-decoration:none;font-size:13px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;text-align:center;\">SHOP NOW</a>\n  </div>\n\n</div>",
             "width": "100%",
@@ -125,6 +61,7 @@
       "block_order": [
         "liquid_Nk7g4H"
       ],
+      "disabled": true,
       "name": "Product block",
       "settings": {
         "full_width": true,
@@ -554,9 +491,6 @@
   },
   "order": [
     "slideshow_TTUMVj",
-    "rich_text_KbqXff",
-    "rich_text_Lizpam",
-    "advanced_content_MBygU4",
     "advanced_content_xzyq8r",
     "slideshow_aYqEnd",
     "banner_with_logo_TaKR4R",
