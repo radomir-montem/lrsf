@@ -26,7 +26,7 @@
               checked
               data-price="{{ bundle_variant.price }}"
             >
-            {% render 'image-element', img: bundle_product.featured_image | image_url, img_width: "68px", classes: "bundle_img" %}
+            {% render 'image-element', img: bundle_product.featured_image, img_width: "68px", classes: "bundle_img" %}
             <div class="bundle_text">
               <a href="{{ bundle_product.url }}">
                 <h6 class="bundle_product-title">{{ bundle_product.title }}</h6>
@@ -166,3 +166,15 @@
     }
   </script>
 {% endif %}
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: '{% render ''image-element'', img: bundle_product.featured_image | image_url,
+    img_width: "68px", classes: "bundle_img" %}'
+  to: '{% render ''image-element'', img: bundle_product.featured_image, img_width:
+    "68px", classes: "bundle_img" %}'
+  position: 1255..1361
+{% endcomment %}

@@ -48,7 +48,7 @@
               {% for reco_product in products_list %}
                 {% assign reco_variant = reco_product.selected_or_first_available_variant %}
                 <div class="reco_product_card bundle_product_card" style="position:relative">
-                  {% render 'image-element', img: reco_product.featured_image | image_url, img_width: "68px", classes: "bundle_img" %}
+                  {% render 'image-element', img: reco_product.featured_image, img_width: "68px", classes: "bundle_img" %}
                   <div class="bundle_text">
                     <a href="{{ reco_product.url }}">
                       <h6 class="reco_product-title bundle_product-title">{{ reco_product.title }}</h6>
@@ -252,3 +252,15 @@
     </form>
   </div>
 {% endif %}
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: '{% render ''image-element'', img: reco_product.featured_image | image_url,
+    img_width: "68px", classes: "bundle_img" %}'
+  to: '{% render ''image-element'', img: reco_product.featured_image, img_width: "68px",
+    classes: "bundle_img" %}'
+  position: 2338..2442
+{% endcomment %}
